@@ -3,122 +3,11 @@
   "generatedAt": "2026-10-01",
   "basis": "Actual food assignments and canonical local image files; visual acceptance is recorded separately in image-migration and generated review records.",
   "summary": {
-    "hasValidImage": 275,
-    "needsImage": 110,
-    "totalImagesToGenerate": 110
+    "hasValidImage": 385,
+    "needsImage": 0,
+    "totalImagesToGenerate": 0
   },
-  "remainingIds": [
-    "natural-mozzarella",
-    "cream-cheese-spread",
-    "vegetable-fat-cheese",
-    "beef-tallow-wadak",
-    "extra-virgin-olive-oil",
-    "cold-pressed-sesame-oil",
-    "virgin-coconut-oil",
-    "corn-oil",
-    "soybean-oil",
-    "canola-oil",
-    "refined-palm-oil",
-    "peanut-oil",
-    "vegetable-shortening",
-    "peeled-almonds",
-    "walnuts",
-    "hazelnuts",
-    "pistachios",
-    "cashews",
-    "grated-coconut",
-    "macadamia-nuts",
-    "sesame-seeds",
-    "flaxseeds",
-    "chia-seeds",
-    "sunflower-seeds",
-    "pumpkin-seeds",
-    "black-seed",
-    "prickly-pear",
-    "peaches",
-    "apricots",
-    "plums",
-    "cantaloupe-sweet-melon",
-    "oranges",
-    "mandarins",
-    "kiwi",
-    "pineapple",
-    "avocado",
-    "fresh-yellow-dates",
-    "persimmon",
-    "cherimoya-custard-apple",
-    "papaya",
-    "raisins",
-    "dried-figs",
-    "dried-apricots",
-    "dried-prunes",
-    "wild-thyme",
-    "anise-tea",
-    "caraway-tea",
-    "fenugreek-tea",
-    "potato-chicken-tray",
-    "pigeon-stuffed-rice",
-    "pigeon-stuffed-freekeh",
-    "beef-onion-tagine",
-    "trotters-soup",
-    "lamb-kabsa",
-    "lamb-mandi",
-    "beef-shawarma-plate",
-    "chicken-shawarma-sandwich",
-    "homemade-burger-sandwich",
-    "taameya-sandwich-baladi",
-    "syrian-french-fries-sandwich",
-    "savory-chicken-crepe",
-    "traditional-pizza",
-    "basbousa",
-    "qataif",
-    "sweet-goulash-baklava",
-    "om-ali",
-    "rice-pudding",
-    "mahallabia",
-    "creme-caramel",
-    "ashura",
-    "kahk",
-    "ghorayeba",
-    "petit-four",
-    "sponge-cake",
-    "donuts",
-    "waffles-pancakes",
-    "fruit-jelly",
-    "commercial-jam",
-    "black-honey-molasses",
-    "rock-sea-salt",
-    "apple-cider-vinegar",
-    "commercial-mayonnaise",
-    "commercial-ketchup",
-    "commercial-mustard",
-    "canned-tomato-paste",
-    "barbecue-sauce",
-    "commercial-hot-sauce",
-    "soy-sauce",
-    "mixed-pickles-torshi",
-    "pickled-cucumbers-homemade",
-    "pickled-olives-natural",
-    "instant-soup-packets",
-    "microwave-popcorn",
-    "digestive-diet-biscuits",
-    "protein-bars",
-    "granola-packaged",
-    "fruit-yogurt-commercial",
-    "packaged-commercial-juice",
-    "powdered-drink-mix",
-    "frozen-chicken-nuggets",
-    "frozen-chicken-pane",
-    "frozen-commercial-burger",
-    "frozen-commercial-sausage",
-    "fast-food-burger",
-    "fast-food-chicken-burger",
-    "fried-broasted-chicken",
-    "chicken-strips",
-    "fast-food-crepe",
-    "spirulina",
-    "apple-cider-gummies"
-  ],
+  "remainingIds": [],
   "foods": [
     {
       "id": "basmati-rice",
@@ -2176,190 +2065,244 @@
       "id": "natural-mozzarella",
       "name": "جبنة موتزاريلا طبيعية 100% من حليب بقري أو جاموسي",
       "categoryId": "dairy",
-      "state": "missing",
-      "path": "public/images/foods/natural-mozzarella.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/natural-mozzarella.jpg",
+      "bytes": 105638,
+      "sha256": "f20bcbb588b8e8898d5464d187585f743efd6b65dec659ebfd437f7712397e34"
     },
     {
       "id": "cream-cheese-spread",
       "name": "الجبنة الكريمي الطبيعية القابلة للدهن",
       "categoryId": "dairy",
-      "state": "missing",
-      "path": "public/images/foods/cream-cheese-spread.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/cream-cheese-spread.jpg",
+      "bytes": 158560,
+      "sha256": "2a31d5a609915929d5bc5919dd64d7cc32a74896a7a5ff74d5cc09fcbad4e338"
     },
     {
       "id": "vegetable-fat-cheese",
       "name": "الأجبان البيضاء والصفراء المهدرجة نباتية الدهن",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/vegetable-fat-cheese.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/vegetable-fat-cheese.jpg",
+      "bytes": 131220,
+      "sha256": "996f49858634eeabd194490fb80023576c4298e6f2d6ca1fd96446b411d90e70"
     },
     {
       "id": "beef-tallow-wadak",
       "name": "شحم ودهن الكلى البقري والودك المذاب",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/beef-tallow-wadak.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/beef-tallow-wadak.jpg",
+      "bytes": 167966,
+      "sha256": "97ee28b583b673d63e78d8aa159693ed725352dd9d0370602f8603f11419e0a5"
     },
     {
       "id": "extra-virgin-olive-oil",
       "name": "زيت الزيتون البكر الممتاز المعصور على البارد",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/extra-virgin-olive-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/extra-virgin-olive-oil.jpg",
+      "bytes": 187645,
+      "sha256": "397c501b3420402fd5119002c2545178fe3b50faec8971b5dae98464d651161f"
     },
     {
       "id": "cold-pressed-sesame-oil",
       "name": "زيت السمسم النقي المعصور على البارد",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/cold-pressed-sesame-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/cold-pressed-sesame-oil.jpg",
+      "bytes": 201773,
+      "sha256": "ab432b8bc09e780785a5410426d05c274588058b175a6b172605c545c2476066"
     },
     {
       "id": "virgin-coconut-oil",
       "name": "زيت جوز الهند البكر العضوي",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/virgin-coconut-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/virgin-coconut-oil.jpg",
+      "bytes": 167656,
+      "sha256": "42981d12430f967864dd48748498cdf3403162221b3f27666d9d569b2e55d74e"
     },
     {
       "id": "corn-oil",
       "name": "زيت الذرة التجاري المكرر",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/corn-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/corn-oil.jpg",
+      "bytes": 159534,
+      "sha256": "061ff6daa632061982f0e3f0bebe79b536c6d3e19552d631954f4e592d85a024"
     },
     {
       "id": "soybean-oil",
       "name": "زيت الصويا التجاري المكرر",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/soybean-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/soybean-oil.jpg",
+      "bytes": 178383,
+      "sha256": "031525a14bf1664e3d3101f8a251bb3aae9e1b29d0a2308a5a972c7ce5aab456"
     },
     {
       "id": "canola-oil",
       "name": "زيت الكانولا وبذور اللفت المكرر",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/canola-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/canola-oil.jpg",
+      "bytes": 163825,
+      "sha256": "ac5fbad71710eaee13d2380042eb9f8f6ef775e237145c002406d6652568573b"
     },
     {
       "id": "refined-palm-oil",
       "name": "زيت النخيل وزيت أولين النخيل المكرر",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/refined-palm-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/refined-palm-oil.jpg",
+      "bytes": 191063,
+      "sha256": "eb7afce8434e1c0919fe9742a019f6023cc82f44ede975e24fd002321417020f"
     },
     {
       "id": "peanut-oil",
       "name": "زيت الفول السوداني المكرر",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/peanut-oil.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/peanut-oil.jpg",
+      "bytes": 193076,
+      "sha256": "325629533d936abe63d4671b7d2f9f3858961a870a88efbd40b24f44e6be983b"
     },
     {
       "id": "vegetable-shortening",
       "name": "السمن النباتي المهدرج المصنع (المارجرين)",
       "categoryId": "fats",
-      "state": "missing",
-      "path": "public/images/foods/vegetable-shortening.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/vegetable-shortening.jpg",
+      "bytes": 120980,
+      "sha256": "d38f6726f34171631f29b9c6e65655d71c8d560e9772e3a97958e7973349fd5b"
     },
     {
       "id": "peeled-almonds",
       "name": "اللوز الحلو المقشر المبيض",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/peeled-almonds.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/peeled-almonds.jpg",
+      "bytes": 199300,
+      "sha256": "61336a3b9644f8c6575905b21efead1a23482739fd478a560b7194378df652bc"
     },
     {
       "id": "walnuts",
       "name": "عين الجمل / الجوز الطبيعي غير المحمص",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/walnuts.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/walnuts.jpg",
+      "bytes": 225511,
+      "sha256": "82d38e450dffd7be541cb4a7ac63ef8b41a46fea46221cec5c0e98bcd38cfa4c"
     },
     {
       "id": "hazelnuts",
       "name": "البندق الطبيعي المقشر",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/hazelnuts.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/hazelnuts.jpg",
+      "bytes": 187163,
+      "sha256": "c650ca8cd24cdae8d90154f32e00857e3b90ad12977f98309cb16ffc682b15a2"
     },
     {
       "id": "pistachios",
       "name": "الفستق الحلبي المقشر الطبيعي",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/pistachios.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/pistachios.jpg",
+      "bytes": 173625,
+      "sha256": "0cab558440cc3c57eeb94dce38a14ad261fb7e00b1c7d86a5c772428f0a4831c"
     },
     {
       "id": "cashews",
       "name": "الكاجو الطبيعي غير المملح",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/cashews.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/cashews.jpg",
+      "bytes": 212053,
+      "sha256": "563168093ee07bbb7665c83b42c61d30756579b8acbf9801f200d954fe706aee"
     },
     {
       "id": "grated-coconut",
       "name": "مبشور جوز الهند الطبيعي المجفف",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/grated-coconut.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/grated-coconut.jpg",
+      "bytes": 167884,
+      "sha256": "2be744e830b7b61ecd0ea16a8ef9793d45aa4b9d48dd6b6b9be401e87ac8c127"
     },
     {
       "id": "macadamia-nuts",
       "name": "مكسرات المكاديميا الطبيعية",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/macadamia-nuts.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/macadamia-nuts.jpg",
+      "bytes": 180303,
+      "sha256": "fd868be2eb8fdfac01229196f27072444ab9bd9a825403293fd06d9de5ef0944"
     },
     {
       "id": "sesame-seeds",
       "name": "السمسم الأبيض المقشر والمحمص خفيفًا",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/sesame-seeds.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/sesame-seeds.jpg",
+      "bytes": 190411,
+      "sha256": "38b45502a073fcd8bfb2c91913977bef0604d83f1c5010cc92414dd314427903"
     },
     {
       "id": "flaxseeds",
       "name": "بذور الكتان البنية والذهبية المطحونة طازجة",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/flaxseeds.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/flaxseeds.jpg",
+      "bytes": 186757,
+      "sha256": "0e991f6598c5eab740257714fce43b41d399c6f456b57fe37d8f4588efe7e477"
     },
     {
       "id": "chia-seeds",
       "name": "بذور الشيا الكاملة المنقوعة",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/chia-seeds.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/chia-seeds.jpg",
+      "bytes": 211103,
+      "sha256": "994637ff96a75ee23fb10a69db3cc3ccdea14a16cc48f2ca75687d9618d17e30"
     },
     {
       "id": "sunflower-seeds",
       "name": "بذور دوار الشمس (اللب السوري المحمص خفيفًا)",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/sunflower-seeds.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/sunflower-seeds.jpg",
+      "bytes": 210098,
+      "sha256": "e10095bd0d704114120d1471db55213b8b4dba1f6ce2d24073286a40d0b60f97"
     },
     {
       "id": "pumpkin-seeds",
       "name": "بذور قرع العسل (اللب الأبيض النقي)",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/pumpkin-seeds.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/pumpkin-seeds.jpg",
+      "bytes": 207241,
+      "sha256": "8213a01811ed13c8c5303e36666a715c025a97a68445fa4a7da59316d8f6a9cf"
     },
     {
       "id": "black-seed",
       "name": "حبة البركة / الحبة السوداء الطبيعية",
       "categoryId": "nuts",
-      "state": "missing",
-      "path": "public/images/foods/black-seed.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/black-seed.jpg",
+      "bytes": 214117,
+      "sha256": "d6495d799b262235d313acd0dc6f6289eebaa1bec213be2990167d6346c85ab8"
     },
     {
       "id": "prickly-pear",
       "name": "التين الشوكي البلدي المقشر",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/prickly-pear.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/prickly-pear.jpg",
+      "bytes": 190523,
+      "sha256": "090a2cb1d5ef69f5963aab831eda9855b4f1a0b4acd88a27f9ff2827e0809373"
     },
     {
       "id": "pears",
@@ -2374,43 +2317,55 @@
       "id": "peaches",
       "name": "الخوخ البلدي الناضج المقشر",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/peaches.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/peaches.jpg",
+      "bytes": 184773,
+      "sha256": "23723db0bb86c0cf4ba49cb5c4b598bfb4cf507dc22b3c210e1f6bc4d9695504"
     },
     {
       "id": "apricots",
       "name": "المشمش البلدي الطازج الناضج",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/apricots.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/apricots.jpg",
+      "bytes": 161297,
+      "sha256": "9c6dcb53a2275022decce88e1f9b6ce2eb01c72af08a21a90ff7aa0d93c8c1ce"
     },
     {
       "id": "plums",
       "name": "البرقوق الطازج الناضج",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/plums.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/plums.jpg",
+      "bytes": 201153,
+      "sha256": "b4bcbab73037a2209755eab5db429326ef0fffad26a5164c8a4788e9a653dbc6"
     },
     {
       "id": "cantaloupe-sweet-melon",
       "name": "الشمام والكانتلوب البلدي والأناناس المصري",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/cantaloupe-sweet-melon.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/cantaloupe-sweet-melon.jpg",
+      "bytes": 217569,
+      "sha256": "b021987a348557d843f908649074613f59aaee4cb2074ef50cdbaf458a97a44e"
     },
     {
       "id": "oranges",
       "name": "البرتقال البلدي والسكري وأبو سرة",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/oranges.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/oranges.jpg",
+      "bytes": 182786,
+      "sha256": "a50cf50293a40f3f7cec9d7e4793aece2c068c7d24673d14d55762895d09676e"
     },
     {
       "id": "mandarins",
       "name": "اليوسفي / اليوسف أفندي البلدي والكلمنتينا",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/mandarins.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/mandarins.jpg",
+      "bytes": 229079,
+      "sha256": "c72f6d7ce5f23a909a1427c64b8deb681373a97e9e2798b2c8b9c982b27ed712"
     },
     {
       "id": "grapefruit",
@@ -2425,106 +2380,136 @@
       "id": "kiwi",
       "name": "الكيوي المقشر الناضج",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/kiwi.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/kiwi.jpg",
+      "bytes": 195763,
+      "sha256": "0915158c89494e14f866be422491b1376c3cc219790e552c26ef07f4e101d9ce"
     },
     {
       "id": "pineapple",
       "name": "الأناناس الطبيعي الطازج",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/pineapple.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/pineapple.jpg",
+      "bytes": 214081,
+      "sha256": "6fe403a03c0dd63c4ed45930227b69620a098297926bf90819743c6c294ffe95"
     },
     {
       "id": "avocado",
       "name": "الأفوكادو الطازج الناضج",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/avocado.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/avocado.jpg",
+      "bytes": 184129,
+      "sha256": "5c331209b6aeea6a2035ad0316e1d5d029cd46393c94e2c242fd132a33e8765d"
     },
     {
       "id": "fresh-yellow-dates",
       "name": "البلح الأصفر السماني والزغلول الطازج",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/fresh-yellow-dates.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fresh-yellow-dates.jpg",
+      "bytes": 186943,
+      "sha256": "47b77f27e065554af3c22f17b906bba6789d8704b6fabbd57e63732b6fb626cb"
     },
     {
       "id": "persimmon",
       "name": "الكاكا / الخرمة الناضجة الحلوة",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/persimmon.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/persimmon.jpg",
+      "bytes": 175599,
+      "sha256": "19d6f759251efebc3fb2d8b8d05772f0dd97ce4e5949ea472a650c0a46ea1b13"
     },
     {
       "id": "cherimoya-custard-apple",
       "name": "فاكهة القشطة الاستوائية الناضجة",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/cherimoya-custard-apple.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/cherimoya-custard-apple.jpg",
+      "bytes": 193029,
+      "sha256": "593dbbf5f04b51eab6812d340a334a719e1ee41b79f284a67016c636138df390"
     },
     {
       "id": "papaya",
       "name": "البابايا الاستوائية الناضجة",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/papaya.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/papaya.jpg",
+      "bytes": 171462,
+      "sha256": "d9456780fff675138f47e4083f6d4c2e617e5c97eec559d5021db25a7d184db2"
     },
     {
       "id": "raisins",
       "name": "الزبيب البلدي المجفف بالشمس",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/raisins.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/raisins.jpg",
+      "bytes": 212927,
+      "sha256": "16aea1871ae404711f95378a9d3abb1fc378945cc88791ed978fe7486676b8a8"
     },
     {
       "id": "dried-figs",
       "name": "التين المجفف الطبيعي",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/dried-figs.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/dried-figs.jpg",
+      "bytes": 223893,
+      "sha256": "97973300f84e9fd38edfbf57612fccdb8122efbd2b60f4dd764fbf5a87454af3"
     },
     {
       "id": "dried-apricots",
       "name": "المشمشية والمشمش المجفف",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/dried-apricots.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/dried-apricots.jpg",
+      "bytes": 171995,
+      "sha256": "5fd5aca61cfa2b11b246a9487642cb4a886913ee1d45b5e1837b32d56914c4f9"
     },
     {
       "id": "dried-prunes",
       "name": "القراصيا والبرقوق المجفف",
       "categoryId": "fruits",
-      "state": "missing",
-      "path": "public/images/foods/dried-prunes.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/dried-prunes.jpg",
+      "bytes": 197988,
+      "sha256": "33366b188c0c3f126123b17876ed88a67ccb380e38d59f9c2969547b232b6665"
     },
     {
       "id": "wild-thyme",
       "name": "الزعتر البري الطبيعي المجفف والمغلي",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/wild-thyme.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/wild-thyme.jpg",
+      "bytes": 186954,
+      "sha256": "80ecdebdc95309f97d45abbb2aabc22ea06c623c0615882f56492c7d23fc62bb"
     },
     {
       "id": "anise-tea",
       "name": "اليانسون البلدي المغلي",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/anise-tea.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/anise-tea.jpg",
+      "bytes": 181402,
+      "sha256": "60fc892c6e663bd358419cfdb1c29bf9c27c8cf024407e26ae765a07b87b4425"
     },
     {
       "id": "caraway-tea",
       "name": "الكراوية المغلية للأمعاء والهضم",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/caraway-tea.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/caraway-tea.jpg",
+      "bytes": 178093,
+      "sha256": "6241d89d332f0ae1fb2ad0b42d09836338f0d5abe2a954d5097c6e6db21023a3"
     },
     {
       "id": "fenugreek-tea",
       "name": "الحلبة الحصى المغلية",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/fenugreek-tea.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fenugreek-tea.jpg",
+      "bytes": 174932,
+      "sha256": "3c69b191b95c990ae7e2d57f451a5fb362a5f273bd8a0bb6f781b339c926b5d0"
     },
     {
       "id": "cinnamon",
@@ -2863,8 +2848,10 @@
       "id": "potato-chicken-tray",
       "name": "صينية البطاطس بالفراخ بالفرن",
       "categoryId": "poultry",
-      "state": "missing",
-      "path": "public/images/foods/potato-chicken-tray.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/potato-chicken-tray.jpg",
+      "bytes": 274873,
+      "sha256": "3a8e9f0cb45eb1d32cae3deff931f552157382161bfec148a3c36ddc9b907650"
     },
     {
       "id": "pasta-bechamel",
@@ -2888,15 +2875,19 @@
       "id": "pigeon-stuffed-rice",
       "name": "الحمام المحشي بالأرز البلدي والكبد والقوانص",
       "categoryId": "poultry",
-      "state": "missing",
-      "path": "public/images/foods/pigeon-stuffed-rice.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/pigeon-stuffed-rice.jpg",
+      "bytes": 198003,
+      "sha256": "67e7a461cb71bce32a0fed88131a2c1f4eb3565ba9f2eb2cb84147edbc28135d"
     },
     {
       "id": "pigeon-stuffed-freekeh",
       "name": "الحمام المحشي بالفريك الأخضر الصعيدي",
       "categoryId": "poultry",
-      "state": "missing",
-      "path": "public/images/foods/pigeon-stuffed-freekeh.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/pigeon-stuffed-freekeh.jpg",
+      "bytes": 242582,
+      "sha256": "5cfa003473c7838db6037fb23a7a120e70e93bd81dd64f9a791ff10ad3fa361f"
     },
     {
       "id": "roqaq-meat-pie",
@@ -2920,8 +2911,10 @@
       "id": "beef-onion-tagine",
       "name": "طاجن اللحمة بالبصل القاورما بالفرن",
       "categoryId": "meat",
-      "state": "missing",
-      "path": "public/images/foods/beef-onion-tagine.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/beef-onion-tagine.jpg",
+      "bytes": 250008,
+      "sha256": "5ee10ac4b8d87cd67690a5a321e5f0395bab2ad4d78fa957989559aef2ce495a"
     },
     {
       "id": "orzo-soup",
@@ -2936,8 +2929,10 @@
       "id": "trotters-soup",
       "name": "شوربة الكوارع الصافية بالثوم والمستكة",
       "categoryId": "meat",
-      "state": "missing",
-      "path": "public/images/foods/trotters-soup.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/trotters-soup.jpg",
+      "bytes": 193931,
+      "sha256": "81b14bb75166334f27597f2248e1d6f26a19b6cee522f54b0d267e2312b676e6"
     },
     {
       "id": "egyptian-lentil-soup",
@@ -2961,36 +2956,46 @@
       "id": "lamb-kabsa",
       "name": "كبسة اللحم الضاني بالأرز البسمتي والتوابل",
       "categoryId": "meat",
-      "state": "missing",
-      "path": "public/images/foods/lamb-kabsa.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/lamb-kabsa.jpg",
+      "bytes": 250022,
+      "sha256": "0522f132a876ebf0caf1958c88372bd22b23ab10d98718c0d6487f145475b9b6"
     },
     {
       "id": "lamb-mandi",
       "name": "مندي اللحم بالأرز البسمتي المبخر",
       "categoryId": "meat",
-      "state": "missing",
-      "path": "public/images/foods/lamb-mandi.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/lamb-mandi.jpg",
+      "bytes": 251401,
+      "sha256": "bf32682be37fcb3bfe8ad7db9d96b0434d8736b92b92e450b0a7fece9d092ac9"
     },
     {
       "id": "beef-shawarma-plate",
       "name": "شاورما اللحم البلدي في طبق مع الطحينة والأرز",
       "categoryId": "meat",
-      "state": "missing",
-      "path": "public/images/foods/beef-shawarma-plate.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/beef-shawarma-plate.jpg",
+      "bytes": 238500,
+      "sha256": "f9828003bff2af40ad533361d0d580c80e8b6ad7363df2f4befbabbf25a89071"
     },
     {
       "id": "chicken-shawarma-sandwich",
       "name": "ساندوتش شاورما الفراخ بالثومية والعيش الصاج",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/chicken-shawarma-sandwich.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/chicken-shawarma-sandwich.jpg",
+      "bytes": 194853,
+      "sha256": "74a179304c3785a1733720684411a61dfc0f5b3f2f1613bf61fa3891d0dfde26"
     },
     {
       "id": "homemade-burger-sandwich",
       "name": "ساندوتش البرجر البيتي في توست القمح الكامل",
       "categoryId": "meat",
-      "state": "missing",
-      "path": "public/images/foods/homemade-burger-sandwich.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/homemade-burger-sandwich.jpg",
+      "bytes": 179528,
+      "sha256": "4d0df9e28392afc624d0b74dfca5ceed33a0b5c0f32bdd864ee171061cb247d0"
     },
     {
       "id": "ful-sandwich-baladi",
@@ -3005,365 +3010,469 @@
       "id": "taameya-sandwich-baladi",
       "name": "ساندوتش الطعمية السخنة بالعيش البلدي والسلطة",
       "categoryId": "legumes",
-      "state": "missing",
-      "path": "public/images/foods/taameya-sandwich-baladi.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/taameya-sandwich-baladi.jpg",
+      "bytes": 238665,
+      "sha256": "486709bade73d3f34f861823006a488ef6260efcf29544d526ff3337732b6bd8"
     },
     {
       "id": "syrian-french-fries-sandwich",
       "name": "ساندوتش البطاطس السوري بالثومية وعيش الصاج",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/syrian-french-fries-sandwich.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/syrian-french-fries-sandwich.jpg",
+      "bytes": 195699,
+      "sha256": "912d28a3311bd598174bba54f401ef80201fdc89d67cc5b8bccdb7e1a9bca1fe"
     },
     {
       "id": "savory-chicken-crepe",
       "name": "الكريب الحادق بالفراخ والموتزاريلا والمايونيز",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/savory-chicken-crepe.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/savory-chicken-crepe.jpg",
+      "bytes": 194861,
+      "sha256": "b2ea82e372473b2b2b22556868ad4e4965bc46b4b32554c6e20f9392fd8fa702"
     },
     {
       "id": "traditional-pizza",
       "name": "البيتزا الإيطالية بالدقيق الأبيض والجبن والصلصة",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/traditional-pizza.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/traditional-pizza.jpg",
+      "bytes": 230785,
+      "sha256": "159569ab8895201b55c774b51941bae1e12d5ce80190646cbfdcb2f3333d1f0d"
     },
     {
       "id": "basbousa",
       "name": "البسبوسة المصرية بالسمن البلدي والشربات",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/basbousa.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/basbousa.jpg",
+      "bytes": 245006,
+      "sha256": "7b97de6850da763f3a7dfc32ed762fd1a9a74cb652b3ade73b54514921c20545"
     },
     {
       "id": "qataif",
       "name": "القطايف المقلية المحشية مكسرات بالشربات",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/qataif.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/qataif.jpg",
+      "bytes": 234107,
+      "sha256": "d4ddb0d05aa7a488a53395af4fe6c1e360970d60012b83ba0916daa29ba788b3"
     },
     {
       "id": "sweet-goulash-baklava",
       "name": "الجلاش الحلو والبقلاوة بالمكسرات والشربات",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/sweet-goulash-baklava.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/sweet-goulash-baklava.jpg",
+      "bytes": 238961,
+      "sha256": "3d78281f5337f13830d4f495d1485d63ea307bc4717940bc367183525df14b27"
     },
     {
       "id": "om-ali",
       "name": "أم علي باللبن البلدي والرقاق والمكسرات",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/om-ali.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/om-ali.jpg",
+      "bytes": 238961,
+      "sha256": "da64ddb70e74c778becc0d3f51b0ed5f7d8b1a7997cbfe3813cc37288b528de0"
     },
     {
       "id": "rice-pudding",
       "name": "أرز باللبن بيتي بالسمن والقشطة البلدي",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/rice-pudding.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/rice-pudding.jpg",
+      "bytes": 129822,
+      "sha256": "5a12897d4b6f84057e5eda90d41cb698fa2c94a7013c0bf7d76e09353ed5bd44"
     },
     {
       "id": "mahallabia",
       "name": "المهلبية بالنشا واللبن الطبيعي والمستكة",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/mahallabia.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/mahallabia.jpg",
+      "bytes": 152125,
+      "sha256": "b99d71a6a05ed59d4318a012770dbf6386cd2dcf3daccfdf108b9558e632f19c"
     },
     {
       "id": "creme-caramel",
       "name": "الكريم كراميل البيتي بالبيض واللبن",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/creme-caramel.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/creme-caramel.jpg",
+      "bytes": 121936,
+      "sha256": "68118b6f16271997ad59c9e7949b51790085fd76ad221db7db4c7516ead305d3"
     },
     {
       "id": "ashura",
       "name": "العاشوراء بالقمح الكامل واللبن والمكسرات",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/ashura.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/ashura.jpg",
+      "bytes": 215659,
+      "sha256": "694f072b99841fc76ce01b52d83cf24b3dda81ee473d986f8169bffe2982082b"
     },
     {
       "id": "kahk",
       "name": "كحك العيد الناعم بالسمن البلدي والسكر البودرة",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/kahk.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/kahk.jpg",
+      "bytes": 190674,
+      "sha256": "883bb17b9dbe781a0a71912ba02a63ee716732594f8d3f9f637d4bad983e8b46"
     },
     {
       "id": "ghorayeba",
       "name": "الغريبة الناعمة بالسمن البلدي",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/ghorayeba.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/ghorayeba.jpg",
+      "bytes": 166038,
+      "sha256": "68d6888f004281292b2f62c6edfb0a1943ccb725ac141921eee02504cde09cdb"
     },
     {
       "id": "petit-four",
       "name": "البيتي فور وبسكويت الزبدة والشوكولاتة",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/petit-four.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/petit-four.jpg",
+      "bytes": 206784,
+      "sha256": "97a1978ec8d328d4c0d51ba7c33b74f4327da45543a6397f845413a596a81ed9"
     },
     {
       "id": "sponge-cake",
       "name": "الكيك الإسفنجي البيتي بالدقيق الأبيض والسكر",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/sponge-cake.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/sponge-cake.jpg",
+      "bytes": 203084,
+      "sha256": "3c61408c958210d69fd8f67c65dd083a2032a9c7cbf1be90df796c246ee2f5dc"
     },
     {
       "id": "donuts",
       "name": "الدوناتس المقلية بالزيت المغطاة بالسكر",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/donuts.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/donuts.jpg",
+      "bytes": 191620,
+      "sha256": "16c2e1ae99d026958dd4168afa363626f4d62488cfd7cd35098cc24ee9efc7e9"
     },
     {
       "id": "waffles-pancakes",
       "name": "الوافل والبان كيك بالسيرب الصناعي",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/waffles-pancakes.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/waffles-pancakes.jpg",
+      "bytes": 176294,
+      "sha256": "0d0f13fea05cb40a8f6dc3378b7c9ef3cd6b3ee7636787a11d7308ff8498f1ac"
     },
     {
       "id": "fruit-jelly",
       "name": "جيلي الفواكه بنكهات وألوان صناعية",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/fruit-jelly.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fruit-jelly.jpg",
+      "bytes": 170403,
+      "sha256": "4f4f1b7e3114ee4097796489a0ad8e9ad841308d50b541a08faca0bf3e2ae2a5"
     },
     {
       "id": "commercial-jam",
       "name": "مربى الفواكه المعلبة بالسكر والجلوكوز",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/commercial-jam.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/commercial-jam.jpg",
+      "bytes": 181990,
+      "sha256": "9535de4b4b9d150d7037d82b5d6e9a05edfdc121696906e04dcbcc6d4bce7f19"
     },
     {
       "id": "black-honey-molasses",
       "name": "العسل الأسود المصري الأصلي من قصب السكر",
       "categoryId": "sweets",
-      "state": "missing",
-      "path": "public/images/foods/black-honey-molasses.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/black-honey-molasses.jpg",
+      "bytes": 191846,
+      "sha256": "bcf6b4e876470ce18c651dfe4c981dafd763e5211825338c92b7f7c71432d048"
     },
     {
       "id": "rock-sea-salt",
       "name": "الملح الصخري والبحري الخشن غير المكرر",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/rock-sea-salt.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/rock-sea-salt.jpg",
+      "bytes": 181088,
+      "sha256": "f6fff3e9be15cbec00bbc4b94676b0441d5e8dbdd5fa6c1d17150b4b9092bb27"
     },
     {
       "id": "apple-cider-vinegar",
       "name": "خل التفاح الطبيعي العضوي غير المصفى",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/apple-cider-vinegar.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/apple-cider-vinegar.jpg",
+      "bytes": 128860,
+      "sha256": "f0f31f8b5dc457b2131132a72356e6a0ed05c7cc8067a129ae0c97149f5270df"
     },
     {
       "id": "commercial-mayonnaise",
       "name": "المايونيز التجاري المصنوع بزيوت الصويا",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/commercial-mayonnaise.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/commercial-mayonnaise.jpg",
+      "bytes": 156609,
+      "sha256": "e69159b7190306ed066c8a5aced0d27a6e2f11f3753ded59f9c105883c1d1808"
     },
     {
       "id": "commercial-ketchup",
       "name": "كاتشب الطماطم التجاري بشراب الذرة",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/commercial-ketchup.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/commercial-ketchup.jpg",
+      "bytes": 160837,
+      "sha256": "dedeeac8fac92548e48473293091324455b5a44cdfcbad0fa8cc98b469fe7a8d"
     },
     {
       "id": "commercial-mustard",
       "name": "المستردة وخردل الطعام التجاري",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/commercial-mustard.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/commercial-mustard.jpg",
+      "bytes": 159724,
+      "sha256": "7b21f23393ee0b92c983058b46965ad913a4656cec309638954bd9a8b32fb540"
     },
     {
       "id": "canned-tomato-paste",
       "name": "صلصة الطماطم المعلبة ومعجون الطماطم المركز",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/canned-tomato-paste.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/canned-tomato-paste.jpg",
+      "bytes": 180106,
+      "sha256": "b241bd7719e9bac52e0710f226c88d67122373a537260bb05b084d815a730c15"
     },
     {
       "id": "barbecue-sauce",
       "name": "صوص الباربيكيو المدخن التجاري",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/barbecue-sauce.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/barbecue-sauce.jpg",
+      "bytes": 206759,
+      "sha256": "165098fdfbafcac5e867adb101674189717591394138ebc3e6e2e9d06e862b1b"
     },
     {
       "id": "commercial-hot-sauce",
       "name": "الصوص الحار وصلصة التباسكو والشطة المعبأة",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/commercial-hot-sauce.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/commercial-hot-sauce.jpg",
+      "bytes": 137368,
+      "sha256": "0e5c589468aa04b84d1386e9c03719cac2d06ebbed3fceab3eb548707c7c5ceb"
     },
     {
       "id": "soy-sauce",
       "name": "صويا صوص المركز والصويا المخمرة",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/soy-sauce.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/soy-sauce.jpg",
+      "bytes": 149502,
+      "sha256": "a48e2a52982a0a455f8ff1c72f70e40be2473b717e38915799498a6ac06ebd01"
     },
     {
       "id": "mixed-pickles-torshi",
       "name": "الطرشي والمخلل البلدي المشكل بالسوق",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/mixed-pickles-torshi.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/mixed-pickles-torshi.jpg",
+      "bytes": 183037,
+      "sha256": "d213dd38ebb3606d1e013748232f1e3a2c96bf5b595df7fc529abe29987c2d95"
     },
     {
       "id": "pickled-cucumbers-homemade",
       "name": "مخلل الخيار البيتي المخمر طبيعيًا بالماء والملح",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/pickled-cucumbers-homemade.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/pickled-cucumbers-homemade.jpg",
+      "bytes": 183488,
+      "sha256": "2012387b81b777cefd17aad9e105b7504cb7db76c535f6882f8ca8b462d5500d"
     },
     {
       "id": "pickled-olives-natural",
       "name": "الزيتون المخلل الطبيعي بالماء والملح وزيت الزيتون",
       "categoryId": "condiments",
-      "state": "missing",
-      "path": "public/images/foods/pickled-olives-natural.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/pickled-olives-natural.jpg",
+      "bytes": 209658,
+      "sha256": "b1584e7cf99350c54ac3cbdaf50dbdbc638c3713327845e10858495d763d80dd"
     },
     {
       "id": "instant-soup-packets",
       "name": "شوربة الخضار والدجاج الفورية في أكياس بودرة",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/instant-soup-packets.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/instant-soup-packets.jpg",
+      "bytes": 183006,
+      "sha256": "3e06afe8af23a82ffc82f2f669998688a1399ba8f9ecb6a0abc8b8896b2c317e"
     },
     {
       "id": "microwave-popcorn",
       "name": "فشار الميكروويف الجاهز في أكياس مدهونة دهون صناعية",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/microwave-popcorn.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/microwave-popcorn.jpg",
+      "bytes": 183831,
+      "sha256": "6eab7a7795d2cc93f3058b83d18acab8c2f089740551595789c5edf710381fa5"
     },
     {
       "id": "digestive-diet-biscuits",
       "name": "بسكويت الدايجستيف والدايت والشوفان التجاري",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/digestive-diet-biscuits.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/digestive-diet-biscuits.jpg",
+      "bytes": 184439,
+      "sha256": "c39c914b733434d385d463d63914a28e427d5e2ba4f1dd7d53948daaa9038004"
     },
     {
       "id": "protein-bars",
       "name": "ألواح البروتين بار التجارية ببروتين الصويا",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/protein-bars.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/protein-bars.jpg",
+      "bytes": 174838,
+      "sha256": "abda530f704f6eac61e1ffbb103d431d58a259dd51fae05c58ce6abca3cffd21"
     },
     {
       "id": "granola-packaged",
       "name": "الجرانولا المقرمشة المحلاة بالسيرب والزيوت",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/granola-packaged.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/granola-packaged.jpg",
+      "bytes": 223184,
+      "sha256": "7a5f56e8ec24785171efea19c5567992aff364e78f19d61aea09d3af092c4cb6"
     },
     {
       "id": "fruit-yogurt-commercial",
       "name": "زبادي الفواكه التجاري المحلى بالسكروز والألوان",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/fruit-yogurt-commercial.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fruit-yogurt-commercial.jpg",
+      "bytes": 142361,
+      "sha256": "3302fe7cd84d5e5b9625fc21b7974be2b3466059325bc9282eff065a457a0213"
     },
     {
       "id": "packaged-commercial-juice",
       "name": "عصائر الفواكه المعلبة بنكتار وسكر ومواد حافظة",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/packaged-commercial-juice.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/packaged-commercial-juice.jpg",
+      "bytes": 100543,
+      "sha256": "470559a338c81cf81ea18277b1438b080958816472fb06200f05500b87c1104c"
     },
     {
       "id": "powdered-drink-mix",
       "name": "مساحيق العصائر البودرة سريعة التحضير (تانج ونحوه)",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/powdered-drink-mix.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/powdered-drink-mix.jpg",
+      "bytes": 144447,
+      "sha256": "9de405b81c9846986a0615c92912d4ee01ea970b2da12196c5e2140b601a46f4"
     },
     {
       "id": "frozen-chicken-nuggets",
       "name": "ناجتس الدجاج المجمد المجهز للقلي",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/frozen-chicken-nuggets.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/frozen-chicken-nuggets.jpg",
+      "bytes": 214631,
+      "sha256": "07b5dcf5295871a68e5d05cc3a65022bfecc65d673819423085c6b7e8243be86"
     },
     {
       "id": "frozen-chicken-pane",
       "name": "بانيه الدجاج المجمد بالبقسماط المجهز للقلي",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/frozen-chicken-pane.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/frozen-chicken-pane.jpg",
+      "bytes": 195243,
+      "sha256": "96e33bec4513500df0ceb674ebe0e4a7045838cf683db6fd93758a41764c6495"
     },
     {
       "id": "frozen-commercial-burger",
       "name": "برجر اللحم المجمد التجاري المحتوي على فول الصويا",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/frozen-commercial-burger.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/frozen-commercial-burger.jpg",
+      "bytes": 184174,
+      "sha256": "a21f07830ceb21925ddf7971dbf3214c09c2a59d6ad0c518c58db3a1aedc6a31"
     },
     {
       "id": "frozen-commercial-sausage",
       "name": "السجق والسوسيس المجمد التجاري",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/frozen-commercial-sausage.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/frozen-commercial-sausage.jpg",
+      "bytes": 182464,
+      "sha256": "34cd4e7b5296c204dbbd87c51147c2c08a2bdb8da7bd64bf2e66d9b7d25b6ebd"
     },
     {
       "id": "fast-food-burger",
       "name": "برجر سلاسل مطاعم الوجبات السريعة في الخبز الأبيض",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/fast-food-burger.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fast-food-burger.jpg",
+      "bytes": 160514,
+      "sha256": "2ffe6fd97f81b678c435c7f406779de69887479f7265375a4e51f0f938c7cdea"
     },
     {
       "id": "fast-food-chicken-burger",
       "name": "برجر الفراخ المقلي المقرمش في المطاعم السريعة",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/fast-food-chicken-burger.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fast-food-chicken-burger.jpg",
+      "bytes": 170678,
+      "sha256": "94660b0e230a131f8f3018d892ec35c8a0de7909cf9d94424a654a46bf9e4ef7"
     },
     {
       "id": "fried-broasted-chicken",
       "name": "الدجاج البروستد المقلي المقرمش (الكنتاكي)",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/fried-broasted-chicken.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fried-broasted-chicken.jpg",
+      "bytes": 259381,
+      "sha256": "d20e926a32964a83519994673266477977e89ffb01dd8de743be6ef311af58a4"
     },
     {
       "id": "chicken-strips",
       "name": "أصابع الدجاج المقرمشة (تشيكن ستربس) المقلية",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/chicken-strips.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/chicken-strips.jpg",
+      "bytes": 213648,
+      "sha256": "6283664a1ea8bf5c5b3317a45cc07445de7cf76564190bc97d1a22d336c8b148"
     },
     {
       "id": "fast-food-crepe",
       "name": "كريب الشاورما والسجق الجاهز من محلات الوجبات",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/fast-food-crepe.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/fast-food-crepe.jpg",
+      "bytes": 202033,
+      "sha256": "d17cb2c6afc264d3f4e07a7879296c07f8f3c3e19ef906ebde984203377514ab"
     },
     {
       "id": "spirulina",
       "name": "سبيرولينا / طحالب السبيرولينا الخضراء",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/spirulina.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/spirulina.jpg",
+      "bytes": 178451,
+      "sha256": "e600de609f7ae4eb29a0ae8ee3f0b62d784438237fc6a6f38f1f7abd10371ea3"
     },
     {
       "id": "apple-cider-gummies",
       "name": "حلوى خل التفاح الجيلاتينية (Gummies)",
       "categoryId": "processed",
-      "state": "missing",
-      "path": "public/images/foods/apple-cider-gummies.jpg"
+      "state": "accepted",
+      "path": "public/images/foods/apple-cider-gummies.jpg",
+      "bytes": 172633,
+      "sha256": "b365c66b21c957e7c953e67c1a2742b5c5886c2504f4995a05db391011bb0d3b"
     }
   ]
 }

@@ -4,112 +4,222 @@
     "aged-cheddar-cheese",
     "alexandrian-liver",
     "anchovies",
+    "anise-tea",
+    "apple-cider-gummies",
+    "apple-cider-vinegar",
+    "apricots",
     "arabic-coffee",
+    "ashura",
+    "avocado",
     "baked-potato-meat-tray",
     "baladi-duck",
     "baladi-geese",
     "baladi-sausage-fresh",
     "baladi-sobia",
+    "barbecue-sauce",
+    "basbousa",
+    "beef-onion-tagine",
+    "beef-shawarma-plate",
     "beef-steak",
+    "beef-tallow-wadak",
     "black-eyed-peas",
+    "black-honey-molasses",
     "black-pepper",
+    "black-seed",
     "brains-head-meat",
     "brown-lentils",
     "buffalo-meat",
     "buffalo-milk",
+    "canned-tomato-paste",
     "canned-tuna-oil",
     "canned-tuna-water",
+    "canola-oil",
+    "cantaloupe-sweet-melon",
     "cappuccino-latte",
+    "caraway-tea",
     "cardamom-mastic-laurel",
     "carob-drink",
+    "cashews",
     "chamomile-tea",
+    "cherimoya-custard-apple",
+    "chia-seeds",
     "chicken-gizzards-liver",
+    "chicken-shawarma-sandwich",
+    "chicken-strips",
     "cinnamon",
     "cloves",
     "coffee-3-in-1",
+    "cold-pressed-sesame-oil",
     "commercial-hawawshi",
+    "commercial-hot-sauce",
+    "commercial-jam",
+    "commercial-ketchup",
+    "commercial-mayonnaise",
+    "commercial-mustard",
+    "corn-oil",
     "cow-milk",
     "crab",
+    "cream-cheese-spread",
+    "creme-caramel",
     "cumin",
     "damiati-cheese",
     "diet-sodas",
+    "digestive-diet-biscuits",
+    "donuts",
+    "dried-apricots",
+    "dried-figs",
+    "dried-prunes",
     "dry-coriander",
     "egyptian-fatta",
     "energy-drinks",
     "espresso",
+    "extra-virgin-olive-oil",
     "farm-chicken-breasts",
     "farm-chicken-thighs",
     "farmed-mullet",
     "farmed-salmon",
+    "fast-food-burger",
+    "fast-food-chicken-burger",
+    "fast-food-crepe",
+    "fenugreek-tea",
     "feseekh",
     "feta-natural-cheese",
+    "flaxseeds",
     "fresh-baladi-cream",
     "fresh-cooking-cream",
     "fresh-orange-juice",
     "fresh-strawberry-juice",
     "fresh-tuna",
+    "fresh-yellow-dates",
+    "fried-broasted-chicken",
+    "frozen-chicken-nuggets",
+    "frozen-chicken-pane",
+    "frozen-commercial-burger",
+    "frozen-commercial-sausage",
+    "fruit-jelly",
+    "fruit-yogurt-commercial",
+    "ghorayeba",
     "ginger",
     "gouda-edam-cheese",
+    "granola-packaged",
+    "grated-coconut",
     "greek-yogurt",
     "green-fava-beans",
     "ground-beef",
+    "hazelnuts",
     "heart-kidneys",
+    "homemade-burger-sandwich",
     "homemade-kofta",
     "hot-chocolate",
     "hot-dogs",
     "instant-black-coffee",
     "instant-noodles",
+    "instant-soup-packets",
     "istanbouli-cheese",
+    "kahk",
     "kebab",
+    "kiwi",
     "lamb-chops",
+    "lamb-kabsa",
+    "lamb-mandi",
     "lemon-mint-juice",
     "licorice-drink",
     "lobster",
     "luncheon-meat",
     "lupini-beans",
+    "macadamia-nuts",
+    "mahallabia",
+    "mandarins",
     "matcha",
     "meat-shank",
+    "microwave-popcorn",
     "milk-kefir",
     "milk-powder",
     "mish-cheese",
+    "mixed-pickles-torshi",
     "mussels-clams",
+    "natural-mozzarella",
     "nutella",
     "octopus",
     "okra-meat-tagine",
+    "om-ali",
+    "oranges",
+    "packaged-commercial-juice",
+    "papaya",
     "parmesan-reggiano",
     "pastirma",
+    "peaches",
+    "peanut-oil",
     "peanuts",
+    "peeled-almonds",
+    "persimmon",
+    "petit-four",
+    "pickled-cucumbers-homemade",
+    "pickled-olives-natural",
+    "pigeon-stuffed-freekeh",
+    "pigeon-stuffed-rice",
+    "pineapple",
+    "pistachios",
+    "plums",
     "pomegranate-juice",
+    "potato-chicken-tray",
     "potatoes",
+    "powdered-drink-mix",
+    "prickly-pear",
     "processed-cheese",
+    "protein-bars",
+    "pumpkin-seeds",
     "pure-water",
     "qamar-el-din",
+    "qataif",
     "quail-meat",
+    "raisins",
     "red-chili-powder",
     "red-kidney-beans",
     "red-porgy",
+    "refined-palm-oil",
     "restaurant-kofta",
+    "rice-pudding",
+    "rock-sea-salt",
+    "savory-chicken-crepe",
     "sea-bass",
     "sea-bream",
+    "sesame-seeds",
     "skimmed-milk",
     "smoked-herring",
     "soda",
     "sole-fish",
+    "soy-sauce",
+    "soybean-oil",
     "soybeans",
     "sparkling-water",
+    "spirulina",
+    "sponge-cake",
     "squid-calamari",
+    "sunflower-seeds",
+    "sweet-goulash-baklava",
     "sweet-paprika",
+    "syrian-french-fries-sandwich",
+    "taameya-sandwich-baladi",
     "tahini",
     "tamarind-drink",
     "tongue-spleen",
     "traditional-pastries",
+    "traditional-pizza",
     "tripe-mombar",
     "trotters-cow",
+    "trotters-soup",
     "turkey",
     "turmeric",
+    "vegetable-fat-cheese",
+    "vegetable-shortening",
+    "virgin-coconut-oil",
+    "waffles-pancakes",
+    "walnuts",
     "white-navy-beans",
     "wild-dove",
     "wild-salmon",
+    "wild-thyme",
     "wild-tilapia",
     "zucchini-meat-stew"
   ],
@@ -133,6 +243,11 @@
       "id": "mish-cheese",
       "file": "output/imagegen/rejected/mish-cheese-1790864990259.png",
       "reason": "White fresh-looking cheese in thin spicy liquid; mish should have aged tan chunks in thick fermented brine."
+    },
+    {
+      "id": "trotters-soup",
+      "file": "output/imagegen/rejected/trotters-soup-1790876963882.png",
+      "reason": "Too much shank-like muscle and marrow-bone cross sections; not convincing cooked trotter joints."
     }
   ],
   "tool": "image_gen",
@@ -951,6 +1066,886 @@
       "sourceSha256": "f723d982c850c44762652854561aa070d7fd61d3d7032ab9062d5c943880ecb8",
       "reviewedAt": "2026-10-01T14:36:03.846Z",
       "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural Parmigiano Reggiano cheese: a hard pale straw-colored wedge with thick beige natural rind, visibly granular crystalline broken face, a small pile of fresh coarse shavings on a wooden board. No labels or stamped text on rind.",
+      "accepted": true
+    },
+    {
+      "id": "natural-mozzarella",
+      "source": "output/imagegen/natural-mozzarella.png",
+      "sourceSha256": "0005bf7b09dc9064e1af10677298ca801a94337c2fd75ea34633526c86331e0b",
+      "reviewedAt": "2026-10-01T14:38:59.753Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh natural mozzarella cheese: two soft white mozzarella balls and one clean cut half with moist layered interior on a plain ceramic plate. A tiny amount of clear whey, no pizza, no tomato salad, no processed shredded cheese or packaging.",
+      "accepted": true
+    },
+    {
+      "id": "cream-cheese-spread",
+      "source": "output/imagegen/cream-cheese-spread.png",
+      "sourceSha256": "939898b216d06a0c89cb309216d4f3d6f91366ec9e061bdbaedfd8e77336e21b",
+      "reviewedAt": "2026-10-01T14:41:08.518Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Plain commercial cream cheese spread, smooth dense white cheese with a spoon swirl in a small plain ceramic bowl, a butter knife with a little spread resting beside it. No whipped dessert cream, fruit, branded tub, text or crackers.",
+      "accepted": true
+    },
+    {
+      "id": "vegetable-fat-cheese",
+      "source": "output/imagegen/vegetable-fat-cheese.png",
+      "sourceSha256": "e727c50e1016c1cf6d1af102b9ea4d13ecb290794c15f88979fc70cf1c62e377",
+      "reviewedAt": "2026-10-01T14:42:53.673Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic commercial white cheese made with vegetable fat, shown as a smooth uniform white rectangular cheese block and two even slices on a plain plate, next to a completely plain unmarked empty plastic tub. No natural crumbly cheese texture, no logos, writing or brand packaging.",
+      "accepted": true
+    },
+    {
+      "id": "beef-tallow-wadak",
+      "source": "output/imagegen/beef-tallow-wadak.png",
+      "sourceSha256": "dc25c45439370f4652b7d6d21c6d40582b94c55d0a3f3a769f9c14a78a3c698f",
+      "reviewedAt": "2026-10-01T14:44:13.406Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian rendered beef tallow (wadak): opaque firm ivory-yellow animal cooking fat in a small rustic clay bowl, a spoon showing its soft waxy smooth texture. No butter wrapper, no raw meat, no plant oil or pork. Simple Egyptian kitchen presentation.",
+      "accepted": true
+    },
+    {
+      "id": "extra-virgin-olive-oil",
+      "source": "output/imagegen/extra-virgin-olive-oil.png",
+      "sourceSha256": "84a6c67bed92a288f0dc36aa5ce05ab3e2fe7c0a562c49175a5e15993878b20d",
+      "reviewedAt": "2026-10-01T15:17:58.572Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Extra virgin olive oil: rich green-golden olive oil in a small plain clear glass cruet, a shallow ceramic tasting bowl with a little oil, a few real whole olives and olive twig to identify the ingredient. No other oil types, no branding labels or text.",
+      "accepted": true
+    },
+    {
+      "id": "cold-pressed-sesame-oil",
+      "source": "output/imagegen/cold-pressed-sesame-oil.png",
+      "sourceSha256": "ad584ae423ebed013dc138a782ba2fd91209bb7c11fe9003a18393db72498ae4",
+      "reviewedAt": "2026-10-01T15:21:28.148Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Cold pressed sesame oil: pale amber golden oil in a small plain clear glass pouring bottle with a wooden stopper, a little shallow oil dish and a small spoonful of ivory sesame seeds beside it. Not dark toasted sesame oil, no tahini paste.",
+      "accepted": true
+    },
+    {
+      "id": "virgin-coconut-oil",
+      "source": "output/imagegen/virgin-coconut-oil.png",
+      "sourceSha256": "583155466582ac0987972bd54078949da520c2b935e3c14908272d5bc6750fbb",
+      "reviewedAt": "2026-10-01T15:26:36.794Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Virgin coconut oil: a small plain clear glass jar of opaque white softly solid coconut oil, a wooden spoon holding a little white oil, one cracked coconut half with white flesh behind it. No coconut milk drink, no labels, no cream dessert.",
+      "accepted": true
+    },
+    {
+      "id": "corn-oil",
+      "source": "output/imagegen/corn-oil.png",
+      "sourceSha256": "4698efb4cb599d83cf04d5df537d572a8031b6148483baf2d933957d3c1d76e9",
+      "reviewedAt": "2026-10-01T15:30:18.611Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Corn cooking oil: clear pale golden liquid oil in a plain unlabeled cylindrical glass bottle, a small shallow oil bowl and one natural yellow corn cob beside it to identify the oil ingredient. No salad, no oil brand or label.",
+      "accepted": true
+    },
+    {
+      "id": "soybean-oil",
+      "source": "output/imagegen/soybean-oil.png",
+      "sourceSha256": "238ed110ccf317723749f2d6d348c13dfa18bce19404a5eb56a5f5c421ac047a",
+      "reviewedAt": "2026-10-01T15:33:12.360Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Soybean cooking oil: clear pale golden-yellow oil in a plain small glass bottle and a shallow ceramic bowl, a few dry beige soybeans and one small soybean pod as ingredient cues. Not soy sauce, not green edamame salad, no labels.",
+      "accepted": true
+    },
+    {
+      "id": "canola-oil",
+      "source": "output/imagegen/canola-oil.png",
+      "sourceSha256": "a8e1ca71ba2edf491efccc94b8a6031e35abcb4f8a9414486879eaf31c3c2aa0",
+      "reviewedAt": "2026-10-01T15:36:55.406Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Canola cooking oil: light golden translucent oil in a plain unlabelled glass bottle, a tiny ceramic dish of the same oil, a small subtle cluster of yellow rapeseed flowers and tiny dark rapeseeds as source ingredient cues. No olive branches, no corn, no margarine.",
+      "accepted": true
+    },
+    {
+      "id": "refined-palm-oil",
+      "source": "output/imagegen/refined-palm-oil.png",
+      "sourceSha256": "98917fe03b68df47111284024009d423830f2108dc0ec90b012fcac5eee9908c",
+      "reviewedAt": "2026-10-01T15:44:32.167Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Refined palm cooking oil: pale golden translucent liquid cooking oil in a plain clear glass bottle and a shallow plain bowl. A small subtle cluster of reddish-orange oil-palm fruit in background identifies the source; oil itself is refined pale gold, NOT bright orange unrefined red palm oil. No coconut fruit, no logos.",
+      "accepted": true
+    },
+    {
+      "id": "peanut-oil",
+      "source": "output/imagegen/peanut-oil.png",
+      "sourceSha256": "bff7442e0198fb183ffdabcc51f91f4e8b211775f291886345f02245202aa292",
+      "reviewedAt": "2026-10-01T15:48:41.938Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Peanut cooking oil: clear golden liquid oil in a plain glass pouring bottle and a small oil dish, a few real peanuts in tan shells and shelled peanut kernels nearby. No peanut butter paste, no salad, no other nut types.",
+      "accepted": true
+    },
+    {
+      "id": "vegetable-shortening",
+      "source": "output/imagegen/vegetable-shortening.png",
+      "sourceSha256": "c29209bb4d54f270546b95dceff411ea0dc696846e9c21886b0e67cffd56a6cc",
+      "reviewedAt": "2026-10-01T15:52:40.117Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Commercial vegetable shortening, a firm opaque white cooking fat in a plain completely unmarked shallow plastic tub, a spoon holding a dense smooth scoop, neutral kitchen tabletop. No butter yellow color, no coconut chunks, no animal fat or dessert frosting.",
+      "accepted": true
+    },
+    {
+      "id": "peeled-almonds",
+      "source": "output/imagegen/peeled-almonds.png",
+      "sourceSha256": "b7935536204b3f2647662196ae1c885c4bbb0debf76c158768960067986fb9bc",
+      "reviewedAt": "2026-10-01T15:56:42.998Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Blanched peeled almonds, only whole ivory almond kernels with their thin brown skins REMOVED, a small heap in an earthenware bowl and a few kernels on linen. Recognizable almond shape, no brown unpeeled almonds, no mixed nuts, no garnish.",
+      "accepted": true
+    },
+    {
+      "id": "walnuts",
+      "source": "output/imagegen/walnuts.png",
+      "sourceSha256": "2bf33ab6588c8eebb6ed6894f21d32cf1851c5fb608143b60361b5607937087b",
+      "reviewedAt": "2026-10-01T16:04:14.913Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Walnuts: natural shelled walnut kernel halves with realistic deeply folded brain-like surfaces in a small rustic ceramic bowl, two whole brown walnuts in their shells nearby. Only walnuts, no mixed nuts.",
+      "accepted": true
+    },
+    {
+      "id": "hazelnuts",
+      "source": "output/imagegen/hazelnuts.png",
+      "sourceSha256": "d11de14914780e12bfa45eadf59b3cca46b402f7d761717b98fd00a50777d0fe",
+      "reviewedAt": "2026-10-01T16:04:59.369Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural hazelnuts, whole shelled beige brown kernels with a few intact brown round shells, simple ceramic bowl. Only hazelnuts.",
+      "accepted": true
+    },
+    {
+      "id": "pistachios",
+      "source": "output/imagegen/pistachios.png",
+      "sourceSha256": "db157312814fea7cbb6744a37bde0c0523f69df897e4c15bb70149e1350d7092",
+      "reviewedAt": "2026-10-01T16:06:00.263Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Pistachios in their naturally split ivory shells with green purple kernels visible, small shallow olive ceramic bowl, a few pistachios loose nearby, natural modest portions.",
+      "accepted": true
+    },
+    {
+      "id": "cashews",
+      "source": "output/imagegen/cashews.png",
+      "sourceSha256": "87ccc7b47ed3d708e44f7b4723c41f4c710d2aec63f73b1ecb2c5a2c69f6c4ae",
+      "reviewedAt": "2026-10-01T16:06:48.937Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Plain cashew nuts, natural ivory gently curved kidney-shaped kernels, small handmade blue-gray ceramic bowl on warm wood, no other nuts.",
+      "accepted": true
+    },
+    {
+      "id": "grated-coconut",
+      "source": "output/imagegen/grated-coconut.png",
+      "sourceSha256": "3d945e207fec58791995586a1a8a9d1521ec83f8fdaad014f5e8d61abf0fa81b",
+      "reviewedAt": "2026-10-01T16:09:04.527Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Plain grated coconut, fine white coconut shreds in a shallow off-white ceramic dish. Small broken coconut half with brown husk and thick white flesh beside dish provides scale, no other ingredients.",
+      "accepted": true
+    },
+    {
+      "id": "macadamia-nuts",
+      "source": "output/imagegen/macadamia-nuts.png",
+      "sourceSha256": "435d1221066553076da82c1504872cf6fb9fcaef95525d0590ead0dc1f91df95",
+      "reviewedAt": "2026-10-01T16:10:09.442Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural macadamia nuts: pale cream rounded smooth shelled kernels, several with a narrow central seam, in a small wooden bowl. Two hard round brown macadamia shells nearby. No mixed nuts.",
+      "accepted": true
+    },
+    {
+      "id": "sesame-seeds",
+      "source": "output/imagegen/sesame-seeds.png",
+      "sourceSha256": "c2d4dab68f90e635321e42644e79046f0f170c9fb41b20d8a4ab525efa07b2f3",
+      "reviewedAt": "2026-10-01T16:11:15.119Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Plain sesame seeds, a close-up of tiny ivory flattened oval seeds in a shallow brown ceramic bowl with a few seeds scattered nearby. Dry whole seeds, no sesame paste, no oil, no garnish.",
+      "accepted": true
+    },
+    {
+      "id": "flaxseeds",
+      "source": "output/imagegen/flaxseeds.png",
+      "sourceSha256": "551c2e2dfb08e70ab930e1044dee1723fae1bc07c9a98cf99dc54e9da718a737",
+      "reviewedAt": "2026-10-01T16:12:14.855Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Whole brown flaxseeds, tiny glossy warm brown flattened oval seeds with pointed ends in a small beige ceramic dish. Macro food photography showing their smooth surfaces; dry seeds, no other foods.",
+      "accepted": true
+    },
+    {
+      "id": "chia-seeds",
+      "source": "output/imagegen/chia-seeds.png",
+      "sourceSha256": "3d834e61b7f385ffaec022c071ff306ca131c17d7beef4f4a4cc89734d90eeb9",
+      "reviewedAt": "2026-10-01T16:14:31.672Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Dry chia seeds, tiny oval seeds naturally mottled dark gray black and white, in a small shallow matte cream bowl; close-up showing speckled coloration. Not flax, not sesame, no pudding, no garnish.",
+      "accepted": true
+    },
+    {
+      "id": "sunflower-seeds",
+      "source": "output/imagegen/sunflower-seeds.png",
+      "sourceSha256": "46b3f62b3f1b1bd691fabf6b4ed70af4446f4eeac04d64a60cd15217aa3c12ed",
+      "reviewedAt": "2026-10-01T16:15:44.207Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian lib Syrian sunflower seeds, edible sunflower seeds in long narrow black-gray striped shells, small shallow terracotta dish, a few shelled pale kernels beside it. Realistic striped shells, not pumpkin seeds.",
+      "accepted": true
+    },
+    {
+      "id": "pumpkin-seeds",
+      "source": "output/imagegen/pumpkin-seeds.png",
+      "sourceSha256": "943c03b4fd574cfdd2662f15aee3fa966c5798bc4c781d5ea4e2e5070e01e15e",
+      "reviewedAt": "2026-10-01T16:17:03.928Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Pumpkin seeds, a shallow ceramic bowl of natural green flat oval shelled pepitas, with a few ivory whole pumpkin seed shells nearby. Natural seeds, neutral food photography, no seasoning, no mixed nuts.",
+      "accepted": true
+    },
+    {
+      "id": "black-seed",
+      "source": "output/imagegen/black-seed.png",
+      "sourceSha256": "f9d160d039f889cedb5c2e4216b1a9497519c5bd229a0dfff754125ac56080fd",
+      "reviewedAt": "2026-10-01T16:18:48.732Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Nigella sativa black seed, Egyptian habbet el baraka. Tiny matte black angular triangular irregular seeds in a shallow tan earthenware bowl; close-up natural texture. No sesame, no chia, no black rice.",
+      "accepted": true
+    },
+    {
+      "id": "prickly-pear",
+      "source": "output/imagegen/prickly-pear.png",
+      "sourceSha256": "e2b28f0de8d240869c33e389a1575dcc2748a541a386549b3c03ad557a1c0eb7",
+      "reviewedAt": "2026-10-01T16:21:39.054Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian prickly pears, teen shouki. Three oval yellow-green cactus fruits with natural dotted skin, one peeled yellow-orange juicy fruit and one cut cross-section showing many small edible seeds, on a simple earthenware plate. No cactus spines in edible flesh, no dragon fruit.",
+      "accepted": true
+    },
+    {
+      "id": "peaches",
+      "source": "output/imagegen/peaches.png",
+      "sourceSha256": "6f363b7f5a4ce4bbcbff80e9809c2152d078708d72e14b2f31afeb3e2d1c4925",
+      "reviewedAt": "2026-10-01T16:23:10.891Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh ripe peaches, three yellow-red fuzzy-skinned peaches and one cut half with yellow flesh and a single naturally textured brown stone in the center, on a plain cream plate. Natural juicy flesh, no nectarines, no dessert.",
+      "accepted": true
+    },
+    {
+      "id": "apricots",
+      "source": "output/imagegen/apricots.png",
+      "sourceSha256": "61c4b01ff12fb27824b7ba695cabe4a66730ab62031a1b8cd2d590e0716e80f8",
+      "reviewedAt": "2026-10-01T16:25:03.088Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh ripe apricots, small velvety orange fruits with a light red blush, a few whole apricots and one halved showing orange flesh and small brown stone in a shallow cream ceramic dish. Smaller than peaches, no dessert.",
+      "accepted": true
+    },
+    {
+      "id": "plums",
+      "source": "output/imagegen/plums.png",
+      "sourceSha256": "b900296ed32fa71e075e4535433ecb765c4c96ea3fca16ce8b2dec244b50bf0a",
+      "reviewedAt": "2026-10-01T16:27:00.709Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh purple plums, naturally waxy dark violet-red smooth skin with delicate whitish bloom, four whole oval plums and one cut half with yellow-amber flesh and small brown stone, on a neutral plate. No peaches, no dried prunes.",
+      "accepted": true
+    },
+    {
+      "id": "cantaloupe-sweet-melon",
+      "source": "output/imagegen/cantaloupe-sweet-melon.png",
+      "sourceSha256": "c61ea0191b65f76a6dcb87d6747f517c8806bbde063743bac704f2a974ab8d35",
+      "reviewedAt": "2026-10-01T16:30:10.593Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh Egyptian cantaloupe sweet melon, a whole round tan melon with natural netted rind and a cut half with orange flesh and central cavity of pale seeds, two neat wedges on cream ceramic plate. No watermelon, no fruit salad.",
+      "accepted": true
+    },
+    {
+      "id": "oranges",
+      "source": "output/imagegen/oranges.png",
+      "sourceSha256": "0cdcafd8b086b3ce499896b6568c38dfa1508e6b71804b3c49da758a910d5acd",
+      "reviewedAt": "2026-10-01T16:32:08.963Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh Egyptian oranges, three ripe round oranges with naturally dimpled rind, one halved orange showing radial juicy orange segments and a wedge on a plain white ceramic plate. No juice glass, no other fruit.",
+      "accepted": true
+    },
+    {
+      "id": "mandarins",
+      "source": "output/imagegen/mandarins.png",
+      "sourceSha256": "41c01160e9b1b862325517a73bfd18980141a769c4ae0373bb67471721a851a8",
+      "reviewedAt": "2026-10-01T16:34:11.782Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh mandarins, Egyptian yusufi citrus, small flattened orange fruits with loose dimpled skin, one partly peeled with white pith and separated curved juicy segments on a handmade blue ceramic plate. Clearly mandarins, not large oranges.",
+      "accepted": true
+    },
+    {
+      "id": "kiwi",
+      "source": "output/imagegen/kiwi.png",
+      "sourceSha256": "003762124bd7ea7dc4bad28c81d4de6c839bd4a63acd71f217301b1638cd7f49",
+      "reviewedAt": "2026-10-01T16:36:26.097Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh kiwifruit: two whole brown fuzzy oval kiwis and two cut halves showing bright natural green flesh, pale center and radial tiny black seeds, on simple off-white plate. No smoothie, no other fruit.",
+      "accepted": true
+    },
+    {
+      "id": "pineapple",
+      "source": "output/imagegen/pineapple.png",
+      "sourceSha256": "f2fd3d4405a8237a20f68df7f6f334a7da13de5f8d2294ef99d59cc833a3cb9e",
+      "reviewedAt": "2026-10-01T16:40:12.687Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh pineapple, one whole ripe pineapple with natural diamond-patterned yellow brown rind and spiky green crown behind, two peeled yellow pineapple wedges with fibrous juicy flesh on a plain plate. No canned pineapple, no other fruit.",
+      "accepted": true
+    },
+    {
+      "id": "avocado",
+      "source": "output/imagegen/avocado.png",
+      "sourceSha256": "9680b161ee0d2261d1d1d48b50cd63b462de12da3dbe2e7a204ad099b9f74ffa",
+      "reviewedAt": "2026-10-01T16:42:48.684Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh ripe avocado, one whole dark-green pebbled-skinned avocado and two halves with pale yellow-green creamy flesh, one half contains a single large round brown stone. Simple matte ceramic plate, no toast or guacamole.",
+      "accepted": true
+    },
+    {
+      "id": "fresh-yellow-dates",
+      "source": "output/imagegen/fresh-yellow-dates.png",
+      "sourceSha256": "951554f8ab1d02291351c33e12b29f2825192b11b1bd2ac5a489e4c410dcff25",
+      "reviewedAt": "2026-10-01T16:45:49.506Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh yellow dates, Egyptian balah asfar at khalal stage: firm oval bright golden-yellow dates with smooth skin and small brown stem caps, in a shallow woven palm tray with a short natural date twig. Not dried brown dates, not olives.",
+      "accepted": true
+    },
+    {
+      "id": "persimmon",
+      "source": "output/imagegen/persimmon.png",
+      "sourceSha256": "b2aa0d9113e1b3743f4e76e51c1b9c71aa0cbe2fa7e1f9c461ebc6fa6a6a9cdc",
+      "reviewedAt": "2026-10-01T16:48:11.094Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh persimmons, Egyptian kaka: three smooth bright orange squat round fruits with four-lobed dark green leafy calyx, one neatly halved with solid orange flesh, on a simple handmade plate. No tomatoes, no oranges.",
+      "accepted": true
+    },
+    {
+      "id": "cherimoya-custard-apple",
+      "source": "output/imagegen/cherimoya-custard-apple.png",
+      "sourceSha256": "77a382c1494fd75e01e3e070f02cbd6f26619e0d7bdc4a46aaff114e5e744fac",
+      "reviewedAt": "2026-10-01T16:53:26.695Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh cherimoya custard apple, Egyptian eshta fruit: two heart-shaped green fruits with natural rounded scale-like skin, one cut half showing creamy ivory segmented flesh and several glossy oval black seeds. Simple ceramic plate, no soursop spikes, no avocado.",
+      "accepted": true
+    },
+    {
+      "id": "papaya",
+      "source": "output/imagegen/papaya.png",
+      "sourceSha256": "52d3504e45525d8e36e01fd35d3241b9af4343baca54ff467bbceb5adbdcce7a",
+      "reviewedAt": "2026-10-01T16:56:03.484Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Fresh papaya, one ripe elongated yellow-orange papaya and one lengthwise cut half showing orange flesh and a central cavity filled with small black round seeds. On a plain cream plate, realistic tropical fruit proportions, no melon.",
+      "accepted": true
+    },
+    {
+      "id": "raisins",
+      "source": "output/imagegen/raisins.png",
+      "sourceSha256": "2ea363fd41edffc3861aff6951d651c92e7f5c9627d01c86491bb199aa90faa7",
+      "reviewedAt": "2026-10-01T16:58:59.495Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Raisins, small naturally wrinkled dried grapes in mixed natural amber-brown shades, modest pile in shallow wooden dish. Close food photograph, dry realistic texture, no fresh grapes, no nuts.",
+      "accepted": true
+    },
+    {
+      "id": "dried-figs",
+      "source": "output/imagegen/dried-figs.png",
+      "sourceSha256": "4494885159f72686229116459e022a7f9b43ec92a1bea85c0b9f345d3900ea8f",
+      "reviewedAt": "2026-10-01T17:04:24.514Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Dried figs, natural tan-brown flattened wrinkled whole figs with short stems in a shallow ceramic bowl, one dried fig cut open showing densely packed tiny amber seeds and brown interior. No fresh purple figs, no dates.",
+      "accepted": true
+    },
+    {
+      "id": "dried-apricots",
+      "source": "output/imagegen/dried-apricots.png",
+      "sourceSha256": "b7ec536ddb6f9fe871b0852a0d7c9e68707e4a7015a904580807be9a1d395a11",
+      "reviewedAt": "2026-10-01T17:07:33.063Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Dried apricots, natural flattened amber orange apricot halves with softly wrinkled surfaces in a small pale ceramic dish. Dry fruit only, no fresh apricots, no nuts, no syrup.",
+      "accepted": true
+    },
+    {
+      "id": "dried-prunes",
+      "source": "output/imagegen/dried-prunes.png",
+      "sourceSha256": "48c633d95f4c3d18e747fefd92b00517d51391ba92b01e2d1e0f30e0a30c02d2",
+      "reviewedAt": "2026-10-01T17:10:16.393Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Dried prunes, naturally dark purple-black wrinkled soft dried plums in a shallow blue-gray ceramic bowl, a few loose nearby. No dates, no raisins, no fresh plums, no syrup.",
+      "accepted": true
+    },
+    {
+      "id": "wild-thyme",
+      "source": "output/imagegen/wild-thyme.png",
+      "sourceSha256": "cf9c6c639ebd26469992efee0be9e5f36f76420c460e4889c84fe89ec9f1e5f1",
+      "reviewedAt": "2026-10-01T17:15:48.132Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural dried wild thyme and brewed thyme infusion: a clear glass Egyptian tea cup of light golden herbal infusion on saucer, a small dish of dried thyme leaves and two modest fresh thyme sprigs nearby. No tea bag, no honey, no other herbs.",
+      "accepted": true
+    },
+    {
+      "id": "anise-tea",
+      "source": "output/imagegen/anise-tea.png",
+      "sourceSha256": "15825cebaef85584e3ea7c152e3b5e9b292f76b3c5249c77bdf8c19ada79e924",
+      "reviewedAt": "2026-10-01T17:19:02.518Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian boiled anise seed drink, yansoon: clear handled glass cup of pale straw-gold infusion on saucer, tiny ribbed greenish-brown anise seeds in a small ceramic dish nearby. Anise seeds only, absolutely no star anise pods, no lemon, no honey.",
+      "accepted": true
+    },
+    {
+      "id": "caraway-tea",
+      "source": "output/imagegen/caraway-tea.png",
+      "sourceSha256": "d8274b08c1c6e12f82ce84dc67faf6f054d7a222fe21f806f492b4aa82428a4e",
+      "reviewedAt": "2026-10-01T17:22:21.757Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian boiled caraway seed drink, karawiya: clear small tea glass of amber herbal infusion, a small dish of slender brown curved ribbed caraway seeds beside it. Unadorned natural kitchen presentation; no anise stars, no lemon, no cinnamon.",
+      "accepted": true
+    },
+    {
+      "id": "fenugreek-tea",
+      "source": "output/imagegen/fenugreek-tea.png",
+      "sourceSha256": "2f4ad9f74bf1e1374554ccb2a13454bdec792a0dcaa110f71030cffcc868fb45",
+      "reviewedAt": "2026-10-01T17:28:14.447Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian boiled whole fenugreek drink, helba hasa: clear tea glass of golden amber liquid with softened tan fenugreek seeds settled visibly at bottom, little dish of dry angular yellow-brown fenugreek seeds beside it. No milk, no lemon, no other spices.",
+      "accepted": true
+    },
+    {
+      "id": "potato-chicken-tray",
+      "source": "output/imagegen/potato-chicken-tray.png",
+      "sourceSha256": "ba3ad58a1629f86cc1af7643e576c17688ae3a92d555de8ab822a5452e821c01",
+      "reviewedAt": "2026-10-01T17:31:33.366Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian baked potato and chicken tray, saniyet batates bel ferakh: browned bone-in chicken portions over round potato slices, softened onion and tomato in light red tomato cooking juices, in a simple round shallow metal oven tray. Homestyle Egyptian proportions, no cheese, no pasta.",
+      "accepted": true
+    },
+    {
+      "id": "pigeon-stuffed-rice",
+      "source": "output/imagegen/pigeon-stuffed-rice.png",
+      "sourceSha256": "e5794c18cd2cbf4c482fc416ed5d1832ff9f3b563b21312745894b04ebac21e6",
+      "reviewedAt": "2026-10-01T17:34:49.078Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian hamam mahshi bel rozz, small roasted stuffed pigeon, much smaller than chicken, browned plump skin with slender pigeon legs and tucked wings, on a plain oval plate. One pigeon neatly cut across torso to reveal cooked short-grain white rice filling, a second small whole stuffed pigeon behind. No couscous, no freekeh, no large chicken.",
+      "accepted": true
+    },
+    {
+      "id": "pigeon-stuffed-freekeh",
+      "source": "output/imagegen/pigeon-stuffed-freekeh.png",
+      "sourceSha256": "cafe6ab210c1b2b0c53966172f02e9674437910b3d49645aebbcf4b211385883",
+      "reviewedAt": "2026-10-01T17:38:24.518Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian hamam mahshi bel ferik: two small browned roasted stuffed pigeons with narrow legs and tucked wings in a shallow Egyptian terracotta serving dish. Foreground pigeon cut open to clearly reveal cooked freekeh green-brown cracked wheat grains, naturally moist coarse wheat texture. No white rice, no couscous, no large chicken.",
+      "accepted": true
+    },
+    {
+      "id": "beef-onion-tagine",
+      "source": "output/imagegen/beef-onion-tagine.png",
+      "sourceSha256": "ee7264af085ed60d83bed6d23cc8a7c516098673fc3e83d860207914b19dfdc5",
+      "reviewedAt": "2026-10-01T17:44:59.860Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian lahma bel basal casserole: tender irregular beef chunks braised with lots of softened sliced onions in rich brown cooking juices, in a simple open shallow Egyptian clay oven casserole. Egyptian flat clay pot, no Moroccan conical lid, no couscous, no dried fruit.",
+      "accepted": true
+    },
+    {
+      "id": "trotters-soup",
+      "source": "output/imagegen/trotters-soup.png",
+      "sourceSha256": "9a63c1585d359a34551713d69a5ab2b7e3a6f2016370e12b296db5d12cb3122c",
+      "reviewedAt": "2026-10-01T17:56:18.092Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian kawarea soup made with cleaned boiled cow feet, show a deep bowl of pale clear broth with two small irregular cooked beef FOOT ankle-joint pieces. Off-white joint cartilage, pale creamy translucent gelatinous skin folded around small knuckle bones, mostly skin and tendons, almost no red or brown muscle. NOT cylindrical beef shank, NOT marrow bone rings, NOT oxtail, no raw hoof exterior, no noodles. Warm Egyptian kitchen photograph, simple bowl.",
+      "accepted": true
+    },
+    {
+      "id": "lamb-kabsa",
+      "source": "output/imagegen/lamb-kabsa.png",
+      "sourceSha256": "8350d6cd75dc455965dce14e3fdd0fa3fc6eaf0d65b555034181174027d4611e",
+      "reviewedAt": "2026-10-01T18:00:25.455Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Saudi-style lamb kabsa served in Egypt: bone-in cooked lamb chunks on fluffy long-grain basmati rice cooked with tomato and warm spices, natural warm reddish-gold rice, a few visible cardamom pods and a dried lime, broad simple serving platter. No chicken, no couscous, no elaborate garnish.",
+      "accepted": true
+    },
+    {
+      "id": "lamb-mandi",
+      "source": "output/imagegen/lamb-mandi.png",
+      "sourceSha256": "7ffad7acc03ba0e0a6df0cabd3111543d729206b8474413955eb8445b3deb9b9",
+      "reviewedAt": "2026-10-01T18:07:36.984Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Yemeni lamb mandi served in Egypt: tender roasted bone-in lamb portion with naturally browned exterior on fluffy long-grain basmati rice, mostly pale golden rice with a few yellow grains. Plain round metal platter, restrained presentation, no tomato-red kabsa sauce, no chicken, no couscous.",
+      "accepted": true
+    },
+    {
+      "id": "beef-shawarma-plate",
+      "source": "output/imagegen/beef-shawarma-plate.png",
+      "sourceSha256": "16939808066bd6fcfce27a976310ddf2bbc124e3d014f649630d3e54cb4bc528",
+      "reviewedAt": "2026-10-01T18:12:36.506Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Beef shawarma plate served in Egypt: thin irregular browned shaved beef strips, naturally cooked edges, on a simple white plate beside a small scoop of pale tahini sauce and sliced pickled cucumber. Beef shawarma meat is main subject, no sandwich, no chicken, no fries.",
+      "accepted": true
+    },
+    {
+      "id": "chicken-shawarma-sandwich",
+      "source": "output/imagegen/chicken-shawarma-sandwich.png",
+      "sourceSha256": "57d3de115a0486056dcb099ffe94098a8068150610889f40b2689803272a641c",
+      "reviewedAt": "2026-10-01T18:16:30.340Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Chicken shawarma sandwich popular in Egypt, Syrian-style thin flatbread wrap lightly toasted, cut diagonally in two showing thin shaved cooked chicken, modest garlic sauce and pickled cucumber inside. Plain ceramic plate, no beef, no hamburger bun, no printed wrapping.",
+      "accepted": true
+    },
+    {
+      "id": "homemade-burger-sandwich",
+      "source": "output/imagegen/homemade-burger-sandwich.png",
+      "sourceSha256": "f5c34fb6f1bd8b58c6e103b6ec9b7b7c1391aad8eb1018705f78612b9a09af28",
+      "reviewedAt": "2026-10-01T18:20:40.671Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Simple homemade beef burger sandwich: modest hand-shaped cooked beef patty in a plain soft bread bun, tomato slice, one lettuce leaf and little sauce. Homemade uneven patty texture, no cheese tower, no branded wrappers, on a plain kitchen plate.",
+      "accepted": true
+    },
+    {
+      "id": "taameya-sandwich-baladi",
+      "source": "output/imagegen/taameya-sandwich-baladi.png",
+      "sourceSha256": "ff08dc2a58eed9bc2486671c8d9f79f65c8bdd6c98338e9b4526e639794369b1",
+      "reviewedAt": "2026-10-01T18:25:16.422Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian taameya sandwich in round whole-wheat baladi bread: opened bread pocket showing two golden fried fava-bean taameya patties with visibly green herb interior, modest tomato slices and tahini. Rustic bran-speckled baladi bread, plain metal plate. Not chickpea falafel in a tortilla, no logos.",
+      "accepted": true
+    },
+    {
+      "id": "syrian-french-fries-sandwich",
+      "source": "output/imagegen/syrian-french-fries-sandwich.png",
+      "sourceSha256": "b2262acc2de1c0178c8b29803fa7322ab0644d2da6863645542f6c55fa05b96b",
+      "reviewedAt": "2026-10-01T18:33:36.158Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Syrian-style french fries sandwich popular in Egypt: thin toasted flatbread wrap cut in two, clearly showing golden french fries, a little pale garlic sauce and sliced pickles. Fries are the only main filling, no meat, no hamburger bun, no branding, plain plate.",
+      "accepted": true
+    },
+    {
+      "id": "savory-chicken-crepe",
+      "source": "output/imagegen/savory-chicken-crepe.png",
+      "sourceSha256": "c472857f5aca8794c62cb1dd74ffc981d61c1a389571cde61a5d4887c3397f4b",
+      "reviewedAt": "2026-10-01T18:37:46.772Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian savory chicken crepe, popular folded triangular street-food crepe: thin golden browned crepe folded in a large triangle on a plain plate, one opened edge revealing cooked chicken strips, modest melted cheese and green pepper. No sweet toppings, no burrito wrap, no logos.",
+      "accepted": true
+    },
+    {
+      "id": "traditional-pizza",
+      "source": "output/imagegen/traditional-pizza.png",
+      "sourceSha256": "72014325b841b53981737b2984626d8bd90a90ca4530eac0a3e9edb9c464738c",
+      "reviewedAt": "2026-10-01T18:42:27.163Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Traditional simple baked pizza: one medium round pizza with golden raised bread crust, red tomato sauce and melted mozzarella with a few simple olive slices. One slice slightly separated on a plain metal pizza tray. Realistic neutral Italian-origin presentation, no branding, no elaborate cheese pulls, no meat tower.",
+      "accepted": true
+    },
+    {
+      "id": "basbousa",
+      "source": "output/imagegen/basbousa.png",
+      "sourceSha256": "8bf2decd0af57cf71fba88ff60a039d66e684fbae70c3ed00e3dd3ff8638cb87",
+      "reviewedAt": "2026-10-01T18:51:11.090Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian basbousa semolina cake: neat golden square portions with coarse moist semolina crumb and glossy syrup surface, one peeled almond on each portion, on a simple brass-colored tray. Egyptian bakery appearance, no whipped cream, no pistachio overload, no generic sponge cake.",
+      "accepted": true
+    },
+    {
+      "id": "qataif",
+      "source": "output/imagegen/qataif.png",
+      "sourceSha256": "331284fda256b1f7f82e3efad6fd95bb4176d0a2ea35a9f1022445ee2b0e6410",
+      "reviewedAt": "2026-10-01T18:55:35.003Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian Ramadan qataif: small closed crescent-shaped stuffed pancakes fried golden brown and lightly coated in sugar syrup, naturally sealed crimped edges. One cut open showing chopped walnuts and coconut filling, simple plate. No open cream cones, no samosas, no croissants.",
+      "accepted": true
+    },
+    {
+      "id": "sweet-goulash-baklava",
+      "source": "output/imagegen/sweet-goulash-baklava.png",
+      "sourceSha256": "6371e4bd21f3e29464598bbce807bb6c24efcad02f321fccf0cc1f9250d78d8f",
+      "reviewedAt": "2026-10-01T18:59:55.332Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian sweet goulash pastry with nuts: golden rectangular pieces of many thin crisp filo layers with a restrained chopped walnut filling in the middle, lightly glazed with sugar syrup, on a simple silver tray. Egyptian homestyle filo pastry, no pistachio mountain, no savory meat pie.",
+      "accepted": true
+    },
+    {
+      "id": "om-ali",
+      "source": "output/imagegen/om-ali.png",
+      "sourceSha256": "e27c59109aa8d8afd9e9c2c7a9ea175da66a01b86db9a47fc8dfed09f3bf09a4",
+      "reviewedAt": "2026-10-01T19:04:47.412Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian Om Ali dessert in an individual shallow earthenware oven bowl: torn flaky pastry soaked in sweet milk, baked with a golden blistered cream surface, a few raisins and almond slivers visible, spoon exposing soft milky pastry inside. Homestyle Egyptian dessert, not oatmeal, no cinnamon sticks.",
+      "accepted": true
+    },
+    {
+      "id": "rice-pudding",
+      "source": "output/imagegen/rice-pudding.png",
+      "sourceSha256": "747350b02cca2d43239b75edbb1137a79b6cd780913f9d9745b6c8da71610aab",
+      "reviewedAt": "2026-10-01T19:13:45.896Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian roz bel laban rice pudding: individual glass bowl of thick creamy white milk pudding with visible small cooked rice grains, smooth lightly set top and one spoonful exposing rice texture. Very modest plain presentation, no fruit, no cinnamon sticks, not yogurt.",
+      "accepted": true
+    },
+    {
+      "id": "mahallabia",
+      "source": "output/imagegen/mahallabia.png",
+      "sourceSha256": "81285d3f162a80a8eb945f5bb938b6db41509ee81227b186af3efe29441d1a8a",
+      "reviewedAt": "2026-10-01T19:18:25.923Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian mahallabia milk pudding: smooth glossy ivory-white set milk pudding in a small individual ceramic dessert bowl, very light sprinkle of fine coconut on top, spoon on saucer. Completely smooth starch-thickened pudding, no rice grains, no fruit, no jelly.",
+      "accepted": true
+    },
+    {
+      "id": "creme-caramel",
+      "source": "output/imagegen/creme-caramel.png",
+      "sourceSha256": "5d0d46bd86f7d918aea4432c87305d2a6a2bfbd10f074eb8b45ca66fdddb7ba9",
+      "reviewedAt": "2026-10-01T19:23:22.499Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Classic creme caramel custard served in Egypt: one small inverted round pale yellow custard with smooth sides, amber caramel glaze on top and small pool of caramel sauce on plain white plate. No whipped cream, no fruit garnish, no burnt creme brulee.",
+      "accepted": true
+    },
+    {
+      "id": "ashura",
+      "source": "output/imagegen/ashura.png",
+      "sourceSha256": "a7963002e5b09013b37cfcd33c5500ecbb2d9f3c03eaf9bdf94beef4981e43df",
+      "reviewedAt": "2026-10-01T19:28:26.247Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian ashura dessert: thick creamy ivory milk pudding with visible plump cooked peeled wheat grains in a small glass dessert bowl, a modest sprinkle of coconut and crushed nuts, spoon exposing the large wheat grains. No chickpeas, no colorful Turkish dried-fruit porridge, no rice pudding.",
+      "accepted": true
+    },
+    {
+      "id": "kahk",
+      "source": "output/imagegen/kahk.png",
+      "sourceSha256": "76fa8bf2e331ecfd8c5713650b5c8802b142fcd8e25010eb73932f7c2ea1854e",
+      "reviewedAt": "2026-10-01T19:38:17.637Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian Eid kahk: small round pale golden crumbly cookies with gently stamped geometric tops, dusted with powdered sugar, a few on a plain silver tray. One broken cookie reveals dense crumb and small dark date-paste center. No icing, no Western sandwich cookies.",
+      "accepted": true
+    },
+    {
+      "id": "ghorayeba",
+      "source": "output/imagegen/ghorayeba.png",
+      "sourceSha256": "3f55048146e9e82820fda52ce73a19cad89f04aa9e1fc42a567b6a59816f8c68",
+      "reviewedAt": "2026-10-01T19:43:36.719Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian ghorayeba cookies: pale ivory small round buttery shortbread cookies, smooth slightly flattened domes, each with one small pistachio or almond gently pressed in the center. Plain cream plate, delicate crumb, no sugar dusting, no date filling, no browned kahk pattern.",
+      "accepted": true
+    },
+    {
+      "id": "petit-four",
+      "source": "output/imagegen/petit-four.png",
+      "sourceSha256": "12230e3d395beda6cfcfa8d5abe0f0f3187112bbdba16a8194d79bc79b6bb17a",
+      "reviewedAt": "2026-10-01T19:48:52.019Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian Eid petit four butter biscuits: small piped ridged vanilla and cocoa butter cookies, a few paired with a thin jam filling and one end dipped in chocolate, neatly arranged on simple tray. Cookie scale, not French miniature frosted cakes, no text, no branding.",
+      "accepted": true
+    },
+    {
+      "id": "sponge-cake",
+      "source": "output/imagegen/sponge-cake.png",
+      "sourceSha256": "a1a6999862ea26758285d3ed8093c5d95d7cc6b240aad52e8e1d8bb3608707a4",
+      "reviewedAt": "2026-10-01T19:54:18.091Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Plain homemade vanilla sponge cake: two modest cut slices from a simple round golden cake on a cream plate, airy pale yellow crumb with fine natural pores and golden baked crust. No frosting, no cream, no fruit, no chocolate, realistic kitchen photograph.",
+      "accepted": true
+    },
+    {
+      "id": "donuts",
+      "source": "output/imagegen/donuts.png",
+      "sourceSha256": "68f8b42421062c4cb9cf8acf91e2aa2ccad57c7564013d266097995f66d0f9c5",
+      "reviewedAt": "2026-10-01T20:03:55.155Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Three ordinary ring doughnuts in a shallow ceramic plate, golden fried dough with a light plain sugar glaze, one cut edge showing soft airy crumb. No colorful toppings, no sprinkles, no fake branding or packaging.",
+      "accepted": true
+    },
+    {
+      "id": "waffles-pancakes",
+      "source": "output/imagegen/waffles-pancakes.png",
+      "sourceSha256": "d1f582722cf8e943e64657c138a9b7ccd55fe7f4e05294bc068d48452cc662f7",
+      "reviewedAt": "2026-10-01T20:09:09.939Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: One plain Belgian-style waffle on a simple cream plate, golden baked square grid with realistic airy texture, a little syrup in the recesses, one small broken edge showing soft interior. This single waffle represents the waffle/pancake food category. No other foods, no collage, no berries, no branding.",
+      "accepted": true
+    },
+    {
+      "id": "fruit-jelly",
+      "source": "output/imagegen/fruit-jelly.png",
+      "sourceSha256": "b8762a6f9ba4ba0a1a1a9c93e6f7f6bfd771adb41bdcad3060758a4d57f2f5b2",
+      "reviewedAt": "2026-10-01T20:14:33.675Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Simple fruit-flavored jelly dessert: clear glass individual bowl with set translucent ruby-red gelatin jelly, a spoonful showing its smooth wobbling texture, no fresh fruit garnish, no cream, no candy cubes, no packaging or text.",
+      "accepted": true
+    },
+    {
+      "id": "commercial-jam",
+      "source": "output/imagegen/commercial-jam.png",
+      "sourceSha256": "a065d435b56bc774a5fbbe9e1f0999b6a5433a2379c2d659c7e7aa27a81c2e36",
+      "reviewedAt": "2026-10-01T20:23:02.656Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic commercial strawberry jam, small open clear glass jar with absolutely no label or text, thick red jam with tiny fruit pieces visible, simple spoon resting beside jar with a small scoop of jam. No branded packaging, no fresh strawberry pile, no bread.",
+      "accepted": true
+    },
+    {
+      "id": "black-honey-molasses",
+      "source": "output/imagegen/black-honey-molasses.png",
+      "sourceSha256": "2498b6df8e476559c568228c1c55c6effb987f225b6a79ebc838240ebb564afa",
+      "reviewedAt": "2026-10-01T20:23:37.547Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian black sugarcane molasses (asal eswed), thick very dark brown glossy syrup in a small simple earthenware bowl, metal spoon lifting a slow dark ribbon of molasses, warm rustic Egyptian table. No bees, honeycomb, date fruits, jars with labels, or bread.",
+      "accepted": true
+    },
+    {
+      "id": "rock-sea-salt",
+      "source": "output/imagegen/rock-sea-salt.png",
+      "sourceSha256": "5f61e3a0d9e527c9df7f8de2dab99b23595b7b36c8623c25bcf47a731d5510c5",
+      "reviewedAt": "2026-10-01T20:24:16.604Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural coarse white sea salt crystals, irregular translucent grains in a small wooden bowl with a little spilled salt, neutral warm tabletop, tight food photography. No pink Himalayan salt, no herbs, no label.",
+      "accepted": true
+    },
+    {
+      "id": "apple-cider-vinegar",
+      "source": "output/imagegen/apple-cider-vinegar.png",
+      "sourceSha256": "cb4b4479208e1b4ce95ac91bbb0272780eb6efe55f7e5181c2db7e1534828908",
+      "reviewedAt": "2026-10-01T20:25:26.660Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Unlabelled clear glass bottle of cloudy amber apple cider vinegar beside a tiny shallow ceramic tasting bowl containing the vinegar, one apple subtly blurred in background for ingredient context. Vinegar liquid thin and translucent, no oil, no packaging text.",
+      "accepted": true
+    },
+    {
+      "id": "commercial-mayonnaise",
+      "source": "output/imagegen/commercial-mayonnaise.png",
+      "sourceSha256": "303a315ea6c2bcb223fa385e2d91cd9051604a150bc8363e53e0305682db72c5",
+      "reviewedAt": "2026-10-01T20:26:23.004Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic mayonnaise in a small open completely unlabelled glass jar, thick smooth ivory cream with spoon and natural swirl, clean warm tabletop. No egg dish, no salad, no fake packaging writing.",
+      "accepted": true
+    },
+    {
+      "id": "commercial-ketchup",
+      "source": "output/imagegen/commercial-ketchup.png",
+      "sourceSha256": "fbdd0d73c3dd376c42be63413baccd1c065548e26dcb68ecf3e62b51c67c3fdb",
+      "reviewedAt": "2026-10-01T20:27:17.322Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic smooth bright red tomato ketchup in a small white ceramic dipping bowl, spoon creating thick rounded swirl, completely unbranded, warm natural tabletop, subtle whole tomato blurred far behind. No fries, no pasta sauce chunks, no printed packaging.",
+      "accepted": true
+    },
+    {
+      "id": "commercial-mustard",
+      "source": "output/imagegen/commercial-mustard.png",
+      "sourceSha256": "497ed2a7f0829148960bf389375e03ef1b66ab953c77230fcf8991f302108771",
+      "reviewedAt": "2026-10-01T20:28:19.192Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic prepared yellow mustard condiment, thick ochre-yellow creamy mustard in a small neutral ceramic ramekin beside a wooden spreading knife with a little mustard on its blade. No seeds pile, no labelled bottle, no sandwich.",
+      "accepted": true
+    },
+    {
+      "id": "canned-tomato-paste",
+      "source": "output/imagegen/canned-tomato-paste.png",
+      "sourceSha256": "1853374d55d336b914db001a45dfefafc4d5077fffcd5be48b082a77767573c0",
+      "reviewedAt": "2026-10-01T20:30:01.298Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic canned concentrated tomato paste, open plain silver tin without any label, thick deep brick-red tomato paste scooped with a spoon, paste visibly dense and matte rather than fluid ketchup. Warm kitchen tabletop, no printed text.",
+      "accepted": true
+    },
+    {
+      "id": "barbecue-sauce",
+      "source": "output/imagegen/barbecue-sauce.png",
+      "sourceSha256": "e2afbe071a77fa5fe357a37520bb698ccbd1b355584c24621dd7a57e57d3e8d4",
+      "reviewedAt": "2026-10-01T20:31:12.064Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic barbecue sauce, glossy thick dark reddish-brown sauce in a small charcoal ceramic bowl, spoon with a scoop of sauce on warm wooden table. No meat, no branding, no grill, no ketchup-red color.",
+      "accepted": true
+    },
+    {
+      "id": "commercial-hot-sauce",
+      "source": "output/imagegen/commercial-hot-sauce.png",
+      "sourceSha256": "c553cd46ebc9050a6ab6bf361d4dd26c2d119be5136e53a460fd17628aa1dc40",
+      "reviewedAt": "2026-10-01T20:32:21.495Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic bottled red chili hot sauce, thin orange-red sauce in an entirely unlabelled clear glass bottle with simple dark cap beside a tiny ceramic dipping bowl and two red chili peppers. No branding or writing, no thick tomato paste.",
+      "accepted": true
+    },
+    {
+      "id": "soy-sauce",
+      "source": "output/imagegen/soy-sauce.png",
+      "sourceSha256": "4f016b037944ff61177102885e938fd8e7bf12a2bed99720b229f1a5e8b176fd",
+      "reviewedAt": "2026-10-01T20:33:37.362Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Dark thin soy sauce in small traditional simple Asian ceramic dipping dish, plain unlabelled clear glass sauce bottle beside it, rich dark brown reflective liquid with amber edges, neutral warm tabletop. No sushi, no molasses thickness, no writing.",
+      "accepted": true
+    },
+    {
+      "id": "mixed-pickles-torshi",
+      "source": "output/imagegen/mixed-pickles-torshi.png",
+      "sourceSha256": "206806578e884cb6ef373a0c886218b3639986cdcc31be2871716fb8309dc508",
+      "reviewedAt": "2026-10-01T20:36:12.952Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian torshi mixed pickles on a small everyday ceramic plate: pickled carrot batons, turnip chunks, small green cucumbers and green chili peppers, brine sheen, familiar Egyptian casual table presentation. No salad lettuce, no olives as main subject, no couscous, no text.",
+      "accepted": true
+    },
+    {
+      "id": "pickled-cucumbers-homemade",
+      "source": "output/imagegen/pickled-cucumbers-homemade.png",
+      "sourceSha256": "3c275c01df53d33cf8972a7eed363a9b59603499b1fbd6c92c3ca0f01be14e25",
+      "reviewedAt": "2026-10-01T20:37:51.930Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Homemade Egyptian pickled small cucumbers in a simple unlabelled open clear glass jar with clear brine; several olive-green whole cucumbers and one sliced cucumber on small plate in foreground, naturally cured not fresh bright green. Warm Egyptian kitchen tabletop, no mixed vegetables.",
+      "accepted": true
+    },
+    {
+      "id": "pickled-olives-natural",
+      "source": "output/imagegen/pickled-olives-natural.png",
+      "sourceSha256": "59e5c8ecc688eb51b40f0a8f9849e906379f6af059d6ed6afb83c2b8fd813425",
+      "reviewedAt": "2026-10-01T20:39:20.532Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Naturally brine-cured whole green and dark purple olives, small earthy ceramic bowl on warm simple Egyptian table, natural wrinkled skins and light brine sheen, no stuffing, no oil bottle, no labels.",
+      "accepted": true
+    },
+    {
+      "id": "instant-soup-packets",
+      "source": "output/imagegen/instant-soup-packets.png",
+      "sourceSha256": "a79c81650527c551ddf864bb51394a5c454ae0812ececa440104e3a313b773d6",
+      "reviewedAt": "2026-10-01T20:40:51.919Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic instant powdered soup product, ONE plain matte beige paper sachet opened beside a ceramic bowl of reconstituted creamy vegetable soup with a few small dried vegetable pieces and spoon; small pile dry soup powder next to sachet. All packaging completely blank, no brand or writing, realistic packaged food category.",
+      "accepted": true
+    },
+    {
+      "id": "microwave-popcorn",
+      "source": "output/imagegen/microwave-popcorn.png",
+      "sourceSha256": "362a7bbfb0d38391df0f960af955393a3356fb193c8311a139bce0bd09b030a6",
+      "reviewedAt": "2026-10-01T20:43:31.945Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic microwave popcorn, freshly popped white-yellow popcorn spilling from an opened plain brown microwave paper bag, small simple bowl of the same popcorn alongside, authentic crumpled bag construction with absolutely no writing or branding. No cinema bucket, no caramel coating.",
+      "accepted": true
+    },
+    {
+      "id": "digestive-diet-biscuits",
+      "source": "output/imagegen/digestive-diet-biscuits.png",
+      "sourceSha256": "a2fcce4a0fdb950fc4a00e30a221fbec1b02297785e7ec45d4915babbd6c0f2a",
+      "reviewedAt": "2026-10-01T20:45:10.100Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic round wholewheat digestive biscuits, golden-brown coarse grain texture and simple pinhole pattern, three biscuits stacked and one broken showing crumb, plain blank paper wrapper beside them. Absolutely no embossed words or letters, no health symbols, no chocolate coating.",
+      "accepted": true
+    },
+    {
+      "id": "protein-bars",
+      "source": "output/imagegen/protein-bars.png",
+      "sourceSha256": "c29101ea00b6a4ba377c439ff506366e680535cb8dcbad2730d890ad0eaae870",
+      "reviewedAt": "2026-10-01T20:47:00.274Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic commercially made protein snack bar, dense rectangular chocolate coated bar partly unwrapped from completely blank silver foil, one neatly cut half showing compressed beige grain/protein interior with a few nuts, warm natural tabletop. No lettering, no gym equipment, no health claim or fresh dessert.",
+      "accepted": true
+    },
+    {
+      "id": "granola-packaged",
+      "source": "output/imagegen/granola-packaged.png",
+      "sourceSha256": "4300e9e51c7bc8561058dc7a629eb768a547354625e00d57770ac827c9a1a89c",
+      "reviewedAt": "2026-10-01T20:48:49.588Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic packaged toasted granola, golden toasted oat clusters with a few raisins and nuts, shallow cereal bowl beside opened completely blank kraft bag, dry crunchy cereal accurately photographed. No milk or yogurt, no fresh fruit bowl, no lettering.",
+      "accepted": true
+    },
+    {
+      "id": "fruit-yogurt-commercial",
+      "source": "output/imagegen/fruit-yogurt-commercial.png",
+      "sourceSha256": "cb4e0327de8fba4207b9e1c05afbf8cca3a366f9bbf061ff99a8f65b4c328a7c",
+      "reviewedAt": "2026-10-01T20:52:07.125Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic commercial strawberry fruit yogurt in a small plain white plastic yogurt pot with foil lid peeled back, pale pink smooth yogurt with small strawberry fruit pieces visible on a spoon, completely blank packaging, no lettering. Warm tabletop, not ice cream or fresh fruit parfait.",
+      "accepted": true
+    },
+    {
+      "id": "packaged-commercial-juice",
+      "source": "output/imagegen/packaged-commercial-juice.png",
+      "sourceSha256": "e22f04bf1407120b5bdea8ac0458803ceda32976a7fe8ed85990061e326e31ed",
+      "reviewedAt": "2026-10-01T20:54:01.706Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic packaged commercial fruit juice, plain blank unbranded rectangular juice carton with white screw cap beside a glass of orange-colored juice, realistic grocery product geometry on warm kitchen table. Absolutely no writing, fruit graphics or logos, no freshly squeezed fruit setup.",
+      "accepted": true
+    },
+    {
+      "id": "powdered-drink-mix",
+      "source": "output/imagegen/powdered-drink-mix.png",
+      "sourceSha256": "b536769d320106bb8f908d068a0c92a7fa84ce219d371220cf93a8468ffbbe82",
+      "reviewedAt": "2026-10-01T20:55:55.471Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic orange-flavored powdered drink mix, open completely blank small foil sachet beside a neat mound of fine pale orange powder and one glass of reconstituted bright orange drink. Realistic powdered grocery product, no fresh fruit pile, no logos or words.",
+      "accepted": true
+    },
+    {
+      "id": "frozen-chicken-nuggets",
+      "source": "output/imagegen/frozen-chicken-nuggets.png",
+      "sourceSha256": "44329219d661d1cdcc19e13f6a084304df435f6d5c190c7dc0901e121b62ded0",
+      "reviewedAt": "2026-10-01T20:59:36.187Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic frozen breaded chicken nuggets ready for frying, small irregular rounded nugget shapes with pale beige crumb coating and light visible frost crystals on a simple plain tray beside partly open clear freezer bag without labels. Uncooked frozen product, no golden cooked crust, no sauce, no cartoon shapes.",
+      "accepted": true
+    },
+    {
+      "id": "frozen-chicken-pane",
+      "source": "output/imagegen/frozen-chicken-pane.png",
+      "sourceSha256": "6330392e119895c8fd374607b86e0494deb531b714405a6854020a107c032353",
+      "reviewedAt": "2026-10-01T21:01:36.323Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian commercial frozen chicken pane ready to fry, thin broad flattened chicken breast cutlets coated in pale fine beige breadcrumbs, visible delicate frost, three cutlets on plain tray beside completely blank clear freezer bag. Uncooked frozen cutlets, no narrow strips, no fried golden crust, no sauce.",
+      "accepted": true
+    },
+    {
+      "id": "frozen-commercial-burger",
+      "source": "output/imagegen/frozen-commercial-burger.png",
+      "sourceSha256": "929532ee1c78ea3ae0db5126eb48392f088599a6768a6c80b07d846501d483e1",
+      "reviewedAt": "2026-10-01T21:03:40.595Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic frozen commercial beef burger patties ready for cooking, three flat round raw pink-brown finely ground meat patties separated by white wax paper, light visible frost crystals, simple metal tray and blank clear freezer bag. No buns, no cooked grill marks, no vegetables, no writing.",
+      "accepted": true
+    },
+    {
+      "id": "frozen-commercial-sausage",
+      "source": "output/imagegen/frozen-commercial-sausage.png",
+      "sourceSha256": "cb5ececb64270290abcbf54241b6c4bf043bad0caabd7d9dd33576150bf849be",
+      "reviewedAt": "2026-10-01T21:07:53.642Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic commercial frozen beef sausages ready to cook, several short cylindrical pinkish-brown smooth sausage links with slightly pinched casing ends and light frost on a plain metal tray beside completely blank clear freezer bag. Uncooked product, no pork, no grilled marks, no bread, no labels.",
+      "accepted": true
+    },
+    {
+      "id": "fast-food-burger",
+      "source": "output/imagegen/fast-food-burger.png",
+      "sourceSha256": "f4bcda841a616e96968f0a19551be8c1b9691c580985d08d7fee71d9031ba886",
+      "reviewedAt": "2026-10-01T21:10:08.368Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic fast-food beef cheeseburger, familiar compact sesame bun with thin cooked beef patty, melted yellow cheese, shredded lettuce, sliced pickles and modest ketchup, plain unbranded paper wrapper on simple tray. Believable standard takeaway burger, not towering gourmet burger, no logos, no fries.",
+      "accepted": true
+    },
+    {
+      "id": "fast-food-chicken-burger",
+      "source": "output/imagegen/fast-food-chicken-burger.png",
+      "sourceSha256": "b0b63bdbdfbf520718fc1b8229dab3d4571cc51a1a35e9212d48754602f7a1e8",
+      "reviewedAt": "2026-10-01T21:12:28.342Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic takeaway crispy chicken burger, compact sesame bun enclosing one golden breaded chicken breast fillet, shredded lettuce and mayonnaise, plain blank paper wrapper on neutral tray. Realistic modest fast-food serving, visible crisp crumb coating distinct from beef patty, no logos, no fries.",
+      "accepted": true
+    },
+    {
+      "id": "fried-broasted-chicken",
+      "source": "output/imagegen/fried-broasted-chicken.png",
+      "sourceSha256": "0e0146a38314461bd5c864ccdfdfc9f181089e9896c9d578d469fa1aa6c38b0b",
+      "reviewedAt": "2026-10-01T21:14:49.781Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Egyptian takeaway broasted fried chicken, familiar bone-in drumstick and thigh and breast pieces with craggy golden crisp breading, modest serving on plain unbranded tray lined with blank white paper. Clearly bone-in fried chicken, no nuggets or boneless strips, no logos or branded bucket.",
+      "accepted": true
+    },
+    {
+      "id": "chicken-strips",
+      "source": "output/imagegen/chicken-strips.png",
+      "sourceSha256": "5421a9eee459494176d62679f854fd192ce6295165c8c805e9b5d7b5193070cf",
+      "reviewedAt": "2026-10-01T21:19:18.373Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic cooked takeaway chicken strips, four long boneless chicken breast strips with golden craggy fried breading in simple blank cardboard tray, one strip cut showing clean white chicken meat interior. No bone-in pieces, no nuggets, no bun, no logos or text.",
+      "accepted": true
+    },
+    {
+      "id": "fast-food-crepe",
+      "source": "output/imagegen/fast-food-crepe.png",
+      "sourceSha256": "138aea77aade21e573f2a42bc90b9b44a5f34c99e07d00116f05c68bc4d1279e",
+      "reviewedAt": "2026-10-01T21:21:47.920Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Authentic Egyptian takeaway savory fast-food crepe, large golden thin crepe folded into triangular cone filled with fried chicken strips, french fries, melted cheese and modest sauce; one open cut edge showing filling, plain unbranded cardboard tray. Egyptian street-food preparation, no sweet fruit, no pancake stack, no text.",
+      "accepted": true
+    },
+    {
+      "id": "spirulina",
+      "source": "output/imagegen/spirulina.png",
+      "sourceSha256": "ef5bb1156253c5aea7026e45af5416609359e43dca8367d942c372f1e0c2da63",
+      "reviewedAt": "2026-10-01T21:24:25.757Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic spirulina food supplement in powdered form, small shallow white ceramic bowl of fine deep blue-green spirulina powder with a plain wooden measuring spoon holding the powder, neutral warm tabletop. No health symbols, no claims, no labels, no green leafy herbs, no smoothie.",
+      "accepted": true
+    },
+    {
+      "id": "apple-cider-gummies",
+      "source": "output/imagegen/apple-cider-gummies.png",
+      "sourceSha256": "09a8db8bc056e800f79cc17c29e34d68b4fd5182bc14a2b6265dc7bf6c1bd883",
+      "reviewedAt": "2026-10-01T21:27:00.257Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Generic apple cider vinegar gelatin gummy supplement, several small translucent amber-red rounded cube gummies in a shallow neutral ceramic dish beside a small open clear glass jar with absolutely no label, realistic chewy gelatin candies, no sugar coating, no health symbols, no fruit pile, no logos or writing.",
       "accepted": true
     }
   ]

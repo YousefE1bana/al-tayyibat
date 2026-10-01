@@ -5548,6 +5548,7 @@ export const foods: Food[] = [
   {
     id: "natural-mozzarella",
     slug: "natural-mozzarella",
+    image: "/images/foods/natural-mozzarella.jpg",
     name: "جبنة موتزاريلا طبيعية 100% من حليب بقري أو جاموسي",
     aliases: ["موتزاريلا", "الموتزاريلا", "موزاريلا", "موتزاريلا طبيعي", "جبنة موتزاريلا", "موزاريلا طبيعية", "جبن موتزاريلا"],
     categoryId: "dairy",
@@ -5571,6 +5572,7 @@ export const foods: Food[] = [
   {
     id: "cream-cheese-spread",
     slug: "cream-cheese-spread",
+    image: "/images/foods/cream-cheese-spread.jpg",
     name: "الجبنة الكريمي الطبيعية القابلة للدهن",
     aliases: ["جبنة كريمي", "جبن كريمي", "كريم تشيز", "جبنة برطمانات كيري"],
     categoryId: "dairy",
@@ -5594,6 +5596,7 @@ export const foods: Food[] = [
   {
     id: "vegetable-fat-cheese",
     slug: "vegetable-fat-cheese",
+    image: "/images/foods/vegetable-fat-cheese.jpg",
     name: "الأجبان البيضاء والصفراء المهدرجة نباتية الدهن",
     aliases: ["جبنة نباتي الدهن", "جبن بدهن نباتي", "جبنة بيضاء نباتي", "موتزاريلا نباتي الدهن"],
     categoryId: "processed",
@@ -5617,6 +5620,7 @@ export const foods: Food[] = [
   {
     id: "beef-tallow-wadak",
     slug: "beef-tallow-wadak",
+    image: "/images/foods/beef-tallow-wadak.jpg",
     name: "شحم ودهن الكلى البقري والودك المذاب",
     aliases: ["شحم بقري", "الودك", "ودك", "دهن كلى", "دهن بقري", "شحم الجاموس"],
     categoryId: "fats",
@@ -5640,6 +5644,7 @@ export const foods: Food[] = [
   {
     id: "extra-virgin-olive-oil",
     slug: "extra-virgin-olive-oil",
+    image: "/images/foods/extra-virgin-olive-oil.jpg",
     name: "زيت الزيتون البكر الممتاز المعصور على البارد",
     aliases: ["زيت زيتون بكر ممتاز", "زيت زيتون معصور ع البارد", "اكسترا فيرجن", "زيت زيتون عضوي"],
     categoryId: "fats",
@@ -5663,6 +5668,7 @@ export const foods: Food[] = [
   {
     id: "cold-pressed-sesame-oil",
     slug: "cold-pressed-sesame-oil",
+    image: "/images/foods/cold-pressed-sesame-oil.jpg",
     name: "زيت السمسم النقي المعصور على البارد",
     aliases: ["زيت سمسم", "زيت السمسم", "زيت سيرج", "السيرج", "زيت سمسم بكر"],
     categoryId: "fats",
@@ -5686,6 +5692,7 @@ export const foods: Food[] = [
   {
     id: "virgin-coconut-oil",
     slug: "virgin-coconut-oil",
+    image: "/images/foods/virgin-coconut-oil.jpg",
     name: "زيت جوز الهند البكر العضوي",
     aliases: ["زيت جوز هند", "زيت جوز الهند", "زيت جوز الهند البكر", "دهن جوز الهند"],
     categoryId: "fats",
@@ -5709,6 +5716,7 @@ export const foods: Food[] = [
   {
     id: "corn-oil",
     slug: "corn-oil",
+    image: "/images/foods/corn-oil.jpg",
     name: "زيت الذرة التجاري المكرر",
     aliases: ["زيت ذرة", "زيت الذرة", "زيت كريستال ذرة", "زيت عافيه ذرة"],
     categoryId: "fats",
@@ -5732,6 +5740,7 @@ export const foods: Food[] = [
   {
     id: "soybean-oil",
     slug: "soybean-oil",
+    image: "/images/foods/soybean-oil.jpg",
     name: "زيت الصويا التجاري المكرر",
     aliases: ["زيت صويا", "زيت فول صويا", "زيت الصويا", "زيت خليط"],
     categoryId: "fats",
@@ -5755,6 +5764,7 @@ export const foods: Food[] = [
   {
     id: "canola-oil",
     slug: "canola-oil",
+    image: "/images/foods/canola-oil.jpg",
     name: "زيت الكانولا وبذور اللفت المكرر",
     aliases: ["زيت كانولا", "زيت الكانولا", "زيت لفت", "كانولا"],
     categoryId: "fats",
@@ -5778,6 +5788,7 @@ export const foods: Food[] = [
   {
     id: "refined-palm-oil",
     slug: "refined-palm-oil",
+    image: "/images/foods/refined-palm-oil.jpg",
     name: "زيت النخيل وزيت أولين النخيل المكرر",
     aliases: ["زيت نخيل", "زيت النخيل", "اولين النخيل", "دهن النخيل المكرر"],
     categoryId: "fats",
@@ -5801,6 +5812,7 @@ export const foods: Food[] = [
   {
     id: "peanut-oil",
     slug: "peanut-oil",
+    image: "/images/foods/peanut-oil.jpg",
     name: "زيت الفول السوداني المكرر",
     aliases: ["زيت فول سوداني", "زيت سوداني", "زيت الفول السوداني"],
     categoryId: "fats",
@@ -5824,6 +5836,7 @@ export const foods: Food[] = [
   {
     id: "vegetable-shortening",
     slug: "vegetable-shortening",
+    image: "/images/foods/vegetable-shortening.jpg",
     name: "السمن النباتي المهدرج المصنع (المارجرين)",
     aliases: ["سمن نباتي", "سمن صناعي", "مارجرين", "شورتنينج", "روابي", "كريستال سمن", "جنة سمن"],
     categoryId: "fats",
@@ -5847,6 +5860,7 @@ export const foods: Food[] = [
   {
     id: "peeled-almonds",
     slug: "peeled-almonds",
+    image: "/images/foods/peeled-almonds.jpg",
     name: "اللوز الحلو المقشر المبيض",
     aliases: ["لوز", "اللوز", "لوز مقشر", "اللوز المقشر", "لوز مبيض", "لوز حلو", "حليب اللوز النقي"],
     categoryId: "nuts",
@@ -5870,6 +5884,7 @@ export const foods: Food[] = [
   {
     id: "walnuts",
     slug: "walnuts",
+    image: "/images/foods/walnuts.jpg",
     name: "عين الجمل / الجوز الطبيعي غير المحمص",
     aliases: ["عين جمل", "عين الجمل", "جوز", "الجوز", "عين جمل نيء"],
     categoryId: "nuts",
@@ -5893,6 +5908,7 @@ export const foods: Food[] = [
   {
     id: "hazelnuts",
     slug: "hazelnuts",
+    image: "/images/foods/hazelnuts.jpg",
     name: "البندق الطبيعي المقشر",
     aliases: ["بندق", "البندق", "بندق مقشر", "بندق نيء", "بندق محمص خفيف"],
     categoryId: "nuts",
@@ -5916,6 +5932,7 @@ export const foods: Food[] = [
   {
     id: "pistachios",
     slug: "pistachios",
+    image: "/images/foods/pistachios.jpg",
     name: "الفستق الحلبي المقشر الطبيعي",
     aliases: ["فستق", "الفستق", "فستق حلبي", "فستق مقشر", "فستق نيء"],
     categoryId: "nuts",
@@ -5939,6 +5956,7 @@ export const foods: Food[] = [
   {
     id: "cashews",
     slug: "cashews",
+    image: "/images/foods/cashews.jpg",
     name: "الكاجو الطبيعي غير المملح",
     aliases: ["كاجو", "الكاجو", "كاجو نيء", "كاجو محمص"],
     categoryId: "nuts",
@@ -5962,6 +5980,7 @@ export const foods: Food[] = [
   {
     id: "grated-coconut",
     slug: "grated-coconut",
+    image: "/images/foods/grated-coconut.jpg",
     name: "مبشور جوز الهند الطبيعي المجفف",
     aliases: ["جوز هند مبشور", "مبشور جوز الهند", "جوز هند مجفف", "جوز هند خشن"],
     categoryId: "nuts",
@@ -5985,6 +6004,7 @@ export const foods: Food[] = [
   {
     id: "macadamia-nuts",
     slug: "macadamia-nuts",
+    image: "/images/foods/macadamia-nuts.jpg",
     name: "مكسرات المكاديميا الطبيعية",
     aliases: ["مكاديميا", "المكاديميا", "جوز المكاديميا"],
     categoryId: "nuts",
@@ -6008,6 +6028,7 @@ export const foods: Food[] = [
   {
     id: "sesame-seeds",
     slug: "sesame-seeds",
+    image: "/images/foods/sesame-seeds.jpg",
     name: "السمسم الأبيض المقشر والمحمص خفيفًا",
     aliases: ["سمسم", "السمسم", "سمسم ابيض", "سمسم محمص", "بذور السمسم"],
     categoryId: "nuts",
@@ -6031,6 +6052,7 @@ export const foods: Food[] = [
   {
     id: "flaxseeds",
     slug: "flaxseeds",
+    image: "/images/foods/flaxseeds.jpg",
     name: "بذور الكتان البنية والذهبية المطحونة طازجة",
     aliases: ["بذور كتان", "بذور الكتان", "كتان مطحون", "حبوب الكتان"],
     categoryId: "nuts",
@@ -6054,6 +6076,7 @@ export const foods: Food[] = [
   {
     id: "chia-seeds",
     slug: "chia-seeds",
+    image: "/images/foods/chia-seeds.jpg",
     name: "بذور الشيا الكاملة المنقوعة",
     aliases: ["بذور شيا", "بذور الشيا", "شيا", "حبوب الشيا"],
     categoryId: "nuts",
@@ -6077,6 +6100,7 @@ export const foods: Food[] = [
   {
     id: "sunflower-seeds",
     slug: "sunflower-seeds",
+    image: "/images/foods/sunflower-seeds.jpg",
     name: "بذور دوار الشمس (اللب السوري المحمص خفيفًا)",
     aliases: ["لب سوري", "اللب السوري", "بذور دوار الشمس", "بزر دوار الشمس", "لب عباد"],
     categoryId: "nuts",
@@ -6100,6 +6124,7 @@ export const foods: Food[] = [
   {
     id: "pumpkin-seeds",
     slug: "pumpkin-seeds",
+    image: "/images/foods/pumpkin-seeds.jpg",
     name: "بذور قرع العسل (اللب الأبيض النقي)",
     aliases: ["لب ابيض", "اللب الابيض", "بذور القرع", "حب القرع", "بذور اليقطين"],
     categoryId: "nuts",
@@ -6123,6 +6148,7 @@ export const foods: Food[] = [
   {
     id: "black-seed",
     slug: "black-seed",
+    image: "/images/foods/black-seed.jpg",
     name: "حبة البركة / الحبة السوداء الطبيعية",
     aliases: ["حبة البركة", "الحبة السوداء", "السانوج", "الحبة السودة", "بذور حبة البركة"],
     categoryId: "nuts",
@@ -6146,6 +6172,7 @@ export const foods: Food[] = [
   {
     id: "prickly-pear",
     slug: "prickly-pear",
+    image: "/images/foods/prickly-pear.jpg",
     name: "التين الشوكي البلدي المقشر",
     aliases: ["تين شوكي", "التين الشوكي", "صبار", "تين شوكي مقشر", "برشومي"],
     categoryId: "fruits",
@@ -6196,6 +6223,7 @@ export const foods: Food[] = [
   {
     id: "peaches",
     slug: "peaches",
+    image: "/images/foods/peaches.jpg",
     name: "الخوخ البلدي الناضج المقشر",
     aliases: ["خوخ", "الخوخ", "خوخ بلدي", "خوخ عرايشي", "دراق"],
     categoryId: "fruits",
@@ -6219,6 +6247,7 @@ export const foods: Food[] = [
   {
     id: "apricots",
     slug: "apricots",
+    image: "/images/foods/apricots.jpg",
     name: "المشمش البلدي الطازج الناضج",
     aliases: ["مشمش", "المشمش", "مشمش بلدي", "مشمش حموي"],
     categoryId: "fruits",
@@ -6242,6 +6271,7 @@ export const foods: Food[] = [
   {
     id: "plums",
     slug: "plums",
+    image: "/images/foods/plums.jpg",
     name: "البرقوق الطازج الناضج",
     aliases: ["برقوق", "البرقوق", "برقوق احمر", "برقوق اسود", "خوخ مجفف طازج"],
     categoryId: "fruits",
@@ -6265,6 +6295,7 @@ export const foods: Food[] = [
   {
     id: "cantaloupe-sweet-melon",
     slug: "cantaloupe-sweet-melon",
+    image: "/images/foods/cantaloupe-sweet-melon.jpg",
     name: "الشمام والكانتلوب البلدي والأناناس المصري",
     aliases: ["كانتلوب", "الكانتلوب", "اناناس مصري", "شمام بلدي", "بطيخ اصفر"],
     categoryId: "fruits",
@@ -6288,6 +6319,7 @@ export const foods: Food[] = [
   {
     id: "oranges",
     slug: "oranges",
+    image: "/images/foods/oranges.jpg",
     name: "البرتقال البلدي والسكري وأبو سرة",
     aliases: ["برتقال", "البرتقال", "برتقال بلدي", "برتقال سكري", "برتقال ابو سرة"],
     categoryId: "fruits",
@@ -6311,6 +6343,7 @@ export const foods: Food[] = [
   {
     id: "mandarins",
     slug: "mandarins",
+    image: "/images/foods/mandarins.jpg",
     name: "اليوسفي / اليوسف أفندي البلدي والكلمنتينا",
     aliases: ["يوسفي", "اليوسفي", "يوسف افندي", "كلمنتينا", "مندرين"],
     categoryId: "fruits",
@@ -6361,6 +6394,7 @@ export const foods: Food[] = [
   {
     id: "kiwi",
     slug: "kiwi",
+    image: "/images/foods/kiwi.jpg",
     name: "الكيوي المقشر الناضج",
     aliases: ["كيوي", "الكيوي", "فاكهة الكيوي", "كيوي اخضر", "كيوي ذهبي"],
     categoryId: "fruits",
@@ -6384,6 +6418,7 @@ export const foods: Food[] = [
   {
     id: "pineapple",
     slug: "pineapple",
+    image: "/images/foods/pineapple.jpg",
     name: "الأناناس الطبيعي الطازج",
     aliases: ["اناناس", "الاناناس", "اناناس طازج", "شرائح اناناس"],
     categoryId: "fruits",
@@ -6407,6 +6442,7 @@ export const foods: Food[] = [
   {
     id: "avocado",
     slug: "avocado",
+    image: "/images/foods/avocado.jpg",
     name: "الأفوكادو الطازج الناضج",
     aliases: ["افوكادو", "الأفوكادو", "افوكادو طازج", "زبدة الافوكادو"],
     categoryId: "fruits",
@@ -6430,6 +6466,7 @@ export const foods: Food[] = [
   {
     id: "fresh-yellow-dates",
     slug: "fresh-yellow-dates",
+    image: "/images/foods/fresh-yellow-dates.jpg",
     name: "البلح الأصفر السماني والزغلول الطازج",
     aliases: ["بلح اصفر", "البلح الاصفر", "بلح سماني", "بلح زغلول", "بلح رطب", "بلح مقرمش"],
     categoryId: "fruits",
@@ -6453,6 +6490,7 @@ export const foods: Food[] = [
   {
     id: "persimmon",
     slug: "persimmon",
+    image: "/images/foods/persimmon.jpg",
     name: "الكاكا / الخرمة الناضجة الحلوة",
     aliases: ["كاكا", "الكاكا", "خرمة", "الخرمة", "تين كاجي"],
     categoryId: "fruits",
@@ -6476,6 +6514,7 @@ export const foods: Food[] = [
   {
     id: "cherimoya-custard-apple",
     slug: "cherimoya-custard-apple",
+    image: "/images/foods/cherimoya-custard-apple.jpg",
     name: "فاكهة القشطة الاستوائية الناضجة",
     aliases: ["قشطة فاكهة", "فاكهة القشطة", "شيريمويا", "انوونا", "قشطة ناضجة"],
     categoryId: "fruits",
@@ -6499,6 +6538,7 @@ export const foods: Food[] = [
   {
     id: "papaya",
     slug: "papaya",
+    image: "/images/foods/papaya.jpg",
     name: "البابايا الاستوائية الناضجة",
     aliases: ["بابايا", "البابايا", "ببايا", "فاكهة البابايا"],
     categoryId: "fruits",
@@ -6522,6 +6562,7 @@ export const foods: Food[] = [
   {
     id: "raisins",
     slug: "raisins",
+    image: "/images/foods/raisins.jpg",
     name: "الزبيب البلدي المجفف بالشمس",
     aliases: ["زبيب", "الزبيب", "زبيب بلدي", "زبيب اسود", "كشمش", "زبيب ابيض"],
     categoryId: "fruits",
@@ -6545,6 +6586,7 @@ export const foods: Food[] = [
   {
     id: "dried-figs",
     slug: "dried-figs",
+    image: "/images/foods/dried-figs.jpg",
     name: "التين المجفف الطبيعي",
     aliases: ["تين مجفف", "التين المجفف", "قطين", "تين ناشف"],
     categoryId: "fruits",
@@ -6568,6 +6610,7 @@ export const foods: Food[] = [
   {
     id: "dried-apricots",
     slug: "dried-apricots",
+    image: "/images/foods/dried-apricots.jpg",
     name: "المشمشية والمشمش المجفف",
     aliases: ["مشمشية", "المشمشية", "مشمش مجفف", "مشمش ناشف"],
     categoryId: "fruits",
@@ -6591,6 +6634,7 @@ export const foods: Food[] = [
   {
     id: "dried-prunes",
     slug: "dried-prunes",
+    image: "/images/foods/dried-prunes.jpg",
     name: "القراصيا والبرقوق المجفف",
     aliases: ["قراصيا", "القراصيا", "برقوق مجفف", "قراصيا ناشفة"],
     categoryId: "fruits",
@@ -6614,6 +6658,7 @@ export const foods: Food[] = [
   {
     id: "wild-thyme",
     slug: "wild-thyme",
+    image: "/images/foods/wild-thyme.jpg",
     name: "الزعتر البري الطبيعي المجفف والمغلي",
     aliases: ["زعتر بري", "الزعتر البري", "اوريجانو", "مغلي الزعتر", "شاي الزعتر"],
     categoryId: "condiments",
@@ -6637,6 +6682,7 @@ export const foods: Food[] = [
   {
     id: "anise-tea",
     slug: "anise-tea",
+    image: "/images/foods/anise-tea.jpg",
     name: "اليانسون البلدي المغلي",
     aliases: ["يانسون", "اليانسون", "شاي يانسون", "مغلي اليانسون", "ينسون"],
     categoryId: "condiments",
@@ -6660,6 +6706,7 @@ export const foods: Food[] = [
   {
     id: "caraway-tea",
     slug: "caraway-tea",
+    image: "/images/foods/caraway-tea.jpg",
     name: "الكراوية المغلية للأمعاء والهضم",
     aliases: ["كراوية", "الكراوية", "مغلي الكراوية", "شاي كراوية"],
     categoryId: "condiments",
@@ -6683,6 +6730,7 @@ export const foods: Food[] = [
   {
     id: "fenugreek-tea",
     slug: "fenugreek-tea",
+    image: "/images/foods/fenugreek-tea.jpg",
     name: "الحلبة الحصى المغلية",
     aliases: ["حلبة", "الحلبة", "حلبة حصى", "مغلي الحلبة", "شاي حلبة"],
     categoryId: "condiments",
@@ -7597,6 +7645,7 @@ export const foods: Food[] = [
   {
     id: "potato-chicken-tray",
     slug: "potato-chicken-tray",
+    image: "/images/foods/potato-chicken-tray.jpg",
     name: "صينية البطاطس بالفراخ بالفرن",
     aliases: ["صينية بطاطس بالفراخ", "بطاطس بالفراخ", "صينية فراخ بالبطاطس", "فراخ بالبطاطس"],
     categoryId: "poultry",
@@ -7674,6 +7723,7 @@ export const foods: Food[] = [
   {
     id: "pigeon-stuffed-rice",
     slug: "pigeon-stuffed-rice",
+    image: "/images/foods/pigeon-stuffed-rice.jpg",
     name: "الحمام المحشي بالأرز البلدي والكبد والقوانص",
     aliases: ["حمام محشي", "الحمام المحشي", "حمام محشي رز", "جوز حمام"],
     categoryId: "poultry",
@@ -7697,6 +7747,7 @@ export const foods: Food[] = [
   {
     id: "pigeon-stuffed-freekeh",
     slug: "pigeon-stuffed-freekeh",
+    image: "/images/foods/pigeon-stuffed-freekeh.jpg",
     name: "الحمام المحشي بالفريك الأخضر الصعيدي",
     aliases: ["حمام بالفريك", "حمام محشي فريك", "طاجن حمام بالفريك"],
     categoryId: "poultry",
@@ -7774,6 +7825,7 @@ export const foods: Food[] = [
   {
     id: "beef-onion-tagine",
     slug: "beef-onion-tagine",
+    image: "/images/foods/beef-onion-tagine.jpg",
     name: "طاجن اللحمة بالبصل القاورما بالفرن",
     aliases: ["طاجن لحمة بالبصل", "طاجن بصل باللحمة", "كباب حلة", "طاجن قاورما"],
     categoryId: "meat",
@@ -7824,6 +7876,7 @@ export const foods: Food[] = [
   {
     id: "trotters-soup",
     slug: "trotters-soup",
+    image: "/images/foods/trotters-soup.jpg",
     name: "شوربة الكوارع الصافية بالثوم والمستكة",
     aliases: ["شوربة كوارع", "شوربة الكوارع", "مرق كوارع", "كوارع مخلية"],
     categoryId: "meat",
@@ -7901,6 +7954,7 @@ export const foods: Food[] = [
   {
     id: "lamb-kabsa",
     slug: "lamb-kabsa",
+    image: "/images/foods/lamb-kabsa.jpg",
     name: "كبسة اللحم الضاني بالأرز البسمتي والتوابل",
     aliases: ["كبسة", "الكبسة", "كبسة لحم", "كبسة ضاني", "كبسة سعودي"],
     categoryId: "meat",
@@ -7924,6 +7978,7 @@ export const foods: Food[] = [
   {
     id: "lamb-mandi",
     slug: "lamb-mandi",
+    image: "/images/foods/lamb-mandi.jpg",
     name: "مندي اللحم بالأرز البسمتي المبخر",
     aliases: ["مندي", "المندي", "مندي لحم", "مندي ضاني", "لحم مندي"],
     categoryId: "meat",
@@ -7947,6 +8002,7 @@ export const foods: Food[] = [
   {
     id: "beef-shawarma-plate",
     slug: "beef-shawarma-plate",
+    image: "/images/foods/beef-shawarma-plate.jpg",
     name: "شاورما اللحم البلدي في طبق مع الطحينة والأرز",
     aliases: ["شاورما", "الشاورما", "شاورما لحمة", "شاورما طبق", "شاورما لحم عربي", "فتة شاورما لحمة"],
     categoryId: "meat",
@@ -7970,6 +8026,7 @@ export const foods: Food[] = [
   {
     id: "chicken-shawarma-sandwich",
     slug: "chicken-shawarma-sandwich",
+    image: "/images/foods/chicken-shawarma-sandwich.jpg",
     name: "ساندوتش شاورما الفراخ بالثومية والعيش الصاج",
     aliases: ["ساندوتش شاورما", "شاورما فراخ", "شاورما سوري", "ساندوتش شاورما فراخ", "شاورما صاج"],
     categoryId: "processed",
@@ -7993,6 +8050,7 @@ export const foods: Food[] = [
   {
     id: "homemade-burger-sandwich",
     slug: "homemade-burger-sandwich",
+    image: "/images/foods/homemade-burger-sandwich.jpg",
     name: "ساندوتش البرجر البيتي في توست القمح الكامل",
     aliases: ["برجر بيتي", "ساندوتش برجر بيتي", "برجر منزلي", "برجر لحمة بيتي"],
     categoryId: "meat",
@@ -8043,6 +8101,7 @@ export const foods: Food[] = [
   {
     id: "taameya-sandwich-baladi",
     slug: "taameya-sandwich-baladi",
+    image: "/images/foods/taameya-sandwich-baladi.jpg",
     name: "ساندوتش الطعمية السخنة بالعيش البلدي والسلطة",
     aliases: ["ساندوتش طعمية", "ساندوتش فلافل", "رغيف طعمية", "فلافل بالعيش"],
     categoryId: "legumes",
@@ -8066,6 +8125,7 @@ export const foods: Food[] = [
   {
     id: "syrian-french-fries-sandwich",
     slug: "syrian-french-fries-sandwich",
+    image: "/images/foods/syrian-french-fries-sandwich.jpg",
     name: "ساندوتش البطاطس السوري بالثومية وعيش الصاج",
     aliases: ["ساندوتش بطاطس سوري", "بطاطس سوري", "ساندوتش بطاطس صاج", "بطاطس بالثومية"],
     categoryId: "processed",
@@ -8089,6 +8149,7 @@ export const foods: Food[] = [
   {
     id: "savory-chicken-crepe",
     slug: "savory-chicken-crepe",
+    image: "/images/foods/savory-chicken-crepe.jpg",
     name: "الكريب الحادق بالفراخ والموتزاريلا والمايونيز",
     aliases: ["كريب حادق", "كريب فراخ", "كريب شاورما", "كريب بانيه", "كريب زنجر"],
     categoryId: "processed",
@@ -8112,6 +8173,7 @@ export const foods: Food[] = [
   {
     id: "traditional-pizza",
     slug: "traditional-pizza",
+    image: "/images/foods/traditional-pizza.jpg",
     name: "البيتزا الإيطالية بالدقيق الأبيض والجبن والصلصة",
     aliases: ["بيتزا", "البيتزا", "بيتزا مارجريتا", "بيتزا لحمة", "بيتزا فراخ", "شريحة بيتزا"],
     categoryId: "processed",
@@ -8135,6 +8197,7 @@ export const foods: Food[] = [
   {
     id: "basbousa",
     slug: "basbousa",
+    image: "/images/foods/basbousa.jpg",
     name: "البسبوسة المصرية بالسمن البلدي والشربات",
     aliases: ["بسبوسة", "البسبوسة", "بسبوسة بالسمنة", "بسبوسة بالمكسرات", "هريسة"],
     categoryId: "sweets",
@@ -8158,6 +8221,7 @@ export const foods: Food[] = [
   {
     id: "qataif",
     slug: "qataif",
+    image: "/images/foods/qataif.jpg",
     name: "القطايف المقلية المحشية مكسرات بالشربات",
     aliases: ["قطايف", "القطايف", "قطايف مقلية", "قطايف بالمكسرات", "قطايف بالقشطة"],
     categoryId: "sweets",
@@ -8181,6 +8245,7 @@ export const foods: Food[] = [
   {
     id: "sweet-goulash-baklava",
     slug: "sweet-goulash-baklava",
+    image: "/images/foods/sweet-goulash-baklava.jpg",
     name: "الجلاش الحلو والبقلاوة بالمكسرات والشربات",
     aliases: ["جلاش حلو", "بقلاوة", "البقلاوة", "وربات", "جلاش بالمكسرات"],
     categoryId: "sweets",
@@ -8204,6 +8269,7 @@ export const foods: Food[] = [
   {
     id: "om-ali",
     slug: "om-ali",
+    image: "/images/foods/om-ali.jpg",
     name: "أم علي باللبن البلدي والرقاق والمكسرات",
     aliases: ["ام علي", "أم علي", "طاجن ام علي", "ام علي بالقشطة"],
     categoryId: "sweets",
@@ -8227,6 +8293,7 @@ export const foods: Food[] = [
   {
     id: "rice-pudding",
     slug: "rice-pudding",
+    image: "/images/foods/rice-pudding.jpg",
     name: "أرز باللبن بيتي بالسمن والقشطة البلدي",
     aliases: ["ارز باللبن", "أرز باللبن", "رز بلبن", "الارز باللبن", "رز بحليب"],
     categoryId: "sweets",
@@ -8250,6 +8317,7 @@ export const foods: Food[] = [
   {
     id: "mahallabia",
     slug: "mahallabia",
+    image: "/images/foods/mahallabia.jpg",
     name: "المهلبية بالنشا واللبن الطبيعي والمستكة",
     aliases: ["مهلبية", "المهلبية", "محلبية", "مهلبية باللبن"],
     categoryId: "sweets",
@@ -8273,6 +8341,7 @@ export const foods: Food[] = [
   {
     id: "creme-caramel",
     slug: "creme-caramel",
+    image: "/images/foods/creme-caramel.jpg",
     name: "الكريم كراميل البيتي بالبيض واللبن",
     aliases: ["كريم كراميل", "الكريم كراميل", "فلان", "كسترد بيتي"],
     categoryId: "sweets",
@@ -8296,6 +8365,7 @@ export const foods: Food[] = [
   {
     id: "ashura",
     slug: "ashura",
+    image: "/images/foods/ashura.jpg",
     name: "العاشوراء بالقمح الكامل واللبن والمكسرات",
     aliases: ["عاشوراء", "العاشوراء", "طبق عاشورة", "قمح باللبن"],
     categoryId: "sweets",
@@ -8319,6 +8389,7 @@ export const foods: Food[] = [
   {
     id: "kahk",
     slug: "kahk",
+    image: "/images/foods/kahk.jpg",
     name: "كحك العيد الناعم بالسمن البلدي والسكر البودرة",
     aliases: ["كحك", "كعك العيد", "كحك العيد", "الكحك", "كحك بسكر"],
     categoryId: "sweets",
@@ -8342,6 +8413,7 @@ export const foods: Food[] = [
   {
     id: "ghorayeba",
     slug: "ghorayeba",
+    image: "/images/foods/ghorayeba.jpg",
     name: "الغريبة الناعمة بالسمن البلدي",
     aliases: ["غريبة", "الغريبة", "غريبة بالسمنة", "غريبه ناعمه"],
     categoryId: "sweets",
@@ -8365,6 +8437,7 @@ export const foods: Food[] = [
   {
     id: "petit-four",
     slug: "petit-four",
+    image: "/images/foods/petit-four.jpg",
     name: "البيتي فور وبسكويت الزبدة والشوكولاتة",
     aliases: ["بيتي فور", "البيتي فور", "بيتيفور", "بسكويت زبدة"],
     categoryId: "sweets",
@@ -8388,6 +8461,7 @@ export const foods: Food[] = [
   {
     id: "sponge-cake",
     slug: "sponge-cake",
+    image: "/images/foods/sponge-cake.jpg",
     name: "الكيك الإسفنجي البيتي بالدقيق الأبيض والسكر",
     aliases: ["كيك", "الكيك", "كيكة بيتي", "كيك اسفنجي", "كيكة فانيليا", "كيكة شاي"],
     categoryId: "sweets",
@@ -8411,6 +8485,7 @@ export const foods: Food[] = [
   {
     id: "donuts",
     slug: "donuts",
+    image: "/images/foods/donuts.jpg",
     name: "الدوناتس المقلية بالزيت المغطاة بالسكر",
     aliases: ["دوناتس", "دونات", "الدونات", "دونات مقلية"],
     categoryId: "sweets",
@@ -8434,6 +8509,7 @@ export const foods: Food[] = [
   {
     id: "waffles-pancakes",
     slug: "waffles-pancakes",
+    image: "/images/foods/waffles-pancakes.jpg",
     name: "الوافل والبان كيك بالسيرب الصناعي",
     aliases: ["وافل", "بان كيك", "البان كيك", "الوافل", "بانكيك"],
     categoryId: "sweets",
@@ -8457,6 +8533,7 @@ export const foods: Food[] = [
   {
     id: "fruit-jelly",
     slug: "fruit-jelly",
+    image: "/images/foods/fruit-jelly.jpg",
     name: "جيلي الفواكه بنكهات وألوان صناعية",
     aliases: ["جيلي", "الجيلي", "جيلي فراولة", "حلوى الجيلي", "جيلاتين جاهز"],
     categoryId: "sweets",
@@ -8480,6 +8557,7 @@ export const foods: Food[] = [
   {
     id: "commercial-jam",
     slug: "commercial-jam",
+    image: "/images/foods/commercial-jam.jpg",
     name: "مربى الفواكه المعلبة بالسكر والجلوكوز",
     aliases: ["مربى", "المربى", "مربى فراولة", "مربى تين", "مربى مشمش"],
     categoryId: "sweets",
@@ -8503,6 +8581,7 @@ export const foods: Food[] = [
   {
     id: "black-honey-molasses",
     slug: "black-honey-molasses",
+    image: "/images/foods/black-honey-molasses.jpg",
     name: "العسل الأسود المصري الأصلي من قصب السكر",
     aliases: ["عسل اسود", "العسل الاسود", "دبس قصب", "عسل قصب", "مولاس"],
     categoryId: "sweets",
@@ -8526,6 +8605,7 @@ export const foods: Food[] = [
   {
     id: "rock-sea-salt",
     slug: "rock-sea-salt",
+    image: "/images/foods/rock-sea-salt.jpg",
     name: "الملح الصخري والبحري الخشن غير المكرر",
     aliases: ["ملح صخري", "الملح الصخري", "ملح بحري", "ملح هيمالايا", "ملح خشن", "ملح سيوة"],
     categoryId: "condiments",
@@ -8549,6 +8629,7 @@ export const foods: Food[] = [
   {
     id: "apple-cider-vinegar",
     slug: "apple-cider-vinegar",
+    image: "/images/foods/apple-cider-vinegar.jpg",
     name: "خل التفاح الطبيعي العضوي غير المصفى",
     aliases: ["خل تفاح", "خل التفاح", "خل تفاح عضوي", "خل تفاح طبيعي", "خل التفاح الخام"],
     categoryId: "condiments",
@@ -8572,6 +8653,7 @@ export const foods: Food[] = [
   {
     id: "commercial-mayonnaise",
     slug: "commercial-mayonnaise",
+    image: "/images/foods/commercial-mayonnaise.jpg",
     name: "المايونيز التجاري المصنوع بزيوت الصويا",
     aliases: ["مايونيز", "المايونيز", "مايونيز هاينز", "مايونيز لايت", "صلصة المايونيز"],
     categoryId: "condiments",
@@ -8595,6 +8677,7 @@ export const foods: Food[] = [
   {
     id: "commercial-ketchup",
     slug: "commercial-ketchup",
+    image: "/images/foods/commercial-ketchup.jpg",
     name: "كاتشب الطماطم التجاري بشراب الذرة",
     aliases: ["كاتشب", "الكاتشب", "كاتشب هاينز", "صلصة كاتشب", "كاتشاب"],
     categoryId: "condiments",
@@ -8618,6 +8701,7 @@ export const foods: Food[] = [
   {
     id: "commercial-mustard",
     slug: "commercial-mustard",
+    image: "/images/foods/commercial-mustard.jpg",
     name: "المستردة وخردل الطعام التجاري",
     aliases: ["مستردة", "المستردة", "خردل", "صلصة الخردل", "مسترده"],
     categoryId: "condiments",
@@ -8641,6 +8725,7 @@ export const foods: Food[] = [
   {
     id: "canned-tomato-paste",
     slug: "canned-tomato-paste",
+    image: "/images/foods/canned-tomato-paste.jpg",
     name: "صلصة الطماطم المعلبة ومعجون الطماطم المركز",
     aliases: ["صلصة معلبة", "برطمان صلصة", "طماطم بوريه", "معجون طماطم معلب"],
     categoryId: "condiments",
@@ -8664,6 +8749,7 @@ export const foods: Food[] = [
   {
     id: "barbecue-sauce",
     slug: "barbecue-sauce",
+    image: "/images/foods/barbecue-sauce.jpg",
     name: "صوص الباربيكيو المدخن التجاري",
     aliases: ["صوص باربيكيو", "باربكيو", "باربيكيو صوص", "صوص مدخن", "بي بي كيو"],
     categoryId: "condiments",
@@ -8687,6 +8773,7 @@ export const foods: Food[] = [
   {
     id: "commercial-hot-sauce",
     slug: "commercial-hot-sauce",
+    image: "/images/foods/commercial-hot-sauce.jpg",
     name: "الصوص الحار وصلصة التباسكو والشطة المعبأة",
     aliases: ["صوص حار", "شطة سائلة", "تباسكو", "هوت صوص", "صلصة حارة"],
     categoryId: "condiments",
@@ -8710,6 +8797,7 @@ export const foods: Food[] = [
   {
     id: "soy-sauce",
     slug: "soy-sauce",
+    image: "/images/foods/soy-sauce.jpg",
     name: "صويا صوص المركز والصويا المخمرة",
     aliases: ["صويا صوص", "الصويا صوص", "صلصة الصويا", "صويا معتدل", "صويا غامق"],
     categoryId: "condiments",
@@ -8733,6 +8821,7 @@ export const foods: Food[] = [
   {
     id: "mixed-pickles-torshi",
     slug: "mixed-pickles-torshi",
+    image: "/images/foods/mixed-pickles-torshi.jpg",
     name: "الطرشي والمخلل البلدي المشكل بالسوق",
     aliases: ["مخلل", "المخلل", "طرشي", "الطرشي", "مخلل بلدي", "طرشي بلدي", "مخلل مشكل", "مية طرشي"],
     categoryId: "condiments",
@@ -8756,6 +8845,7 @@ export const foods: Food[] = [
   {
     id: "pickled-cucumbers-homemade",
     slug: "pickled-cucumbers-homemade",
+    image: "/images/foods/pickled-cucumbers-homemade.jpg",
     name: "مخلل الخيار البيتي المخمر طبيعيًا بالماء والملح",
     aliases: ["خيار مخلل بيتي", "مخلل خيار", "خيار مخلل", "مخلل بيتي"],
     categoryId: "condiments",
@@ -8779,6 +8869,7 @@ export const foods: Food[] = [
   {
     id: "pickled-olives-natural",
     slug: "pickled-olives-natural",
+    image: "/images/foods/pickled-olives-natural.jpg",
     name: "الزيتون المخلل الطبيعي بالماء والملح وزيت الزيتون",
     aliases: ["زيتون مخلل", "الزيتون المخلل", "زيتون كلاماتا", "زيتون اخضر مخلل", "زيتون تفاحي"],
     categoryId: "condiments",
@@ -8802,6 +8893,7 @@ export const foods: Food[] = [
   {
     id: "instant-soup-packets",
     slug: "instant-soup-packets",
+    image: "/images/foods/instant-soup-packets.jpg",
     name: "شوربة الخضار والدجاج الفورية في أكياس بودرة",
     aliases: ["شوربة فورية", "شوربة خضار كنور", "شوربة كريمة الدجاج الجاهزة", "شوربة ماجي", "شوربة اظرف"],
     categoryId: "processed",
@@ -8825,6 +8917,7 @@ export const foods: Food[] = [
   {
     id: "microwave-popcorn",
     slug: "microwave-popcorn",
+    image: "/images/foods/microwave-popcorn.jpg",
     name: "فشار الميكروويف الجاهز في أكياس مدهونة دهون صناعية",
     aliases: ["فشار ميكروويف", "فشار اكياس", "فشار بالزبدة الجاهز", "مايكرويف بوبكورن"],
     categoryId: "processed",
@@ -8848,6 +8941,7 @@ export const foods: Food[] = [
   {
     id: "digestive-diet-biscuits",
     slug: "digestive-diet-biscuits",
+    image: "/images/foods/digestive-diet-biscuits.jpg",
     name: "بسكويت الدايجستيف والدايت والشوفان التجاري",
     aliases: ["بسكويت دايجستيف", "بسكويت دايت", "بسكويت شوفان تجاري", "دايجستف"],
     categoryId: "processed",
@@ -8871,6 +8965,7 @@ export const foods: Food[] = [
   {
     id: "protein-bars",
     slug: "protein-bars",
+    image: "/images/foods/protein-bars.jpg",
     name: "ألواح البروتين بار التجارية ببروتين الصويا",
     aliases: ["بروتين بار", "البروتين بار", "سناك بار", "واح البروتين", "جرانولا بار"],
     categoryId: "processed",
@@ -8894,6 +8989,7 @@ export const foods: Food[] = [
   {
     id: "granola-packaged",
     slug: "granola-packaged",
+    image: "/images/foods/granola-packaged.jpg",
     name: "الجرانولا المقرمشة المحلاة بالسيرب والزيوت",
     aliases: ["جرانولا", "الجرانولا", "حبوب جرانولا", "جرانولا بالعسل الصناعي"],
     categoryId: "processed",
@@ -8917,6 +9013,7 @@ export const foods: Food[] = [
   {
     id: "fruit-yogurt-commercial",
     slug: "fruit-yogurt-commercial",
+    image: "/images/foods/fruit-yogurt-commercial.jpg",
     name: "زبادي الفواكه التجاري المحلى بالسكروز والألوان",
     aliases: ["زبادي فواكه", "زبادي بالفراولة", "زبادي بالخوخ", "زبادو", "دانون فواكه"],
     categoryId: "processed",
@@ -8940,6 +9037,7 @@ export const foods: Food[] = [
   {
     id: "packaged-commercial-juice",
     slug: "packaged-commercial-juice",
+    image: "/images/foods/packaged-commercial-juice.jpg",
     name: "عصائر الفواكه المعلبة بنكتار وسكر ومواد حافظة",
     aliases: ["عصير معلب", "جهينة", "بيتي", "عصير نكتار", "عصير كرتون", "راني"],
     categoryId: "processed",
@@ -8963,6 +9061,7 @@ export const foods: Food[] = [
   {
     id: "powdered-drink-mix",
     slug: "powdered-drink-mix",
+    image: "/images/foods/powdered-drink-mix.jpg",
     name: "مساحيق العصائر البودرة سريعة التحضير (تانج ونحوه)",
     aliases: ["تانج", "عصير بودرة", "عصير بودر", "فروتي", "مسحوق برتقال"],
     categoryId: "processed",
@@ -8986,6 +9085,7 @@ export const foods: Food[] = [
   {
     id: "frozen-chicken-nuggets",
     slug: "frozen-chicken-nuggets",
+    image: "/images/foods/frozen-chicken-nuggets.jpg",
     name: "ناجتس الدجاج المجمد المجهز للقلي",
     aliases: ["ناجتس", "الناجتس", "ناجتس فراخ", "دجاج ناجتس مجمد", "ناجتس اطياب"],
     categoryId: "processed",
@@ -9009,6 +9109,7 @@ export const foods: Food[] = [
   {
     id: "frozen-chicken-pane",
     slug: "frozen-chicken-pane",
+    image: "/images/foods/frozen-chicken-pane.jpg",
     name: "بانيه الدجاج المجمد بالبقسماط المجهز للقلي",
     aliases: ["بانيه مجمد", "بانيه اطياب", "ستربس مجمد", "بانيه جاهز", "فراخ بانيه مقرمشة جاهزة"],
     categoryId: "processed",
@@ -9032,6 +9133,7 @@ export const foods: Food[] = [
   {
     id: "frozen-commercial-burger",
     slug: "frozen-commercial-burger",
+    image: "/images/foods/frozen-commercial-burger.jpg",
     name: "برجر اللحم المجمد التجاري المحتوي على فول الصويا",
     aliases: ["برجر مجمد", "برجر اطياب", "برجر حلواني", "برجر امريكانا", "برجر لحم مجمد"],
     categoryId: "processed",
@@ -9055,6 +9157,7 @@ export const foods: Food[] = [
   {
     id: "frozen-commercial-sausage",
     slug: "frozen-commercial-sausage",
+    image: "/images/foods/frozen-commercial-sausage.jpg",
     name: "السجق والسوسيس المجمد التجاري",
     aliases: ["سجق مجمد", "سجق شرقي مجمد", "سجق امريكانا", "سوسيس مجمد"],
     categoryId: "processed",
@@ -9078,6 +9181,7 @@ export const foods: Food[] = [
   {
     id: "fast-food-burger",
     slug: "fast-food-burger",
+    image: "/images/foods/fast-food-burger.jpg",
     name: "برجر سلاسل مطاعم الوجبات السريعة في الخبز الأبيض",
     aliases: ["ماكدونالدز", "برجر كنج", "هارديز", "برجر ماك", "ساندوتش برجر جاهز"],
     categoryId: "processed",
@@ -9101,6 +9205,7 @@ export const foods: Food[] = [
   {
     id: "fast-food-chicken-burger",
     slug: "fast-food-chicken-burger",
+    image: "/images/foods/fast-food-chicken-burger.jpg",
     name: "برجر الفراخ المقلي المقرمش في المطاعم السريعة",
     aliases: ["ماك تشيكن", "برجر فراخ جاهز", "تشيكن برجر", "ساندوتش فراخ مقلية"],
     categoryId: "processed",
@@ -9124,6 +9229,7 @@ export const foods: Food[] = [
   {
     id: "fried-broasted-chicken",
     slug: "fried-broasted-chicken",
+    image: "/images/foods/fried-broasted-chicken.jpg",
     name: "الدجاج البروستد المقلي المقرمش (الكنتاكي)",
     aliases: ["فراخ بروستد", "كنتاكي", "بروستد", "فرايد تشيكن", "دجاج مقلي مقرمش", "كي اف سي"],
     categoryId: "processed",
@@ -9147,6 +9253,7 @@ export const foods: Food[] = [
   {
     id: "chicken-strips",
     slug: "chicken-strips",
+    image: "/images/foods/chicken-strips.jpg",
     name: "أصابع الدجاج المقرمشة (تشيكن ستربس) المقلية",
     aliases: ["تشيكن ستربس", "ستربس", "اصابع دجاج مقرمشة", "ستربس مقلي"],
     categoryId: "processed",
@@ -9170,6 +9277,7 @@ export const foods: Food[] = [
   {
     id: "fast-food-crepe",
     slug: "fast-food-crepe",
+    image: "/images/foods/fast-food-crepe.jpg",
     name: "كريب الشاورما والسجق الجاهز من محلات الوجبات",
     aliases: ["كريب مطاعم", "كريب شاورما", "كريب سجق جاهز", "كريب المحلات"],
     categoryId: "processed",
@@ -9193,6 +9301,7 @@ export const foods: Food[] = [
   {
     id: "spirulina",
     slug: "spirulina",
+    image: "/images/foods/spirulina.jpg",
     name: "سبيرولينا / طحالب السبيرولينا الخضراء",
     aliases: ["سبيرولينا", "طحالب سبيرولينا", "حبوب سبيرولينا", "بودرة سبيرولينا"],
     categoryId: "processed",
@@ -9216,6 +9325,7 @@ export const foods: Food[] = [
   {
     id: "apple-cider-gummies",
     slug: "apple-cider-gummies",
+    image: "/images/foods/apple-cider-gummies.jpg",
     name: "حلوى خل التفاح الجيلاتينية (Gummies)",
     aliases: ["جاميز خل التفاح", "حلوى خل التفاح", "جامي خل التفاح", "حلاوة خل تفاح"],
     categoryId: "processed",

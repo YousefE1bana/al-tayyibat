@@ -14,7 +14,8 @@
     "processed-cheese",
     "black-eyed-peas",
     "tahini",
-    "traditional-pastries"
+    "traditional-pastries",
+    "soda"
   ],
   "portraitSha256": "1F7B96BDFFF3CF726CFC14EBC565333F62399DFFB75BF2ED576D15A0F87D05AC",
   "records": [
@@ -442,9 +443,11 @@
       "id": "soda",
       "source": "public/images/foods/local-cola.jpg",
       "sha256": "5681f530ea74d716fc830f1ebc5e8be964fd4cdd94dcedcb5875ddc5cabab3f0",
-      "accepted": true,
+      "accepted": false,
+      "initiallyAccepted": true,
+      "reason": "Branded original rejected during final visual review; distinct generic soda replacement accepted in generated-image-review.json. Original preserved locally.",
       "bytes": 86608,
-      "replaced": false
+      "replaced": true
     },
     {
       "id": "water",
