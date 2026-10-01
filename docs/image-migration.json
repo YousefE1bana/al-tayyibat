@@ -1,0 +1,1378 @@
+{
+  "reviewedAt": "2026-10-01",
+  "stagedCount": 63,
+  "stagedAccepted": 62,
+  "stagedRejected": [
+    "instant-noodles"
+  ],
+  "rejectedExisting": [
+    "potatoes",
+    "cream-soup",
+    "moussaka",
+    "cola",
+    "nutella",
+    "processed-cheese",
+    "black-eyed-peas",
+    "tahini",
+    "traditional-pastries"
+  ],
+  "portraitSha256": "1F7B96BDFFF3CF726CFC14EBC565333F62399DFFB75BF2ED576D15A0F87D05AC",
+  "records": [
+    {
+      "id": "basmati-rice",
+      "source": "public/images/foods/local-rice.jpg",
+      "sha256": "e807e354b5e695408960a5db9e7fb24c8f25436f0cab02424527a366498ca2d2",
+      "accepted": true,
+      "bytes": 140492,
+      "replaced": false
+    },
+    {
+      "id": "potatoes",
+      "source": "public/images/foods/local-potatoes.jpg",
+      "accepted": false,
+      "reason": "Wrong subject or embedded branding/text found in visual review"
+    },
+    {
+      "id": "dates",
+      "source": "public/images/foods/local-dates.jpg",
+      "sha256": "680d8909c6ae9b595669ff9e0661842674affa4435ff39d955c9993c11e4366f",
+      "accepted": true,
+      "bytes": 180949,
+      "replaced": false
+    },
+    {
+      "id": "butter",
+      "source": "public/images/foods/local-butter.jpg",
+      "sha256": "1149dc57ed344956bf3df8a98858d90a8a7038cadd1a82e0a5f705e010eea6c5",
+      "accepted": true,
+      "bytes": 77759,
+      "replaced": false
+    },
+    {
+      "id": "sugar",
+      "source": "public/images/foods/sugar.jpg",
+      "sha256": "6ac9c4b29e243489b2d982342138b3cc6569110a4acf7a84b6b3a88a3b8a994c",
+      "accepted": true,
+      "bytes": 133565,
+      "replaced": false
+    },
+    {
+      "id": "whole-wheat-toast",
+      "source": "public/images/foods/local-wholeWheatToast.jpg",
+      "sha256": "5df2471f07621a59c4457ec0a55d4317b9e3d2c2d10141b03033d07b692c4212",
+      "accepted": true,
+      "bytes": 188247,
+      "replaced": false
+    },
+    {
+      "id": "white-bread",
+      "source": "public/images/foods/local-bread.jpg",
+      "sha256": "2e8874c6d9c97b92b04464bb766e15c647d5fe3604a6832abf1a4e1af68cec51",
+      "accepted": true,
+      "bytes": 101312,
+      "replaced": false
+    },
+    {
+      "id": "pasta",
+      "source": "newasset/pasta.png",
+      "sha256": "74d2194fb414190f7ded423289f033d2232e77d59e2f61fe5b37f32ebe631499",
+      "accepted": true,
+      "bytes": 266032,
+      "replaced": true
+    },
+    {
+      "id": "biscuits",
+      "source": "public/images/foods/biscuits.jpg",
+      "sha256": "491ba6a1ee28e7b228b4c2c58987e0df9bb0abd63a098a4164699e5ae1de2a58",
+      "accepted": true,
+      "bytes": 156193,
+      "replaced": false
+    },
+    {
+      "id": "beef",
+      "source": "public/images/foods/local-beef.jpg",
+      "sha256": "d3ed3ad4ee5c889d8183480eae7800ae69f0faf1e1c50978a3c6d83064fa0def",
+      "accepted": true,
+      "bytes": 115202,
+      "replaced": false
+    },
+    {
+      "id": "lamb",
+      "source": "public/images/foods/local-lamb.jpg",
+      "sha256": "f45b528a1ba6212c9ed8c30796a0b15e8d96cf088728a2c51fb7d30e14531742",
+      "accepted": true,
+      "bytes": 141088,
+      "replaced": false
+    },
+    {
+      "id": "goat-meat",
+      "source": "public/images/foods/goat-meat.jpg",
+      "sha256": "83559e214d301a0a87af8f917db188d9727e9520369df656c293d07d33661678",
+      "accepted": true,
+      "bytes": 166590,
+      "replaced": false
+    },
+    {
+      "id": "camel-meat",
+      "source": "public/images/foods/camel-meat.jpg",
+      "sha256": "6146be5e4c7ed6ccb9efc49f6ee488d40733ce6d8dbdd155f04be461e1b07f0d",
+      "accepted": true,
+      "bytes": 192671,
+      "replaced": false
+    },
+    {
+      "id": "rabbit",
+      "source": "public/images/foods/rabbit.jpg",
+      "sha256": "2a44768ab57cffd2b1c7ae7b1ed30d0dcb38fff0cdc716117de5c4401b6a7b94",
+      "accepted": true,
+      "bytes": 186592,
+      "replaced": false
+    },
+    {
+      "id": "liver",
+      "source": "public/images/foods/liver.jpg",
+      "sha256": "24aa1d676ea4ca52c3cc81b47307011285b4fc3cbd43bd0cd0d90c6f7b1dca58",
+      "accepted": true,
+      "bytes": 168757,
+      "replaced": false
+    },
+    {
+      "id": "trotters",
+      "source": "public/images/foods/trotters.jpg",
+      "sha256": "f6f78761eae404e0f96811b84d677d3b803f086a88e8741760721855e654f264",
+      "accepted": true,
+      "bytes": 188062,
+      "replaced": false
+    },
+    {
+      "id": "mombar",
+      "source": "public/images/foods/mombar.jpg",
+      "sha256": "69630ca6880dba984c568e569ae4a73ca1eabab357c7f8ae4eb5300dba9a139e",
+      "accepted": true,
+      "bytes": 250797,
+      "replaced": false
+    },
+    {
+      "id": "pigeon",
+      "source": "public/images/foods/local-pigeon.jpg",
+      "sha256": "5eb12c66d930b38cd677ef928b9d0bca2082140d73e3088e272568dd8cb431ee",
+      "accepted": true,
+      "bytes": 94938,
+      "replaced": false
+    },
+    {
+      "id": "quail",
+      "source": "public/images/foods/quail.jpg",
+      "sha256": "8839b42ac81f8c585a8438eca81560913210a31506b549e07bb835e2cfaa217b",
+      "accepted": true,
+      "bytes": 200258,
+      "replaced": false
+    },
+    {
+      "id": "chicken",
+      "source": "public/images/foods/chicken.jpg",
+      "sha256": "fa9948af0f88ad4906eefab4627f575f92414ae153deb75109e2abf39cf9237d",
+      "accepted": true,
+      "bytes": 142968,
+      "replaced": false
+    },
+    {
+      "id": "duck",
+      "source": "public/images/foods/duck.jpg",
+      "sha256": "5d359823d895c0f0399a5520e55f6cb003402e6f6bc4770a1f6a3d22a1385c93",
+      "accepted": true,
+      "bytes": 209796,
+      "replaced": false
+    },
+    {
+      "id": "sardines",
+      "source": "public/images/foods/local-sardines.jpg",
+      "sha256": "a6cbb9fcd17f673c8d2d5f25e4a327d8e12b2c0bc392666c8066c501bccc8653",
+      "accepted": true,
+      "bytes": 231157,
+      "replaced": false
+    },
+    {
+      "id": "sea-fish",
+      "source": "public/images/foods/local-fish.jpg",
+      "sha256": "cb5eebb5fc306b5349b9de25ebfc0121bcedbd780f2daebafd938fe39a939248",
+      "accepted": true,
+      "bytes": 157443,
+      "replaced": false
+    },
+    {
+      "id": "eggs",
+      "source": "public/images/foods/local-eggs.jpg",
+      "sha256": "df9f2a6fea6aacedf902af6119ee0c480dee4ac87982bd0d0fe9e7ce339f5da7",
+      "accepted": true,
+      "bytes": 103967,
+      "replaced": false
+    },
+    {
+      "id": "aged-cheese",
+      "source": "public/images/foods/local-agedCheese.jpg",
+      "sha256": "8120b103bb899493389ae752195299b442d110d77edb3fba9a4d2a234af2090b",
+      "accepted": true,
+      "bytes": 123341,
+      "replaced": false
+    },
+    {
+      "id": "milk",
+      "source": "public/images/foods/local-milk.jpg",
+      "sha256": "6e23fa3736a22ec0f51aa83cb2920aed22cab21ee1f57cc6de6483b4d30614ce",
+      "accepted": true,
+      "bytes": 53936,
+      "replaced": false
+    },
+    {
+      "id": "yogurt",
+      "source": "public/images/foods/local-yogurt.jpg",
+      "sha256": "5315442ee2e36abfb6a0cfdcbe63f11c4d474af549dd4738735ee6fd20ce9e08",
+      "accepted": true,
+      "bytes": 93724,
+      "replaced": false
+    },
+    {
+      "id": "white-cheese",
+      "source": "public/images/foods/white-cheese.jpg",
+      "sha256": "63620b9462a2ef9f62946b1d1bb136f6d31224afece7113a36cb68c72fd4b2f4",
+      "accepted": true,
+      "bytes": 172678,
+      "replaced": false
+    },
+    {
+      "id": "natural-cream",
+      "source": "public/images/foods/natural-cream.jpg",
+      "sha256": "333bbb6b05822a01204c3a180a7cc8567dcf11c18143ea6793337c9cd4bf3c3f",
+      "accepted": true,
+      "bytes": 158155,
+      "replaced": false
+    },
+    {
+      "id": "ghee",
+      "source": "public/images/foods/ghee.jpg",
+      "sha256": "55780ed8ecd908308dce3e4faa3fae898e1c8a8a76cb7ebf405dc73db90de47d",
+      "accepted": true,
+      "bytes": 172936,
+      "replaced": false
+    },
+    {
+      "id": "olive-oil",
+      "source": "public/images/foods/local-oliveOil.jpg",
+      "sha256": "b75c6a22b771e7fe7344b17a29d06d2316540f88ad5a3e56c9ef7aa0429369fb",
+      "accepted": true,
+      "bytes": 112589,
+      "replaced": false
+    },
+    {
+      "id": "vegetable-oils",
+      "source": "public/images/foods/vegetable-oils.jpg",
+      "sha256": "b7ef5ecb1dce3e8fd1a229496b96c367cc36e1973bd0d2198cd2fb921d589901",
+      "accepted": true,
+      "bytes": 182050,
+      "replaced": false
+    },
+    {
+      "id": "hydrogenated-oils",
+      "source": "public/images/foods/hydrogenated-oils.jpg",
+      "sha256": "e047679ccf01706e51ec0bb4a2368d3573d57524691959a49656ebed51a31fd3",
+      "accepted": true,
+      "bytes": 152643,
+      "replaced": false
+    },
+    {
+      "id": "leafy-greens",
+      "source": "public/images/foods/local-spinach.jpg",
+      "sha256": "56bea5dd4de77d3929e0f790d591e9096096d3ea8aeb7306ee80be526139f0ee",
+      "accepted": true,
+      "bytes": 103043,
+      "replaced": false
+    },
+    {
+      "id": "raw-vegetables",
+      "source": "public/images/foods/local-carrots.jpg",
+      "sha256": "96d2c6371f501501a448f7bbed11d00302967ff1d5f9dd4f57746c8ccd815a2a",
+      "accepted": true,
+      "bytes": 151127,
+      "replaced": false
+    },
+    {
+      "id": "zucchini",
+      "source": "public/images/foods/local-stuffedZucchini.jpg",
+      "sha256": "a114ba82e35ecac2b0402338de2f1ca7b3db93da5e0a6607c9d4c854c3acfcfd",
+      "accepted": true,
+      "bytes": 226737,
+      "replaced": false
+    },
+    {
+      "id": "legumes",
+      "source": "public/images/foods/local-lentils.jpg",
+      "sha256": "99f36dd7a3470cf610dee410dbf41c471590889759f7d2c7321fe148d4f805f2",
+      "accepted": true,
+      "bytes": 213129,
+      "replaced": false
+    },
+    {
+      "id": "grapes",
+      "source": "public/images/foods/local-grapes.jpg",
+      "sha256": "7734505415f226bb14a0fe8d8b25347156f422b5313f78ed8d24bab1e73c9aaf",
+      "accepted": true,
+      "bytes": 131108,
+      "replaced": false
+    },
+    {
+      "id": "apple",
+      "source": "public/images/foods/local-apples.jpg",
+      "sha256": "4d4a1ee065fa12f7759f36582ffd85ca466557ffc09e691a5c95ba844d2641ae",
+      "accepted": true,
+      "bytes": 90319,
+      "replaced": false
+    },
+    {
+      "id": "pomegranate",
+      "source": "public/images/foods/local-pomegranate.jpg",
+      "sha256": "4ea4ce1490895afedf131bb240a5348cbf70e2c6d3181f1e88d455355cc598c5",
+      "accepted": true,
+      "bytes": 128009,
+      "replaced": false
+    },
+    {
+      "id": "figs",
+      "source": "public/images/foods/local-figs.jpg",
+      "sha256": "600d8a4559fbc588cefca98f21c58dab9fea9f89d31536f6a55ea07a2a6c29a1",
+      "accepted": true,
+      "bytes": 130678,
+      "replaced": false
+    },
+    {
+      "id": "banana",
+      "source": "public/images/foods/banana.jpg",
+      "sha256": "e1758ece53248771415a6e5926a39de4d3113e89b40c35d13aee75101fbdc848",
+      "accepted": true,
+      "bytes": 157493,
+      "replaced": false
+    },
+    {
+      "id": "watermelon",
+      "source": "public/images/foods/local-watermelon.jpg",
+      "sha256": "29dad2109028ec779ba9fc38488f6767a9b678d7eb241e06e8a48729be1c1a78",
+      "accepted": true,
+      "bytes": 147849,
+      "replaced": false
+    },
+    {
+      "id": "citrus",
+      "source": "public/images/foods/citrus.jpg",
+      "sha256": "07a5edd7d770e75318f62173abc03e56bec753c4a57c325be658aced1840cba1",
+      "accepted": true,
+      "bytes": 155152,
+      "replaced": false
+    },
+    {
+      "id": "nuts",
+      "source": "public/images/foods/local-nuts.jpg",
+      "sha256": "4d33733aded999332405fd636218cf29b8ea70c404bccb731e64033aa1952d35",
+      "accepted": true,
+      "bytes": 137431,
+      "replaced": false
+    },
+    {
+      "id": "honey",
+      "source": "public/images/foods/local-honey.jpg",
+      "sha256": "a4469360087fe079c72e58952cbe4296b4dfe660a7be8033373cf8fd5e31e6f1",
+      "accepted": true,
+      "bytes": 121863,
+      "replaced": false
+    },
+    {
+      "id": "dark-chocolate",
+      "source": "public/images/foods/local-darkChocolate.jpg",
+      "sha256": "06c1d9388254250eceff8d7dda973b06731615bd1ac7fb050a6bcc4eef468632",
+      "accepted": true,
+      "bytes": 130305,
+      "replaced": false
+    },
+    {
+      "id": "halawa",
+      "source": "public/images/foods/halawa.jpg",
+      "sha256": "a6646d84023628c530a2615ed67902481362e2e0e35e3e7ef283f85b6ad7bcb7",
+      "accepted": true,
+      "bytes": 198581,
+      "replaced": false
+    },
+    {
+      "id": "nutella",
+      "source": "public/images/foods/nutella.jpg",
+      "accepted": false,
+      "reason": "Wrong subject or embedded branding/text found in visual review"
+    },
+    {
+      "id": "green-tea",
+      "source": "public/images/foods/local-greenTea.jpg",
+      "sha256": "3c2bd601e0a5fcbac706e41f0e13e3c2597d1cc9e6435926f753a89d3fb4b540",
+      "accepted": true,
+      "bytes": 65243,
+      "replaced": false
+    },
+    {
+      "id": "turkish-coffee",
+      "source": "public/images/foods/local-turkishCoffee.jpg",
+      "sha256": "ef72b7fde2eb451050f9c32250b5d38373234fda509919207e405e851d259656",
+      "accepted": true,
+      "bytes": 111929,
+      "replaced": false
+    },
+    {
+      "id": "thyme-tea",
+      "source": "public/images/foods/thyme-tea.jpg",
+      "sha256": "bc158250f5e611e7660a90a4e97cda713b77e60c5ab0b798ae95094b6a828ac9",
+      "accepted": true,
+      "bytes": 205365,
+      "replaced": false
+    },
+    {
+      "id": "black-tea",
+      "source": "public/images/foods/black-tea.jpg",
+      "sha256": "b835952bfc175dbf5c0adc467d68217e05bde8490ccc934ce56fa128bec9ad0d",
+      "accepted": true,
+      "bytes": 168618,
+      "replaced": false
+    },
+    {
+      "id": "soda",
+      "source": "public/images/foods/local-cola.jpg",
+      "sha256": "5681f530ea74d716fc830f1ebc5e8be964fd4cdd94dcedcb5875ddc5cabab3f0",
+      "accepted": true,
+      "bytes": 86608,
+      "replaced": false
+    },
+    {
+      "id": "water",
+      "source": "public/images/foods/water.jpg",
+      "sha256": "2f7880abf39a6fc9db400105c5461b4fca9a5d3d64cc6cd9d6df31eb9831f4fe",
+      "accepted": true,
+      "bytes": 91140,
+      "replaced": false
+    },
+    {
+      "id": "lemon",
+      "source": "public/images/foods/lemon.jpg",
+      "sha256": "4f790908be30815a54d98f13e139bb8f4cd700bad8dbf52219c2ec8d89c5aeea",
+      "accepted": true,
+      "bytes": 54250,
+      "replaced": false
+    },
+    {
+      "id": "cane-vinegar",
+      "source": "public/images/foods/cane-vinegar.jpg",
+      "sha256": "5f9687aa0052b95d2459e82b4fc826e0804a9a205259ecdf29896e2aaa1cfce3",
+      "accepted": true,
+      "bytes": 152117,
+      "replaced": false
+    },
+    {
+      "id": "olives",
+      "source": "public/images/foods/local-olives.jpg",
+      "sha256": "a6de44425e6e9977924c67c414d7d1a8cea56c20db3aef537ebe443535d96d4d",
+      "accepted": true,
+      "bytes": 192540,
+      "replaced": false
+    },
+    {
+      "id": "salt-spices",
+      "source": "public/images/foods/salt-spices.jpg",
+      "sha256": "5569f3a0453a6d9eed6f484bb7315ca1e94d2c52b1dce816e58c098b950bd224",
+      "accepted": true,
+      "bytes": 168488,
+      "replaced": false
+    },
+    {
+      "id": "green-salad",
+      "source": "public/images/foods/green-salad.jpg",
+      "sha256": "f92e0aa038569e335c0316b2399fed6090f96b9595afe42fd03c6b5c9956f0c4",
+      "accepted": true,
+      "bytes": 138259,
+      "replaced": false
+    },
+    {
+      "id": "cottage-cheese",
+      "source": "public/images/foods/cottage-cheese.jpg",
+      "sha256": "4f7680edd3e1aa33d56a5e252dac8ea239abc260b5bd469d55d8943710bab81e",
+      "accepted": true,
+      "bytes": 180362,
+      "replaced": false
+    },
+    {
+      "id": "shrimp",
+      "source": "public/images/foods/shrimp.jpg",
+      "sha256": "5e0ab4cdb11a9b5c0b98738bc7ea15235edf1d41e22a1a4337a6b328e23ebfcf",
+      "accepted": true,
+      "bytes": 118332,
+      "replaced": false
+    },
+    {
+      "id": "strawberries",
+      "source": "public/images/foods/strawberries.jpg",
+      "sha256": "fc62be987d65be3caff399394e14955e369c9ba62393fda0e8261b95572ff744",
+      "accepted": true,
+      "bytes": 125132,
+      "replaced": false
+    },
+    {
+      "id": "sweet-potato",
+      "source": "public/images/foods/sweet-potato.jpg",
+      "sha256": "c39361410f9217a90a2aa00b77fa5b2cc3b118a6831778acc5ae4e275b8c471d",
+      "accepted": true,
+      "bytes": 174106,
+      "replaced": false
+    },
+    {
+      "id": "tahini",
+      "source": "public/images/foods/tahini.jpg",
+      "accepted": false,
+      "reason": "Wrong subject or embedded branding/text found in visual review"
+    },
+    {
+      "id": "cherries",
+      "source": "public/images/foods/cherries.jpg",
+      "sha256": "2f0e6b068793fa981260b92d69de70350c3adbcebe0173981e82ac7fd5f3b65b",
+      "accepted": true,
+      "bytes": 158165,
+      "replaced": false
+    },
+    {
+      "id": "farm-fish",
+      "source": "public/images/foods/farm-fish.jpg",
+      "sha256": "432f41a559d42aa0122f0bbeaed3ef1f310d5e458fe826f72f8457c1da88491f",
+      "accepted": true,
+      "bytes": 189681,
+      "replaced": false
+    },
+    {
+      "id": "kunafa",
+      "source": "public/images/foods/kunafa.jpg",
+      "sha256": "d335082566695367cd12a2986ff02bdca16ec0369a2f177d1f3143aa650a0404",
+      "accepted": true,
+      "bytes": 235836,
+      "replaced": false
+    },
+    {
+      "id": "black-eyed-peas",
+      "source": "public/images/foods/black-eyed-peas.jpg",
+      "accepted": false,
+      "reason": "Wrong subject or embedded branding/text found in visual review"
+    },
+    {
+      "id": "potato-chips",
+      "source": "public/images/foods/potato-chips.jpg",
+      "sha256": "323639de2ecb4227754adb11806781e04eba7e950180a997ceca4fd8a735182e",
+      "accepted": true,
+      "bytes": 180001,
+      "replaced": false
+    },
+    {
+      "id": "oriental-sausage",
+      "source": "public/images/foods/oriental-sausage.jpg",
+      "sha256": "1fd071fd24f92b590f22b024592738f45908df40f88a866b1f5e80fb5ddcc2e3",
+      "accepted": true,
+      "bytes": 237540,
+      "replaced": false
+    },
+    {
+      "id": "beef-burger-hotdog",
+      "source": "public/images/foods/beef-burger.jpg",
+      "sha256": "660e6264ed342a1a8b0c4a749bac199509b45b46d3bcb0e43d997d0838f528c5",
+      "accepted": true,
+      "bytes": 220730,
+      "replaced": false
+    },
+    {
+      "id": "ice-cream",
+      "source": "public/images/foods/ice-cream.jpg",
+      "sha256": "f9b2aced23df4e9dfd3ddb037105c4e5e8dac3359a18fa031e4a9ba3ddadf9c8",
+      "accepted": true,
+      "bytes": 156158,
+      "replaced": false
+    },
+    {
+      "id": "popcorn",
+      "source": "public/images/foods/popcorn.jpg",
+      "sha256": "60bc0bf53e12a7799bf6df6063cde8abdbb0300336244896913477ca12a617be",
+      "accepted": true,
+      "bytes": 151264,
+      "replaced": false
+    },
+    {
+      "id": "taro",
+      "source": "public/images/foods/taro.jpg",
+      "sha256": "9e3b3cf82c73346557cb32ebae4cc0fbeeed5efaa12c6405103138d876b1e64f",
+      "accepted": true,
+      "bytes": 208305,
+      "replaced": false
+    },
+    {
+      "id": "okra",
+      "source": "public/images/foods/okra.jpg",
+      "sha256": "bbece6f75573f0355524dbf4f8154816808e4eb619be54af0ca41a56ff51abe9",
+      "accepted": true,
+      "bytes": 211165,
+      "replaced": false
+    },
+    {
+      "id": "eggplant",
+      "source": "public/images/foods/eggplant.jpg",
+      "sha256": "57603cd6929279d3e4be23e5b216a2229374e5cd3e13207d88056ee1f45bdc11",
+      "accepted": true,
+      "bytes": 174155,
+      "replaced": false
+    },
+    {
+      "id": "mango",
+      "source": "public/images/foods/mango.jpg",
+      "sha256": "bf32d0cc1c1e40d273b84eef21706c7fad23f37451fb145b7ac91af6aaef064a",
+      "accepted": true,
+      "bytes": 173469,
+      "replaced": false
+    },
+    {
+      "id": "processed-cheese",
+      "source": "public/images/foods/processed-cheese.jpg",
+      "accepted": false,
+      "reason": "Wrong subject or embedded branding/text found in visual review"
+    },
+    {
+      "id": "oats",
+      "source": "public/images/foods/oats.jpg",
+      "sha256": "e8c939dcc9e92f65e82ccb1105ab8c598e62e2373adc2c884ee43b9917d11de2",
+      "accepted": true,
+      "bytes": 223161,
+      "replaced": false
+    },
+    {
+      "id": "corn-flour",
+      "source": "public/images/foods/corn-flour.jpg",
+      "sha256": "e8bcb5882c370b190dfd07ced26334036eb307facb067ebe3068b5c439f1972c",
+      "accepted": true,
+      "bytes": 200695,
+      "replaced": false
+    },
+    {
+      "id": "traditional-pastries",
+      "source": "public/images/foods/traditional-pastries.jpg",
+      "accepted": false,
+      "reason": "Wrong subject or embedded branding/text found in visual review"
+    },
+    {
+      "id": "berries",
+      "source": "public/images/foods/berries.jpg",
+      "sha256": "5f4b6c7a13e06f85a3fdc843bbe7c14d02dc096dc480c39a5360c5e8cfff0981",
+      "accepted": true,
+      "bytes": 121613,
+      "replaced": false
+    },
+    {
+      "id": "guava",
+      "source": "public/images/foods/guava.jpg",
+      "sha256": "18f593c444c570855a20daa1f4a83ec6d997d048b249328fbaf740872aaf9318",
+      "accepted": true,
+      "bytes": 161251,
+      "replaced": false
+    },
+    {
+      "id": "sugarcane",
+      "source": "public/images/foods/sugarcane.jpg",
+      "sha256": "4b648b9d4d9087491482e1d8ef3b99ca661db85680fd8102adb1f94f2f746071",
+      "accepted": true,
+      "bytes": 154837,
+      "replaced": false
+    },
+    {
+      "id": "ful-medames",
+      "source": "public/images/foods/ful-medames.jpg",
+      "sha256": "bdbdf6ffc61a431cd4b047555dbb2b8ba1baffee3d54ff156323f8efefa782be",
+      "accepted": true,
+      "bytes": 188090,
+      "replaced": false
+    },
+    {
+      "id": "molokhia",
+      "source": "public/images/foods/molokhia.jpg",
+      "sha256": "111e6e58a9f7e8040af6ce6d4c921f2a8e33156c565630657aa92d5055bd3cde",
+      "accepted": true,
+      "bytes": 248538,
+      "replaced": false
+    },
+    {
+      "id": "tomato",
+      "source": "public/images/foods/tomato.jpg",
+      "sha256": "1dd6ae77a5791da5b6af5f186f1db94736d60b3ba465ffeebfdad6682bf713d9",
+      "accepted": true,
+      "bytes": 218781,
+      "replaced": false
+    },
+    {
+      "id": "onions",
+      "source": "public/images/foods/onions.jpg",
+      "sha256": "ca46959177af784a0c15b56f405181bad3b3a3eb3c309e4bfa81399785a8decc",
+      "accepted": true,
+      "bytes": 222090,
+      "replaced": false
+    },
+    {
+      "id": "garlic",
+      "source": "public/images/foods/garlic.jpg",
+      "sha256": "9f452e7373fadda36f69bedbc0bb60cdea7a46b48d2ebd849ce995f1823fdaee",
+      "accepted": true,
+      "bytes": 183073,
+      "replaced": false
+    },
+    {
+      "id": "cucumber",
+      "source": "public/images/foods/cucumber.jpg",
+      "sha256": "cc6043ffeacf3cb4bb4b1044aa254a8b9da706866401711eadf00e086c318e26",
+      "accepted": true,
+      "bytes": 175797,
+      "replaced": false
+    },
+    {
+      "id": "egyptian-rice",
+      "source": "public/images/foods/egyptian-rice.jpg",
+      "sha256": "edbb2829b8d54ce7eda91adb043e6f931a98afd7aa24e8fc4383a74d4bf5ebc6",
+      "accepted": true,
+      "bytes": 157901,
+      "replaced": false
+    },
+    {
+      "id": "animal-tallow-liyya",
+      "source": "public/images/foods/animal-tallow-liyya.jpg",
+      "sha256": "63c8ea93975fd757bcbf0633f49d512ba2d3ca9cc475712f61ee185a4207c129",
+      "accepted": true,
+      "bytes": 177350,
+      "replaced": false
+    },
+    {
+      "id": "flaxseed-oil",
+      "source": "public/images/foods/flaxseed-oil.jpg",
+      "sha256": "acdc4f465628d4bfa0bd8e762bfea3611808165559aa714bf67d694ad4fd5cc0",
+      "accepted": true,
+      "bytes": 186834,
+      "replaced": false
+    },
+    {
+      "id": "hibiscus-tea",
+      "source": "public/images/foods/hibiscus-tea.jpg",
+      "sha256": "37a22991a8b8737d5a2d980fdc57f83cc7d9a4a8db78e97cec41018ca465698d",
+      "accepted": true,
+      "bytes": 206240,
+      "replaced": false
+    },
+    {
+      "id": "mackerel",
+      "source": "public/images/foods/mackerel.jpg",
+      "sha256": "f5d7518f4749bf00b0b3fc8ea5e368b8f8532ad1919d0897d152aa48e7370fd8",
+      "accepted": true,
+      "bytes": 313278,
+      "replaced": false
+    },
+    {
+      "id": "wild-mullet",
+      "source": "public/images/foods/wild-mullet.jpg",
+      "sha256": "d2e892aae8e57bb1a9172869e2fdf96b255bc6bd302b5b1970c621def7b0ff17",
+      "accepted": true,
+      "bytes": 267468,
+      "replaced": false
+    },
+    {
+      "id": "baladi-chicken",
+      "source": "public/images/foods/baladi-chicken.jpg",
+      "sha256": "236ebac40b2a5bd65bc93fb4cd0dc4bcbb16952f15da8718532916888b1c193b",
+      "accepted": true,
+      "bytes": 263097,
+      "replaced": false
+    },
+    {
+      "id": "rayeb-milk",
+      "source": "public/images/foods/rayeb-milk.jpg",
+      "sha256": "c566a61e896bb16d63f3661c8c96fd28edaeddc875750d1e3178ab4be455ba04",
+      "accepted": true,
+      "bytes": 189070,
+      "replaced": false
+    },
+    {
+      "id": "farmed-tilapia",
+      "source": "public/images/foods/farmed-tilapia.jpg",
+      "sha256": "562cb1f5e7e4f112d792d24f433532daf3d0978332fdfa8409431be0978f525f",
+      "accepted": true,
+      "bytes": 309492,
+      "replaced": false
+    },
+    {
+      "id": "boiled-mint",
+      "source": "public/images/foods/boiled-mint.jpg",
+      "sha256": "be6b466227e3a059bcd87f66da9c5944cf46dee4881ac43d5bc763101b21d4a6",
+      "accepted": true,
+      "bytes": 185302,
+      "replaced": false
+    },
+    {
+      "id": "milk-tea",
+      "source": "public/images/foods/milk-tea.jpg",
+      "sha256": "14d6b9db9d5d01433b55050373baf01cdb7ae4f57c20a72a0192312f1f935157",
+      "accepted": true,
+      "bytes": 183716,
+      "replaced": false
+    },
+    {
+      "id": "koshary",
+      "source": "public/images/foods/koshary.jpg",
+      "sha256": "9888c5226e99f7849696cbca4deac9a95b063ecf22785556c46f054755a50b4c",
+      "accepted": true,
+      "bytes": 277875,
+      "replaced": false
+    },
+    {
+      "id": "taameya-falafel",
+      "source": "public/images/foods/taameya-falafel.jpg",
+      "sha256": "6d544aead29e896e3f822e614aa06d7d15e29a5047d848f97ed9049ce15b97c0",
+      "accepted": true,
+      "bytes": 235693,
+      "replaced": false
+    },
+    {
+      "id": "fino-bread",
+      "source": "public/images/foods/fino-bread.jpg",
+      "sha256": "60d3f55cb604f60bad7267bcdd9d6f872b7dec726fcde06e3149cdc7ee1448b3",
+      "accepted": true,
+      "bytes": 246811,
+      "replaced": false
+    },
+    {
+      "id": "bouillon-cubes",
+      "source": "public/images/foods/bouillon-cubes.jpg",
+      "sha256": "e8e7aabbb0ae143de219d38dfa94b007a7611edecb884aea8f974250e5cbf126",
+      "accepted": true,
+      "bytes": 226171,
+      "replaced": false
+    },
+    {
+      "id": "commercial-baladi-bread",
+      "source": "newasset/commercial-baladi-bread.png",
+      "sha256": "95fda537a35fca52ad4dc470f103d412e14176cb4126353aa843b28f3212ae87",
+      "accepted": true,
+      "bytes": 346170,
+      "replaced": false
+    },
+    {
+      "id": "sun-bread",
+      "source": "newasset/sun-bread.png",
+      "sha256": "d0cd5fbc1d5af54ad59f691908b21bcb69a4e597b3947d2d53b471835949e361",
+      "accepted": true,
+      "bytes": 307705,
+      "replaced": false
+    },
+    {
+      "id": "shami-bread",
+      "source": "newasset/shami-bread.png",
+      "sha256": "dd031cf6442ebcbef2b8629df69ebae8191488b8528a7158baaf05e5925ab476",
+      "accepted": true,
+      "bytes": 231809,
+      "replaced": false
+    },
+    {
+      "id": "lebanese-bread",
+      "source": "newasset/lebanese-bread.png",
+      "sha256": "1cff281d9e2383853ff0d4029df341ae92e749bf875e3de341437c56be5648e6",
+      "accepted": true,
+      "bytes": 310655,
+      "replaced": false
+    },
+    {
+      "id": "french-baguette",
+      "source": "newasset/french-baguette.png",
+      "sha256": "32f31c1edb42b9333a835e4f80a7c0a5b621426025c59c71a00df398002eda2c",
+      "accepted": true,
+      "bytes": 290107,
+      "replaced": false
+    },
+    {
+      "id": "white-toast",
+      "source": "newasset/white-toast.png",
+      "sha256": "44dda8b35d40a5d6dcd622c68b2ae5d9e0c3db9f0901b9f32dc8c70c739cb172",
+      "accepted": true,
+      "bytes": 204250,
+      "replaced": false
+    },
+    {
+      "id": "oat-bread",
+      "source": "newasset/oat-bread.png",
+      "sha256": "078ab48779537adce37d2395df49c39c0e1b682a6f32050fe1b76b2b30310ce5",
+      "accepted": true,
+      "bytes": 326426,
+      "replaced": false
+    },
+    {
+      "id": "multigrain-bread",
+      "source": "newasset/multigrain-bread.png",
+      "sha256": "85fd4d7bc4cac225ad22dc4ea173c6ff5d9a8a1868906b3cf3875e2016e80b70",
+      "accepted": true,
+      "bytes": 338805,
+      "replaced": false
+    },
+    {
+      "id": "wheat-tortilla",
+      "source": "newasset/wheat-tortilla.png",
+      "sha256": "aefbf0d8a8062b6a726e340cd9fa6256fe080aaf09f8b60f84a86cfd109de267",
+      "accepted": true,
+      "bytes": 232785,
+      "replaced": false
+    },
+    {
+      "id": "saj-bread",
+      "source": "newasset/saj-bread.png",
+      "sha256": "47b608629a5c7fa604da138894d56a9e48dd972ef155d2729c85292e2f1c63d6",
+      "accepted": true,
+      "bytes": 308662,
+      "replaced": false
+    },
+    {
+      "id": "roqaq-dough",
+      "source": "newasset/roqaq-dough.png",
+      "sha256": "a3950bf2cb9011ab50b1024b497e2af48cdf116c672822f833117d64e3961d16",
+      "accepted": true,
+      "bytes": 259137,
+      "replaced": false
+    },
+    {
+      "id": "rice-bread",
+      "source": "newasset/rice-bread.png",
+      "sha256": "16bc6b0a03da471b9ea1838cff68acfe8efac9b2293f61bba82330148cc9c95b",
+      "accepted": true,
+      "bytes": 275683,
+      "replaced": false
+    },
+    {
+      "id": "long-grain-white-rice",
+      "source": "public/images/foods/local-riceRaw.jpg",
+      "sha256": "f770e44768ec7026d1822a4c94881c0c65ef6dab20cc15bf6b0b38c402cbc24a",
+      "accepted": true,
+      "bytes": 97425,
+      "replaced": false
+    },
+    {
+      "id": "brown-rice",
+      "source": "newasset/brown-rice.png",
+      "sha256": "f476e9be51cbfeeda0b177af6d72613600399c26b5c7787565e569ff7ea0dae8",
+      "accepted": true,
+      "bytes": 251848,
+      "replaced": false
+    },
+    {
+      "id": "rice-with-vermicelli",
+      "source": "newasset/rice-with-vermicelli.png",
+      "sha256": "bc446baa8f5645fbe8e58af490dcd9d1159070d4e40258afa3a6bf42c3fe9196",
+      "accepted": true,
+      "bytes": 289894,
+      "replaced": false
+    },
+    {
+      "id": "roz-meammar",
+      "source": "newasset/roz-meammar.png",
+      "sha256": "8785563ed71a3b8dbe117a5063411e7d22796bf5f5f3107bdc7b4dd999cf355b",
+      "accepted": true,
+      "bytes": 308267,
+      "replaced": false
+    },
+    {
+      "id": "orzo",
+      "source": "newasset/orzo.png",
+      "sha256": "d50acdc91a46940e158f30556ac2987c2f07c8d2e80cb31c175f44f4fca08100",
+      "accepted": true,
+      "bytes": 286247,
+      "replaced": false
+    },
+    {
+      "id": "vermicelli",
+      "source": "newasset/vermicelli.png",
+      "sha256": "7d6c21001c45df963358dd1f0d1554bdfb9c2ccc80dc0777e1a387ef22b4e690",
+      "accepted": true,
+      "bytes": 290519,
+      "replaced": false
+    },
+    {
+      "id": "freekeh",
+      "source": "newasset/freekeh.png",
+      "sha256": "66ae0ea5d1210cba04f9d943a7f0465aa47b1dcaafcb8ecdbc48c9fe4313b16a",
+      "accepted": true,
+      "bytes": 319326,
+      "replaced": false
+    },
+    {
+      "id": "bulgur",
+      "source": "newasset/bulgur.png",
+      "sha256": "07f406269992fc34cafafa9d679ee4a784d5b0c7d6683b6e4f1bac052dd4ebfe",
+      "accepted": true,
+      "bytes": 314974,
+      "replaced": false
+    },
+    {
+      "id": "semolina",
+      "source": "newasset/semolina.png",
+      "sha256": "b54409cd770ddb3700b205912a44ece79489984dca6bc4f2efe7c834b4f05be3",
+      "accepted": true,
+      "bytes": 298509,
+      "replaced": false
+    },
+    {
+      "id": "corn",
+      "source": "newasset/corn.png",
+      "sha256": "5713a0e181c4517ddc4cb10ef94a69bd52498d4752fc52fa6850e88c545e4f38",
+      "accepted": true,
+      "bytes": 278265,
+      "replaced": false
+    },
+    {
+      "id": "corn-flakes",
+      "source": "newasset/corn-flakes.png",
+      "sha256": "c44c2d02c174db5f28605a67ded2fc20599cef3ae74a769f8aa7f7e66ced56f6",
+      "accepted": true,
+      "bytes": 274565,
+      "replaced": false
+    },
+    {
+      "id": "belila",
+      "source": "newasset/belila.png",
+      "sha256": "c23dc24dfc7f72f7148fa70f5c4566ba2331546bfbb3aa0190127d06b05a16cf",
+      "accepted": true,
+      "bytes": 243224,
+      "replaced": false
+    },
+    {
+      "id": "barley",
+      "source": "newasset/barley.png",
+      "sha256": "b41ba4e9f4e2c7490987cd6eecb61a36b68a925dde2abf88f1f048d977e30de2",
+      "accepted": true,
+      "bytes": 281463,
+      "replaced": false
+    },
+    {
+      "id": "quinoa",
+      "source": "newasset/quinoa.png",
+      "sha256": "dda03c6eb3e0811bb82e9a4249c1fdb41e91ac66aaecd1320ee4629a89d13450",
+      "accepted": true,
+      "bytes": 334002,
+      "replaced": false
+    },
+    {
+      "id": "couscous",
+      "source": "newasset/couscous.png",
+      "sha256": "11085b341dc8f84955288705fc637f80a882b75df870912c39ce97cf67a1e31a",
+      "accepted": true,
+      "bytes": 298956,
+      "replaced": false
+    },
+    {
+      "id": "boiled-potatoes",
+      "source": "newasset/boiled-potatoes.png",
+      "sha256": "c46b0e0c61fa2f7a24e04e92534e9a6cc9ec8f0b30e51ea13c7c7b94b91db91f",
+      "accepted": true,
+      "bytes": 246046,
+      "replaced": false
+    },
+    {
+      "id": "baked-potatoes",
+      "source": "newasset/baked-potatoes.png",
+      "sha256": "718c6bb3fd94cf34ed068687d435c0017fac3a328452c6dce36667be9d9cf274",
+      "accepted": true,
+      "bytes": 290079,
+      "replaced": false
+    },
+    {
+      "id": "mashed-potatoes",
+      "source": "newasset/mashed-potatoes.png",
+      "sha256": "181be840841bc72cb4dba1af9bf0f7e1522f5e38e363d1ce61358bfb8bb64387",
+      "accepted": true,
+      "bytes": 251830,
+      "replaced": false
+    },
+    {
+      "id": "baked-sweet-potato",
+      "source": "newasset/baked-sweet-potato.png",
+      "sha256": "c334c0e06479228a433ab51aff91ef6ebdf0c5c4f2ef2b0c2adccf13d5a0db5e",
+      "accepted": true,
+      "bytes": 253924,
+      "replaced": false
+    },
+    {
+      "id": "beetroot",
+      "source": "newasset/beetroot.png",
+      "sha256": "fab9e7b31e8e8201fb9b149c5f0238a16d66bdb8a555efd44546d6e4c112255e",
+      "accepted": true,
+      "bytes": 314446,
+      "replaced": false
+    },
+    {
+      "id": "turnip",
+      "source": "newasset/turnip.png",
+      "sha256": "0acf5176b70827cf195bacdb1414da2b4e5fb792abcfea148a3f29f90570d32b",
+      "accepted": true,
+      "bytes": 277715,
+      "replaced": false
+    },
+    {
+      "id": "carrots",
+      "source": "newasset/carrots.png",
+      "sha256": "23fd91b97ef87a30edfb6452e3912de65b294616caf0481805c6fc2bfbcdaa3b",
+      "accepted": true,
+      "bytes": 268948,
+      "replaced": false
+    },
+    {
+      "id": "cooked-zucchini",
+      "source": "newasset/cooked-zucchini.png",
+      "sha256": "84d7ce18a22bb008a76ef630169ee89f27d7401b4714933a8c65840d868b33da",
+      "accepted": true,
+      "bytes": 305836,
+      "replaced": false
+    },
+    {
+      "id": "cooked-okra",
+      "source": "newasset/cooked-okra.png",
+      "sha256": "5a4c7043bc319fe5a58fd0e13f234a32f33939b1e6f23181d7b1d02dd863aeb5",
+      "accepted": true,
+      "bytes": 281705,
+      "replaced": false
+    },
+    {
+      "id": "cooked-spinach",
+      "source": "newasset/cooked-spinach.png",
+      "sha256": "3a8a72967806ea23002ae2fe358ec85a2bbe8920eb65c27da1ef8c4be46db61d",
+      "accepted": true,
+      "bytes": 298936,
+      "replaced": false
+    },
+    {
+      "id": "fresh-herbs-parsley-dill-coriander",
+      "source": "newasset/fresh-herbs-parsley-dill-coriander.png",
+      "sha256": "cc12beaec352284e764fb4bb4debbc4e7cb2fa21bcc84d2b9b9d92922666af4a",
+      "accepted": true,
+      "bytes": 328070,
+      "replaced": false
+    },
+    {
+      "id": "celery",
+      "source": "newasset/celery.png",
+      "sha256": "a832d703f98fa9d38ee71280f68701076be1a59501a94ef72e3d7db2eda7da15",
+      "accepted": true,
+      "bytes": 278811,
+      "replaced": false
+    },
+    {
+      "id": "cabbage",
+      "source": "newasset/cabbage.png",
+      "sha256": "b2440193dd56f68c57979060f4f8918c1e5680497d09ec32481070f8db562b5d",
+      "accepted": true,
+      "bytes": 255606,
+      "replaced": false
+    },
+    {
+      "id": "cauliflower",
+      "source": "newasset/cauliflower.png",
+      "sha256": "6b73017744028692925214224ca72e81c26c73a59bbf9e73e5f7c0bbc569c5ba",
+      "accepted": true,
+      "bytes": 280545,
+      "replaced": false
+    },
+    {
+      "id": "broccoli",
+      "source": "newasset/broccoli.png",
+      "sha256": "bf8b2b3515eed182d770cc42ee77dd4380ca441348cbaf1b635911ebb9271a15",
+      "accepted": true,
+      "bytes": 313137,
+      "replaced": false
+    },
+    {
+      "id": "bell-pepper",
+      "source": "newasset/bell-pepper.png",
+      "sha256": "c77145f0e859b5a4f963736867fc3a44ecdb91dd4a2d3bc9ad122ecd7c6ed675",
+      "accepted": true,
+      "bytes": 255902,
+      "replaced": false
+    },
+    {
+      "id": "hot-chili-pepper",
+      "source": "newasset/hot-chili-pepper.png",
+      "sha256": "40383b4454b758626de39c8f5166f09f5b0b2c6136490d0de24f9d1c8680ade5",
+      "accepted": true,
+      "bytes": 271534,
+      "replaced": false
+    },
+    {
+      "id": "artichoke",
+      "source": "newasset/artichoke.png",
+      "sha256": "b3264fa52ddfc1185a9be490c10e0a853130feb5f9a35b382fd62e918fa8ec34",
+      "accepted": true,
+      "bytes": 292349,
+      "replaced": false
+    },
+    {
+      "id": "green-peas",
+      "source": "newasset/green-peas.png",
+      "sha256": "31bf548b8c6399c1a40adc6709eaf7067c13599fb11b7067fb5e77196d33cb03",
+      "accepted": true,
+      "bytes": 270833,
+      "replaced": false
+    },
+    {
+      "id": "green-beans",
+      "source": "newasset/green-beans.png",
+      "sha256": "ee7fe5b7bf35b4ea4612daa7fd6095dacda4fbce315523e10ff994ee8ea63626",
+      "accepted": true,
+      "bytes": 286567,
+      "replaced": false
+    },
+    {
+      "id": "fresh-mushrooms",
+      "source": "newasset/fresh-mushrooms.png",
+      "sha256": "3bf81065e12be1daaed7a1acc2132d74aabd5ae4f6358df9b343c35797bd299c",
+      "accepted": true,
+      "bytes": 275653,
+      "replaced": false
+    },
+    {
+      "id": "pumpkin-squash",
+      "source": "newasset/pumpkin-squash.png",
+      "sha256": "6d38ddee9bac5bc8f15d72425e6ad91544bedebc5c948022ae472481874fbb4e",
+      "accepted": true,
+      "bytes": 293185,
+      "replaced": false
+    },
+    {
+      "id": "grape-leaves",
+      "source": "newasset/grape-leaves.png",
+      "sha256": "c26315d30973dea8130e14032caabb4e4e00f2e3c6ff3827bec1e0c41e6b8ff0",
+      "accepted": true,
+      "bytes": 285062,
+      "replaced": false
+    },
+    {
+      "id": "yellow-lentils",
+      "source": "newasset/yellow-lentils.png",
+      "sha256": "cbe190cb73f6ef9330b5528bdc5224203dfe52735f670a2d54727cf2136664f3",
+      "accepted": true,
+      "bytes": 271709,
+      "replaced": false
+    },
+    {
+      "id": "black-beluga-lentils",
+      "source": "newasset/black-beluga-lentils.png",
+      "sha256": "127be9f7df8e572dae0aba80c1604b14547659ec61f38558a114a8ee08340148",
+      "accepted": true,
+      "bytes": 272811,
+      "replaced": false
+    },
+    {
+      "id": "chickpeas",
+      "source": "newasset/chickpeas.png",
+      "sha256": "6f7d1b80c9ec5a112e02cfb840fb7c880fad424496166335f3ed32ec16181274",
+      "accepted": true,
+      "bytes": 268750,
+      "replaced": false
+    },
+    {
+      "id": "black-eyed-peas-dry",
+      "source": "newasset/black-eyed-peas-dry.png",
+      "sha256": "8cf751f33e1cf028b3b853f6cc8cbd7b8f3deb44baad40101c8cdb9bec2d2940",
+      "accepted": true,
+      "bytes": 276854,
+      "replaced": false
+    },
+    {
+      "id": "pears",
+      "source": "public/images/foods/pear.jpg",
+      "sha256": "4d56f021100c4f43c14466bddd2935e76f72d002d521a40cc709bac0dd8172fb",
+      "accepted": true,
+      "bytes": 152161,
+      "replaced": false
+    },
+    {
+      "id": "grapefruit",
+      "source": "public/images/foods/local-rozMeammar.jpg",
+      "sha256": "ac1e74ae661b1086abdbd0322e5889d4ab187f19940a08caba6388bdfe29ddd0",
+      "accepted": true,
+      "bytes": 118957,
+      "replaced": false
+    },
+    {
+      "id": "traditional-moussaka",
+      "source": "newasset/traditional-moussaka.png",
+      "sha256": "76569b5ac53fc15e70f5c763e42588398184470fb6bc68d389a2f4b656855977",
+      "accepted": true,
+      "bytes": 312403,
+      "replaced": false
+    },
+    {
+      "id": "pasta-bechamel",
+      "source": "newasset/pasta-bechamel.png",
+      "sha256": "0ab932cd593a52f355a6b850716b1571cb8a8246fd5d24bc524ff6285f634540",
+      "accepted": true,
+      "bytes": 275050,
+      "replaced": false
+    },
+    {
+      "id": "traditional-mahshi",
+      "source": "public/images/foods/mixed-mahshi.jpg",
+      "sha256": "022bb9761868be09352fc6217f351e64fc9c62233d1108160ab5267540d5d74a",
+      "accepted": true,
+      "bytes": 252184,
+      "replaced": false
+    },
+    {
+      "id": "roqaq-meat-pie",
+      "source": "newasset/roqaq-meat-pie.png",
+      "sha256": "cf43d670322337b074647d8b2c31f5e14c8eb179a13c6c1510cc2fb7150d659e",
+      "accepted": true,
+      "bytes": 301545,
+      "replaced": false
+    },
+    {
+      "id": "goulash-meat-pie",
+      "source": "newasset/goulash-meat-pie.png",
+      "sha256": "8cdc3db56e5bae7849c61b5277f7ebc64ac2845fc3a913d9acbb5ca297a24edd",
+      "accepted": true,
+      "bytes": 251251,
+      "replaced": false
+    },
+    {
+      "id": "orzo-soup",
+      "source": "newasset/orzo-soup.png",
+      "sha256": "8aae4d3d931a7a44e306c1196b451f0d6de7b9759385bbf760e2d4b43fe0fbd8",
+      "accepted": true,
+      "bytes": 262099,
+      "replaced": false
+    },
+    {
+      "id": "egyptian-lentil-soup",
+      "source": "newasset/egyptian-lentil-soup.png",
+      "sha256": "5bef1ef190c1c65f703e4d0bc360c3c40dc386fd9c37342f1aa6d67a35c0678e",
+      "accepted": true,
+      "bytes": 271911,
+      "replaced": false
+    },
+    {
+      "id": "vegetable-soup",
+      "source": "newasset/vegetable-soup.png",
+      "sha256": "a984d84c13d1fc1da41f3fb2323e311f46857e224634c3662c6f3fb7a63011f6",
+      "accepted": true,
+      "bytes": 279332,
+      "replaced": false
+    },
+    {
+      "id": "ful-sandwich-baladi",
+      "source": "newasset/ful-sandwich-baladi.png",
+      "sha256": "c9c95e083b4144ebcafb5ab91cd983fe049218900162351ffff0abfc04b0e49c",
+      "accepted": true,
+      "bytes": 305485,
+      "replaced": false
+    }
+  ]
+}

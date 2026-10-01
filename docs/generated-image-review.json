@@ -1,0 +1,957 @@
+{
+  "reviewedAt": "2026-10-01",
+  "accepted": [
+    "aged-cheddar-cheese",
+    "alexandrian-liver",
+    "anchovies",
+    "arabic-coffee",
+    "baked-potato-meat-tray",
+    "baladi-duck",
+    "baladi-geese",
+    "baladi-sausage-fresh",
+    "baladi-sobia",
+    "beef-steak",
+    "black-eyed-peas",
+    "black-pepper",
+    "brains-head-meat",
+    "brown-lentils",
+    "buffalo-meat",
+    "buffalo-milk",
+    "canned-tuna-oil",
+    "canned-tuna-water",
+    "cappuccino-latte",
+    "cardamom-mastic-laurel",
+    "carob-drink",
+    "chamomile-tea",
+    "chicken-gizzards-liver",
+    "cinnamon",
+    "cloves",
+    "coffee-3-in-1",
+    "commercial-hawawshi",
+    "cow-milk",
+    "crab",
+    "cumin",
+    "damiati-cheese",
+    "diet-sodas",
+    "dry-coriander",
+    "egyptian-fatta",
+    "energy-drinks",
+    "espresso",
+    "farm-chicken-breasts",
+    "farm-chicken-thighs",
+    "farmed-mullet",
+    "farmed-salmon",
+    "feseekh",
+    "feta-natural-cheese",
+    "fresh-baladi-cream",
+    "fresh-cooking-cream",
+    "fresh-orange-juice",
+    "fresh-strawberry-juice",
+    "fresh-tuna",
+    "ginger",
+    "gouda-edam-cheese",
+    "greek-yogurt",
+    "green-fava-beans",
+    "ground-beef",
+    "heart-kidneys",
+    "homemade-kofta",
+    "hot-chocolate",
+    "hot-dogs",
+    "instant-black-coffee",
+    "instant-noodles",
+    "istanbouli-cheese",
+    "kebab",
+    "lamb-chops",
+    "lemon-mint-juice",
+    "licorice-drink",
+    "lobster",
+    "luncheon-meat",
+    "lupini-beans",
+    "matcha",
+    "meat-shank",
+    "milk-kefir",
+    "milk-powder",
+    "mish-cheese",
+    "mussels-clams",
+    "nutella",
+    "octopus",
+    "okra-meat-tagine",
+    "parmesan-reggiano",
+    "pastirma",
+    "peanuts",
+    "pomegranate-juice",
+    "potatoes",
+    "processed-cheese",
+    "pure-water",
+    "qamar-el-din",
+    "quail-meat",
+    "red-chili-powder",
+    "red-kidney-beans",
+    "red-porgy",
+    "restaurant-kofta",
+    "sea-bass",
+    "sea-bream",
+    "skimmed-milk",
+    "smoked-herring",
+    "soda",
+    "sole-fish",
+    "soybeans",
+    "sparkling-water",
+    "squid-calamari",
+    "sweet-paprika",
+    "tahini",
+    "tamarind-drink",
+    "tongue-spleen",
+    "traditional-pastries",
+    "tripe-mombar",
+    "trotters-cow",
+    "turkey",
+    "turmeric",
+    "white-navy-beans",
+    "wild-dove",
+    "wild-salmon",
+    "wild-tilapia",
+    "zucchini-meat-stew"
+  ],
+  "rejected": [
+    {
+      "id": "kebab",
+      "file": "output/imagegen/kebab-rejected-kofta.original",
+      "reason": "First generated photograph depicted minced kofta; replaced with visually verified cubed beef kebab."
+    },
+    {
+      "id": "energy-drinks",
+      "file": "output/imagegen/rejected/energy-drinks-1790862810641.png",
+      "reason": "Fresh-fruit presentation resembled homemade refreshers rather than a commercial energy drink; replacement required."
+    },
+    {
+      "id": "zucchini-meat-stew",
+      "file": "output/imagegen/rejected/zucchini-meat-stew-1790863242845.png",
+      "reason": "Depicted meat-stuffed zucchini rather than separate zucchini pieces stewed with beef; replacement required."
+    },
+    {
+      "id": "mish-cheese",
+      "file": "output/imagegen/rejected/mish-cheese-1790864990259.png",
+      "reason": "White fresh-looking cheese in thin spicy liquid; mish should have aged tan chunks in thick fermented brine."
+    }
+  ],
+  "tool": "image_gen",
+  "notes": "Each listed photograph visually inspected; original tool outputs and staging copies retained locally.",
+  "individualRecords": [
+    {
+      "id": "alexandrian-liver",
+      "source": "output/imagegen/alexandrian-liver.png",
+      "sourceSha256": "555992bcf24b8ddb3a0f3c3a62225830e4c404c2e3a0fce520ce76be5bd6d9df",
+      "accepted": true
+    },
+    {
+      "id": "anchovies",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الأنشوجة البحرية الطازجة والمملحة; ID anchovies. Subject and preparation: Several tiny fresh silver anchovies beside a few cleaned salted anchovy fillets, ceramic platter. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/anchovies.png",
+      "sourceSha256": "aa8dc0becc510a1438f0db7da988e29c0b3ba99d3787b9eaee4398d106f8f71c"
+    },
+    {
+      "id": "arabic-coffee",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: القهوة العربية الشقراء بالهيل والزعفران (arabic-coffee). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/arabic-coffee.png",
+      "sourceSha256": "f71bbf8ada5834f50a56d1f633953258f5b39dbdc94018ceee08fb0d5a5094b6"
+    },
+    {
+      "id": "baked-potato-meat-tray",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: صينية البطاطس باللحمة البقري في الفرن (baked-potato-meat-tray). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/baked-potato-meat-tray.png",
+      "sourceSha256": "976d49a50fe41b889d33cb977e7e3738594f29b8acb2b9abeade1d7bae6e48ff"
+    },
+    {
+      "id": "baladi-duck",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: البط البلدي الفلاحي الطازج; ID baladi-duck. Subject and preparation: One whole freshly prepared raw plucked Egyptian domestic duck, realistic smaller poultry body with skin and no feathers. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/baladi-duck.png",
+      "sourceSha256": "3d73541ddf6bf1e50f416e1c9d4c300bb33ad550927fbe0a71ce0e1fcab8e400"
+    },
+    {
+      "id": "baladi-geese",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الأوز البلدي الطازج; ID baladi-geese. Subject and preparation: One whole freshly prepared raw plucked domestic goose, realistically larger elongated bird with pale skin. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/baladi-geese.png",
+      "sourceSha256": "97f358893a0de7ae68f8ccb8d113fa8f792f33dc93511d8c37dcd64717fc9c29"
+    },
+    {
+      "id": "baladi-sausage-fresh",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: السجق البلدي البيتي الطازج; ID baladi-sausage-fresh. Subject and preparation: Fresh raw Egyptian baladi sausages, reddish beef in natural casings with traditional spices, coiled on an earthenware plate. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, natural appetizing textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/baladi-sausage-fresh.png",
+      "sourceSha256": "563b5ff85ec9b7d5c2e7b8c12c575af5b50d9e7e2bd7668da20a55b88388d50e"
+    },
+    {
+      "id": "baladi-sobia",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: السوبيا البلدي الطبيعية بالأرز وجوز الهند (baladi-sobia). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/baladi-sobia.png",
+      "sourceSha256": "89091974c565c0361f98aab606b18a0fcc0573541db6ad16a25e109a465d9d15"
+    },
+    {
+      "id": "beef-steak",
+      "source": "output/imagegen/beef-steak.png",
+      "sourceSha256": "823a25c109e6cebbde53ec596c0e44b8e1d84e28ef315d15c8f743cd0aa36284",
+      "accepted": true
+    },
+    {
+      "id": "black-eyed-peas",
+      "source": "output/imagegen/black-eyed-peas.png",
+      "sourceSha256": "d5ad6f777fd18a2f324f8a5093685943ea23138a054108c0d211baacf10e5da6",
+      "accepted": true
+    },
+    {
+      "id": "black-pepper",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الفلفل الأسود الحصى والمطحون (black-pepper). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/black-pepper.png",
+      "sourceSha256": "0d1f7d9e83eab073aa554e294e195e6001073f88bc92f22f46628e1b94f0ee0c"
+    },
+    {
+      "id": "brains-head-meat",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Subject: المخ ولحمة الرأس البلدي المسلوقة; food identifier brains-head-meat. A modest shallow earthenware bowl of Egyptian boiled beef brain with soft natural lobes, and several separate pieces of cooked beef head meat, the authentic cooked dish, no raw organs. Warm natural window light, clean authentic Egyptian home earthenware and simple linen on a neutral tabletop, appetizing honest textures, three-quarter close view, single food subject fills the frame, landscape 4:3 aspect ratio. No people, lettering, labels, logos, packaging brands, watermark, collage, decorative health symbols or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/brains-head-meat.png",
+      "sourceSha256": "94d5bb8ae49cace94a49c12ed9795e77ab292e763216b808c3d57fd94263fbf9"
+    },
+    {
+      "id": "brown-lentils",
+      "source": "output/imagegen/brown-lentils.png",
+      "sourceSha256": "f555edf4e19be1d542b85e491f22d4aa45de6c520e7333596e3fdb975e93f427",
+      "accepted": true
+    },
+    {
+      "id": "buffalo-meat",
+      "source": "output/imagegen/buffalo-meat.png",
+      "sourceSha256": "e9721778dfdc0c51ef5a0c3c98f546e302a6710ccd4e11fac39497d9bc8a9f98",
+      "accepted": true
+    },
+    {
+      "id": "buffalo-milk",
+      "source": "output/imagegen/buffalo-milk.png",
+      "sourceSha256": "5a6a63879b3e123c05384760f127a5e42dc28d1ba9092e589406da1274b7125b",
+      "reviewedAt": "2026-10-01T14:12:28.353Z",
+      "prompt": "One photorealistic food guide photograph of fresh Egyptian buffalo milk: thick opaque creamy white milk in a clear glass with a small unlabelled glass jug, in an authentic simple Egyptian home setting, earthenware background, warm window light. Milk only, no cream bowl, no animal illustration, no text branding watermark or collage. Landscape 4:3, natural believable dairy texture, clean appetizing photography.",
+      "accepted": true
+    },
+    {
+      "id": "canned-tuna-oil",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: التونة المعلبة في زيت نباتي تجاري; ID canned-tuna-oil. Subject and preparation: Flaked canned tuna in vegetable oil, pale pink tuna pieces in a small bowl with visible glossy oil pooling lightly. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/canned-tuna-oil.png",
+      "sourceSha256": "28a49b63da95d2bc5958bf38ba7fd37c19925ab7ab2fcfca0338143404be8125"
+    },
+    {
+      "id": "canned-tuna-water",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: التونة المعلبة في محلول ملحي بالماء; ID canned-tuna-water. Subject and preparation: Flaked canned tuna in clear brine, pale pink tuna pieces in a shallow bowl with subtle water, no can branding. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/canned-tuna-water.png",
+      "sourceSha256": "dda6eed3d9d74076e6a367fcd1f70568609279331de6d9b5affe7608103f0a76"
+    },
+    {
+      "id": "cappuccino-latte",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الكابتشينو واللاتيه بالحليب المبخر (cappuccino-latte). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/cappuccino-latte.png",
+      "sourceSha256": "03caafc71b57614bd4794b8697afec0302ab9f330719c76e680cd42e35ec57b2"
+    },
+    {
+      "id": "cardamom-mastic-laurel",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الحبهان (الهيل) والمستكة وورق اللورا (cardamom-mastic-laurel). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/cardamom-mastic-laurel.png",
+      "sourceSha256": "98b5fc07d65b676654bb46f4d6f011658a81c885a860746a126c6656772bc0d4"
+    },
+    {
+      "id": "carob-drink",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: مشروب الخروب البلدي الطبيعي المغلي (carob-drink). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/carob-drink.png",
+      "sourceSha256": "278fb7d1fe89a16daa5a1953809d57be89539a33fa18759a46f5bcce27f5683a"
+    },
+    {
+      "id": "chamomile-tea",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: البابونج / الكاموميل المغلي (chamomile-tea). Show the precisely named food preparation, recognizable natural texture. Authentic Egyptian home presentation when Egyptian, otherwise culturally authentic simple presentation. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate for the subject. Only one subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, packaging brands, watermarks, no health claims. Food is the clear visual focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/chamomile-tea.png",
+      "sourceSha256": "424671cb6a69475bc30ec6c42db8efedb7e6c4243e477c08aacafd382e497150"
+    },
+    {
+      "id": "chicken-gizzards-liver",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: كبد وقوانص الدجاج البلدي الطازجة; ID chicken-gizzards-liver. Subject and preparation: Fresh raw chicken livers with dark glossy lobes beside cleaned pale brown chicken gizzards on a clean plate. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/chicken-gizzards-liver.png",
+      "sourceSha256": "722ed46ced30eeee71bcd758eca5a3c6a4036eae4a83256cd90dd46594768bdc"
+    },
+    {
+      "id": "cinnamon",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: القرفة السيلانية الخشب والمطحونة (cinnamon). Show the precisely named food preparation, recognizable natural texture. Authentic Egyptian home presentation when Egyptian, otherwise culturally authentic simple presentation. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate for the subject. Only one subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, packaging brands, watermarks, no health claims. Food is the clear visual focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/cinnamon.png",
+      "sourceSha256": "64928b97ad479263c7690eb60dd72eed8e37036c8621a78429dd58428215d222"
+    },
+    {
+      "id": "cloves",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: القرنفل / المسمار الحصى (cloves). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/cloves.png",
+      "sourceSha256": "1ca59ce8321b633f1f4a601cd9a960bdce3287f087140b8995dc06faf8b5725b"
+    },
+    {
+      "id": "coffee-3-in-1",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: قهوة 3 في 1 ومبيضات القهوة الصناعية (coffee-3-in-1). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/coffee-3-in-1.png",
+      "sourceSha256": "4877e8ff04fa0dfd17824a4c58dc1e17733556c1900a555ad5f1dbb3e78ee3ca"
+    },
+    {
+      "id": "commercial-hawawshi",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الحواوشي البلدي التجاري بالسوق (commercial-hawawshi). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/commercial-hawawshi.png",
+      "sourceSha256": "49c34b33f3c1d223d8899bd9271ba49169f42610d9e4b5fe381fffbba302d4a5"
+    },
+    {
+      "id": "cow-milk",
+      "source": "output/imagegen/cow-milk.png",
+      "sourceSha256": "5b9b69d0fe4d895317fc7fde6ae98fb39fd1066c2dfe4f72d5a1d2ce9a5bc50a",
+      "reviewedAt": "2026-10-01T14:13:37.003Z",
+      "prompt": "One distinct photorealistic food-guide photograph of plain fresh cow milk: a clear tumbler of opaque white milk, beside a modest unlabelled glass milk bottle on a clean neutral wooden kitchen table, soft linen and warm natural daylight. No buffalo, no illustrated animal, no cream or yogurt, no packaging writing, no logos watermark collage. Landscape 4:3, honest realistic dairy photograph.",
+      "accepted": true
+    },
+    {
+      "id": "crab",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الكابوريا البحرية الطازجة (ذكور وإناث); ID crab. Subject and preparation: Fresh marine crabs with realistic shells, claws and legs, no impossible anatomy, simple platter. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/crab.png",
+      "sourceSha256": "6faa8a48ab3a0920c70b9fc5f540c0aec5427d38637947dbb47513e1e843b21a"
+    },
+    {
+      "id": "cumin",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الكمون البلدي الصحيح والمطحون (cumin). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/cumin.png",
+      "sourceSha256": "a2fa924c157ff4356005e1926ccb9d9fa812351d448bb38225e7d2c7710dea93"
+    },
+    {
+      "id": "diet-sodas",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: المشروبات الغازية الدايت والمحلاة صناعيًا (diet-sodas). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/diet-sodas.png",
+      "sourceSha256": "f89e02ae143e25f35e4a7128032ffb8b0448311e4b0c2671677eaee2f2ded446"
+    },
+    {
+      "id": "dry-coriander",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الكزبرة الجافة المطحونة (dry-coriander). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/dry-coriander.png",
+      "sourceSha256": "a3ed2fe9c24bc6ce55dd0b8630deb95eafc2394e3c0e0cb2249c1f9c331bfeb5"
+    },
+    {
+      "id": "egyptian-fatta",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الفتة المصرية بالخل والثوم والمرق ولحم الأنعام (egyptian-fatta). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/egyptian-fatta.png",
+      "sourceSha256": "ac215b58eb6581787e1cb9417db337a6e6deb79dcd6c21a3a71cfc72fd399b34"
+    },
+    {
+      "id": "energy-drinks",
+      "source": "output/imagegen/energy-drinks.png",
+      "sourceSha256": "a9fe45d66b5cad33a2a74861a3c4471cce07eac306e6e52429c4edab597b576a",
+      "reviewedAt": "2026-10-01T13:53:30.769Z",
+      "accepted": true
+    },
+    {
+      "id": "espresso",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: قهوة الإسبريسو النقية المركزة (espresso). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/espresso.png",
+      "sourceSha256": "15e2628cef0ca48ced75e8328e813e59b739f3355a10ad29541c7ee2f180aa27"
+    },
+    {
+      "id": "farm-chicken-breasts",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: صدور دجاج المزارع البيضاء المخلية; ID farm-chicken-breasts. Subject and preparation: Fresh raw boneless skinless white-farm chicken breasts on a clean ceramic plate, pale pink flesh. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/farm-chicken-breasts.png",
+      "sourceSha256": "6e29a9e9fd8b69604ccb78822dbe53988a9207de9e96450abd78d87c80170324"
+    },
+    {
+      "id": "farm-chicken-thighs",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: أوراك ودبابيس دجاج المزارع البيضاء; ID farm-chicken-thighs. Subject and preparation: Fresh raw white-farm chicken thighs and drumsticks with intact pale skin, anatomical realistic separate cuts. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/farm-chicken-thighs.png",
+      "sourceSha256": "b3cced47c1cc7838d8402ecf3f6ebff9ce8e23bdb6d7c44c084a434f85972aa1"
+    },
+    {
+      "id": "farmed-mullet",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك البوري المزارع; ID farmed-mullet. Subject and preparation: Fresh whole farmed grey mullet, long silver fish with blunt head, neat scaled skin. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/farmed-mullet.png",
+      "sourceSha256": "25a2c6e95b0be3f1ed26ced34282207a932092ef0d7a8e4af2315e616de1db0e"
+    },
+    {
+      "id": "farmed-salmon",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك السلمون المزارع الأطلسي المستورد; ID farmed-salmon. Subject and preparation: A raw farmed Atlantic salmon fillet, orange-pink flesh with wider white fat stripes, silver skin edge, clean platter. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/farmed-salmon.png",
+      "sourceSha256": "524c4a8e7ea728aeec4285895112045a33946e2cc648b09e101deb401cc851f4"
+    },
+    {
+      "id": "feseekh",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الفسيخ المصري المملح; ID feseekh. Subject and preparation: An authentic Egyptian salted fermented mullet feseekh, one whole silver-golden fish alongside opened salted flesh. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/feseekh.png",
+      "sourceSha256": "b0f7315a2502cd46fda544b07a5d20b86f4dc78ebaa05ced9b300ecdb457b507"
+    },
+    {
+      "id": "fresh-baladi-cream",
+      "source": "output/imagegen/fresh-baladi-cream.png",
+      "sourceSha256": "f162e6b4d01c6c4a6dc33be5c1590a4b3633dfdf60c9d0d3c9f98a1fb893a264",
+      "reviewedAt": "2026-10-01T14:20:05.835Z",
+      "prompt": "ONE authentic Egyptian food photograph of fresh baladi cream (eshta): a small earthenware bowl with thick ivory clotted dairy cream, soft folded layers and a faint yellow surface, a plain teaspoon beside it. No sweet dessert toppings, no fruit or pastry. Warm natural window light, modest Egyptian home table, realistic creamy texture, landscape 4:3. No text logos watermark branding collage.",
+      "accepted": true
+    },
+    {
+      "id": "fresh-orange-juice",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: عصير البرتقال الطازج المعصور (fresh-orange-juice). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/fresh-orange-juice.png",
+      "sourceSha256": "675e694836ac74fb052a7d94931ae0a0be23d00ddd3a79fdc3ab8f8fc8c66f3d"
+    },
+    {
+      "id": "fresh-strawberry-juice",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: عصير الفراولة الطبيعي بالماء والعسل (fresh-strawberry-juice). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/fresh-strawberry-juice.png",
+      "sourceSha256": "1da0611dfc1be6c88c7e46685ba53c82913fd2f051f9a7214f5db93a59407339"
+    },
+    {
+      "id": "fresh-tuna",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك التونة الطازج صيد بحري; ID fresh-tuna. Subject and preparation: A thick raw fresh marine tuna steak with dense deep red flesh and a small skin edge, not salmon. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/fresh-tuna.png",
+      "sourceSha256": "abc6287ea74740b117178c53b5a8aacce8ae7ecd8c828301cbf20c198a6ee729"
+    },
+    {
+      "id": "ginger",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الزنجبيل الطازج والمجفف المغلي (ginger). Show the precisely named food preparation, recognizable natural texture. Authentic Egyptian home presentation when Egyptian, otherwise culturally authentic simple presentation. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate for the subject. Only one subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, packaging brands, watermarks, no health claims. Food is the clear visual focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/ginger.png",
+      "sourceSha256": "7bbf10731e03ad8467fb1ed891645bf4955603af1d8f6e5fe7f2aa81b41bee6c"
+    },
+    {
+      "id": "greek-yogurt",
+      "source": "output/imagegen/greek-yogurt.png",
+      "sourceSha256": "97e037b6280c8037b8df3c06d19600150b34e866da860ce664b43276e5ec007e",
+      "reviewedAt": "2026-10-01T14:16:33.964Z",
+      "prompt": "ONE photorealistic food photograph of plain Greek yogurt: very thick strained white yogurt with a natural spoon swirl in a small off-white ceramic bowl, one metal teaspoon resting beside it. No fruit honey granola or topping, no milk glass. Authentic simple neutral presentation, warm natural light, creamy believable texture, landscape 4:3. No text logos watermark branding collage.",
+      "accepted": true
+    },
+    {
+      "id": "green-fava-beans",
+      "source": "output/imagegen/green-fava-beans.png",
+      "sourceSha256": "6584e028660e58fe68db06e94ad702fa7f83718d8d86c89dc0b48f592bc378e6",
+      "accepted": true
+    },
+    {
+      "id": "ground-beef",
+      "source": "output/imagegen/ground-beef.png",
+      "sourceSha256": "477dac789b016d724789ff990a9ba6ea31f77674bfe549412cd86b3116f40a0c",
+      "accepted": true
+    },
+    {
+      "id": "heart-kidneys",
+      "source": "output/imagegen/heart-kidneys.png",
+      "sourceSha256": "fa6f4190f2cf38665b0886a4aaab0bd42ea045a33e35c5623a1402efd313fe53",
+      "accepted": true
+    },
+    {
+      "id": "homemade-kofta",
+      "source": "output/imagegen/homemade-kofta.png",
+      "sourceSha256": "3187812999a7425d06668512b463af7ef84bd0f3f651bc10888f5023349df6a5",
+      "accepted": true
+    },
+    {
+      "id": "hot-chocolate",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الكاكاو الخام الطبيعي باللبن والعسل (hot-chocolate). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/hot-chocolate.png",
+      "sourceSha256": "e5b91e47c15252efc91604493e05cd3408afe418fd5588890ecceaa9f6e86247"
+    },
+    {
+      "id": "hot-dogs",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الهوت دوج والفرانكفورتر التجاري المصنع; ID hot-dogs. Subject and preparation: Several smooth commercial frankfurter hot dog sausages, plain uniform pink-brown casings, no bun and no branding. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, natural appetizing textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/hot-dogs.png",
+      "sourceSha256": "54f86b4f421e8de81feb9aaa1b7ba81451f56c47e43c212964dcb072f05d95f3"
+    },
+    {
+      "id": "instant-black-coffee",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: النسكافيه البلاك والقهوة سريعة الذوبان النقية (instant-black-coffee). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/instant-black-coffee.png",
+      "sourceSha256": "faebe81503de7f0913b96f9c18f6b33958a918143263be48264b68f1d376c7f3"
+    },
+    {
+      "id": "instant-noodles",
+      "source": "output/imagegen/instant-noodles.png",
+      "sourceSha256": "b42998fd8f3769b02c980b060d25f8c291d818c31bb7958e5bcf1fe62126faa1",
+      "accepted": true
+    },
+    {
+      "id": "kebab",
+      "source": "output/imagegen/kebab.png",
+      "sourceSha256": "da513a4ac025852431b52f3f82db4fd5de568af3bf5d297117e7cc1d45b67d66",
+      "accepted": true
+    },
+    {
+      "id": "lamb-chops",
+      "source": "output/imagegen/lamb-chops.png",
+      "sourceSha256": "b719db258ee5af557f76b2b18a34fc972b8c4e15a1afb3d160b8a06162c231cf",
+      "accepted": true
+    },
+    {
+      "id": "lemon-mint-juice",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: عصير الليمون بالنعناع المنعش (lemon-mint-juice). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/lemon-mint-juice.png",
+      "sourceSha256": "34f13ff5cbc7c0c337b46410deb641bf5a4253175fcda157192667edd06d6ba0"
+    },
+    {
+      "id": "licorice-drink",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: مشروب العرقسوس المخمر البارد (licorice-drink). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/licorice-drink.png",
+      "sourceSha256": "413e748d62cb455e5ab6462a2e171e679b9b3edb36973d3780c62fea388bd945"
+    },
+    {
+      "id": "lobster",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الاستاكوزا والكركند البحري الطازج; ID lobster. Subject and preparation: A fresh whole lobster with realistic hard segmented shell, antennae and natural limbs on a clean large platter. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/lobster.png",
+      "sourceSha256": "dc00f9e87f68de8e35cb906cab8f95906829ae23754f96662e0d4976a2a429d0"
+    },
+    {
+      "id": "luncheon-meat",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: اللانشون المصنع بجميع أنواعه; ID luncheon-meat. Subject and preparation: Plain slices and a cut cylindrical piece of commercial pink luncheon meat, recognizably uniform processed texture, unbranded. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, natural appetizing textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/luncheon-meat.png",
+      "sourceSha256": "d9d85c440a7e10db0401be35d38dc43606378bf5d041290007247966104f8f3d"
+    },
+    {
+      "id": "lupini-beans",
+      "source": "output/imagegen/lupini-beans.png",
+      "sourceSha256": "c63c741e644933b393bcd727f777df4f6c17b838ed589d1da4d27f92504c4f6e",
+      "accepted": true
+    },
+    {
+      "id": "matcha",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: شاي الماتشا الياباني الأخضر المطحون (matcha). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/matcha.png",
+      "sourceSha256": "23c9766d181dc3e95b4f1468480900b0c8a8fa50c548340b780411dc56c17bf1"
+    },
+    {
+      "id": "meat-shank",
+      "source": "output/imagegen/meat-shank.png",
+      "sourceSha256": "9caf034f48ebdaf971368d6866aa038ef6f4ec0915ab2b5d703be118ba132d48",
+      "accepted": true
+    },
+    {
+      "id": "milk-kefir",
+      "source": "output/imagegen/milk-kefir.png",
+      "sourceSha256": "347f9130ea166e8683dfcdd21686f02e0c518cf3cb92d6ac504ce900af44b359",
+      "reviewedAt": "2026-10-01T14:18:00.417Z",
+      "prompt": "One photorealistic food-guide photo of plain milk kefir: a clear glass containing slightly thick white fermented milk drink, beside a tiny ceramic saucer of irregular white kefir grains resembling small cauliflower florets. Simple neutral kitchen setting, warm natural light, no fruit, no yogurt bowl, no packaging brands or text, no watermarks, no collage. Landscape 4:3, realistic creamy liquid and natural grains.",
+      "accepted": true
+    },
+    {
+      "id": "milk-powder",
+      "source": "output/imagegen/milk-powder.png",
+      "sourceSha256": "9d43aca9007eb78b52a4c3b299c17e1d3966f8f703aedc411a2e8c9c0e7f34bb",
+      "reviewedAt": "2026-10-01T14:14:28.037Z",
+      "prompt": "ONE photorealistic food catalog photograph of powdered milk: a small matte ceramic bowl piled with fine ivory milk powder, one plain wooden scoop holding the same powder, slight natural powder dust on neutral tabletop. No liquid drink, no flour sack, no packaging or labels. Warm natural light, clean honest realistic powder texture, landscape 4:3 food photography, no text logos watermark collage.",
+      "accepted": true
+    },
+    {
+      "id": "mussels-clams",
+      "source": "output/imagegen/mussels-clams.png",
+      "sourceSha256": "46cd4b7b5fb4f03232d370ce52b424416991d1040fccb1338950a2808243076d",
+      "reviewedAt": "2026-10-01T14:11:29.885Z",
+      "prompt": "ONE photorealistic food photo of mussels and clams as the shellfish category: a natural small serving of freshly steamed black mussels and beige ridged clams in their open shells, realistic visible tender shellfish flesh, a plain ceramic bowl at a simple Mediterranean fish cafe. No pasta or unrelated seafood. Warm window light, Egyptian coastal tabletop, believable proportions, landscape 4:3. No text logos watermark or collage.",
+      "accepted": true
+    },
+    {
+      "id": "nutella",
+      "source": "output/imagegen/nutella.png",
+      "sourceSha256": "83e19608cdd3e002058abe2cccb5c078e29c4aae62ffb66cc956d7966abeb3f7",
+      "accepted": true
+    },
+    {
+      "id": "octopus",
+      "source": "output/imagegen/octopus.png",
+      "sourceSha256": "3dff17c15037d533961014ccb9c3da833077e5f0173a4ed3a4cdbca81b6be0ba",
+      "reviewedAt": "2026-10-01T14:10:32.768Z",
+      "prompt": "ONE photorealistic photograph of octopus as food: a single small cooked octopus on a plain off-white ceramic platter, naturally curled distinct arms with realistic rows of suckers and a small head, moist lightly browned surface, Egyptian Mediterranean seafood cafe presentation with a lemon wedge. Warm natural light, rustic simple tabletop, realistic anatomy, landscape 4:3. No squid, no excessive tangled duplicated tentacles, no text logos watermark or collage.",
+      "accepted": true
+    },
+    {
+      "id": "okra-meat-tagine",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: طاجن البامية باللحمة الضاني بالفرن (okra-meat-tagine). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/okra-meat-tagine.png",
+      "sourceSha256": "a3c8b31595dd315ce212e0409a9dcd8ee53b3bb89a7ca0d3188182ef542b5bf3"
+    },
+    {
+      "id": "pastirma",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: البسطرمة البلدي الطبيعية بالثوم والحلبة; ID pastirma. Subject and preparation: Thin slices of authentic Egyptian bastirma cured beef with a dark red center and brown fenugreek-garlic crust. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, natural appetizing textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/pastirma.png",
+      "sourceSha256": "77aea6a96b5c6aec390d82bc4116da1e0e5c42dcd749f85f2b9d230a7a6866b6"
+    },
+    {
+      "id": "peanuts",
+      "source": "output/imagegen/peanuts.png",
+      "sourceSha256": "83e32afa4508bf7a544d7f19e0096ca0d9926acb0df5094d190141e131355092",
+      "accepted": true
+    },
+    {
+      "id": "pomegranate-juice",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: عصير الرمان الطازج الصافي (pomegranate-juice). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/pomegranate-juice.png",
+      "sourceSha256": "af0ed7b218a851e30458e77131b30afed9ec5e8707dbc526641eefc71574e4e6"
+    },
+    {
+      "id": "potatoes",
+      "source": "output/imagegen/potatoes.png",
+      "sourceSha256": "fd32320d8cbd2541d3722927e7b8e12ce8dc6cde8ae3266dcd73503bc221b981",
+      "accepted": true
+    },
+    {
+      "id": "processed-cheese",
+      "source": "output/imagegen/processed-cheese.png",
+      "sourceSha256": "4d6889466027484fc1ef58a97b23f936a802ef4678a3df4953914e343438e2d0",
+      "accepted": true
+    },
+    {
+      "id": "pure-water",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: المياه الطبيعية المفلترة النقية ومياه الآبار (pure-water). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/pure-water.png",
+      "sourceSha256": "cfd2965e7c66b5479b01b7d6963d0c6121be54da4d661190aedf22cc5f830329"
+    },
+    {
+      "id": "qamar-el-din",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: مشروب قمر الدين الطبيعي المنقوع (qamar-el-din). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/qamar-el-din.png",
+      "sourceSha256": "4e7651f1a5b5ec3760d4bf4d73b8d6a178cf7511a6b468674b5634bda01ef288"
+    },
+    {
+      "id": "quail-meat",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: لحم السمان البلدي الطازج; ID quail-meat. Subject and preparation: Small fresh raw plucked quails neatly arranged on a ceramic plate, anatomically realistic small poultry. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/quail-meat.png",
+      "sourceSha256": "0e01bd020c49d0fc0788d33a3621f2dd7c8394e4cd25fd74eeb557e3fb5b3611"
+    },
+    {
+      "id": "red-chili-powder",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الشطة الحمراء البودرة المطحونة (red-chili-powder). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/red-chili-powder.png",
+      "sourceSha256": "072defc6d694c6b4b6f7569663dde494f9fe1cdfe999430d6895864eeb1b0b9e"
+    },
+    {
+      "id": "red-kidney-beans",
+      "source": "output/imagegen/red-kidney-beans.png",
+      "sourceSha256": "642bb385bfb2d1be30df675b100c64e3fd81b81d183da5c722414c14d4d2c483",
+      "accepted": true
+    },
+    {
+      "id": "red-porgy",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك المرجان والوقار البحري; ID red-porgy. Subject and preparation: Fresh red porgy and a small whole grouper fish together on one platter; porgy pink-silver, grouper darker mottled robust body. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/red-porgy.png",
+      "sourceSha256": "ec2e132e8562d8ea403b1cdc5cb3e5d35992c298fcdf0d86e641522bd3c6a6b0"
+    },
+    {
+      "id": "restaurant-kofta",
+      "source": "output/imagegen/restaurant-kofta.png",
+      "sourceSha256": "5dc80810596c184663faa39e21fd784528aeb657c87e4bcaa570add6cf74405e",
+      "accepted": true
+    },
+    {
+      "id": "sea-bass",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك القاروص البحري صيد طبيعي; ID sea-bass. Subject and preparation: Fresh whole marine sea bass, sleek silver body, spiny dorsal fin, recognizable fish species. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/sea-bass.png",
+      "sourceSha256": "2019a967c2f85dbff5e1931206a63fd3ca0d1195638897c7a68ade5c27fa2833"
+    },
+    {
+      "id": "sea-bream",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك الدنيس البحري صيد طبيعي; ID sea-bream. Subject and preparation: Fresh whole gilthead sea bream, oval silver body with subtle gold band between eyes, recognizable species. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/sea-bream.png",
+      "sourceSha256": "b407a084c987e1e2b18123ab6b737499f5de231849698f422504151cb2b2cb5d"
+    },
+    {
+      "id": "skimmed-milk",
+      "source": "output/imagegen/skimmed-milk.png",
+      "sourceSha256": "b429aa9efd5eb2462d6e58f1067fd6a763a77de1d46ee5d26337f4b97c70cbee",
+      "reviewedAt": "2026-10-01T14:15:41.588Z",
+      "prompt": "ONE distinct photorealistic food photograph of plain skimmed milk: a clear slender drinking glass filled with pale opaque white low-fat milk, a small plain white ceramic pitcher beside it on a light kitchen table, neutral linen, warm natural daylight. No cream separation, no yogurt, no colored drink, no health symbols or claims. No text logos packaging brands watermark collage. Landscape 4:3, honest realistic food photography.",
+      "accepted": true
+    },
+    {
+      "id": "smoked-herring",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الرنجة المدخنة المعبأة; ID smoked-herring. Subject and preparation: Golden-brown whole smoked herring and one opened piece showing smoked pale flesh, Egyptian presentation, no packaging. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/smoked-herring.png",
+      "sourceSha256": "85253cf2e2cce87ce90e4d39fb8f1a722b741ca2d778608e999dcc618e753d4f"
+    },
+    {
+      "id": "soda",
+      "source": "output/imagegen/soda.png",
+      "sourceSha256": "688d85f14cec8c8680a7f6aa054db2f3b4caf70f095b53a0adc02d140394e049",
+      "reviewedAt": "2026-10-01T14:07:36.041Z",
+      "accepted": true
+    },
+    {
+      "id": "sole-fish",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك موسى البحري الطازج; ID sole-fish. Subject and preparation: Fresh whole sole fish, flat oval brown mottled upper side, both eyes naturally on same upper surface. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "accepted": true,
+      "source": "output/imagegen/sole-fish.png",
+      "sourceSha256": "4cc32d81c0d1a2d0aff777589bbc0e515dbc2185ea20c8e02595874274837349"
+    },
+    {
+      "id": "soybeans",
+      "source": "output/imagegen/soybeans.png",
+      "sourceSha256": "a5a9c0ebe2aaf3694b9581eb64c5b10be6c0664bee974892b8678f54509b1c7e",
+      "accepted": true
+    },
+    {
+      "id": "sparkling-water",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: المياه الفوارة السادة بدون نكهات أو سكر (sparkling-water). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/sparkling-water.png",
+      "sourceSha256": "e1a5404d1b5aec19fcd153ccafb6e45a7994eb4046b921b209c4abcac43b6230"
+    },
+    {
+      "id": "squid-calamari",
+      "source": "output/imagegen/squid-calamari.png",
+      "sourceSha256": "64654777650a332f97be21ac1c21eaf9384a92833557f3f79d7684f4a05d9512",
+      "reviewedAt": "2026-10-01T14:09:39.230Z",
+      "prompt": "One photorealistic food photograph: cleaned fresh squid (calamari), whole pale squid tubes with a small natural cluster of tentacles and a few clean squid rings on a plain ceramic platter at an Egyptian fish kitchen. Correct squid anatomy and texture, moist ivory flesh, no octopus, no cooked batter. Warm natural window light, neutral rustic table, appetizing realistic food photography, landscape 4:3. No text, logos, watermark, branding, collage.",
+      "accepted": true
+    },
+    {
+      "id": "sweet-paprika",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: البابريكا الحلوة الطبيعية غير الحارة (sweet-paprika). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/sweet-paprika.png",
+      "sourceSha256": "9ca4ed6372ffe1c799dab7f08c64847aaafdb56e07314f8887887cafaf3a704f"
+    },
+    {
+      "id": "tahini",
+      "source": "output/imagegen/tahini.png",
+      "sourceSha256": "0067d150edbe20066d1f0d47ff59d2ebe4c51dcb03a2706798ddf3db15dd1811",
+      "accepted": true
+    },
+    {
+      "id": "tamarind-drink",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: مشروب التمر هندي البلدي الطبيعي المغلي (tamarind-drink). Show precisely the named food or drink preparation with recognizable natural texture and ingredients. Authentic Egyptian home presentation for Egyptian items; culturally authentic simple presentation otherwise. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate to subject. One subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, branded packaging, watermarks, or health claims. Clear appetizing realistic food focus.",
+      "accepted": true,
+      "source": "output/imagegen/tamarind-drink.png",
+      "sourceSha256": "08bcc70cb0e92571a394fec004cf86601f7c204a0236421d2f28b098c49ca687"
+    },
+    {
+      "id": "tongue-spleen",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Subject: اللسان والطحال البلدي المسلوق; food identifier tongue-spleen. An authentic Egyptian plate of cooked boiled beef tongue, slices revealing smooth pink-brown interior, alongside dark cooked spleen pieces, simply served. Warm natural window light, clean authentic Egyptian home earthenware and simple linen on a neutral tabletop, appetizing honest textures, three-quarter close view, single food subject fills the frame, landscape 4:3 aspect ratio. No people, lettering, labels, logos, packaging brands, watermark, collage, decorative health symbols or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/tongue-spleen.png",
+      "sourceSha256": "410e3deadce809d7daef498594675bcddc8a463a5b29920c41d34596668c2629"
+    },
+    {
+      "id": "traditional-pastries",
+      "source": "output/imagegen/traditional-pastries.png",
+      "sourceSha256": "9872fdd7503fdb3ec319b0b5040546567e3346eff655205df015d7804a5bafdc",
+      "accepted": true
+    },
+    {
+      "id": "tripe-mombar",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Subject: الكرشة والممبار البيتي النظيف; food identifier tripe-mombar. An authentic Egyptian home plate with cleaned simmered honeycomb tripe pieces beside cooked mombar intestines stuffed with rice and herbs, golden lightly fried tubular pieces. Warm natural window light, clean authentic Egyptian home earthenware and simple linen on a neutral tabletop, appetizing honest textures, three-quarter close view, single food subject fills the frame, landscape 4:3 aspect ratio. No people, lettering, labels, logos, packaging brands, watermark, collage, decorative health symbols or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/tripe-mombar.png",
+      "sourceSha256": "6fce0e8302e072dbacca97d39101a08ab8b41fe55ce458701958f1e83529d610"
+    },
+    {
+      "id": "trotters-cow",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Subject: كوارع الأبقار والجاموس البلدي; food identifier trotters-cow. An authentic Egyptian earthenware bowl of long-simmered cow or buffalo trotters, cooked gelatinous joints in clear savory broth, recognizable cooked pieces. Warm natural window light, clean authentic Egyptian home earthenware and simple linen on a neutral tabletop, appetizing honest textures, three-quarter close view, single food subject fills the frame, landscape 4:3 aspect ratio. No people, lettering, labels, logos, packaging brands, watermark, collage, decorative health symbols or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct food and preparation, natural texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/trotters-cow.png",
+      "sourceSha256": "1e0695447610965770d541743c7ceba5294a4483b90c7dbf6eccb36b42bec959"
+    },
+    {
+      "id": "turkey",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: الديك الرومي البلدي الطازج; ID turkey. Subject and preparation: One whole fresh raw plucked domestic turkey, recognizably large poultry body with broad breast and intact pale skin. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/turkey.png",
+      "sourceSha256": "3366c25e9feb6473919cbd2af6ecb53f2dd40b459d67ac88c4d1133b36b2466c"
+    },
+    {
+      "id": "turmeric",
+      "prompt": "Use case: photorealistic-natural. Asset: food catalog photograph, landscape 4:3. Subject: الكركم الطبيعي المطحون (turmeric). Show the precisely named food preparation, recognizable natural texture. Authentic Egyptian home presentation when Egyptian, otherwise culturally authentic simple presentation. Warm natural window light, close three-quarter overhead view, understated neutral tabletop, ceramic earthenware or clear glass appropriate for the subject. Only one subject dish or ingredient arrangement, no collage. No people, text, lettering, labels, logos, packaging brands, watermarks, no health claims. Food is the clear visual focus.",
+      "review": "Inspected review-b-01.png: named food recognizable, natural realistic texture, culturally appropriate presentation, no text/logos/watermark or malformed food visible.",
+      "accepted": true,
+      "source": "output/imagegen/turmeric.png",
+      "sourceSha256": "df45c8226d3777e7e050afeffbabdaf7845bd17bc003ef3f029c6aadd5cf535c"
+    },
+    {
+      "id": "white-navy-beans",
+      "source": "output/imagegen/white-navy-beans.png",
+      "sourceSha256": "9b542e06f1b1af2127e354cf5df617107b6b0feba2ef4ecd28b90a8a4d9248a3",
+      "accepted": true
+    },
+    {
+      "id": "wild-dove",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: اليمام والحمام البري الطبيعي; ID wild-dove. Subject and preparation: Two small fresh prepared plucked wild dove or pigeon birds, raw meat, no feathers, simple ceramic plate. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/wild-dove.png",
+      "sourceSha256": "5322bd562d39e6f0b064a319dd28f2700e0373e1a0c181d174f88988a0cb0402"
+    },
+    {
+      "id": "wild-salmon",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك السلمون البري صيد بحري طبيعي; ID wild-salmon. Subject and preparation: A raw wild salmon fillet, rich orange-red flesh with fine white marbling, silver skin edge, clean ceramic platter. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/wild-salmon.png",
+      "sourceSha256": "0c066d2ab6e77f13b88f80dd3c6782522415976b9176c6dbcc66a9b69240b6aa"
+    },
+    {
+      "id": "wild-tilapia",
+      "prompt": "Use case: photorealistic-natural. Asset type: food reference photograph. Food: سمك البلطي النيلي صيد حر طبيعي; ID wild-tilapia. Subject and preparation: Fresh whole Nile tilapia with recognizable tall silvery gray scaled body and dark vertical stripes on a ceramic platter. Warm natural window light, authentic simple table setting, ceramic or Egyptian home earthenware appropriate to food, neutral linen, honest natural textures. Three-quarter close view, single food reference composition, landscape 4:3. No people, lettering, labels, logos, watermarks, collage or health claims.",
+      "review": "Visually inspected on labeled contact sheet; correct subject and preparation, plausible anatomy or texture, clean unbranded composition.",
+      "accepted": true,
+      "source": "output/imagegen/wild-tilapia.png",
+      "sourceSha256": "c4c4e93e2b6baf146edf16e7dba478a463f4046d97817758fe6da29d6a08412b"
+    },
+    {
+      "id": "zucchini-meat-stew",
+      "source": "output/imagegen/zucchini-meat-stew.png",
+      "sourceSha256": "94871744a2c5d3d7b3112194da9991f8bc6a3a673c5de19c2c7593acb3704f41",
+      "reviewedAt": "2026-10-01T14:00:43.031Z",
+      "accepted": true
+    },
+    {
+      "id": "fresh-cooking-cream",
+      "source": "output/imagegen/fresh-cooking-cream.png",
+      "sourceSha256": "ab062847a9568f730bc644ea601b986fa234c0c87555411071ef39fc0ed0ae23",
+      "reviewedAt": "2026-10-01T14:22:52.608Z",
+      "prompt": "ONE photorealistic food-guide photo of fresh dairy cooking cream: smooth thick pourable ivory-white cream flowing gently from a small plain white ceramic jug into a simple shallow bowl, a natural glossy liquid surface. No whipped cream, no clotted cream, no desserts or toppings, no cartons, text, branding, watermark or collage. Neutral warm home kitchen table, soft natural window light, landscape 4:3 honest photography.",
+      "accepted": true
+    },
+    {
+      "id": "feta-natural-cheese",
+      "source": "output/imagegen/feta-natural-cheese.png",
+      "sourceSha256": "2d1bd15b1b91aeb68387d945e0d928fef760d488fde6808bd22f232776973420",
+      "reviewedAt": "2026-10-01T14:23:50.991Z",
+      "prompt": "ONE photorealistic food photograph of natural feta cheese: a clean irregular block of creamy white brined feta with a few broken crumbly pieces, visible fine porous texture, on a plain ceramic plate. No herbs or olives piled on it, no plastic packaging, no labels. Authentic Mediterranean simple cheese presentation, warm natural light, landscape 4:3, no writing logos watermark collage.",
+      "accepted": true
+    },
+    {
+      "id": "istanbouli-cheese",
+      "source": "output/imagegen/istanbouli-cheese.png",
+      "sourceSha256": "7f79146190b533f059c0c6e6def7397b053ccbfd6ae2ececa4f42d4b626630d3",
+      "reviewedAt": "2026-10-01T14:24:55.801Z",
+      "prompt": "ONE authentic Egyptian food photograph of Istanbouli white cheese: soft white brined cheese cut into chunky cubes with a few tiny green chili pieces visible inside, a moist smooth slightly crumbly texture on a plain small ceramic plate. Egyptian home breakfast table, warm natural window light, no feta salad or western sandwich, no packaging text logos watermark collage. Landscape 4:3, clean realistic dairy photograph.",
+      "accepted": true
+    },
+    {
+      "id": "damiati-cheese",
+      "source": "output/imagegen/damiati-cheese.png",
+      "sourceSha256": "cb68663f12b699b15284880b57b40f0b02cf6cc0203a14fab5c7c344d606c7f4",
+      "reviewedAt": "2026-10-01T14:27:27.935Z",
+      "prompt": "ONE authentic Egyptian food photograph of Domiati white cheese (gebna Damiati): several thick creamy white brined cheese blocks with a few irregular small pores and a moist firm smooth texture on a plain white ceramic plate, modest Egyptian home breakfast table, warm natural light. No green chili, no processed triangles, no packaging writing branding logos watermark collage. Landscape 4:3, appetizing believable cheese.",
+      "accepted": true
+    },
+    {
+      "id": "mish-cheese",
+      "source": "output/imagegen/mish-cheese.png",
+      "sourceSha256": "5f0a555b45ecda07a166eca390bfd4c2bc6b6e2d0059f3d7151fae68b6635657",
+      "reviewedAt": "2026-10-01T14:31:05.761Z",
+      "prompt": "Create ONE accurate photorealistic photo of traditional aged Egyptian MISH CHEESE (المش البلدي), NOT fresh feta marinated in chili. Close view of a small rustic clay bowl holding mature fermented cheese: irregular softened TAN/ochre yellow-brown cheese chunks partly submerged in a THICK creamy muddy-brown-orange fermented dairy brine, specks of ground spices, naturally aged texture. Modest Egyptian village kitchen tabletop, warm soft window daylight. No bright white feta cubes, no thin olive-oil marinade, no salad. Landscape 4:3, realistic food photography, no captions writing logos brands watermark collage.",
+      "accepted": true
+    },
+    {
+      "id": "aged-cheddar-cheese",
+      "source": "output/imagegen/aged-cheddar-cheese.png",
+      "sourceSha256": "28783d04eeb6b8a3688b15e01f5a91393a60951b77c1b183b88b5995c6b48e8f",
+      "reviewedAt": "2026-10-01T14:34:07.526Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural aged cheddar cheese, a firm pale golden yellow wedge with a crumbly cut face and a few small broken pieces on a wooden board. No orange processed slices, no crackers or labels.",
+      "accepted": true
+    },
+    {
+      "id": "gouda-edam-cheese",
+      "source": "output/imagegen/gouda-edam-cheese.png",
+      "sourceSha256": "5306dc88e87a5b0ec1023ac8b329dbda7f4b0f4b67e30ad7e8a2faec19419481",
+      "reviewedAt": "2026-10-01T14:34:53.237Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural Gouda/Edam semi-hard cheese: a pale yellow wedge cut from a round cheese with a red wax outer rind, smooth firm interior with a few small round eyes, simple wooden board. No processed slices or crackers.",
+      "accepted": true
+    },
+    {
+      "id": "parmesan-reggiano",
+      "source": "output/imagegen/parmesan-reggiano.png",
+      "sourceSha256": "f723d982c850c44762652854561aa070d7fd61d3d7032ab9062d5c943880ecb8",
+      "reviewedAt": "2026-10-01T14:36:03.846Z",
+      "prompt": "ONE distinct photorealistic food guide photograph, landscape 4:3, warm natural window light, simple clean tabletop, correct natural food texture and preparation, authentic Egyptian presentation for Egyptian foods and authentic neutral presentation for imported foods. No people, writing, logos, packaging text, branding, watermark, collage or health symbols. Subject: Natural Parmigiano Reggiano cheese: a hard pale straw-colored wedge with thick beige natural rind, visibly granular crystalline broken face, a small pile of fresh coarse shavings on a wooden board. No labels or stamped text on rind.",
+      "accepted": true
+    }
+  ]
+}

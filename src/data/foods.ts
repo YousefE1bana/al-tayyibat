@@ -5476,6 +5476,7 @@ export const foods: Food[] = [
   {
     id: "aged-cheddar-cheese",
     slug: "aged-cheddar-cheese",
+    image: "/images/foods/aged-cheddar-cheese.jpg",
     name: "جبنة شيدر إنجليزية طبيعية معتقة",
     aliases: ["شيدر", "الشيدر", "جبنة شيدر", "شيدر معتق", "شيدر طبيعي", "جبن شيدر", "شيدر احمر طبيعي"],
     categoryId: "dairy",
@@ -5499,6 +5500,7 @@ export const foods: Food[] = [
   {
     id: "gouda-edam-cheese",
     slug: "gouda-edam-cheese",
+    image: "/images/foods/gouda-edam-cheese.jpg",
     name: "جبنة جودة وإيدام هولندية طبيعية معتقة",
     aliases: ["جبنة جودة", "جبنة ايدام", "جودة معتقة", "جبن جودة", "جبن فلمنك"],
     categoryId: "dairy",
@@ -5522,6 +5524,7 @@ export const foods: Food[] = [
   {
     id: "parmesan-reggiano",
     slug: "parmesan-reggiano",
+    image: "/images/foods/parmesan-reggiano.jpg",
     name: "جبنة بارميزان ريجانو الإيطالية المعتقة",
     aliases: ["بارميزان", "جبنة بارميزان", "بارميجيانو", "برميزان", "بارميزان معتق"],
     categoryId: "dairy",
