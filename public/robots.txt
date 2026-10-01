@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yousefe1bana.github.io/al-tayyibat/sitemap.xml
