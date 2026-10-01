@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0e1310" />
+    <title>نظام الطيبات — الدليل التفاعلي | الدكتور ضياء العوضي</title>
+    <meta
+      name="description"
+      content="دليل تفاعلي عربي لنظام الطيبات للدكتور ضياء العوضي: ابحث عن أي طعام واعرف موقعه في النظام، مع المبادئ، الوصفات، الأسئلة الشائعة، والمصادر."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="نظام الطيبات — الدليل التفاعلي" />
+    <meta property="og:description" content="هل هذا الطعام ضمن نظام الطيبات؟ ابحث واعرف خلال ثوانٍ." />
+    <meta property="og:locale" content="ar_EG" />
+    <link rel="canonical" href="https://yousefe1bana.github.io/al-tayyibat/" />
+    <meta property="og:url" content="https://yousefe1bana.github.io/al-tayyibat/" />
+    <meta property="og:site_name" content="نظام الطيبات — الدليل التفاعلي" />
+    <meta property="og:image" content="https://yousefe1bana.github.io/al-tayyibat/social-preview.jpg" />
+    <meta property="og:image:alt" content="نظام الطيبات — دليل الأطعمة والمصادر" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="نظام الطيبات — الدليل التفاعلي" />
+    <meta name="twitter:description" content="دليل معلوماتي عربي مستقل لقواعد نظام الطيبات والأطعمة والمصادر، وليس نصيحة طبية شخصية." />
+    <meta name="twitter:image" content="https://yousefe1bana.github.io/al-tayyibat/social-preview.jpg" />
+    <link rel="preload" href="/fonts/ibm-plex-sans-arabic/ibm-plex-sans-arabic-arabic-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230e1310'/%3E%3Crect x='4' y='4' width='24' height='24' fill='none' stroke='%23e3b341' stroke-width='3'/%3E%3Ctext x='16' y='22' font-size='14' text-anchor='middle' fill='%23f2ede3' font-family='monospace'%3Eط%3C/text%3E%3C/svg%3E" />
+
+    <script>
+      // Apply the persisted / system theme before first paint to avoid flashing.
+      (function () {
+        try {
+          var stored = localStorage.getItem("tayyibat:theme");
+          var system = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+          var theme = stored === "light" || stored === "dark" ? stored : system;
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>يحتاج الدليل التفاعلي إلى JavaScript لتشغيل البحث والتصفح. يرجى تفعيله في المتصفح.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

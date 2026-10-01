@@ -1,0 +1,6 @@
+{
+  "checkedAt": "2026-10-01",
+  "foodCount": 385,
+  "imageExcludedContentSha256": "bd65a3fce6e0aa671cd2d7e2d39eb860e659a39bf757ffd3ecdd8221fbc1939f",
+  "meaning": "Current runtime food objects, excluding image only, match the pre-pass local audit snapshot exactly."
+}
