@@ -39,6 +39,8 @@ npm run preview
 | `npm run validate` | المدققات الثلاثة السابقة |
 | `npm run qa:browser` | Chrome حقيقي، 390 و1440، المظهران، المسارات والتفاعلات وaxe |
 
+بعد النشر يمكن تشغيل `node scripts/validate-live-assets.mjs` لمقارنة ملفات الموقع العام بالبناء المحلي عبر SHA-256، و`node scripts/browser-interactions.mjs` لفحص لوحة المفاتيح والطباعة وفاحص المكونات وبديل الصورة المفقودة. عنوان الاستضافة الافتراضي لمدقق الملفات هو GitHub Pages؛ اضبط `QA_BASE_URL` لفحص نشر آخر. أدلة الإصدار الأخير في `docs/browser-qa.json` و`docs/browser-interactions-qa.json` و`docs/live-assets-qa.json`.
+
 لـ QA شغّل `npm run build` و`npm run preview -- --host 127.0.0.1 --port 4173` أولًا. يحتاج الاختبار إلى Google Chrome؛ لاستخدام Chromium الخاص بـ Playwright يمكن تعديل خيار `channel` في السكربت. لتغيير الهدف استخدم `QA_BASE_URL`، مثل عنوان الموقع المنشور. تحفظ التقارير واللقطات في `output/playwright/release/` المستبعد من Git.
 
 ثوابت الكتالوج: **116 compatible / 103 conditional / 157 notRecommended / 4 disputed / 5 unknown**. لا تغيّر هذه الأرقام أو معنى القواعد ضمن تحسينات العرض. نجاح التحقق البنيوي لا يحل التناقضات الدلالية المسجلة في ملاحظات المحتوى.

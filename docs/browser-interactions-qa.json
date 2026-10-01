@@ -1,0 +1,24 @@
+{
+  "base": "https://yousefe1bana.github.io/al-tayyibat/",
+  "checks": [
+    "Tablet filter disclosure",
+    "Tablet overflow",
+    "Skip link first keyboard stop",
+    "Skip link focus and route preservation",
+    "Command palette input focus",
+    "Command palette accessibility",
+    "Command palette keyboard focus trap",
+    "Command palette focus restoration",
+    "White paper print background",
+    "Print header hidden",
+    "Live reduced motion preference",
+    "Collapsed recipes excluded from keyboard",
+    "Recipe expansion",
+    "Ingredient delimiter parsing and deduplication",
+    "Ingredient unknown and disputed food links",
+    "Unmatched ingredient remains unresolved",
+    "Ingredient results mobile overflow",
+    "Ingredient clear action",
+    "Missing image renders accessible fallback"
+  ]
+}

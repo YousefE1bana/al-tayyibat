@@ -52,5 +52,21 @@ try {
   const expand=page.getByRole('button',{name:'المكونات والخطوات',exact:true}).first();
   await expand.click();
   check(await page.locator('button[aria-expanded="true"]').count()>0,'Recipe expansion');
+  await page.setViewportSize({width:390,height:1000});
+  await page.goto(`${base}#/ingredients`,{waitUntil:'networkidle'});
+  await page.locator('#ingredients-box').fill('أرز بسمتي،أرز بسمتي؛سبيرولينا\nحلوى خل التفاح\nzzzxqv');
+  await page.getByText('4 مكوّن في القائمة',{exact:true}).waitFor();
+  check(await page.locator('a[href="#/foods/basmati-rice"]').count()===1,'Ingredient delimiter parsing and deduplication');
+  check(await page.locator('a[href="#/foods/spirulina"]').count()===1&&await page.locator('a[href="#/foods/apple-cider-gummies"]').count()===1,'Ingredient unknown and disputed food links');
+  check((await page.locator('main').innerText()).includes('غير موجود في قاعدة بيانات الدليل حتى الآن.'),'Unmatched ingredient remains unresolved');
+  check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Ingredient results mobile overflow');
+  await page.screenshot({path:`${out}/ingredient-results.png`});
+  await page.getByRole('button',{name:'مسح',exact:true}).click();
+  check(await page.locator('#ingredients-box').inputValue()===''&&await page.getByRole('region',{name:'نتائج فحص المكونات'}).count()===0,'Ingredient clear action');
+  await page.route('**/images/foods/pasta.jpg',route=>route.fulfill({status:404,body:'Intentional missing-image test'}));
+  await page.goto(`${base}#/foods/pasta`,{waitUntil:'networkidle'});
+  await page.locator('main [role="img"]').waitFor();
+  check(await page.locator('main img[src$="/pasta.jpg"]').count()===0,'Missing image renders accessible fallback');
+  await page.unroute('**/images/foods/pasta.jpg');
 } finally {await fs.writeFile(`${out}/report.json`,JSON.stringify({base,checks},null,2));await browser.close();}
 console.log(JSON.stringify({checks}));
