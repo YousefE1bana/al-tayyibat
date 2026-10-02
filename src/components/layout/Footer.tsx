@@ -3,6 +3,7 @@ import { Github, Linkedin } from "@/components/ui/SocialIcons";
 import { maintainer } from "@/config/maintainer";
 import { NAV_ITEMS } from "./Navbar";
 import { BrandMark } from "@/components/brand/BrandMark";
+import { InstallControl, UpdateControl } from "@/pwa/PwaControls";
 
 const toolRoutes = new Set(["/alternatives", "/ingredients", "/print", "/shopping"]);
 const sectionLinks = NAV_ITEMS.filter((item) => !toolRoutes.has(item.to));
@@ -50,6 +51,7 @@ export function Footer() {
           <p className="mono mt-6 text-[11px] text-muted">
             محفوظاتك تبقى على جهازك. لا حسابات، لا تتبع.
           </p>
+          <InstallControl />
         </nav>
       </div>
       <div className="border-t-2 border-line-soft">
@@ -73,6 +75,7 @@ export function Footer() {
           <span className="mono text-[11px]">Ctrl/⌘ + K للبحث السريع</span>
         </div>
       </div>
+      <UpdateControl />
     </footer>
   );
 }

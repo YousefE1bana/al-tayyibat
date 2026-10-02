@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "lib": ["ES2020", "WebWorker"], "types": ["vite/client"] },
+  "include": ["src/pwa/sw.ts", "src/config/pwa.ts"],
+  "exclude": []
+}

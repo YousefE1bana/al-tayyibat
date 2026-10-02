@@ -9,7 +9,7 @@ const browser=await chromium.launch({channel:'chrome',headless:true});
 const checks=[];
 const check=(ok,label)=>{if(!ok)throw new Error(label);checks.push(label);};
 try {
-  const context=await browser.newContext({viewport:{width:820,height:1000},reducedMotion:'reduce'});
+  const context=await browser.newContext({viewport:{width:820,height:1000},reducedMotion:'reduce',serviceWorkers:'block'});
   const page=await context.newPage();
   await page.goto(`${base}#/foods`,{waitUntil:'networkidle'});
   await page.locator('main h1').waitFor();

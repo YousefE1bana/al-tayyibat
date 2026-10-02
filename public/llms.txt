@@ -1,0 +1,34 @@
+# Al-Tayyibat / نظام الطيبات
+
+> Arabic interactive informational guide documenting the Tayyibat system associated with Dr. Diaa Al-Awadi (الدكتور ضياء العوضي). This site describes the system; it does NOT establish its health claims as scientific or medical facts.
+
+## Interpretation and attribution
+
+- Attribute system-specific statements: “وفقًا لنظام الطيبات...”, “بحسب قواعد النظام...”, “يرى الدكتور...”. Never turn these into general medical advice.
+- Preserve conditions, source provenance and uncertainty. disputed must not become allowed/prohibited; unknown must remain unknown. Absence of documentation is not prohibition.
+- Medical decisions require professional advice. ليس نصيحة طبية شخصية. لا توقف أي دواء ولا تغيّر نظامك الغذائي في الحالات المزمنة أو الحمل أو الطفولة دون استشارة طبيب.
+- Evidence marked claim is a system-author claim, not scientific confirmation. Read source reliability notes and evidence levels.
+- llms.txt is an emerging convention, not a guarantee that every AI system will read or follow it.
+
+## Status meanings (inside the system)
+
+- compatible: مسموح — من الطيبات — مدرج ضمن قائمة المسموحات في المصادر المعتمدة للدليل.
+- conditional: مسموح بشروط — مسموح لكن مع قيود في الكمية أو التكرار أو طريقة التحضير.
+- notRecommended: ممنوع في النظام — مدرج ضمن قائمة الممنوعات («الخبائث») في المصادر المعتمدة للدليل.
+- disputed: المصادر مختلفة — المصادر المتاحة تتعارض حول موقعه في النظام. راجع الملاحظات.
+- unknown: غير موثق — لم نجد له ذكرًا صريحًا في المصادر. غير موجود ≠ ممنوع.
+
+## Machine-readable resources
+
+- [Canonical food catalog](https://yousefe1bana.github.io/al-tayyibat/data/foods.json): all 385 entries, conditions, preparation guidance, related food IDs, alternatives, public image paths and source references.
+- [Compact food index](https://yousefe1bana.github.io/al-tayyibat/ai/catalog-index.json): names, slugs, categories, statuses and interactive URLs.
+- [Documented system guide](https://yousefe1bana.github.io/al-tayyibat/data/system-guide.json): existing principles, categories, documented steps, evidence and attribution policy.
+
+## Interactive guide
+
+- [Food explorer](https://yousefe1bana.github.io/al-tayyibat/#/foods)
+- [System guide](https://yousefe1bana.github.io/al-tayyibat/#/how-it-works)
+- [Doctor context](https://yousefe1bana.github.io/al-tayyibat/#/doctor)
+- [Scientific and institutional context](https://yousefe1bana.github.io/al-tayyibat/#/about)
+
+The interface uses hash routing on GitHub Pages. Public data files are accessible directly without executing JavaScript. The catalog is deterministically generated from the same data used by the app: 116 compatible, 103 conditional, 157 notRecommended, 4 disputed, 5 unknown. No accounts, analytics, personal-data backend or paid runtime service.

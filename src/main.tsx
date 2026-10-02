@@ -5,6 +5,7 @@ import { ErrorBoundary } from "./components/ui/ErrorBoundary";
 import { validateContent } from "./lib/validate";
 import "./fonts.css";
 import "./index.css";
+import { PwaProvider } from "./pwa/PwaProvider";
 
 // Fail loudly in development if the content database has broken references.
 validateContent();
@@ -12,7 +13,7 @@ validateContent();
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ErrorBoundary>
-      <App />
+      <PwaProvider><App /></PwaProvider>
     </ErrorBoundary>
   </StrictMode>,
 );

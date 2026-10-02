@@ -30,7 +30,7 @@ async function verifyStableImage(page, image, release, label) {
 }
 try {
   for (const width of [390, 1440]) for (const theme of ['dark', 'light']) {
-    const context = await browser.newContext({ viewport: { width, height: width === 390 ? 844 : 1000 }, colorScheme: theme, reducedMotion: 'reduce' });
+    const context = await browser.newContext({ viewport: { width, height: width === 390 ? 844 : 1000 }, colorScheme: theme, reducedMotion: 'reduce', serviceWorkers: 'block' });
     const page = await context.newPage();
     page.on('pageerror', error => report.errors.push(error.message));
     page.on('response', response => { if (response.status() >= 400) report.errors.push(`${response.status()} ${response.url()}`); });
