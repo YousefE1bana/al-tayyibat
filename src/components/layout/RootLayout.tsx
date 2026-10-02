@@ -50,7 +50,7 @@ function ScrollProgress() {
 function PageFallback() {
   return (
     <div className="container-x py-24">
-      <div className="mono text-xs text-muted">loading…</div>
+      <div className="mono text-xs text-muted">جارٍ تحميل الصفحة…</div>
       <div className="mt-4 h-10 w-2/3 animate-pulse bg-surface-2" />
       <div className="mt-3 h-4 w-1/2 animate-pulse bg-surface-2" />
     </div>
