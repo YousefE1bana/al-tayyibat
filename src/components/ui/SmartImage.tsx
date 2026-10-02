@@ -1,4 +1,4 @@
-import { useEffect, useState, type ImgHTMLAttributes } from "react";
+import { useState, type ImgHTMLAttributes } from "react";
 import { assetUrl } from "@/lib/assets";
 import { Camera, ImageOff } from "lucide-react";
 import { cn } from "@/utils/cn";
@@ -12,10 +12,13 @@ interface SmartImageProps extends ImgHTMLAttributes<HTMLImageElement> {
 }
 
 /** Image with a branded fallback: never shows a broken icon or an empty box. */
-export function SmartImage({ src, alt, fallbackLabel, className, imgClassName, ...rest }: SmartImageProps) {
+export function SmartImage(props: SmartImageProps) {
+  return <ImageSurface key={props.src} {...props} />;
+}
+
+function ImageSurface({ src, alt, fallbackLabel, className, imgClassName, ...rest }: SmartImageProps) {
   const [failed, setFailed] = useState(false);
   const [loaded, setLoaded] = useState(false);
-  useEffect(() => { setFailed(false); setLoaded(false); }, [src]);
 
   if (!src || failed) {
     const isAwaiting = !src;
@@ -49,7 +52,7 @@ export function SmartImage({ src, alt, fallbackLabel, className, imgClassName, .
         onError={() => setFailed(true)}
         onLoad={() => setLoaded(true)}
         className={cn(
-          "h-full w-full object-cover transition-opacity duration-500",
+          "h-full w-full object-cover transition-opacity duration-250",
           loaded ? "opacity-100" : "opacity-0",
           imgClassName,
         )}

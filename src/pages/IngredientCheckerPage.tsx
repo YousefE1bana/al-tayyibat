@@ -14,6 +14,8 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { FoodStatusBadge } from "@/features/foods/FoodStatusBadge";
 import { usePageMeta } from "@/hooks/usePageMeta";
+import { EmptyState } from "@/components/ui/EmptyState";
+import { Button } from "@/components/ui/Button";
 import { motionPresets } from "@/lib/motion";
 import { bestFoodMatch, searchFoods } from "@/lib/search";
 import type { Food, FoodStatus } from "@/types";
@@ -28,11 +30,11 @@ interface IngredientResult {
 
 const SAMPLE_RECIPES = [
   {
-    name: "وجبة غداء طيبات مثالية",
+    name: "مثال غداء",
     text: "أرز بسمتي، لحم بقري، سمن بلدي، ملح صخري",
   },
   {
-    name: "وجبة شائعة بها ممنوعات",
+    name: "مثال وجبة",
     text: "خبز بلدي، دجاج مزارع، بطاطس مقلية بزيت ذرة، سلطة خضراء بالخيار والجرجير",
   },
   {
@@ -43,9 +45,7 @@ const SAMPLE_RECIPES = [
 
 export default function IngredientCheckerPage() {
   usePageMeta("فاحص المكونات", "فاحص المكونات التراكمي — افحص مكونات طبختك أو وجبتك دفعة واحدة في نظام الطيبات.");
-  const [inputText, setInputText] = useState(
-    "أرز بسمتي، لحم بقري، سمن بلدي، خبز أبيض، طماطم"
-  );
+  const [inputText, setInputText] = useState("");
 
   // Parse delimiters: comma, Arabic comma, newline, semicolon, Arabic semicolon, tabs
   const parsedIngredients = useMemo(() => {
@@ -132,11 +132,11 @@ export default function IngredientCheckerPage() {
       </header>
 
       {/* Main Input Card */}
-      <section className="mt-10 max-w-4xl" aria-label="مدخلات فاحص المكونات">
+      <section className="mt-10 max-w-6xl" aria-label="مدخلات فاحص المكونات">
         <div className="brut bg-surface">
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1 border-b-2 border-line bg-bg-2 px-4 py-2">
             <Terminal className="size-4 shrink-0 text-accent" aria-hidden />
-            <span dir="ltr" className="mono min-w-0 break-all text-[11px] text-muted">tayyibat://ingredient-checker</span>
+            <span dir="ltr" className="mono min-w-0 break-all text-[11px] text-muted">فحص المكونات</span>
             <span className="mono ms-auto text-[11px] text-muted" role="status">
               {parsedIngredients.length} مكوّن في القائمة
             </span>
@@ -163,7 +163,7 @@ export default function IngredientCheckerPage() {
                   key={sample.name}
                   type="button"
                   onClick={() => setInputText(sample.text)}
-                  className="mono min-h-10 border border-line-soft bg-bg px-2.5 py-1 text-xs text-ink-2 transition hover:border-line hover:text-ink cursor-pointer"
+                  className="mono min-h-11 border border-line-soft bg-bg px-2.5 py-1 text-xs text-ink-2 transition hover:border-line hover:text-ink cursor-pointer"
                 >
                   {sample.name}
                 </button>
@@ -172,7 +172,7 @@ export default function IngredientCheckerPage() {
                 <button
                   type="button"
                   onClick={() => setInputText("")}
-                  className="mono ms-auto inline-flex min-h-10 items-center gap-1 border border-line-soft px-2 py-1 text-xs text-muted hover:text-status-no cursor-pointer"
+                  className="mono ms-auto inline-flex min-h-11 items-center gap-1 border border-line-soft px-2 py-1 text-xs text-muted hover:text-status-no cursor-pointer"
                 >
                   <RotateCcw className="size-3" />
                   <span>مسح</span>
@@ -185,12 +185,12 @@ export default function IngredientCheckerPage() {
 
       {/* Analysis & Breakdown */}
       {parsedIngredients.length > 0 && (
-        <section className="mt-8 max-w-4xl space-y-6" aria-label="نتائج فحص المكونات">
+        <section className="mt-8 max-w-6xl space-y-6" aria-label="نتائج فحص المكونات">
           {/* Summary stats bar (No fake percentages — pure counts) */}
           <div className="brut bg-surface p-4 md:p-6">
             <div className="flex items-center gap-2 mb-4">
               <FileSearch className="size-5 text-accent" />
-              <h2 className="text-xl font-bold text-ink">حوصلة المكونات المفحوصة</h2>
+              <h2 className="text-xl font-bold text-ink">نتيجة فحص المكونات</h2>
             </div>
 
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -303,7 +303,7 @@ export default function IngredientCheckerPage() {
                         <FoodStatusBadge status={res.matchedFood.status} size="sm" />
                         <Link
                           to={`/foods/${res.matchedFood.slug}`}
-                          className="inline-flex min-h-10 items-center gap-1 border border-line-soft px-2.5 py-1 text-xs font-bold text-ink transition hover:border-accent hover:text-accent"
+                          className="inline-flex min-h-11 items-center gap-1 border border-line-soft px-2.5 py-1 text-xs font-bold text-ink transition hover:border-accent hover:text-accent"
                         >
                           <span>التفاصيل</span>
                           <ArrowLeft className="size-3" />
@@ -322,8 +322,10 @@ export default function IngredientCheckerPage() {
         </section>
       )}
 
+      {parsedIngredients.length === 0 && <EmptyState className="mt-8 max-w-6xl" icon={FileSearch} title="ابدأ بالمكونات التي أمامك" description="اكتب المقادير، أو جرّب مثالًا لترى حالة كل مكوّن وفقًا للنظام." action={<Button variant="secondary" onClick={() => setInputText(SAMPLE_RECIPES[0].text)}>جرّب مثال الغداء</Button>} />}
+
       {/* Guide Note */}
-      <section className="mt-16 max-w-4xl border-t-2 border-line pt-8">
+      <section className="mt-16 max-w-6xl border-t-2 border-line pt-8">
         <div className="flex items-center gap-2">
           <Sparkles className="size-4 text-accent" />
           <h4 className="font-bold text-ink">مبدأ دقة المعلومات في الطيبات:</h4>

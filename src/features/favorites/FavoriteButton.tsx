@@ -17,7 +17,7 @@ export function FavoriteButton({ kind, id, label, className, size = "md" }: Prop
   return (
     <motion.button
       type="button"
-      whileTap={{ scale: 0.9 }}
+      whileTap={{ scale: 0.95 }}
       onClick={(e) => {
         e.preventDefault();
         e.stopPropagation();
@@ -27,12 +27,12 @@ export function FavoriteButton({ kind, id, label, className, size = "md" }: Prop
       aria-label={active ? `إزالة ${label ?? ""} من المحفوظات` : `حفظ ${label ?? ""}`}
       className={cn(
         "inline-flex items-center justify-center gap-2 border-2 border-line transition-colors",
-        size === "sm" ? "size-9" : "h-11 px-4",
+        size === "sm" ? "size-11" : "h-11 px-4",
         active ? "bg-accent text-accent-ink" : "bg-surface text-ink hover:bg-surface-2",
         className,
       )}
     >
-      <motion.span animate={active ? { scale: [1, 1.35, 1], rotate: [0, -8, 0] } : { scale: 1 }} transition={{ duration: 0.35 }}>
+      <motion.span animate={active ? { scale: [1, 1.18, 1], rotate: [0, -5, 0] } : { scale: 1 }} transition={{ duration: 0.24 }}>
         <Bookmark className="size-4" fill={active ? "currentColor" : "none"} strokeWidth={2.5} aria-hidden />
       </motion.span>
       {size === "md" && <span className="text-sm font-semibold">{active ? "محفوظ" : "حفظ"}</span>}

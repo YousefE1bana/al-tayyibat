@@ -68,13 +68,13 @@ export function Sheet({ open, onOpenChange, title, description, children, mode =
                     )}
                   </div>
                   <DialogPrimitive.Close
-                    className="flex size-10 shrink-0 items-center justify-center border-2 border-line bg-surface transition hover:bg-accent hover:text-accent-ink"
+                    className="flex size-11 shrink-0 items-center justify-center border-2 border-line bg-surface transition hover:bg-accent hover:text-accent-ink"
                     aria-label="إغلاق"
                   >
                     <X className="size-5" />
                   </DialogPrimitive.Close>
                 </div>
-                <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain">{children}</div>
+                <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-[env(safe-area-inset-bottom)]">{children}</div>
               </motion.div>
             </DialogPrimitive.Content>
           </DialogPrimitive.Portal>

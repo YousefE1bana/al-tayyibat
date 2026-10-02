@@ -36,7 +36,7 @@ npm run preview
 | `npm run validate:images` | الصور المحلية، الأسماء والمقاسات، التكرار، الملفات غير المستخدمة وسلامة صورة الدكتور |
 | `npm run validate:search` | تطبيع البحث العربي واسترجاع أسماء الكتالوج |
 | `npm run validate` | جميع المدققات السابقة |
-| `npm run qa:browser` | فحص المتصفح الحقيقي على 390 و1440 بالمظهرين، مع axe |
+| `npm run qa:browser` | فحص المتصفح الحقيقي من 390 إلى 1920 بالمظهرين، مع axe واختبارات لوحة المفاتيح والحركة المخففة |
 
 ثوابت المحتوى: **385 طعامًا**، موزعة على **116 compatible / 103 conditional / 157 notRecommended / 4 disputed / 5 unknown**. تحسينات العرض لا تغيّر هذه الأعداد أو معنى القواعد. أي تعديل تحريري يحتاج مصدرًا واضحًا ومراجعة مستقلة وتحديثًا مقصودًا لبصمة `docs/catalog-baseline.json`؛ المدقق لا يكتب البيانات أو يعيد توليدها. التحقق البنيوي لا يحل الملاحظات الدلالية المسجلة في وثيقة المحتوى.
 
@@ -89,4 +89,4 @@ docs/              ثوابت الكتالوج وملاحظات التحرير
 
 ## الملكية
 
-تطوير وصيانة [Yousef Elbana](https://github.com/YousefE1bana). تضبط الروابط في `src/config/maintainer.ts`. يمكن إضافة `linkedinUrl` بعد توفير رابط الملف الشخصي الصحيح؛ لا يظهر رابط فارغ في الموقع.
+تطوير وصيانة [Yousef Elbana](https://github.com/YousefE1bana). تضبط الروابط في `src/config/maintainer.ts`. يتضمن التذييل رابط [LinkedIn](https://www.linkedin.com/in/yousefelbana) المقدم من المطور.

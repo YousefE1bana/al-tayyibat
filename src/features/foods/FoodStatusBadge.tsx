@@ -25,7 +25,6 @@ export function FoodStatusBadge({ status, size = "md", variant = "outline", clas
   const Icon = ICONS[status];
   return (
     <span
-      role="status"
       className={cn(
         "inline-flex items-center gap-1.5 whitespace-nowrap border-2 font-bold",
         size === "sm" && "h-7 px-2 text-xs",

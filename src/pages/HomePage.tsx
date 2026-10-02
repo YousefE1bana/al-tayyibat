@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, ArrowUpLeft, ShieldAlert } from "lucide-react";
-import { useRef } from "react";
+import { ArrowUpLeft, ListChecks, ShieldAlert, ShoppingBasket } from "lucide-react";
 import { Link } from "react-router-dom";
 import { categories } from "@/data/categories";
 import { doctor } from "@/data/doctor";
@@ -11,10 +10,11 @@ import { philosophy, principles } from "@/data/principles";
 import { recipes } from "@/data/recipes";
 import { usePageMeta } from "@/hooks/usePageMeta";
 import { iconByName } from "@/lib/icons";
-import { motionPresets, viewportOnce, usePrefersReducedMotion } from "@/lib/motion";
-import { STATUS_META, STATUS_ORDER } from "@/lib/status";
+import { motionPresets, viewportOnce } from "@/lib/motion";
+import { STATUS_ORDER } from "@/lib/status";
 import { toArabicDigits } from "@/lib/arabic";
-import { Button, LinkButton } from "@/components/ui/Button";
+import { LinkButton } from "@/components/ui/Button";
+import { SmartImage } from "@/components/ui/SmartImage";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { DoctorPortrait } from "@/features/doctor/DoctorPortrait";
 import { CategoryCard } from "@/features/foods/CategoryCard";
@@ -23,97 +23,52 @@ import { QuickChecker } from "@/features/foods/QuickChecker";
 import { PrincipleCard } from "@/features/principles/PrincipleCard";
 import { RecipeCard } from "@/features/recipes/RecipeCard";
 
-const HERO_CARDS = [
-  { id: "basmati-rice", x: "-6%", y: "8%", delay: 0 },
-  { id: "chicken", x: "58%", y: "65%", delay: 1.2 },
-  { id: "beef", x: "-10%", y: "62%", delay: 0.6 },
-] as const;
+const HERO_FOODS = ["basmati-rice", "potatoes", "eggs"];
 
-function Hero({ onCheck }: { onCheck: () => void }) {
-  const reduce = usePrefersReducedMotion();
-
+function Hero() {
+  const examples = HERO_FOODS.map((id) => foods.find((food) => food.id === id)).filter((food) => food !== undefined);
   return (
-    <section className="relative overflow-hidden border-b-2 border-line">
-      <div className="grid-dots absolute inset-0 opacity-60" aria-hidden />
-      <div className="hatch absolute inset-y-0 end-0 hidden w-24 border-s-2 border-line lg:block" aria-hidden />
-
-      <div className="container-x relative grid min-h-[calc(100dvh-72px)] items-center gap-10 py-14 lg:grid-cols-[1.15fr_1fr] lg:py-20">
-        <motion.div variants={motionPresets.staggerContainer} initial="hidden" animate="show">
-          <motion.div variants={motionPresets.fadeUp} className="mono mb-5 flex flex-wrap items-center gap-3 text-xs">
-            <span className="border-2 border-line bg-surface px-2 py-1">دليلك إلى نظام الطيبات</span>
-            <span className="text-muted">{toArabicDigits(foods.length)} طعامًا · تصنيفات وبدائل ووصفات</span>
-          </motion.div>
-
-          <motion.h1 variants={motionPresets.fadeUp} className="text-5xl font-bold leading-[1.1] sm:text-6xl lg:text-7xl xl:text-8xl">
-            نظام <span className="relative inline-block text-accent">الطيبات<span className="absolute inset-x-0 -bottom-1 h-2 bg-accent/30" aria-hidden /></span>
-            <br />
-            <span className="text-3xl font-semibold text-ink-2 sm:text-4xl lg:text-5xl">الدليل التفاعلي الكامل</span>
-          </motion.h1>
-
-          <motion.p variants={motionPresets.fadeUp} className="mt-6 max-w-xl text-lg leading-relaxed text-ink-2 md:text-xl">
-            اكتب اسم أي طعام، واعرف خلال ثوانٍ: هل هو من «الطيبات» أم من الممنوعات في نظام الدكتور ضياء العوضي، ولماذا، وما
-            بدائله — مع توضيح قواعد النظام وتمييزها عن الرأي العلمي.
+    <section className="relative border-b-2 border-line">
+      <div className="grid-dots pointer-events-none absolute inset-0 opacity-50" aria-hidden />
+      <div className="container-x relative grid items-center gap-10 py-10 md:grid-cols-[1.15fr_0.85fr] md:gap-8 md:py-14 xl:gap-16 xl:py-20">
+        <motion.div variants={motionPresets.staggerContainer} initial="hidden" animate="show" className="min-w-0">
+          <motion.p variants={motionPresets.fadeUp} className="mb-4 flex flex-wrap items-center gap-3 text-sm font-semibold text-muted">
+            <span className="border-2 border-line bg-surface px-3 py-1 text-ink">{toArabicDigits(foods.length)} طعامًا في دليل واحد</span>
+            <span>بدون حساب · بدون تتبع</span>
           </motion.p>
-
-          <motion.div variants={motionPresets.fadeUp} className="mt-8 flex flex-wrap gap-3">
-            <LinkButton to="/about" size="lg">
-              استكشف نظام الطيبات <ArrowUpLeft className="size-5" />
-            </LinkButton>
-            <Button variant="secondary" size="lg" onClick={onCheck}>
-              هل هذا الطعام ضمن النظام؟
-            </Button>
+          <motion.h1 variants={motionPresets.fadeUp} className="text-5xl font-bold leading-[1.2] lg:text-6xl xl:text-7xl 2xl:text-8xl">
+            نظام <span className="text-accent">الطيبات</span>
+          </motion.h1>
+          <motion.p variants={motionPresets.fadeUp} className="mt-4 max-w-xl text-base leading-relaxed text-ink-2 lg:text-lg">
+            ابحث عن طعام، وافهم حالته وشروطه وبدائله وفقًا لنظام الدكتور ضياء العوضي.
+            دليل معلوماتي، وليس بديلًا عن نصيحة طبيبك.
+          </motion.p>
+          <motion.div variants={motionPresets.fadeUp} className="mt-6 max-w-2xl">
+            <QuickChecker id="quick-check" />
           </motion.div>
-
-          <motion.div variants={motionPresets.fadeUp} className="mt-10 flex flex-wrap gap-2" aria-label="مفتاح الحالات">
-            {STATUS_ORDER.map((s) => (
-              <Link key={s} to={`/foods?status=${s}`} className="transition hover:-translate-y-0.5">
-                <FoodStatusBadge status={s} size="sm" />
+          <motion.div variants={motionPresets.fadeUp} className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold">
+            <Link to="/foods" className="inline-flex min-h-11 items-center gap-2 text-accent hover:underline">تصفح دليل الأطعمة <ArrowUpLeft className="size-4" aria-hidden /></Link>
+            <Link to="/how-it-works" className="inline-flex min-h-11 items-center gap-2 text-ink-2 hover:text-ink">جديد على النظام؟ ابدأ من هنا <ArrowUpLeft className="size-4" aria-hidden /></Link>
+          </motion.div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} className="min-w-0">
+          <div className="mb-4 flex items-center justify-between border-b-2 border-line pb-3">
+            <p className="text-sm font-semibold">من دليل الأطعمة</p>
+            <span className="mono text-xs text-muted">صور وتفاصيل لكل صنف</span>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            {examples.map((food, i) => (
+              <Link key={food.id} to={`/foods/${food.slug}`} className={`brut brut-hover group overflow-hidden bg-surface ${i === 0 ? "col-span-2" : "hidden sm:block"}`}>
+                <SmartImage src={food.image} alt={food.name} loading={i === 0 ? "eager" : "lazy"} fetchPriority={i === 0 ? "high" : "auto"}
+                  className={i === 0 ? "aspect-[4/3]" : "aspect-[16/10]"} imgClassName="food-image" />
+                <div className={i === 0 ? "flex flex-wrap items-center justify-between gap-2 p-3" : "flex min-h-24 flex-col items-start gap-2 p-3"}>
+                  <span className="text-sm font-bold lg:text-base">{food.name}</span>
+                  <FoodStatusBadge status={food.status} size="sm" className={i > 0 ? "mt-auto" : undefined} />
+                </div>
               </Link>
             ))}
-          </motion.div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: [0.2, 0.8, 0.2, 1] }}
-          className="relative mx-auto w-full max-w-md lg:max-w-none"
-        >
-          <div className="absolute -inset-3 hatch border-2 border-line" aria-hidden />
-          <div className="brut relative aspect-[4/5] overflow-hidden bg-surface-2 sm:aspect-[5/6]">
-            <DoctorPortrait className="h-full w-full" />
-            <div className="absolute inset-x-0 bottom-0 border-t-2 border-line bg-bg/90 px-4 py-3 backdrop-blur">
-              <div className="mono text-[11px] text-accent">// صاحب النظام</div>
-              <div className="text-lg font-bold">{doctor.displayName}</div>
-              <div className="text-xs text-muted">{doctor.specialty} · {doctor.almaMater}</div>
-            </div>
           </div>
-
-          {HERO_CARDS.map((c) => {
-            const f = foods.find((x) => x.id === c.id);
-            if (!f) return null;
-            return (
-              <motion.div
-                key={c.id}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: reduce ? 0 : 0.25, delay: reduce ? 0 : c.delay / 6 }}
-                style={{ left: c.x, top: c.y }}
-                className="absolute hidden md:block"
-              >
-                <Link to={`/foods/${f.slug}`} className="brut flex items-center gap-2 bg-bg px-3 py-2 text-sm font-bold transition hover:bg-surface">
-                  <span className={STATUS_META[f.status].twText}>{STATUS_META[f.status].symbol}</span>
-                  {f.name.split(" (")[0]}
-                  <span className="mono text-[10px] text-muted">{STATUS_META[f.status].short}</span>
-                </Link>
-              </motion.div>
-            );
-          })}
         </motion.div>
-      </div>
-
-      <div className="container-x mono flex items-center gap-2 pb-6 text-[11px] text-muted">
-        <ArrowDown className="size-3" aria-hidden /> ابدأ بالفحص السريع
       </div>
     </section>
   );
@@ -121,38 +76,33 @@ function Hero({ onCheck }: { onCheck: () => void }) {
 
 export default function HomePage() {
   usePageMeta(undefined, "دليل تفاعلي عربي لنظام الطيبات للدكتور ضياء العوضي: ابحث عن أي طعام واعرف موقعه في النظام.");
-  const checkerRef = useRef<HTMLInputElement>(null);
-
-  const focusChecker = () => {
-    document.getElementById("quick-check")?.scrollIntoView({ behavior: "smooth", block: "center" });
-    window.setTimeout(() => checkerRef.current?.focus(), 450);
-  };
-
   const essentials = foods.filter((f) => f.essential);
 
   return (
     <>
-      <Hero onCheck={focusChecker} />
+      <Hero />
 
-      {/* Quick checker */}
-      <section className="container-x -mt-1 py-16 md:py-24" aria-labelledby="quick-check-heading">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-start">
-          <div>
-            <h2 id="quick-check-heading" className="sr-only">الفحص السريع</h2>
-            <SectionHeading index="01" kicker="بحث سريع" title="فحص سريع لأي طعام" description="ابحث بالاسم الذي تعرفه، مثل بطاطس أو بطاطا، فراخ أو دجاج، واعرف حالة الطعام في الدليل." className="mb-6" />
-            <div className="brut-soft grid grid-cols-2 gap-px bg-line-soft sm:grid-cols-3">
-              {essentials.map((f) => (
-                <Link key={f.id} to={`/foods/${f.slug}`} className="bg-surface p-3 transition hover:bg-surface-2">
-                  <div className="mono text-[10px] text-accent">أساسي</div>
-                  <div className="text-sm font-bold">{f.name.split(" /")[0]}</div>
-                </Link>
-              ))}
-              <Link to="/foods?q=الأساسيات" className="flex items-center justify-center bg-accent p-3 text-sm font-bold text-accent-ink">
-                الأساسيات الخمسة ←
-              </Link>
+      <section className="container-x py-12 md:py-16" aria-labelledby="start-heading">
+        <h2 id="start-heading" className="mb-6 text-2xl font-bold">خطوتك التالية</h2>
+        <div className="grid gap-5 md:grid-cols-3">
+          <Link to="/ingredients" className="brut brut-hover flex items-start gap-4 bg-surface p-5">
+            <ListChecks className="mt-1 size-6 shrink-0 text-accent" aria-hidden />
+            <div><h3 className="text-lg font-bold">محتار في مكوّن؟</h3><p className="mt-1 text-sm text-ink-2">افحص مقادير وصفتك معًا، وراجع كل مكوّن.</p></div>
+          </Link>
+          <Link to="/shopping" className="brut brut-hover flex items-start gap-4 bg-surface p-5">
+            <ShoppingBasket className="mt-1 size-6 shrink-0 text-accent" aria-hidden />
+            <div><h3 className="text-lg font-bold">جهّز قائمة مشترياتك</h3><p className="mt-1 text-sm text-ink-2">قائمة مرجعية تحفظ تقدمك على جهازك.</p></div>
+          </Link>
+          <div className="brut bg-surface p-5">
+            <h3 className="mb-2 text-lg font-bold">الأساسيات الخمسة وفقًا للنظام</h3>
+            <div className="flex flex-wrap gap-x-4">
+              {essentials.map((food) => <Link key={food.id} to={`/foods/${food.slug}`} className="inline-flex min-h-11 items-center text-sm font-semibold text-accent hover:underline">{food.name.split(" /")[0]}</Link>)}
             </div>
           </div>
-          <QuickChecker ref={checkerRef} id="quick-check" />
+        </div>
+        <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1" aria-label="مفتاح الحالات">
+          <span className="me-2 text-sm text-muted">حالات الأطعمة وفقًا للنظام:</span>
+          {STATUS_ORDER.map((status) => <Link key={status} to={`/foods?status=${status}`} className="inline-flex min-h-11 items-center"><FoodStatusBadge status={status} size="sm" /></Link>)}
         </div>
       </section>
 
@@ -277,7 +227,7 @@ export default function HomePage() {
 
       {/* FAQ teaser */}
       <section className="container-x py-16 md:py-24">
-        <SectionHeading index="09" kicker="أسئلة وإجابات" title="أكثر الأسئلة تكرارًا" />
+        <SectionHeading index="09" kicker="أسئلة وإجابات" title="أسئلة شائعة" />
         <div className="grid gap-4 md:grid-cols-2">
           {faq.slice(0, 4).map((q) => (
             <Link key={q.id} to={`/faq#${q.id}`} className="brut brut-hover block bg-surface p-5">

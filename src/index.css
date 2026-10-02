@@ -233,7 +233,7 @@ body::after {
 }
 ::view-transition-new(root) {
   clip-path: circle(0% at var(--vt-x, 50%) var(--vt-y, 50%));
-  animation: reveal 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  animation: reveal 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 @keyframes reveal {
   to { clip-path: circle(150% at var(--vt-x, 50%) var(--vt-y, 50%)); }
@@ -274,4 +274,26 @@ body::after {
   main > div { opacity: 1 !important; transform: none !important; }
   article h2, article h3 { break-after: avoid; }
   article li { break-inside: avoid; }
+}
+
+/* Entrance is limited to page headers; long catalog trees remain still. */
+@keyframes page-header-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.page-enter > div > header, .page-enter > article > nav {
+  animation: page-header-in 0.22s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.search-field { transition: box-shadow 0.16s ease; }
+.search-field:focus-within { box-shadow: -3px 3px 0 var(--accent); }
+.food-image { transition: opacity 0.25s ease, transform 0.25s ease; }
+@media (hover: hover) and (pointer: fine) {
+  .group:hover .food-image { transform: scale(1.025); }
+}
+@media (hover: none) {
+  .brut-hover:hover { transform: none; box-shadow: var(--shadow-x) var(--shadow-y) 0 var(--shadow); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .food-image, .brut-hover:active { transform: none !important; }
+}
+@media print {
+  .page-enter { display: block; }
+  .page-enter > div > header, .page-enter > article > nav { animation: none; }
 }

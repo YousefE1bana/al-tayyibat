@@ -21,8 +21,8 @@ export default function DoctorPage() {
 
   return (
     <div className="container-x py-10 md:py-16">
-      <header className="grid gap-10 lg:grid-cols-[1fr_1.5fr] lg:items-end">
-        <div className="brut mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden lg:mx-0">
+      <header className="grid gap-8 md:grid-cols-[240px_minmax(0,1fr)] md:items-center xl:grid-cols-[360px_minmax(0,1fr)] xl:gap-14">
+        <div className="brut mx-auto aspect-[4/5] w-full max-w-[240px] overflow-hidden md:mx-0 xl:max-w-sm">
           <DoctorPortrait className="h-full w-full" />
         </div>
         <div>
@@ -48,7 +48,7 @@ export default function DoctorPage() {
 
       <div className="mt-16 grid gap-12 lg:grid-cols-[240px_1fr]">
         <TableOfContents items={TOC} className="hidden lg:sticky lg:top-28 lg:block lg:self-start" />
-        <div className="min-w-0 space-y-24">
+        <div className="min-w-0 space-y-16 md:space-y-20">
           <section id="bio" className="scroll-mt-28">
             <SectionHeading index="01" title="السيرة" />
             <div className="prose-ar space-y-5 text-ink-2">

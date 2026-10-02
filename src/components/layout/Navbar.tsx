@@ -112,7 +112,7 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="ms-6 hidden items-center gap-0.5 xl:gap-1 lg:flex" aria-label="التنقل الرئيسي">
+          <nav className="ms-3 hidden items-center gap-0.5 xl:gap-1 xl:flex" aria-label="التنقل الرئيسي">
             {PRIMARY_NAV_ITEMS.map((item) => (
               <NavLink
                 key={item.to}
@@ -204,7 +204,7 @@ export function Navbar() {
             <button
               type="button"
               onClick={openSearch}
-              className="group flex h-10 items-center gap-2 border-2 border-line bg-surface px-3 transition hover:bg-accent hover:text-accent-ink"
+              className="group flex h-11 items-center gap-2 border-2 border-line bg-surface px-3 transition hover:bg-accent hover:text-accent-ink"
               aria-label="فتح البحث (Ctrl+K)"
             >
               <Search className="size-4 transition-transform group-hover:rotate-12" />
@@ -213,7 +213,7 @@ export function Navbar() {
             </button>
             <Link
               to="/favorites"
-              className="relative flex size-10 items-center justify-center border-2 border-line bg-surface transition hover:bg-accent hover:text-accent-ink"
+              className="relative flex size-11 items-center justify-center border-2 border-line bg-surface transition hover:bg-accent hover:text-accent-ink"
               aria-label={`المحفوظات (${count})`}
             >
               <Bookmark className="size-5" />
@@ -228,7 +228,7 @@ export function Navbar() {
               ref={mobileButtonRef}
               type="button"
               onClick={() => { setMenuOpen((v) => !v); setMoreOpen(false); }}
-              className="flex size-10 items-center justify-center border-2 border-line bg-surface lg:hidden"
+              className="flex size-11 items-center justify-center border-2 border-line bg-surface xl:hidden"
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
               aria-label="القائمة"
@@ -248,13 +248,13 @@ export function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2 }}
-            className="absolute inset-x-0 top-full max-h-[80vh] overflow-y-auto border-b-2 border-line bg-bg lg:hidden shadow-hard"
+            className="absolute inset-x-0 top-full max-h-[calc(100dvh-72px)] overflow-y-auto border-b-2 border-line bg-bg xl:hidden shadow-hard"
             aria-label="قائمة الجوال"
             onBlur={(event) => {
               if (!headerRef.current?.contains(event.relatedTarget as Node | null)) setMenuOpen(false);
             }}
           >
-            <ul className="container-x grid gap-1 py-4 sm:grid-cols-2">
+            <ul className="container-x grid gap-1 py-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:grid-cols-2">
               {ALL_MOBILE_ITEMS.map((item, i) => (
                 <li key={item.to}>
                   <NavLink

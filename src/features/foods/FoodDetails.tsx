@@ -18,9 +18,9 @@ interface Props {
 function Section({ title, code, children }: { title: string; code: string; children: React.ReactNode }) {
   return (
     <section className="border-t-2 border-line-soft py-5 first:border-t-0">
-      <h3 className="mb-2 flex items-center gap-2 text-base font-bold">
+      <h2 className="mb-2 flex items-center gap-2 text-base font-bold">
         <span className="mono text-[11px] text-accent">{code}</span> {title}
-      </h3>
+      </h2>
       <div className="text-[15px] leading-relaxed text-ink-2">{children}</div>
     </section>
   );
@@ -58,12 +58,14 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
 
   return (
     <div className={full ? "" : "px-5 pb-8"}>
-      <div className={full ? "grid gap-8 lg:grid-cols-[1.1fr_1fr] lg:items-start" : ""}>
+      <div className={full ? "grid gap-6 md:grid-cols-[0.9fr_1.1fr] md:items-start xl:gap-10" : ""}>
         <SmartImage
+          loading="eager"
+          fetchPriority={full ? "high" : "auto"}
           src={food.image}
           alt={food.name}
           fallbackLabel={category?.name}
-          className={full ? "brut aspect-[4/3] w-full" : "-mx-5 aspect-[16/9] border-b-2 border-line"}
+          className={full ? "brut aspect-[16/10] w-full md:aspect-[4/3]" : "-mx-5 aspect-[16/9] border-b-2 border-line"}
         />
         <div className={full ? "" : "pt-5"}>
           <div className="mono mb-2 text-xs text-muted">
@@ -86,6 +88,17 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
               </Link>
             )}
           </div>
+          <div className="mt-5 border-2 border-line bg-surface p-4 md:p-5">
+            <p className="mb-2 text-xs font-semibold text-accent">الخلاصة وفقًا للنظام</p>
+            <p className="text-lg font-semibold leading-relaxed">{food.shortDescription}</p>
+            {food.restrictions?.length ? (
+              <a href="#food-conditions" onClick={(event) => {
+                event.preventDefault();
+                const target = event.currentTarget.closest("article, [role='dialog']")?.querySelector<HTMLElement>("[data-food-conditions]");
+                target?.focus();
+              }} className="mt-2 inline-flex min-h-11 items-center text-sm font-semibold text-accent hover:underline">راجع الشروط والقيود أدناه ↓</a>
+            ) : null}
+          </div>
           <p className="mt-4 border-s-2 border-accent ps-3 text-sm leading-relaxed text-muted">
             هذا التصنيف وفقًا لقواعد نظام الطيبات كما تعرضها المصادر، وليس تقييمًا طبيًا لملاءمة الطعام لحالتك الشخصية.
           </p>
@@ -95,10 +108,6 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
 
       <div className={full ? "mt-10 grid gap-x-12 lg:grid-cols-[1fr_320px]" : "mt-6"}>
         <div>
-          <Section title="حالته في النظام" code="01">
-            <p className="text-lg font-semibold text-ink">{food.shortDescription}</p>
-          </Section>
-
           {food.explanation && (
             <Section title="لماذا؟" code="02">
               <p>{food.explanation}</p>
@@ -112,7 +121,8 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
           )}
 
           {food.restrictions?.length ? (
-            <Section title="الكمية / القيود" code="04">
+            <div data-food-conditions id={full ? "food-conditions" : undefined} tabIndex={-1} className="scroll-mt-28">
+            <Section title="الشروط والقيود" code="04">
               <ul className="space-y-2">
                 {food.restrictions.map((r) => (
                   <li key={r} className="flex gap-2">
@@ -122,6 +132,7 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
                 ))}
               </ul>
             </Section>
+            </div>
           ) : null}
 
           {food.notes && (

@@ -12,7 +12,7 @@
     "validate:images": "tsx scripts/validate-images.ts",
     "validate:search": "tsx scripts/test_search_coverage.ts",
     "validate": "npm run validate:baseline && npm run validate:content && npm run validate:images && npm run validate:search",
-    "qa:browser": "node scripts/browser-qa.mjs",
+    "qa:browser": "node scripts/browser-qa.mjs && node scripts/browser-interactions.mjs && node scripts/browser-responsive.mjs",
     "validate:baseline": "tsx scripts/check-release-baseline.ts"
   },
   "dependencies": {

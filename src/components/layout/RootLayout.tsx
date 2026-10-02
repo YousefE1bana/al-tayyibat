@@ -1,7 +1,7 @@
-import { AnimatePresence, motion, useScroll, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { Suspense, useEffect } from "react";
 import { useLocation, useOutlet } from "react-router-dom";
-import { motionPresets, usePrefersReducedMotion } from "@/lib/motion";
+import { usePrefersReducedMotion } from "@/lib/motion";
 import { ErrorBoundary } from "@/components/ui/ErrorBoundary";
 import { SearchCommand } from "@/features/search/SearchCommand";
 import { Footer } from "./Footer";
@@ -59,7 +59,6 @@ function PageFallback() {
 
 export function RootLayout() {
   const location = useLocation();
-  // Capture the outlet element so the exiting page keeps rendering its own content during the transition.
   const outlet = useOutlet();
   return (
     <div className="flex min-h-dvh flex-col">
@@ -81,16 +80,7 @@ export function RootLayout() {
       <main id="main" tabIndex={-1} className="flex-1 scroll-mt-20">
         <ErrorBoundary key={location.pathname}>
         <Suspense fallback={<PageFallback />}>
-          <AnimatePresence mode="wait" initial={false}>
-            <motion.div
-              key={location.pathname}
-              initial={motionPresets.pageTransition.initial}
-              animate={motionPresets.pageTransition.animate}
-              exit={motionPresets.pageTransition.exit}
-            >
-              {outlet}
-            </motion.div>
-          </AnimatePresence>
+          <div key={location.pathname} className="page-enter">{outlet}</div>
         </Suspense>
         </ErrorBoundary>
       </main>

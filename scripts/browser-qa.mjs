@@ -21,7 +21,7 @@ for(const width of [1440,390]) for(const theme of ['dark','light']){
     await page.goto(`${base}#${route}`,{waitUntil:'networkidle'});
     await page.locator('main h1').waitFor({state:'visible'});
     await page.evaluate(()=>document.fonts.ready);
-    await page.evaluate(async()=>{await Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})));});
+    await page.evaluate(async()=>{await Promise.all([...document.images].filter(i=>{const r=i.getBoundingClientRect();return r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0;}).map(i=>i.decode().catch(()=>{})));});
     const state=await page.evaluate(()=>({theme:document.documentElement.dataset.theme,heading:document.querySelector('main h1')?.textContent,title:document.title,width:innerWidth,scrollWidth:document.documentElement.scrollWidth,broken:[...document.images].filter(i=>i.complete&&i.naturalWidth===0).map(i=>i.src)}));
     const overflow=state.scrollWidth>width+1;
     report.routes.push({route,width,theme,...state,overflow});
@@ -35,7 +35,7 @@ for(const width of [1440,390]) for(const theme of ['dark','light']){
   }
   await page.goto(`${base}#/foods`,{waitUntil:'networkidle'});
   check(await page.locator('footer a[href="https://github.com/YousefE1bana"]').isVisible(), `Maintainer attribution ${width}/${theme}`);
-  check(await page.locator('footer a[aria-label*="LinkedIn"]').count() === 0, `No invented LinkedIn profile ${width}/${theme}`);
+  check(await page.locator('footer a[href="https://www.linkedin.com/in/yousefelbana"]').count() === 1, `Supplied LinkedIn profile ${width}/${theme}`);
   const search=page.getByRole('searchbox',{name:'ابحث عن طعام'});
   await search.fill('مكرونة');
   await page.waitForFunction(()=>document.querySelector('main')?.textContent.includes('المكرونة'));

@@ -9,8 +9,8 @@ const sectionLinks = NAV_ITEMS.filter((item) => !toolRoutes.has(item.to));
 export function Footer() {
   return (
     <footer className="mt-24 border-t-2 border-line bg-bg-2">
-      <div className="container-x grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
-        <div>
+      <div className="container-x grid grid-cols-2 gap-x-6 gap-y-8 py-10 md:gap-10 md:py-14 md:grid-cols-[1.4fr_1fr_1fr]">
+        <div className="col-span-2 md:col-span-1">
           <div className="flex items-center gap-2.5">
             <span className="flex size-9 items-center justify-center border-2 border-line bg-accent text-lg font-bold text-accent-ink">ط</span>
             <span className="text-lg font-bold">نظام الطيبات — الدليل التفاعلي</span>
@@ -26,10 +26,10 @@ export function Footer() {
         </div>
         <nav aria-label="روابط الموقع">
           <h3 className="mono mb-3 text-xs text-accent">// الأقسام</h3>
-          <ul className="grid gap-1.5 text-sm">
+          <ul className="grid text-sm">
             {sectionLinks.map((item) => (
               <li key={item.to}>
-                <Link to={item.to} className="text-ink-2 hover:text-ink hover:underline">
+                <Link to={item.to} className="inline-flex min-h-11 items-center text-ink-2 hover:text-ink hover:underline">
                   {item.label}
                 </Link>
               </li>
@@ -38,13 +38,13 @@ export function Footer() {
         </nav>
         <nav aria-label="أدوات">
           <h3 className="mono mb-3 text-xs text-accent">// أدوات ومرافق</h3>
-          <ul className="grid gap-1.5 text-sm">
-            <li><Link to="/alternatives" className="text-ink-2 hover:text-ink hover:underline">بدائل الأطعمة</Link></li>
-            <li><Link to="/ingredients" className="text-ink-2 hover:text-ink hover:underline">فاحص المكونات</Link></li>
-            <li><Link to="/print" className="text-ink-2 hover:text-ink hover:underline">دليل المطبخ للطباعة (A4)</Link></li>
-            <li><Link to="/favorites" className="text-ink-2 hover:text-ink hover:underline">المحفوظات المفضلة</Link></li>
-            <li><Link to="/shopping" className="text-ink-2 hover:text-ink hover:underline">دليل المشتريات</Link></li>
-            <li><Link to="/foods?status=notRecommended" className="text-ink-2 hover:text-ink hover:underline">قائمة الممنوعات</Link></li>
+          <ul className="grid text-sm">
+            <li><Link to="/alternatives" className="inline-flex min-h-11 items-center text-ink-2 hover:text-ink hover:underline">بدائل الأطعمة</Link></li>
+            <li><Link to="/ingredients" className="inline-flex min-h-11 items-center text-ink-2 hover:text-ink hover:underline">فاحص المكونات</Link></li>
+            <li><Link to="/print" className="inline-flex min-h-11 items-center text-ink-2 hover:text-ink hover:underline">دليل المطبخ للطباعة (A4)</Link></li>
+            <li><Link to="/favorites" className="inline-flex min-h-11 items-center text-ink-2 hover:text-ink hover:underline">المحفوظات المفضلة</Link></li>
+            <li><Link to="/shopping" className="inline-flex min-h-11 items-center text-ink-2 hover:text-ink hover:underline">دليل المشتريات</Link></li>
+            <li><Link to="/foods?status=notRecommended" className="inline-flex min-h-11 items-center text-ink-2 hover:text-ink hover:underline">قائمة الممنوعات</Link></li>
           </ul>
           <p className="mono mt-6 text-[11px] text-muted">
             محفوظاتك تبقى على جهازك. لا حسابات، لا تتبع.

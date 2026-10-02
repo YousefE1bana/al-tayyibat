@@ -38,9 +38,9 @@ function FilterChips({
       <div>
         <div className="mono mb-2 text-xs text-accent">// الحالة</div>
         <div className="flex flex-wrap gap-2">
-          <button type="button" onClick={() => onChange({ status: null })} className={cn("border-2 px-3 py-1.5 text-sm font-semibold transition", !status ? "border-line bg-ink text-bg" : "border-line-soft hover:border-line")}>الكل</button>
+          <button type="button" onClick={() => onChange({ status: null })} className={cn("min-h-11 border-2 px-3 py-1.5 text-sm font-semibold transition", !status ? "border-line bg-ink text-bg" : "border-line-soft hover:border-line")}>الكل</button>
           {STATUS_ORDER.map((s) => (
-            <button key={s} type="button" onClick={() => onChange({ status: s === status ? null : s })} aria-pressed={status === s} className={cn("transition", status === s ? "ring-4 ring-accent/40" : "hover:ring-2 hover:ring-line-soft")}>
+            <button key={s} type="button" onClick={() => onChange({ status: s === status ? null : s })} aria-pressed={status === s} className={cn("min-h-11 transition", status === s ? "ring-4 ring-accent/40" : "hover:ring-2 hover:ring-line-soft")}>
               <FoodStatusBadge status={s} size="sm" variant={status === s ? "solid" : "outline"} />
             </button>
           ))}
@@ -49,19 +49,19 @@ function FilterChips({
       <div>
         <div className="mono mb-2 text-xs text-accent">// التصنيف</div>
         <div className="flex flex-wrap gap-2">
-          <button type="button" onClick={() => onChange({ category: null })} className={cn("border-2 px-3 py-1.5 text-sm font-semibold transition", !category ? "border-line bg-ink text-bg" : "border-line-soft hover:border-line")}>الكل</button>
+          <button type="button" onClick={() => onChange({ category: null })} className={cn("min-h-11 border-2 px-3 py-1.5 text-sm font-semibold transition", !category ? "border-line bg-ink text-bg" : "border-line-soft hover:border-line")}>الكل</button>
           {categories.map((c) => (
-            <button key={c.id} type="button" onClick={() => onChange({ category: c.id === category ? null : c.id })} aria-pressed={category === c.id} className={cn("border-2 px-3 py-1.5 text-sm font-semibold transition", category === c.id ? "border-line bg-accent text-accent-ink" : "border-line-soft hover:border-line")}>
+            <button key={c.id} type="button" onClick={() => onChange({ category: c.id === category ? null : c.id })} aria-pressed={category === c.id} className={cn("min-h-11 border-2 px-3 py-1.5 text-sm font-semibold transition", category === c.id ? "border-line bg-accent text-accent-ink" : "border-line-soft hover:border-line")}>
               {c.name}
             </button>
           ))}
         </div>
       </div>
       <div className="flex flex-wrap gap-2">
-        <button type="button" onClick={() => onChange({ sort: sort === "alpha" ? null : "alpha" })} aria-pressed={sort === "alpha"} className={cn("inline-flex items-center gap-1.5 border-2 px-3 py-1.5 text-sm font-semibold transition", sort === "alpha" ? "border-line bg-accent text-accent-ink" : "border-line-soft hover:border-line")}>
+        <button type="button" onClick={() => onChange({ sort: sort === "alpha" ? null : "alpha" })} aria-pressed={sort === "alpha"} className={cn("inline-flex min-h-11 items-center gap-1.5 border-2 px-3 py-1.5 text-sm font-semibold transition", sort === "alpha" ? "border-line bg-accent text-accent-ink" : "border-line-soft hover:border-line")}>
           <ArrowDownAZ className="size-4" /> أبجديًا
         </button>
-        <button type="button" onClick={() => onChange({ fav: favoritesOnly ? null : "1" })} aria-pressed={favoritesOnly} className={cn("inline-flex items-center gap-1.5 border-2 px-3 py-1.5 text-sm font-semibold transition", favoritesOnly ? "border-line bg-accent text-accent-ink" : "border-line-soft hover:border-line")}>
+        <button type="button" onClick={() => onChange({ fav: favoritesOnly ? null : "1" })} aria-pressed={favoritesOnly} className={cn("inline-flex min-h-11 items-center gap-1.5 border-2 px-3 py-1.5 text-sm font-semibold transition", favoritesOnly ? "border-line bg-accent text-accent-ink" : "border-line-soft hover:border-line")}>
           <Bookmark className="size-4" /> المحفوظات فقط
         </button>
       </div>
@@ -131,7 +131,7 @@ export default function FoodsPage() {
         <div className="mono mb-3 text-xs text-accent">// دليل الأطعمة</div>
         <h1 className="text-4xl font-bold md:text-6xl">بتدور على إيه؟</h1>
         <p className="mt-3 text-ink-2">
-          {toArabicDigits(foods.length)} صنفًا موثقًا من المصادر. البحث يفهم التهجئات المختلفة والهمزات والتاء المربوطة.
+          {toArabicDigits(foods.length)} طعامًا وفقًا للنظام. ابحث بالاسم الذي تعرفه، ثم راجع الشروط والتفاصيل.
         </p>
       </header>
 
@@ -140,6 +140,7 @@ export default function FoodsPage() {
           <Search className="pointer-events-none absolute start-4 top-1/2 size-5 -translate-y-1/2 text-muted" aria-hidden />
           <input
             type="search"
+            enterKeyHint="search"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="جرب: الأرز، البطاطس، البيض، اللبن..."
@@ -151,7 +152,7 @@ export default function FoodsPage() {
               type="button"
               onClick={() => setInput("")}
               aria-label="مسح"
-              className="absolute end-3 top-1/2 -translate-y-1/2 border border-line-soft p-1.5 text-muted hover:border-line hover:text-ink transition-colors"
+              className="absolute end-1 top-1/2 -translate-y-1/2 flex size-11 items-center justify-center text-muted hover:border-line hover:text-ink transition-colors"
             >
               <X className="size-4" />
             </button>
@@ -200,7 +201,8 @@ export default function FoodsPage() {
         </aside>
 
         <div className="min-w-0">
-          <div className="mono mb-4 flex flex-wrap items-center gap-3 text-xs text-muted">
+          <h2 className="sr-only">نتائج البحث في الأطعمة</h2>
+          <div role="status" aria-atomic="true" className="mono mb-4 flex flex-wrap items-center gap-3 text-xs text-muted">
             <span>{toArabicDigits(results.length)} نتيجة</span>
             {category && <span className="border border-line-soft px-2 py-0.5">{categoriesById[category]?.name}</span>}
             {status && <span className="border border-line-soft px-2 py-0.5">{STATUS_META[status as FoodStatus]?.label}</span>}
@@ -215,6 +217,7 @@ export default function FoodsPage() {
                 description="غير موجود ≠ ممنوع. لا نستنتج المنع أو السماح من عندنا. جرّب تهجئة أخرى، أو تصفح الفئة الأقرب."
                 action={
                   <>
+                    <Button variant="secondary" onClick={() => { setInput(""); update({ q: null, status: null, category: null, fav: null, sort: null }); }}>ابدأ بحثًا جديدًا</Button>
                     {categories.slice(0, 4).map((c) => (
                       <Link key={c.id} to={`/foods?category=${c.id}`} className="border-2 border-line bg-surface px-3 py-1.5 text-sm font-semibold hover:bg-accent hover:text-accent-ink">
                         {c.name}
@@ -224,10 +227,10 @@ export default function FoodsPage() {
                 }
               />
             ) : (
-              <EmptyState icon={Bookmark} title="لسه مفيش حاجة هنا." description="غيّر الفلاتر أو احفظ بعض الأطعمة أولًا." />
+              <EmptyState icon={Bookmark} title="لسه مفيش حاجة هنا." description="غيّر الفلاتر أو احفظ بعض الأطعمة أولًا." action={<Button variant="secondary" onClick={() => update({ status: null, category: null, fav: null, sort: null })}>عرض جميع الأطعمة</Button>} />
             )
           ) : (
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4" aria-label="الأطعمة المطابقة">
               {results.map((f) => (
                 <FoodCard key={f.id} food={f} onSelect={open} />
               ))}

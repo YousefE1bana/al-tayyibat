@@ -4,7 +4,6 @@ import { foodsById } from "@/data/foods";
 import { recipes } from "@/data/recipes";
 import { useFavorites } from "@/hooks/useCollections";
 import { usePageMeta } from "@/hooks/usePageMeta";
-import { motionPresets } from "@/lib/motion";
 import { LinkButton } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { FoodCard } from "@/features/foods/FoodCard";
@@ -21,7 +20,7 @@ export default function FavoritesPage() {
       <header className="max-w-3xl">
         <div className="mono mb-3 text-xs text-accent">// المحفوظات</div>
         <h1 className="text-4xl font-bold leading-tight md:text-6xl">المحفوظات</h1>
-        <p className="mt-4 text-lg text-ink-2">تُحفظ محليًا في متصفحك فقط — بلا حساب وبلا مزامنة.</p>
+        <p className="mt-4 text-lg text-ink-2">أطعمتك ووصفاتك في مكان واحد. تبقى محفوظة على هذا الجهاز، بدون حساب.</p>
       </header>
 
       {count === 0 ? (
@@ -37,7 +36,7 @@ export default function FavoritesPage() {
           {foods.length > 0 && (
             <section>
               <h2 className="mb-6 text-2xl font-bold"><span className="mono me-2 text-xs text-accent">// الأطعمة</span></h2>
-              <motion.div variants={motionPresets.staggerContainer} initial="hidden" animate="show" className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+              <motion.div  className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
                 {foods.map((f) => <FoodCard key={f.id} food={f} />)}
               </motion.div>
             </section>
@@ -45,7 +44,7 @@ export default function FavoritesPage() {
           {savedRecipes.length > 0 && (
             <section>
               <h2 className="mb-6 text-2xl font-bold"><span className="mono me-2 text-xs text-accent">// الوصفات</span></h2>
-              <motion.div variants={motionPresets.staggerContainer} initial="hidden" animate="show" className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+              <motion.div  className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
                 {savedRecipes.map((r) => <RecipeCard key={r.id} recipe={r} />)}
               </motion.div>
             </section>

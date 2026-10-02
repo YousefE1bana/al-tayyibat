@@ -16,7 +16,7 @@ export function ThemeToggle({ className }: { className?: string }) {
       aria-label={isDark ? "تفعيل المظهر الفاتح" : "تفعيل المظهر الداكن"}
       title={isDark ? "المظهر الفاتح" : "المظهر الداكن"}
       className={cn(
-        "relative flex size-10 items-center justify-center overflow-hidden border-2 border-line bg-surface transition hover:bg-accent hover:text-accent-ink",
+        "relative flex size-11 items-center justify-center overflow-hidden border-2 border-line bg-surface transition hover:bg-accent hover:text-accent-ink",
         className,
       )}
     >

@@ -11,7 +11,7 @@ import { searchFoods } from "@/lib/search";
 import { SmartImage } from "@/components/ui/SmartImage";
 import { cn } from "@/utils/cn";
 
-const POPULAR_REPLACEMENTS = [
+const EXAMPLE_REPLACEMENTS = [
   { label: "بديل الخبز الأبيض", foodId: "white-bread" },
   { label: "بديل فراخ المزارع", foodId: "chicken" },
   { label: "بديل الحليب السائل", foodId: "milk" },
@@ -63,17 +63,16 @@ export default function AlternativesPage() {
           بدل ما آكل ده، <span className="underline decoration-accent decoration-4">آكل إيه؟</span>
         </h1>
         <p className="mt-4 text-lg text-ink-2">
-          لا تحرم نفسك بلا بديل. نظام الطيبات يوفّر بدائل حقيقية وموثقة لكل طعام غير مستحسن أو ممنوع، بدون أي
-          تخمين أو بدائل عشوائية.
+          ابحث عن طعام لتجد البدائل المذكورة له في دليل النظام. راجع حالة كل بديل وشروطه قبل اختياره.
         </p>
       </header>
 
       {/* Main Interactive Tool */}
-      <section className="mt-10 max-w-4xl" aria-label="أداة البحث عن البدائل">
+      <section className="mt-10 max-w-6xl" aria-label="أداة البحث عن البدائل">
         <div className="brut bg-surface">
           <div className="flex flex-wrap items-center gap-2 border-b-2 border-line bg-bg-2 px-4 py-2">
             <Terminal className="size-4 text-accent" aria-hidden />
-            <span className="mono text-xs text-muted">tayyibat://alternatives-engine</span>
+            <span className="mono text-xs text-muted">ابحث عن بديل</span>
             <span className="mono ms-auto text-[11px] text-muted">
               {alternativesList.length} بدائل موثقة
             </span>
@@ -98,6 +97,7 @@ export default function AlternativesPage() {
                 className="h-13 w-full border-2 border-line bg-bg pe-12 ps-4 text-base font-semibold placeholder:text-muted focus:outline-none focus-visible:ring-4 focus-visible:ring-accent/50"
               />
 
+              {deferredQuery.trim() && searchResults.length === 0 && <p role="status" className="mt-3 text-sm text-muted">لم نجد هذا الطعام. جرّب اسمًا آخر أو أحد الأمثلة أدناه.</p>}
               {/* Autocomplete dropdown */}
               {searchResults.length > 0 && (
                 <div className="absolute inset-x-0 top-full z-20 mt-1 border-2 border-line bg-surface shadow-hard">
@@ -106,7 +106,7 @@ export default function AlternativesPage() {
                       key={match.food.id}
                       type="button"
                       onClick={() => selectFood(match.food.id)}
-                      className="flex w-full items-center justify-between border-b border-line-soft px-4 py-3 text-start transition last:border-b-0 hover:bg-bg-2"
+                      className="flex w-full flex-wrap items-center justify-between gap-2 border-b border-line-soft px-4 py-3 text-start transition last:border-b-0 hover:bg-bg-2"
                     >
                       <div>
                         <span className="font-bold text-ink">{match.food.name}</span>
@@ -123,17 +123,18 @@ export default function AlternativesPage() {
 
             {/* Popular quick-jump chips */}
             <div className="mt-4">
-              <span className="mono text-xs text-muted">أشهر البدائل طلبًا:</span>
+              <span className="mono text-xs text-muted">أمثلة سريعة:</span>
               <div className="mt-2 flex flex-wrap gap-2">
-                {POPULAR_REPLACEMENTS.map((item) => {
+                {EXAMPLE_REPLACEMENTS.map((item) => {
                   const isSelected = selectedFoodId === item.foodId;
                   return (
                     <button
                       key={item.foodId}
                       type="button"
                       onClick={() => selectFood(item.foodId)}
+                      aria-pressed={isSelected}
                       className={cn(
-                        "mono text-xs font-semibold px-2.5 py-1.5 border transition cursor-pointer",
+                        "min-h-11 text-xs font-semibold px-2.5 py-1.5 border transition cursor-pointer",
                         isSelected
                           ? "border-accent bg-accent text-accent-ink shadow-hard"
                           : "border-line-soft bg-bg hover:border-line hover:bg-surface-2 text-ink-2 hover:text-ink"
@@ -151,7 +152,7 @@ export default function AlternativesPage() {
 
       {/* Results View */}
       {selectedFood && (
-        <section className="mt-8 max-w-4xl space-y-6" aria-label="نتيجة البدائل">
+        <section className="mt-8 max-w-6xl space-y-6" aria-label="نتيجة البدائل">
           {/* Target Food Status Card */}
           <div className="brut bg-surface p-5 md:p-6">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
@@ -273,7 +274,7 @@ export default function AlternativesPage() {
       )}
 
       {/* System Substitution Principles */}
-      <section className="mt-16 max-w-4xl border-t-2 border-line pt-10" aria-label="قواعد الإحلال في الطيبات">
+      <section className="mt-16 max-w-6xl border-t-2 border-line pt-10" aria-label="قواعد الإحلال في الطيبات">
         <div className="mono mb-2 text-xs text-accent">// قواعد الإحلال الكبرى</div>
         <h3 className="text-2xl font-bold text-ink">كيف تستبدل الممنوعات بذكاء؟</h3>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 md:grid-cols-3">

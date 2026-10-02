@@ -10,6 +10,7 @@ import {
   ListChecks,
   Moon,
   Search,
+  RotateCcw,
   Sun,
   User,
   Utensils,
@@ -20,7 +21,7 @@ import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { STATUS_META } from "@/lib/status";
 import { foodsById } from "@/data/foods";
-import { SEARCH_GROUP_LABEL, searchAll, type SearchDoc, type SearchDocType } from "@/lib/search";
+import { SEARCH_GROUP_LABEL, searchAll, searchDocs, searchFoods, type SearchDoc, type SearchDocType } from "@/lib/search";
 import { useTheme } from "@/features/theme/ThemeProvider";
 import { useSearch } from "./SearchProvider";
 import { cn } from "@/utils/cn";
@@ -41,6 +42,8 @@ const TYPE_ICON: Record<SearchDocType, LucideIcon> = {
   faq: HelpCircle,
   article: BookOpen,
 };
+
+const FOOD_DOCS = new Map(searchDocs.filter((doc) => doc.type === "food").map((doc) => [doc.id, doc]));
 
 type Row = { kind: "cmd"; cmd: Command } | { kind: "doc"; doc: SearchDoc };
 
@@ -69,7 +72,7 @@ export function SearchCommand() {
 
   const commands: Command[] = useMemo(
     () => [
-      { id: "c-foods", label: "ابحث عن طعام / دليل الأطعمة", icon: Search, run: () => go("/foods"), hint: "تصفح الأطعمة" },
+      { id: "c-foods", label: "دليل الأطعمة", icon: Search, run: () => go("/foods"), hint: "تصفح الأطعمة" },
       { id: "c-home", label: "الرئيسية", icon: Home, run: () => go("/") },
       { id: "c-principles", label: "مبادئ النظام", icon: ListChecks, run: () => go("/about#principles") },
       { id: "c-how", label: "كيف يعمل؟ ابدأ من هنا", icon: BookOpen, run: () => go("/how-it-works") },
@@ -93,7 +96,7 @@ export function SearchCommand() {
   const rows: Row[] = useMemo(() => {
     const q = deferred.trim();
     if (q.length < 2) return commands.map((cmd) => ({ kind: "cmd", cmd }));
-    const docs = searchAll(q, 30);
+    const docs = [...searchFoods(q, 12).map(({ food }) => FOOD_DOCS.get(food.id)!), ...searchAll(q, 18).filter((doc) => doc.type !== "food")];
     const matchingCmds = commands.filter((c) => c.label.includes(q)).map((cmd) => ({ kind: "cmd" as const, cmd }));
     return [...docs.map((doc) => ({ kind: "doc" as const, doc })), ...matchingCmds];
   }, [deferred, commands]);
@@ -160,9 +163,9 @@ export function SearchCommand() {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.98, y: -6 }}
                 transition={{ duration: 0.22, ease: [0.2, 0.8, 0.2, 1] }}
-                className="fixed inset-x-3 top-[8vh] z-[90] mx-auto flex max-h-[80dvh] w-auto max-w-2xl flex-col overflow-hidden border-2 border-line bg-bg shadow-[-8px_8px_0_0_var(--shadow)] focus:outline-none md:inset-x-auto md:left-1/2 md:w-full md:-translate-x-1/2"
+                className="fixed inset-x-3 top-[max(1rem,env(safe-area-inset-top))] md:top-[8vh] z-[90] mx-auto flex max-h-[calc(100dvh-2rem-env(safe-area-inset-bottom))] md:max-h-[80dvh] w-auto max-w-2xl flex-col overflow-hidden border-2 border-line bg-bg shadow-[-8px_8px_0_0_var(--shadow)] focus:outline-none md:inset-x-auto md:left-1/2 md:w-full md:-translate-x-1/2"
               >
-                <DialogPrimitive.Title className="sr-only">البحث والأوامر</DialogPrimitive.Title>
+                <DialogPrimitive.Title className="sr-only">البحث في الدليل</DialogPrimitive.Title>
                 <div className="flex items-center gap-3 border-b-2 border-line px-4">
                   <span className="mono text-accent" aria-hidden>
                     &gt;_
@@ -171,29 +174,34 @@ export function SearchCommand() {
                     ref={inputRef}
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="ابحث عن طعام، مبدأ، وصفة، سؤال… أو اكتب أمرًا"
+                    placeholder="ابحث عن طعام، وصفة أو سؤال…"
                     className="h-14 min-w-0 flex-1 bg-transparent text-base font-semibold placeholder:text-muted focus:outline-none"
                     onKeyDown={onKeyDown}
+                    enterKeyHint="search"
+                    aria-autocomplete="list"
                     aria-label="بحث"
                     role="combobox"
-                    aria-expanded
+                    aria-expanded={rows.length > 0}
                     aria-controls="cmd-list"
                     aria-activedescendant={rows[active] ? `cmd-row-${active}` : undefined}
                   />
-                  <DialogPrimitive.Close className="flex size-10 shrink-0 items-center justify-center border border-line-soft text-muted transition-colors hover:border-line hover:text-ink" aria-label="إغلاق البحث">
+                  {query && <button type="button" aria-label="مسح البحث" onClick={() => { setQuery(""); inputRef.current?.focus(); }} className="flex size-11 shrink-0 items-center justify-center text-muted hover:text-ink"><RotateCcw className="size-4" aria-hidden /></button>}
+                  <DialogPrimitive.Close className="flex size-11 shrink-0 items-center justify-center border border-line-soft text-muted transition-colors hover:border-line hover:text-ink" aria-label="إغلاق البحث">
                     <X className="size-4" aria-hidden />
                   </DialogPrimitive.Close>
                 </div>
 
-                <div ref={listRef} id="cmd-list" role="listbox" aria-label="نتائج البحث والأوامر" className="min-h-0 flex-1 overflow-y-auto p-2">
+                {!deferred.trim() && <div className="flex flex-wrap items-center gap-2 border-b border-line-soft px-4 py-2"><span className="text-xs text-muted">جرّب البحث عن:</span>{["أرز", "بيض", "بطاطس"].map((name) => <button key={name} type="button" onClick={() => { setQuery(name); inputRef.current?.focus(); }} className="min-h-11 px-2 text-sm font-semibold text-accent hover:underline">{name}</button>)}</div>}
                   {rows.length === 0 && (
                     <div className="p-8 text-center">
-                      <p className="font-bold">مش لاقيين النتيجة دي في الدليل.</p>
-                      <p className="mt-1 text-sm text-muted">غير موجود ≠ ممنوع. جرّب تهجئة أخرى.</p>
+                      <p className="font-bold">لم نجد نتيجة لهذا البحث.</p>
+                      <p className="mt-1 text-sm text-muted">عدم العثور عليه لا يعني أنه ممنوع. جرّب اسمًا آخر.</p>
+                      <button type="button" onClick={() => go("/foods")} className="mt-3 min-h-11 px-4 font-semibold text-accent hover:underline">تصفح الأطعمة</button>
                     </div>
                   )}
+                <div ref={listRef} id="cmd-list" role="listbox" aria-label="نتائج البحث في الدليل" className={cn("min-h-0 flex-1 overflow-y-auto p-2", rows.length === 0 && "hidden")}>
                   {rows.map((row, i) => {
-                    const group = row.kind === "cmd" ? "الأوامر" : SEARCH_GROUP_LABEL[row.doc.type];
+                    const group = row.kind === "cmd" ? "روابط سريعة" : SEARCH_GROUP_LABEL[row.doc.type];
                     const showHeader = group !== lastGroup;
                     lastGroup = group;
                     const Icon = row.kind === "cmd" ? row.cmd.icon : TYPE_ICON[row.doc.type];
@@ -205,22 +213,23 @@ export function SearchCommand() {
                           type="button"
                           id={`cmd-row-${i}`}
                           role="option"
+                          tabIndex={-1}
                           aria-selected={i === active}
                           data-index={i}
                           onMouseEnter={() => setActive(i)}
                           onClick={() => runRow(row)}
                           className={cn(
-                            "flex w-full items-center gap-3 px-3 py-2.5 text-start transition-colors",
+                            "flex min-h-12 w-full items-center gap-3 px-3 py-2.5 text-start transition-colors",
                             i === active ? "bg-accent text-accent-ink" : "hover:bg-surface-2",
                           )}
                         >
                           <Icon className="size-4 shrink-0" aria-hidden />
                           <span className="min-w-0 flex-1">
-                            <span className="block truncate font-semibold">
+                            <span className="block font-semibold leading-snug">
                               {row.kind === "cmd" ? row.cmd.label : row.doc.title}
                             </span>
                             {row.kind === "doc" && row.doc.subtitle && (
-                              <span className={cn("block truncate text-xs", i === active ? "opacity-80" : "text-muted")}>
+                              <span className={cn("mt-1 line-clamp-2 text-xs", i === active ? "opacity-80" : "text-muted")}>
                                 {row.doc.subtitle}
                               </span>
                             )}
@@ -230,14 +239,14 @@ export function SearchCommand() {
                               {STATUS_META[food.status].symbol} {STATUS_META[food.status].short}
                             </span>
                           )}
-                          {i === active && <CornerDownLeft className="size-4 shrink-0 opacity-70" aria-hidden />}
+                          {i === active && <CornerDownLeft className="hidden size-4 sm:block shrink-0 opacity-70" aria-hidden />}
                         </button>
                       </div>
                     );
                   })}
                 </div>
 
-                <div className="mono flex items-center gap-4 border-t-2 border-line px-4 py-2 text-[11px] text-muted">
+                <div className="mono hidden items-center gap-4 border-t-2 border-line px-4 py-2 text-[11px] text-muted sm:flex">
                   <span>↑↓ تنقّل</span>
                   <span>↵ فتح</span>
                   <span className="ms-auto">Ctrl/⌘ + K</span>

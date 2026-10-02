@@ -21,17 +21,13 @@ export function FoodCard({ food, onSelect, compact = false }: Props) {
   const body = (
     <>
       <div className={cn("relative", compact ? "aspect-[16/9]" : "aspect-[4/3]")}>
-        <SmartImage src={food.image} alt={food.name} fallbackLabel={category?.name} className="h-full w-full" />
-        <div className="absolute start-2 top-2 flex gap-1.5">
-          <FoodStatusBadge status={food.status} size="sm" />
-          {food.essential && (
-            <span className="inline-flex h-7 items-center gap-1 border-2 border-line bg-accent px-2 text-xs font-bold text-accent-ink">
-              <Star className="size-3" fill="currentColor" aria-hidden /> أساسي
-            </span>
-          )}
-        </div>
+        <SmartImage src={food.image} alt={food.name} fallbackLabel={category?.name} className="h-full w-full" imgClassName="food-image" />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4">
+        <div className="flex flex-wrap items-center gap-2">
+          <FoodStatusBadge status={food.status} size="sm" />
+          {food.essential && <span className="inline-flex items-center gap-1 text-xs font-semibold text-muted"><Star className="size-3 text-accent" aria-hidden /> أساسي</span>}
+        </div>
         <div className="mono flex min-w-0 flex-wrap items-center justify-between gap-x-2 gap-y-1 text-[11px] text-muted">
           <span className="shrink-0">{category?.name ?? "—"}</span>
         </div>
@@ -50,7 +46,7 @@ export function FoodCard({ food, onSelect, compact = false }: Props) {
   const clickable = "flex h-full w-full flex-col overflow-hidden text-start focus-visible:outline-offset-[-4px]";
 
   return (
-    <motion.div variants={motionPresets.fadeUp} className="brut brut-hover group relative h-full bg-surface">
+    <motion.div variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.08 }} className="brut brut-hover group relative h-full bg-surface">
       {onSelect ? (
         <button type="button" onClick={() => onSelect(food)} className={clickable} aria-label={`${food.name} — التفاصيل`}>
           {body}
