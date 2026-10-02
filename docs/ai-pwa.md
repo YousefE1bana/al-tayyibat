@@ -22,6 +22,8 @@ Same-origin food images use CacheFirst with a maximum of 60 entries, 30-day expi
 
 Chromium's deferred `beforeinstallprompt` event enables the unobtrusive footer action. Its native prompt is called only after a click. iOS/iPadOS users can explicitly open Safari Share → Add to Home Screen instructions; no automatic modal or repeated reminder is shown. Standalone display mode and `appinstalled` suppress installation controls.
 
+The header, content gutters, footer and update notice respect safe-area insets on notched devices. iOS uses the standard status bar rather than placing controls behind a translucent bar.
+
 Updates wait. A compact dismissible notice offers “تحديث الآن”; only accepting it posts SKIP_WAITING and reloads that page after controller change. Other open pages are not automatically reloaded. The browser checks the worker at registration and when the document becomes visible while online. Existing data remains on the device.
 
 ## Verification

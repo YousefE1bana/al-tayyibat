@@ -198,6 +198,8 @@ body::after {
   width: 100%;
   margin-inline: auto;
   padding-inline: clamp(1rem, 4vw, 4rem);
+  padding-left: max(clamp(1rem, 4vw, 4rem), env(safe-area-inset-left));
+  padding-right: max(clamp(1rem, 4vw, 4rem), env(safe-area-inset-right));
   max-width: 100rem;
 }
 

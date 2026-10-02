@@ -10,7 +10,7 @@ const sectionLinks = NAV_ITEMS.filter((item) => !toolRoutes.has(item.to));
 
 export function Footer() {
   return (
-    <footer className="mt-24 border-t-2 border-line bg-bg-2">
+    <footer className="mt-24 border-t-2 border-line bg-bg-2 pb-[env(safe-area-inset-bottom)]">
       <div className="container-x grid grid-cols-2 gap-x-6 gap-y-8 py-10 md:gap-10 md:py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="col-span-2 md:col-span-1">
           <div className="flex items-center gap-2.5">

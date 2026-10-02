@@ -94,7 +94,7 @@ export function Navbar() {
   const isMoreActive = MORE_NAV_ITEMS.some((item) => location.pathname === item.to);
 
   return (
-    <header ref={headerRef} className="sticky top-0 z-50">
+    <header ref={headerRef} className="sticky top-0 z-50 pt-[env(safe-area-inset-top)]">
       <div
         className={cn(
           "transition-all duration-300",

@@ -150,15 +150,38 @@ try {
           })));
         }
       }, freshImages);
-      await page.waitForFunction(async () => (await (await caches.open('al-tayyibat-food-images')).keys()).length <= 60);
+      // CacheFirst returns the network image before its background cache put and
+      // expiration work finish. Wait for the newest write AND completed eviction.
+      await page.waitForFunction(async newest => {
+        const urls = (await (await caches.open('al-tayyibat-food-images')).keys()).map(request => request.url);
+        return urls.length <= 60 && urls.includes(newest) && !urls.some(url => url.endsWith('/pasta.jpg'));
+      }, freshImages.at(-1));
       const capped = await page.evaluate(async () => (await (await caches.open('al-tayyibat-food-images')).keys()).map(request => request.url));
-      assert(capped.length === 60 && capped.includes(freshImages.at(-1)) && !capped.some(url => url.endsWith('/pasta.jpg')), `${width}: actual runtime cache evicts oldest photos at 60 entries`);
+      const eviction = { count: capped.length, newestCached: capped.includes(freshImages.at(-1)), oldPastaCached: capped.some(url => url.endsWith('/pasta.jpg')) };
+      assert(eviction.count <= 60 && eviction.newestCached && !eviction.oldPastaCached, `${width}: actual runtime cache evicts oldest photos within 60 entries ${JSON.stringify(eviction)}`);
       const search = page.getByRole('searchbox', { name: 'ابحث عن طعام' });
       await search.fill('مكرونة');
       const before = await page.evaluate(() => sessionStorage.getItem('pwa-qa-loads'));
       workerRevision++;
       await page.evaluate(async () => (await navigator.serviceWorker.getRegistration()).update());
       await page.getByRole('button', { name: 'تحديث الآن', exact: true }).waitFor();
+      if (width === 390) {
+        await cdp.send('Emulation.setSafeAreaInsetsOverride', { insets: { top: 44, bottom: 34, left: 0, right: 0 } });
+        const safe = await page.evaluate(() => ({
+          brandTop: document.querySelector('header a').getBoundingClientRect().top,
+          footerPadding: parseFloat(getComputedStyle(document.querySelector('footer')).paddingBottom),
+          noticeBottom: document.querySelector('aside[aria-label="تحديث الدليل"]').getBoundingClientRect().bottom,
+          height: innerHeight,
+        }));
+        assert(safe.brandTop >= 44 && safe.footerPadding >= 34 && safe.noticeBottom <= safe.height - 34, 'Notch and home indicator cannot cover header/footer/update controls');
+        await page.screenshot({ path: `${output}/safe-area-390.png` });
+        await page.setViewportSize({ width: 844, height: 390 });
+        await cdp.send('Emulation.setSafeAreaInsetsOverride', { insets: { top: 0, bottom: 0, left: 44, right: 44 } });
+        assert(await page.locator('header .container-x').evaluate(element => parseFloat(getComputedStyle(element).paddingLeft) >= 44 && parseFloat(getComputedStyle(element).paddingRight) >= 44), 'Landscape safe-area gutters preserve header controls');
+        assert(await noOverflow(page), 'Landscape safe areas cause no horizontal overflow');
+        await cdp.send('Emulation.setSafeAreaInsetsOverride', { insets: { top: 0, bottom: 0, left: 0, right: 0 } });
+        await page.setViewportSize({ width: 390, height: 844 });
+      }
       assert(await page.evaluate(() => sessionStorage.getItem('pwa-qa-loads')) === before && await search.inputValue() === 'مكرونة', `${width}: real waiting worker never interrupts or auto-reloads`);
       await a11y(page, `${width}: update notice`);
       await page.screenshot({ path: `${output}/update-${width}.png` });

@@ -34,7 +34,7 @@ export function UpdateControl() {
   const [dismissed, setDismissed] = useState(false);
   useEffect(() => setDismissed(false), [waiting]);
   if (!waiting || dismissed) return null;
-  return <aside aria-label="تحديث الدليل" className="fixed bottom-4 start-4 end-4 z-50 max-w-sm border-2 border-line bg-bg p-4 text-ink shadow-[-4px_4px_0_var(--shadow)] sm:end-auto">
+  return <aside aria-label="تحديث الدليل" className="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] start-[max(1rem,env(safe-area-inset-right))] end-[max(1rem,env(safe-area-inset-left))] z-50 max-w-sm border-2 border-line bg-bg p-4 text-ink shadow-[-4px_4px_0_var(--shadow)] sm:end-auto">
     <p role="status" className="text-sm font-semibold">يتوفر تحديث جديد</p>
     <p className="mt-1 text-xs leading-relaxed text-muted">حدّث عندما تنتهي؛ ستُعاد الصفحة وتبقى محفوظاتك على الجهاز.</p>
     <div className="mt-3 flex flex-wrap gap-2">
