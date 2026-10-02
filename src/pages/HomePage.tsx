@@ -55,7 +55,7 @@ function Hero() {
           <BotanicalSprig />
           <div className="editorial-portrait-frame relative">
             <DoctorPortrait loading="eager" className="hero-doctor-image" />
-            <figcaption className="px-4 py-3 text-sm font-semibold md:text-base">{doctor.displayName}<span className="editorial-muted ms-2 text-xs font-normal">صاحب نظام الطيبات</span></figcaption>
+            <figcaption className="editorial-ink px-4 py-3 text-sm font-semibold md:text-base">{doctor.displayName}<span className="editorial-muted ms-2 text-xs font-normal">صاحب نظام الطيبات</span></figcaption>
           </div>
         </motion.figure>
       </motion.div>
@@ -140,7 +140,7 @@ export default function HomePage() {
 
       {/* Principles */}
       <section className="container-x py-16 md:py-24" id="principles">
-        <SectionHeading index="05" kicker="مبادئ النظام" title="القواعد الست الذهبية" description="القواعد السلوكية أهم من القوائم في هذا النظام. اضغط أي قاعدة للشرح الكامل ومستوى الدليل." />
+        <SectionHeading index="05" kicker="مبادئ النظام" title="مبادئ منسوبة للنظام" description="عناوين محفوظة للمراجعة؛ افتح كل مبدأ لحدود توثيقه، ولا تعتبره جدولًا غذائيًا مؤكدًا." />
         <motion.div variants={motionPresets.staggerContainer} initial="hidden" whileInView="show" viewport={viewportOnce} className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {principles.map((p) => <PrincipleCard key={p.id} principle={p} />)}
         </motion.div>

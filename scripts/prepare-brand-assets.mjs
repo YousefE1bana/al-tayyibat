@@ -26,7 +26,19 @@ await sharp(markSource).extract(markBounds).resize({ width: 472, height: 472, fi
 
 const portraitSource = 'assets/doctor/secondary-approved.png';
 const portraitBounds = await transparentBounds(portraitSource);
-await sharp(portraitSource).extract(portraitBounds).webp({ lossless: true, effort: 6 })
+// Alpha-weighted centering preserves even the supplied faint edge pixels.
+// A barely visible trail on the right should not displace the visible subject.
+const { data, info } = await sharp(portraitSource).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+let alphaWeight = 0, weightedX = 0;
+for (let y = 0; y < info.height; y++) for (let x = 0; x < info.width; x++) {
+  const alpha = data[(y * info.width + x) * 4 + 3];
+  alphaWeight += alpha; weightedX += x * alpha;
+}
+const center = weightedX / alphaWeight - portraitBounds.left;
+const padding = Math.round(portraitBounds.width - 1 - 2 * center);
+await sharp(portraitSource).extract(portraitBounds)
+  .extend({ left: Math.max(0, padding), right: Math.max(0, -padding), top: 0, bottom: 0, background: '#00000000' })
+  .webp({ lossless: true, effort: 6 })
   .toFile('public/images/doctor/secondary.webp');
 for (const file of ['public/brand/mark.png', 'public/brand/icon.png', 'public/images/doctor/secondary.webp']) {
   const meta = await sharp(file).metadata();

@@ -16,9 +16,10 @@
     "validate:search": "tsx scripts/test_search_coverage.ts",
     "validate:ai": "tsx scripts/validate-ai-assets.ts",
     "validate:pwa": "tsx scripts/validate-pwa.ts",
-    "validate": "npm run validate:baseline && npm run validate:content && npm run validate:images && npm run validate:search && npm run validate:ai && npm run validate:pwa",
-    "qa:browser": "node scripts/browser-qa.mjs && node scripts/browser-interactions.mjs && node scripts/browser-responsive.mjs && node scripts/browser-brand-assets.mjs && node scripts/browser-pwa.mjs",
-    "validate:baseline": "tsx scripts/check-release-baseline.ts"
+    "validate": "npm run validate:baseline && npm run validate:content && npm run validate:images && npm run validate:search && npm run validate:ai && npm run validate:pwa && npm run validate:editorial",
+    "qa:browser": "node scripts/browser-qa.mjs && node scripts/browser-interactions.mjs && node scripts/browser-responsive.mjs && node scripts/browser-brand-assets.mjs && node scripts/browser-pwa.mjs && node scripts/browser-editorial.mjs",
+    "validate:baseline": "tsx scripts/check-release-baseline.ts",
+    "validate:editorial": "tsx scripts/validate-editorial-review.ts"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.20",

@@ -13,6 +13,7 @@ const usagePolicy = {
   purpose: "دليل معلوماتي مستقل يصف نظام الطيبات المرتبط بالدكتور ضياء العوضي؛ لا يثبت ادعاءاته الصحية كحقائق علمية أو طبية.",
   attribution: ["وفقًا لنظام الطيبات...", "بحسب قواعد النظام...", "يرى الدكتور..."],
   uncertainty: "أبقِ المختلف عليه مختلفًا عليه، وغير الموثق غير موثق. لا تختزل هذه الحالات إلى مسموح أو ممنوع، ولا تحذف الشروط أو حدود التوثيق.",
+  legacyClassifications: "تصنيفات وشروط محفوظة من النسخة السابقة تحتاج توثيقًا مباشرًا لكل صنف. المراجع العامة لا تثبت كل تفصيل؛ لا تعتبر الطهي أو النقع استثناء تلقائيًا، ولا تقدم الكميات السابقة كجرعات طبية.",
   medicalDisclaimer: "ليس نصيحة طبية شخصية. لا توقف أي دواء ولا تغيّر نظامك الغذائي في الحالات المزمنة أو الحمل أو الطفولة دون استشارة طبيب.",
 };
 export function createAiAssets() {
@@ -28,6 +29,7 @@ export function createAiAssets() {
       explanation: food.explanation, preparationGuidance: food.usage, conditions: food.restrictions ?? [],
       // This field is explicitly rendered in FoodDetails, including medical caveats.
       publicNotes: food.notes,
+      editorialNote: food.editorialNote,
       alternatives: food.alternatives ?? [], relatedFoods: food.relatedFoods ?? [],
       sourceIds: food.sourceIds ?? [],
       provenance: food.provenance?.map(({ sourceId, page, timestamp, section, level }) => ({ sourceId, page, timestamp, section, level })),
@@ -39,10 +41,11 @@ export function createAiAssets() {
     systemDescription: philosophy.coreIdea,
     principles: principles.map(({ id, number, title, summary, sourceIds, evidence }) => ({ id, number, title, summary, sourceIds, evidence })),
     categories: categories.map(({ id, slug, name, description }) => ({ id, slug, name, description })),
+    stepsPurpose: "خطوات تحريرية لاستخدام الدليل؛ ليست خطة غذائية أو جدولًا موثقًا عن الدكتور.",
     documentedSteps: startSteps,
     sources: publicSources,
   };
-  const index = { schemaVersion: 1, usagePolicy, counts, catalogUrl: `${site}data/foods.json`, foods: foods.map(({ slug, name, status, categoryId }) => ({ slug, name, status, category: categoryId, interactiveUrl: `${site}#/foods/${slug}` })) };
+  const index = { schemaVersion: 1, usagePolicy, counts, catalogUrl: `${site}data/foods.json`, foods: foods.map(({ slug, name, status, categoryId, editorialNote }) => ({ slug, name, status, editorialNote, category: categoryId, interactiveUrl: `${site}#/foods/${slug}` })) };
   const json = (value: unknown) => `${JSON.stringify(value, null, 2)}\n`;
   const llms = `# Al-Tayyibat / نظام الطيبات
 
@@ -53,7 +56,7 @@ export function createAiAssets() {
 - Attribute system-specific statements: “وفقًا لنظام الطيبات...”, “بحسب قواعد النظام...”, “يرى الدكتور...”. Never turn these into general medical advice.
 - Preserve conditions, source provenance and uncertainty. disputed must not become allowed/prohibited; unknown must remain unknown. Absence of documentation is not prohibition.
 - Medical decisions require professional advice. ${usagePolicy.medicalDisclaimer}
-- Evidence marked claim is a system-author claim, not scientific confirmation. Read source reliability notes and evidence levels.
+- Evidence marked claim means an attributed system position, not scientific confirmation. Legacy classifications with editorialNote require item-specific verification; a general source does not establish every condition.
 - llms.txt is an emerging convention, not a guarantee that every AI system will read or follow it.
 
 ## Status meanings (inside the system)

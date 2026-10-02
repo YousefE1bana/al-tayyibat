@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-01",
+  "checkedAt": "2026-10-02",
   "foodCount": 385,
-  "imageExcludedContentSha256": "bd65a3fce6e0aa671cd2d7e2d39eb860e659a39bf757ffd3ecdd8221fbc1939f",
-  "meaning": "Current runtime food objects, excluding image only, match the pre-pass local audit snapshot exactly."
+  "imageExcludedContentSha256": "72df3f00a58edc4bb109e26af5db3dcecc8fe15ec39f00848e93f403f9294139",
+  "meaning": "Phase 5 attribution and consistency review; statuses unchanged. Item-specific legacy rules remain unresolved as documented in editorial-review.md and editorial-catalog-review.json."
 }

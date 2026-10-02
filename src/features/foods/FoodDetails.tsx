@@ -103,6 +103,7 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
             هذا التصنيف وفقًا لقواعد نظام الطيبات كما تعرضها المصادر، وليس تقييمًا طبيًا لملاءمة الطعام لحالتك الشخصية.
           </p>
           <p className="mt-3 text-sm text-muted">{meta.description}</p>
+          {food.editorialNote && <p className="mt-3 text-sm leading-relaxed text-muted">{food.editorialNote}</p>}
         </div>
       </div>
 
@@ -127,7 +128,7 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
                 {food.restrictions.map((r) => (
                   <li key={r} className="flex gap-2">
                     <span className="mono text-accent">▸</span>
-                    <span>{r.includes("[CONTENT REQUIRED]") ? "تفصيل الأصناف الستة غير متاح في المراجع الحالية." : r}</span>
+                    <span>{r}</span>
                   </li>
                 ))}
               </ul>
@@ -154,7 +155,7 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
                 ))}
               </div>
               <p className="mono mt-2 flex items-center gap-1 text-[11px] text-muted">
-                <ArrowLeftRight className="size-3" /> بدائل مذكورة في المصادر فقط — لا توصية آلية.
+                <ArrowLeftRight className="size-3" /> أصناف مرتبطة في الدليل؛ راجع تصنيف كل صنف وحدود توثيقه.
               </p>
             </Section>
           ) : null}

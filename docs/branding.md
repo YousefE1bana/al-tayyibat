@@ -21,14 +21,14 @@ provenance and reproducible processing; they are outside `public`.
 Rebuild derivatives with `node scripts/prepare-brand-assets.mjs`. It computes the
 strict nonzero-alpha bounds, removes only fully transparent outer margins, scales
 the navbar mark to fit 256 px and centers the same artwork in a 512 px icon with
-clear space. The portrait is trimmed to 1128 × 1094 px and encoded as lossless
+clear space. The portrait preserves its strict alpha bounds and adds 147 transparent pixels on the left to center the alpha-weighted subject. It is 1275 × 1094 px and encoded as lossless
 WebP without resizing or retouching. No visible source content is cropped.
 
 Current production files:
 
 - Mark: 256 × 209 px PNG, 16,898 bytes.
 - Icon master: 512 × 512 px PNG, 48,722 bytes, transparent square.
-- Editorial portrait: 1128 × 1094 px lossless WebP, 696,012 bytes, transparent.
+- Editorial portrait: 1275 × 1094 px lossless WebP, 695,736 bytes, transparent.
 
 Source SHA-256 values for provenance (not frozen validator requirements):
 
@@ -43,7 +43,7 @@ navigation/footer square, and uses the existing surface token and 4% clear space
 It is decorative beside the brand name; the home link supplies its accessible
 name and has a 44 px minimum touch height. Failed loading retains the existing
 text fallback in the same space. The favicon path is injected from the same
-registry by Vite. No manifest, service worker or icon export family is added.
+registry by Vite. The Phase 4 manifest, service worker and icon family are documented in `docs/ai-pwa.md`.
 
 The canonical icon is reviewed at 16, 32, 48, 192 and 512 px. At 16 px the gold
 silhouette is the principal recognition cue; fine olive veins and fruit detail

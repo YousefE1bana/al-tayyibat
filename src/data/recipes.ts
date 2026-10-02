@@ -1,287 +1,382 @@
 import type { Recipe } from "@/types";
-import { images } from "./images";
 
-const G = "altayebaat-guide";
-const NOTE =
-  "المصدر يذكر مكونات الوجبة فقط؛ خطوات التحضير اقتراح تحريري بسيط ولا تُنسب إلى النظام.";
 
-/** Recipes are the exact meal combinations from «نموذج يوم كامل» in the supplied guide. */
+/** Editorial recipes; ingredient classifications and exceptions need individual review. */
 export const recipes: Recipe[] = [
   {
-    id: "baked-potato-butter-dates",
-    slug: "baked-potato-butter-dates",
-    name: "بطاطا مشوية بالزبدة مع التمر",
-    description: "«الفطور الأساسي» في نموذج اليوم: بطاطا مشوية + زبدة + 2–3 تمرات، مع شاي أخضر أو قهوة تركية.",
-    prepTime: "40 دقيقة",
-    difficulty: "سهل",
-    meal: "فطور",
-    foodIds: ["potatoes", "butter", "dates", "green-tea"],
-    ingredients: ["2 حبة بطاطا متوسطة", "ملعقة زبدة طبيعية", "2–3 تمرات", "رشة ملح"],
-    instructions: [
+    "id": "baked-potato-butter-dates",
+    "slug": "baked-potato-butter-dates",
+    "name": "بطاطا مشوية بالزبدة مع التمر",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. بطاطا مشوية بالزبدة مع التمر",
+    "prepTime": "40 دقيقة",
+    "difficulty": "سهل",
+    "meal": "فطور",
+    "foodIds": [
+      "potatoes",
+      "butter",
+      "dates",
+      "salt-spices"
+    ],
+    "ingredients": [
+      "2 حبة بطاطا متوسطة",
+      "ملعقة زبدة طبيعية",
+      "2–3 تمرات",
+      "رشة ملح"
+    ],
+    "instructions": [
       "اغسل البطاطا جيدًا واثقبها بالشوكة.",
       "اشوِها في الفرن على 200° حتى تلين (35–40 دقيقة).",
       "افتحها وأضف الزبدة ورشة الملح.",
-      "قدّمها مع 2–3 تمرات ومشروب ساخن.",
+      "قدّمها مع التمر."
     ],
-    instructionsNote: NOTE,
-    image: images.potatoes,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/baked-potatoes.jpg",
+    "sourceIds": []
   },
   {
-    id: "toast-butter-honey",
-    slug: "toast-butter-honey",
-    name: "توست قمح كامل بالزبدة والعسل",
-    description: "«البديل» لفطور الدليل: توست قمح كامل + زبدة + عسل.",
-    prepTime: "5 دقائق",
-    difficulty: "سهل",
-    meal: "فطور",
-    foodIds: ["whole-wheat-toast", "butter", "honey"],
-    ingredients: ["شريحتان توست قمح كامل", "زبدة طبيعية", "ملعقة عسل"],
-    instructions: ["حمّص التوست جيدًا.", "ادهنه بالزبدة وهو ساخن.", "أضف العسل وقدّمه."],
-    instructionsNote: NOTE,
-    image: images.wholeWheatToast,
-    sourceIds: [G],
+    "id": "toast-butter-honey",
+    "slug": "toast-butter-honey",
+    "name": "توست قمح كامل بالزبدة والعسل",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. توست قمح كامل بالزبدة والعسل",
+    "prepTime": "5 دقائق",
+    "difficulty": "سهل",
+    "meal": "فطور",
+    "foodIds": [
+      "whole-wheat-toast",
+      "butter",
+      "honey"
+    ],
+    "ingredients": [
+      "شريحتان توست قمح كامل",
+      "زبدة طبيعية",
+      "ملعقة عسل"
+    ],
+    "instructions": [
+      "حمّص التوست جيدًا.",
+      "ادهنه بالزبدة وهو ساخن.",
+      "أضف العسل وقدّمه."
+    ],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/whole-wheat-toast.jpg",
+    "sourceIds": []
   },
   {
-    id: "rice-boiled-beef",
-    slug: "rice-boiled-beef",
-    name: "أرز بسمتي مع لحم بقري مسلوق",
-    description: "«طبق الأرز» في غداء يوم «آه»: أرز بسمتي + لحم بقري. اللحم مسلوق وناضج جدًا بحسب قائمة المسموحات.",
-    prepTime: "90 دقيقة",
-    difficulty: "متوسط",
-    meal: "غداء",
-    foodIds: ["basmati-rice", "beef", "ghee", "salt-spices"],
-    ingredients: ["كوب أرز بسمتي", "300 غ لحم بقري", "ملعقة سمن بلدي", "ملح"],
-    instructions: [
+    "id": "rice-boiled-beef",
+    "slug": "rice-boiled-beef",
+    "name": "أرز بسمتي مع لحم بقري مسلوق",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. أرز بسمتي مع لحم بقري مسلوق",
+    "prepTime": "90 دقيقة",
+    "difficulty": "متوسط",
+    "meal": "غداء",
+    "foodIds": [
+      "basmati-rice",
+      "beef",
+      "ghee",
+      "salt-spices"
+    ],
+    "ingredients": [
+      "كوب أرز بسمتي",
+      "300 غ لحم بقري",
+      "ملعقة سمن بلدي",
+      "ملح"
+    ],
+    "instructions": [
       "اسلق اللحم في ماء مع الملح حتى ينضج تمامًا (ساعة تقريبًا).",
       "اغسل الأرز وحمّره قليلًا في السمن.",
       "أضف من مرق اللحم ضعف حجم الأرز واتركه على نار هادئة حتى يتشرب.",
-      "قدّم الأرز مع اللحم — وتذكّر أن الغد يوم «لأ» للبروتين الحيواني.",
+      "قدّم الأرز مع اللحم."
     ],
-    instructionsNote: NOTE,
-    image: images.rice,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/basmati-rice.jpg",
+    "sourceIds": []
   },
   {
-    id: "stuffed-zucchini",
-    slug: "stuffed-zucchini",
-    name: "كوسا محشية بالأرز",
-    description: "ورد ضمن غداء نموذج اليوم. ملاحظة: الكوسة نفسها مصنّفة «مختلَفًا عليها» لأن المصدر يدرجها أيضًا في الممنوعات.",
-    prepTime: "60 دقيقة",
-    difficulty: "متوسط",
-    meal: "غداء",
-    foodIds: ["zucchini", "basmati-rice", "ghee", "salt-spices"],
-    ingredients: ["6 حبات كوسة صغيرة", "نصف كوب أرز", "ملعقة سمن", "ملح"],
-    instructions: [
+    "id": "stuffed-zucchini",
+    "slug": "stuffed-zucchini",
+    "name": "كوسا محشية بالأرز",
+    "description": "اقتراح تحريري؛ تصنيف الكوسة مشروط ومحفوظ للمراجعة. لا يوجد نص مباشر متحقق يثبت أن الحشو يبيحها.",
+    "prepTime": "60 دقيقة",
+    "difficulty": "متوسط",
+    "meal": "غداء",
+    "foodIds": [
+      "zucchini",
+      "basmati-rice",
+      "ghee",
+      "salt-spices"
+    ],
+    "ingredients": [
+      "6 حبات كوسة صغيرة",
+      "نصف كوب أرز",
+      "ملعقة سمن",
+      "ملح"
+    ],
+    "instructions": [
       "فرّغ الكوسة من الداخل.",
       "اخلط الأرز المغسول مع السمن والملح واحشُ الكوسة إلى ثلاثة أرباعها.",
-      "رصّها في قدر وأضف ماءً ساخنًا يغمر نصفها، واتركها على نار هادئة 40 دقيقة.",
+      "رصّها في قدر وأضف ماءً ساخنًا يغمر نصفها، واتركها على نار هادئة 40 دقيقة."
     ],
-    instructionsNote: NOTE,
-    image: images.stuffedZucchini,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/zucchini.jpg",
+    "sourceIds": []
   },
   {
-    id: "fries-rumi-olives",
-    slug: "fries-rumi-olives",
-    name: "بطاطا مقلية بزيت الزيتون مع جبنة رومي وزيتون",
-    description: "«العشاء الخفيف» في نموذج اليوم: بطاطا مقلية بزيت زيتون + جبنة رومي + زيتون، ثم عنب أو تفاح مقشر.",
-    prepTime: "25 دقيقة",
-    difficulty: "سهل",
-    meal: "عشاء",
-    foodIds: ["potatoes", "olive-oil", "aged-cheese", "olives", "grapes"],
-    ingredients: ["2 حبة بطاطا", "زيت زيتون للقلي", "شرائح جبنة رومي", "حفنة زيتون", "عنب أو تفاح مقشر"],
-    instructions: [
+    "id": "fries-rumi-olives",
+    "slug": "fries-rumi-olives",
+    "name": "بطاطا مقلية بزيت الزيتون مع جبنة رومي وزيتون",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. بطاطا مقلية بزيت الزيتون مع جبنة رومي وزيتون",
+    "prepTime": "25 دقيقة",
+    "difficulty": "سهل",
+    "meal": "عشاء",
+    "foodIds": [
+      "potatoes",
+      "olive-oil",
+      "aged-cheese",
+      "olives",
+      "grapes",
+      "apple"
+    ],
+    "ingredients": [
+      "2 حبة بطاطا",
+      "زيت زيتون للقلي",
+      "شرائح جبنة رومي",
+      "حفنة زيتون",
+      "عنب أو تفاح مقشر"
+    ],
+    "instructions": [
       "قطّع البطاطا أصابع واقلِها في زيت الزيتون على نار متوسطة.",
       "قدّمها مع شرائح الرومي والزيتون.",
-      "الفاكهة تُقدَّم مستقلة لا مباشرة بعد الأكل (بحسب تصريح الدكتور المنقول).",
+      "قدّم الفاكهة منفصلة إن رغبت؛ راجع تصنيفها وحدود توثيقها."
     ],
-    instructionsNote: NOTE,
-    image: images.potatoWedges,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/local-potatoWedges.jpg",
+    "sourceIds": []
   },
   {
-    id: "rice-potatoes-taro-lunch",
-    slug: "rice-potatoes-taro-lunch",
-    name: "غداء الأرز المطبوخ مع البطاطس (أو القلقاس)",
-    description:
-      "غداء كلاسيكي مسموح يوصي به الدكتور ضياء العوضي: أرز مصري أو بسمتي مطبوخ مع مكعبات البطاطس أو طاجن القلقاس بالسلق والكزبرة وشوربة اللحم.",
-    prepTime: "45 دقيقة",
-    difficulty: "سهل",
-    meal: "غداء",
-    foodIds: ["basmati-rice", "potatoes", "taro", "ghee"],
-    ingredients: [
-      "كوب أرز بسمتي أو مصري",
+    "id": "rice-potatoes-taro-lunch",
+    "slug": "rice-potatoes-taro-lunch",
+    "name": "غداء الأرز المطبوخ مع البطاطس (أو القلقاس)",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. غداء الأرز المطبوخ مع البطاطس (أو القلقاس)",
+    "prepTime": "45 دقيقة",
+    "difficulty": "سهل",
+    "meal": "غداء",
+    "foodIds": [
+      "basmati-rice",
+      "potatoes",
+      "taro",
+      "beef",
+      "ghee",
+      "salt-spices"
+    ],
+    "ingredients": [
+      "كوب أرز بسمتي",
       "حبتان بطاطس مكعبات أو قلقاس مكعبات",
-      "شوربة لحم طبيعية غنية",
+      "مرق لحم",
       "ملعقة سمن بلدي",
-      "كزبرة خضراء وثوم مفروم ورشة ملح",
+      "ملح"
     ],
-    instructions: [
-      "يُطهى الأرز بالسمن البلدي والمرق الطبيعي حتى ينضج تمامًا.",
-      "تُطهى مكعبات البطاطس أو القلقاس في المرق مع تقلية الثوم والكزبرة حتى تلين الحبات وتتشرب النكهة.",
-      "يُقدم طبق الأرز ساخنًا مع خضار البطاطس أو القلقاس المطهو.",
+    "instructions": [
+      "يُطهى الأرز بالسمن والمرق حتى ينضج.",
+      "تُطهى البطاطس أو القلقاس في المرق مع الملح حتى تلين.",
+      "يُقدم الأرز بجانب البطاطس أو القلقاس."
     ],
-    instructionsNote: NOTE,
-    image: images.taro,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/taro.jpg",
+    "sourceIds": []
   },
   {
-    id: "mixed-mahshi-rice",
-    slug: "mixed-mahshi-rice",
-    name: "المحشي المشكل بالأرز (بتنجان وفلفل وكوسة)",
-    description:
-      "وجبة المحشي المحبوبة التي أقرها الدكتور ضياء: باذنجان رومي وعروس، وفلفل أخضر، وكوسة ناضجة محشوة بخلطة الأرز والبهارات والدهون الطبيعية.",
-    prepTime: "75 دقيقة",
-    difficulty: "متوسط",
-    meal: "غداء",
-    foodIds: ["eggplant", "zucchini", "basmati-rice", "ghee", "olive-oil"],
-    ingredients: [
+    "id": "mixed-mahshi-rice",
+    "slug": "mixed-mahshi-rice",
+    "name": "المحشي المشكل بالأرز (بتنجان وفلفل وكوسة)",
+    "description": "وصفة تحريرية تحتاج توثيق استثناء الخضار المطبوخ والحشو؛ لا تُنسب إلى الدكتور.",
+    "prepTime": "75 دقيقة",
+    "difficulty": "متوسط",
+    "meal": "غداء",
+    "foodIds": [
+      "eggplant",
+      "zucchini",
+      "bell-pepper",
+      "basmati-rice",
+      "ghee",
+      "olive-oil",
+      "cumin",
+      "black-pepper",
+      "salt-spices",
+      "beef"
+    ],
+    "ingredients": [
       "باذنجان أسود صغير مفرغ",
       "فلفل رومي مفرغ",
       "كوسة مفرغة",
       "أرز مغسول ومصفى",
       "سمن بلدي وزيت زيتون",
-      "توابل (كمون، كزبرة جافة، فلفل أسود، ملح)",
+      "توابل (كمون، فلفل أسود، ملح)",
+      "مرق لحم"
     ],
-    instructions: [
+    "instructions": [
       "تُخلط حبات الأرز مع السمن وزيت الزيتون والملح والتوابل.",
       "تُحشى حبات الباذنجان والفلفل والكوسة حتى ثلاثة أرباعها لترك مجال لتمدد الأرز.",
       "تُرص في قدر واسع ويُضاف مرق اللحم المغلي حتى نصف الحبات.",
-      "تُطهى على نار هادئة حتى تمام النضج (حوالي 45-50 دقيقة).",
+      "تُطهى على نار هادئة حتى تمام النضج (حوالي 45-50 دقيقة)."
     ],
-    instructionsNote: NOTE,
-    image: images.mixedMahshi,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/traditional-mahshi.jpg",
+    "sourceIds": []
   },
   {
-    id: "rice-with-okra-bamia",
-    slug: "rice-with-okra-bamia",
-    name: "طاجن البامية باللحم مع الأرز («مش طول الوقت»)",
-    description:
-      "وجبة غداء طيبة صرح بها الدكتور كخيار مطبوخ متوازن، مع التنبيه للاعتدال فيها دون جعلها وجبة يومية دائمة.",
-    prepTime: "60 دقيقة",
-    difficulty: "متوسط",
-    meal: "غداء",
-    foodIds: ["okra", "basmati-rice", "beef", "ghee"],
-    ingredients: [
-      "نصف كيلو بامية صغيرة طازجة",
-      "قطع لحم بقري مسلوق جيدًا",
+    "id": "rice-with-okra-bamia",
+    "slug": "rice-with-okra-bamia",
+    "name": "طاجن البامية باللحم مع الأرز",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. طاجن البامية باللحم مع الأرز",
+    "prepTime": "60 دقيقة",
+    "difficulty": "متوسط",
+    "meal": "غداء",
+    "foodIds": [
+      "okra",
+      "basmati-rice",
+      "beef",
+      "ghee",
+      "salt-spices"
+    ],
+    "ingredients": [
+      "نصف كيلو بامية",
+      "قطع لحم بقري مسلوق",
       "كوب أرز بسمتي",
-      "شوربة لحم غنية",
-      "ثوم مفروم وكزبرة",
+      "مرق لحم",
       "ملعقة سمن بلدي",
+      "ملح"
     ],
-    instructions: [
-      "تُقمع البامية وتُشوح في السمن البلدي مع الثوم والكزبرة.",
-      "يُضاف المرق وقطع اللحم المسلوق ويُترك الطاجن ليتسبك في الفرن حتى تلين البامية تمامًا.",
-      "يُطبخ الأرز البسمتي بالمرق والسمن ويُقدم بجانب طاجن البامية الساخن.",
+    "instructions": [
+      "تُشوح البامية في السمن.",
+      "يُضاف المرق واللحم وتُطهى البامية حتى تلين.",
+      "يُطبخ الأرز بالمرق ويُقدم بجانب البامية."
     ],
-    instructionsNote: NOTE,
-    image: images.okra,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/okra.jpg",
+    "sourceIds": []
   },
   {
-    id: "yellow-lentil-soup",
-    slug: "yellow-lentil-soup",
-    name: "شوربة العدس الأصفر الصافية",
-    description:
-      "شوربة مغذية ومريحة للمعدة، تُقدم ناعمة ومصفاة مع الكمون والزبدة أو السمن البلدي كوجبة عشاء دافئة.",
-    prepTime: "30 دقيقة",
-    difficulty: "سهل",
-    meal: "عشاء",
-    foodIds: ["legumes", "butter", "salt-spices"],
-    ingredients: [
+    "id": "yellow-lentil-soup",
+    "slug": "yellow-lentil-soup",
+    "name": "شوربة العدس الأصفر الصافية",
+    "description": "وصفة تحريرية باستثناء غير محسوم؛ إباحة العدس الأصفر المجروش ليست موثقة بنص مباشر، ولا تثبت التصفية إباحته.",
+    "prepTime": "30 دقيقة",
+    "difficulty": "سهل",
+    "meal": "عشاء",
+    "foodIds": [
+      "yellow-lentils",
+      "beef",
+      "butter",
+      "ghee",
+      "cumin",
+      "salt-spices"
+    ],
+    "ingredients": [
       "كوب عدس أصفر مغسول ومصفى",
       "مرق لحم أو ماء مغلي",
       "ملعقة زبدة طبيعية أو سمن بلدي",
-      "كمون وملح بحري",
+      "كمون وملح بحري"
     ],
-    instructions: [
+    "instructions": [
       "يُسلق العدس الأصفر في المرق أو الماء حتى ينضج تمامًا وتتفكك حباته.",
       "يُخلط بالخلاط أو المضرب حتى يصبح ناعم الملمس وقوامه كريميًا متجانسًا.",
-      "تُضاف الزبدة الطبيعية والكمون والملح ويُقدم ساخنًا.",
+      "تُضاف الزبدة الطبيعية والكمون والملح ويُقدم ساخنًا."
     ],
-    instructionsNote: NOTE,
-    image: images.lentilSoup,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/local-lentilSoup.jpg",
+    "sourceIds": []
   },
   {
-    id: "creamy-chicken-soup",
-    slug: "creamy-chicken-soup",
-    name: "شوربة الكريمة الغنية (بالدجاج أو اللحم)",
-    description:
-      "شوربة بيضاء دسمة غنية بالقشطة الطبيعية ومرق اللحم أو الطيور المسموحة والزبدة الطبيعية.",
-    prepTime: "25 دقيقة",
-    difficulty: "سهل",
-    meal: "عشاء",
-    foodIds: ["natural-cream", "butter", "beef"],
-    ingredients: [
-      "كوبان مرق لحم أو حمام مركز",
-      "نصف كوب قشطة طبيعية (بلدي أو بوك)",
-      "ملعقة كبيرة زبدة طبيعية",
-      "ملح وفلفل أسود خفيف",
+    "id": "creamy-chicken-soup",
+    "slug": "creamy-chicken-soup",
+    "name": "شوربة القشطة بمرق اللحم أو الحمام",
+    "description": "اقتراح تحريري بمرق اللحم أو الحمام؛ لا تشمل الوصفة دجاج المزارع. راجع حدود توثيق القشطة.",
+    "prepTime": "25 دقيقة",
+    "difficulty": "سهل",
+    "meal": "عشاء",
+    "foodIds": [
+      "natural-cream",
+      "butter",
+      "beef",
+      "pigeon",
+      "black-pepper",
+      "salt-spices"
     ],
-    instructions: [
+    "ingredients": [
+      "كوبان مرق لحم أو حمام",
+      "نصف كوب قشطة طبيعية",
+      "ملعقة زبدة طبيعية",
+      "ملح وفلفل أسود"
+    ],
+    "instructions": [
       "يُسخن المرق في إناء على نار متوسطة.",
       "تُضاف القشطة الطبيعية تدريجيًا مع التقليب المستمر للحصول على قوام متجانس غني.",
-      "تُضاف ملعقة الزبدة ورشة الملح وتُترك لتغلي غلوة واحدة قبل التقديم مباشرة.",
+      "تُضاف ملعقة الزبدة ورشة الملح وتُترك لتغلي غلوة واحدة قبل التقديم مباشرة."
     ],
-    instructionsNote: NOTE,
-    image: images.naturalCream,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/natural-cream.jpg",
+    "sourceIds": []
   },
   {
-    id: "moussaka-minced-meat",
-    slug: "moussaka-minced-meat",
-    name: "المسقعة المصرية باللحمة المفرومة",
-    description:
-      "طاجن مسقعة كلاسيكي: طبقات من الباذنجان المطهو بزيت الزيتون واللحم البقري المفروم المتبل والمطهو في الفرن بالسمن البلدي.",
-    prepTime: "50 دقيقة",
-    difficulty: "متوسط",
-    meal: "غداء",
-    foodIds: ["eggplant", "beef", "olive-oil", "ghee"],
-    ingredients: [
-      "حبتان كبيرتان باذنجان رومي مقطع ومقلي بزيت زيتون",
-      "350 غ لحم بقري مفروم ناضج",
+    "id": "moussaka-minced-meat",
+    "slug": "moussaka-minced-meat",
+    "name": "المسقعة المصرية باللحمة المفرومة",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. المسقعة المصرية باللحمة المفرومة",
+    "prepTime": "50 دقيقة",
+    "difficulty": "متوسط",
+    "meal": "غداء",
+    "foodIds": [
+      "eggplant",
+      "beef",
+      "olive-oil",
+      "ghee",
+      "salt-spices"
+    ],
+    "ingredients": [
+      "حبتان باذنجان مطهو بزيت الزيتون",
+      "350 غ لحم بقري مفروم",
       "ملعقة سمن بلدي",
-      "مرق وقليل من البهارات والثوم",
+      "مرق وملح"
     ],
-    instructions: [
+    "instructions": [
       "تُقلى شرائح الباذنجان في زيت الزيتون حتى تصبح ذهبية وطرية.",
-      "يُعصج اللحم البقري بالسمن والملح والبهارات.",
-      "تُرص طبقات الباذنجان واللحم المفروم في طاجن مع قليل من المرق وتدخل الفرن حتى تتجانس وتكتسب وجهًا ذهبيًا.",
+      "يُعصج اللحم البقري بالسمن والملح.",
+      "تُرص طبقات الباذنجان واللحم المفروم في طاجن مع قليل من المرق وتدخل الفرن حتى تتجانس وتكتسب وجهًا ذهبيًا."
     ],
-    instructionsNote: NOTE,
-    image: images.eggplant,
-    sourceIds: [G],
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/eggplant.jpg",
+    "sourceIds": []
   },
   {
-    id: "roz-meammar-cream",
-    slug: "roz-meammar-cream",
-    name: "الأرز المعمر الفلاحي بالقشطة البلدي",
-    description:
-      "تحفة المائدة المصرية المسموحة في الطيبات: أرز مطهو في طاجن فخاري مغطى بطبقة ذهبية وفيرة من القشطة البلدي والسمن الطبيعي.",
-    prepTime: "55 دقيقة",
-    difficulty: "سهل",
-    meal: "غداء",
-    foodIds: ["basmati-rice", "natural-cream", "ghee", "butter"],
-    ingredients: [
-      "كوبان أرز مغسول ومصفى",
-      "نصف كوب قشطة بلدي طبيعية (أو قشطة بوك)",
-      "ملعقتان كبيرتان سمن بلدي",
-      "مرق دافئ ورشة ملح",
+    "id": "roz-meammar-cream",
+    "slug": "roz-meammar-cream",
+    "name": "الأرز المعمر الفلاحي بالقشطة البلدي",
+    "description": "اقتراح تحضير في الدليل، وليس وجبة موثقة عن الدكتور. الأرز المعمر الفلاحي بالقشطة البلدي",
+    "prepTime": "55 دقيقة",
+    "difficulty": "سهل",
+    "meal": "غداء",
+    "foodIds": [
+      "basmati-rice",
+      "natural-cream",
+      "ghee",
+      "beef",
+      "salt-spices"
     ],
-    instructions: [
+    "ingredients": [
+      "كوبان أرز مغسول ومصفى",
+      "نصف كوب قشطة بلدي طبيعية",
+      "ملعقتان كبيرتان سمن بلدي",
+      "مرق لحم دافئ ورشة ملح"
+    ],
+    "instructions": [
       "يُوضع الأرز في طاجن فخاري ويُفرك بالسمن البلدي ورشة الملح.",
       "يُضاف المرق الدافئ حتى يغمر الأرز بارتفاع مناسب.",
       "تُوزع القشطة البلدي على الوجه بالكامل.",
-      "يُخبز الطاجن في فرن ساخن حتى يتحمر وجه القشطة الذهبي ويتشرب الأرز تمامًا.",
+      "يُخبز الطاجن في فرن ساخن حتى يتحمر وجه القشطة الذهبي ويتشرب الأرز تمامًا."
     ],
-    instructionsNote: NOTE,
-    image: images.rice,
-    sourceIds: [G],
-  },
+    "instructionsNote": "وصفة تحريرية؛ لم يتوفر مصدر مباشر يثبت اعتماد الدكتور لهذه الوجبة. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الاستثناءات غير المحسومة.",
+    "image": "/images/foods/basmati-rice.jpg",
+    "sourceIds": []
+  }
 ];
 
 export const recipesBySlug: Record<string, Recipe> = Object.fromEntries(recipes.map((r) => [r.slug, r]));

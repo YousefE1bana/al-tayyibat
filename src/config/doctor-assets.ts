@@ -11,7 +11,7 @@ export interface EditorialPortraitAsset {
 export const doctorAssets: { editorial: EditorialPortraitAsset | null } = {
   editorial: {
     src: "/images/doctor/secondary.webp",
-    width: 1128,
+    width: 1275,
     height: 1094,
     alt: "الدكتور ضياء العوضي جالسًا ببدلة سوداء — صورة تحريرية بخلفية شفافة",
     treatment: "cutout",

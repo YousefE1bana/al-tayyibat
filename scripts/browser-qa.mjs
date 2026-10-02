@@ -34,7 +34,7 @@ for(const width of [1440,390]) for(const theme of ['dark','light']){
     for(const v of a11y.violations) report.accessibility.push({route,width,theme,id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))});
   }
   await page.goto(`${base}#/foods`,{waitUntil:'networkidle'});
-  check(await page.locator('footer a[href="https://github.com/YousefE1bana"]').isVisible(), `Maintainer attribution ${width}/${theme}`);
+  check(await page.getByRole('link', {name: 'Yousef Elbana على GitHub', exact: true}).isVisible(), `Maintainer attribution ${width}/${theme}`);
   check(await page.locator('footer a[href="https://www.linkedin.com/in/yousefelbana"]').count() === 1, `Supplied LinkedIn profile ${width}/${theme}`);
   const search=page.getByRole('searchbox',{name:'ابحث عن طعام'});
   await search.fill('مكرونة');

@@ -1,57 +1,61 @@
 import type { Article, ShoppingGroup, Step } from "@/types";
 
-const G = "altayebaat-guide";
-const A = "altayebaat-allowed";
 
-/** «ابدأ من هنا» — الخطة الأسبوعية للمبتدئين كما وردت في الدليل الشامل. */
+/** Editorial navigation steps, not a dietary schedule attributed to the doctor. */
 export const startSteps: Step[] = [
   {
-    id: "week-1",
-    title: "الأسبوع الأول: الأساسيات + الدقيق",
-    summary: "تعرّف على الأساسيات الخمسة، ثم امنع الدقيق الأبيض واعتمد الأرز والبطاطا.",
-    details: ["اليوم 1–3: تعرّف على الأساسيات الخمسة (أرز، بطاطا، تمر، زبدة، سكر).", "اليوم 4–5: امنع الدقيق الأبيض.", "اليوم 6–7: اعتمد الأرز والبطاطا."],
-    sourceIds: [G],
-  },
-  {
-    id: "week-2",
-    title: "الأسبوع الثاني: الحليب والألبان",
-    summary: "امنع الحليب والزبادي ثم الجبن الأبيض، وجرّب الأجبان المعتّقة.",
-    details: ["اليوم 1–3: امنع الحليب والزبادي.", "اليوم 4–5: امنع الجبن الأبيض.", "اليوم 6–7: جرّب الأجبان المعتّقة (رومي، شيدر...)."],
-    sourceIds: [G],
-  },
-  {
-    id: "week-3",
-    title: "الأسبوع الثالث: الدجاج والبيض",
-    summary: "امنع الدجاج والبيض، واعتمد اللحم البقري والسمك مع قاعدة «يوم آه ويوم لأ».",
-    details: ["اليوم 1–3: امنع الدجاج والبيض.", "اليوم 4–5: اعتمد اللحم البقري والسمك.", "اليوم 6–7: طبّق قاعدة «يوم آه ويوم لأ»."],
-    sourceIds: [G],
-  },
-  {
-    id: "week-4",
-    title: "الأسبوع الرابع: الورقيات والبقوليات",
-    summary: "امنع الورقيات ثم البقوليات، وراجع التطبيق الكامل.",
-    details: ["اليوم 1–3: امنع الورقيات (سبانخ، جرجير، خس).", "اليوم 4–5: امنع البقوليات.", "اليوم 6–7: تطبيق كامل + مراجعة."],
-    sourceIds: [G],
-  },
-  {
-    id: "ongoing",
-    title: "بعد ذلك: راجع الدليل عند الحاجة",
-    summary: "استخدم البحث لأي طعام تشك فيه، وراقب الأخطاء الشائعة.",
-    details: [
-      "الأخطاء الخمسة الشائعة: الإفراط في النشويات المسموحة، تجاهل «يوم آه ويوم لأ»، شرب كثير من الماء، الانتقال المفاجئ، تجاهل الصيام.",
-      "«خطأ في وجبة ≠ نهاية العالم — ارجع للأساسيات في الوجبة التالية».",
+    "id": "week-1",
+    "title": "افهم معاني التصنيفات",
+    "summary": "ميّز المسموح والمشروط والمختلف عليه وغير الموثق.",
+    "details": [
+      "التصنيفات تصف النظام، ولا تقرر ملاءمة طعام لحالتك.",
+      "غياب التوثيق لا يعني المنع."
     ],
-    sourceIds: [G],
+    "sourceIds": []
   },
+  {
+    "id": "week-2",
+    "title": "ابحث عن الصنف المحدد",
+    "summary": "ابحث بالاسم أو الاسم المتداول، ثم افتح صفحة الطعام.",
+    "details": [
+      "لا تعمم حكم فئة غذائية على كل أفرادها.",
+      "راجع الأسماء البديلة لتفادي الخلط بين أصناف متشابهة."
+    ],
+    "sourceIds": []
+  },
+  {
+    "id": "week-3",
+    "title": "اقرأ الشروط وحدود التوثيق",
+    "summary": "راجع الكمية والتحضير وملاحظة التوثيق قبل الاعتماد على تصنيف.",
+    "details": [
+      "الطهي أو النقع لا يثبتان استثناء تلقائيًا.",
+      "أبقِ المسائل غير المحسومة غير محسومة."
+    ],
+    "sourceIds": []
+  },
+  {
+    "id": "week-4",
+    "title": "احفظ ما تحتاج الرجوع إليه",
+    "summary": "استخدم المفضلة وقائمة المشتريات ودليل المطبخ للمراجعة.",
+    "details": [
+      "المحفوظات وقائمة المشتريات تبقيان على جهازك.",
+      "هذه أدوات تنظيم، وليست وصفة علاجية."
+    ],
+    "sourceIds": []
+  },
+  {
+    "id": "ongoing",
+    "title": "راجع الطبيب عند الحاجة",
+    "summary": "أي تغيير علاجي أو غذائي لحالة صحية يحتاج مراجعة متخصص.",
+    "details": [
+      "لا توقف أو تقلل دواء موصوفًا بناء على هذا الدليل."
+    ],
+    "sourceIds": []
+  }
 ];
 
-/** نموذج اليوم الكامل كما ورد في الدليل. */
-export const sampleDay = [
-  { time: "الفطور", items: ["بطاطا مشوية + زبدة + 2–3 تمرات", "شاي أخضر أو قهوة تركية", "البديل: توست قمح كامل + زبدة + عسل"] },
-  { time: "الغداء", items: ["أرز بسمتي + لحم بقري (يوم «آه»)", "كوسا محشية بالأرز", "تحلية: تمر"] },
-  { time: "العشاء (خفيف)", items: ["بطاطا مقلية بزيت زيتون", "جبنة رومي + زيتون", "عنب أو تفاح مقشّر"] },
-  { time: "المشروبات", items: ["صباحًا: قهوة تركية", "ظهرًا: شاي أخضر", "عند العطش: ماء + ليمون قليل", "مساءً: زعتر مغلي"] },
-];
+/** No verified complete daily meal plan is available. */
+export const sampleDay = [{time:"قبل اختيار وجبة",items:["راجع كل مكوّن في دليل الأطعمة.","الوصفات اقتراحات تحريرية وليست وجبات موثقة عن الدكتور.","استثناءات الخضار والبقوليات تحتاج تصريحًا مباشرًا."]}];
 
 /** دليل المشتريات — مبني على فئات قائمة المسموحات. */
 export const shoppingGroups: ShoppingGroup[] = [
@@ -65,20 +69,20 @@ export const shoppingGroups: ShoppingGroup[] = [
       { id: "s-butter", label: "زبدة طبيعية", foodId: "butter" },
       { id: "s-sugar", label: "سكر", foodId: "sugar" },
     ],
-    sourceIds: [G, A],
+    sourceIds: [],
   },
   {
     id: "protein",
-    title: "البروتين (ليوم «آه»)",
+    title: "البروتين",
     items: [
       { id: "s-beef", label: "لحم بقري / جاموسي", foodId: "beef" },
-      { id: "s-lamb", label: "لحم ضأن (مرة أسبوعيًا)", foodId: "lamb" },
+      { id: "s-lamb", label: "لحم ضأن", foodId: "lamb" },
       { id: "s-sardine", label: "سردين", foodId: "sardines" },
       { id: "s-fish", label: "سمك بحري طبيعي", foodId: "sea-fish" },
       { id: "s-pigeon", label: "حمام / سمان", foodId: "pigeon" },
       { id: "s-liver", label: "كبدة (غير الدجاج)", foodId: "liver" },
     ],
-    sourceIds: [A],
+    sourceIds: [],
   },
   {
     id: "dairy-fats",
@@ -89,7 +93,7 @@ export const shoppingGroups: ShoppingGroup[] = [
       { id: "s-olive-oil", label: "زيت زيتون", foodId: "olive-oil" },
       { id: "s-olives", label: "زيتون", foodId: "olives" },
     ],
-    sourceIds: [G, A],
+    sourceIds: [],
   },
   {
     id: "fruit-sweets",
@@ -101,9 +105,9 @@ export const shoppingGroups: ShoppingGroup[] = [
       { id: "s-figs", label: "تين", foodId: "figs" },
       { id: "s-honey", label: "عسل نحل", foodId: "honey" },
       { id: "s-halawa", label: "حلاوة طحينية", foodId: "halawa" },
-      { id: "s-nuts", label: "مكسرات (أسبوعيًا)", foodId: "nuts" },
+      { id: "s-nuts", label: "مكسرات", foodId: "nuts" },
     ],
-    sourceIds: [G, A],
+    sourceIds: [],
   },
   {
     id: "drinks",
@@ -114,16 +118,16 @@ export const shoppingGroups: ShoppingGroup[] = [
       { id: "s-thyme", label: "زعتر", foodId: "thyme-tea" },
       { id: "s-toast", label: "توست قمح كامل", foodId: "whole-wheat-toast" },
     ],
-    sourceIds: [G, A],
+    sourceIds: [],
   },
 ];
 
 /** Featured guide articles = internal sections. */
 export const articles: Article[] = [
-  { id: "a-principles", title: "القواعد الست الذهبية", summary: "الأكل عند الجوع، قاعدة 80%، تبسيط الوجبة، الشرب عند العطش، الصيام، وتناوب البروتين.", href: "/about#principles" },
-  { id: "a-essentials", title: "الأساسيات الخمسة", summary: "أرز، بطاطا، تمر، زبدة، سكر — لماذا هي عماد النظام وما حدود كل منها.", href: "/foods?q=الأساسيات" },
-  { id: "a-start", title: "خطة الأربعة أسابيع", summary: "كيف تنتقل تدريجيًا دون «الانتقال المفاجئ» الذي يعده الدليل خطأً شائعًا.", href: "/how-it-works" },
+  { id: "a-principles", title: "مبادئ منسوبة للنظام", summary: "مبادئ متداولة تحتاج تفاصيلها إلى توثيق مباشر.", href: "/about#principles" },
+  { id: "a-essentials", title: "الأساسيات الخمسة", summary: "أصناف موسومة كأساسيات في النسخة السابقة؛ نسبتها وكمياتها تحتاج توثيقًا مباشرًا.", href: "/foods?q=الأساسيات" },
+  { id: "a-start", title: "خطوات استخدام الدليل", summary: "افهم التصنيف وابحث عن الصنف واقرأ شروطه وحدود توثيقه.", href: "/how-it-works" },
   { id: "a-science", title: "الموقف العلمي والمؤسسي", summary: "ما تقوله نقابة الأطباء ومنظمة الصحة العالمية، وما ردّ به الدكتور.", href: "/about#science" },
-  { id: "a-theories", title: "النظريات الثلاث وراء النظام", summary: "نظرية الدهون، جرثومة المعدة، والنسيج الخلالي — بوصفها ادعاءات صاحب النظام.", href: "/about#theories" },
-  { id: "a-mistakes", title: "أخطاء المبتدئين الخمسة", summary: "الإفراط في النشويات، تجاهل التناوب، كثرة الماء، الانتقال المفاجئ، تجاهل الصيام.", href: "/how-it-works#mistakes" },
+  { id: "a-theories", title: "تفسيرات منسوبة للنظام", summary: "نقل الطرح لا يمثل إثباتًا علميًا مستقلًا.", href: "/about#theories" },
+  { id: "a-mistakes", title: "تذكيرات عند استخدام الدليل", summary: "راجع الصنف المحدد ولا تفترض استثناءات غير موثقة.", href: "/how-it-works#mistakes" },
 ];

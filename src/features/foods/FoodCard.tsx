@@ -33,6 +33,7 @@ export function FoodCard({ food, onSelect, compact = false }: Props) {
         </div>
         <h3 className="text-lg font-bold leading-snug">{food.name}</h3>
         {!compact && <p className="line-clamp-2 text-sm text-ink-2">{food.shortDescription}</p>}
+        {food.editorialNote && <p className="text-xs text-muted">توثيق التفاصيل قيد المراجعة</p>}
         {food.aliases.length > 0 && !compact && (
           <p className="mono line-clamp-1 text-[11px] text-muted">{food.aliases.slice(0, 4).join(" · ")}</p>
         )}

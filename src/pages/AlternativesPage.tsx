@@ -25,7 +25,7 @@ const EXAMPLE_REPLACEMENTS = [
 ];
 
 export default function AlternativesPage() {
-  usePageMeta("بدائل الأطعمة", "بدل ما آكل ده، آكل إيه؟ — دليل البدائل الموثقة داخل نظام الطيبات.");
+  usePageMeta("بدائل الأطعمة", "بدل ما آكل ده، آكل إيه؟ — أصناف مرتبطة في الدليل؛ راجع التصنيف وحدود التوثيق.");
   const [searchParams, setSearchParams] = useSearchParams();
   const initialFoodId = searchParams.get("food") || "white-bread";
 
@@ -74,7 +74,7 @@ export default function AlternativesPage() {
             <Terminal className="size-4 text-accent" aria-hidden />
             <span className="mono text-xs text-muted">ابحث عن بديل</span>
             <span className="mono ms-auto text-[11px] text-muted">
-              {alternativesList.length} بدائل موثقة
+              {alternativesList.length} بدائل في الدليل
             </span>
           </div>
 
@@ -193,7 +193,7 @@ export default function AlternativesPage() {
           <div className="flex items-center gap-3">
             <Repeat className="size-5 text-accent" />
             <h3 className="text-xl font-bold text-ink">
-              البدائل المعتمدة في النظام ({alternativesList.length})
+              البدائل المرتبطة في الدليل ({alternativesList.length})
             </h3>
           </div>
 
@@ -243,7 +243,7 @@ export default function AlternativesPage() {
                   <div className="mt-4 pt-3 border-t border-line-soft flex items-center justify-between">
                     <span className="inline-flex items-center gap-1 text-xs text-accent font-semibold">
                       <CheckCircle2 className="size-3.5" />
-                      بديل موثق
+                      بديل مرتبط
                     </span>
                     <Link
                       to={`/foods/${alt.slug}`}
@@ -262,11 +262,10 @@ export default function AlternativesPage() {
                 <Repeat className="size-6" />
               </div>
               <h4 className="text-lg font-bold text-ink">
-                لا توجد بدائل موثقة لهذا الطعام في الدليل حتى الآن.
+                لا توجد بدائل في الدليل لهذا الطعام في الدليل حتى الآن.
               </h4>
               <p className="mx-auto mt-2 max-w-md text-sm text-ink-2">
-                نظام الطيبات يلتزم بعدم اختراع بدائل افتراضية، بل يعتمد فقط على ما وثّقه الدكتور ضياء العوضي صراحة في
-                محاضراته وقوائمه المعتمدة.
+                الروابط اقتراحات محفوظة من النسخة السابقة؛ لا تثبت اعتماد الدكتور لها. راجع كل صنف وحدود توثيقه.
               </p>
             </div>
           )}

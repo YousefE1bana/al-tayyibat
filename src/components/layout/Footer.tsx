@@ -56,21 +56,26 @@ export function Footer() {
       </div>
       <div className="border-t-2 border-line-soft">
         <div className="container-x flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-3 text-xs text-muted">
-          <div className="flex flex-wrap items-center gap-2">
-            <span>تطوير وصيانة</span>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
+            <div>
+              <span className="mb-1 block text-xs text-muted">تطوير وصيانة</span>
             <a href={maintainer.githubUrl} target="_blank" rel="noopener noreferrer"
-              className="inline-flex min-h-11 items-center gap-2 hover:text-ink hover:underline"
-              aria-label={`${maintainer.name} على GitHub`}>
-              <Github className="size-4" aria-hidden />
-              <span dir="ltr">{maintainer.name}</span>
+              className="inline-flex min-h-8 items-center text-sm font-semibold text-ink hover:text-accent hover:underline" dir="ltr">
+              {maintainer.name}
             </a>
+            </div>
+            <div className="flex gap-2" dir="ltr">
+              <a href={maintainer.githubUrl} target="_blank" rel="noopener noreferrer"
+                className="inline-flex size-11 items-center justify-center border-2 border-line-soft bg-surface text-ink transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+                aria-label={`${maintainer.name} على GitHub`}><Github className="size-5" aria-hidden /></a>
             {maintainer.linkedinUrl && (
               <a href={maintainer.linkedinUrl} target="_blank" rel="noopener noreferrer"
-                className="inline-flex size-11 items-center justify-center hover:text-ink"
+                className="inline-flex size-11 items-center justify-center border-2 border-line-soft bg-surface text-ink transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
                 aria-label={`${maintainer.name} على LinkedIn`}>
-                <Linkedin className="size-4" aria-hidden />
+                <Linkedin className="size-5" aria-hidden />
               </a>
             )}
+            </div>
           </div>
           <span className="mono text-[11px]">Ctrl/⌘ + K للبحث السريع</span>
         </div>

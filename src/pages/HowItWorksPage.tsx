@@ -10,37 +10,37 @@ import { TableOfContents } from "@/components/ui/TableOfContents";
 import { SourceRefs } from "@/features/sources/SourceReference";
 
 const MISTAKES = [
-  { wrong: "أكل 5 أكواب أرز يوميًا لأنه «مسموح»", right: "قاعدة 80% — التوقف قبل الشبع" },
-  { wrong: "لحم كل يوم لأنه مسموح", right: "يوم لحم، يوم راحة من البروتين الحيواني" },
-  { wrong: "8 أكواب ماء يوميًا", right: "عند العطش فقط" },
-  { wrong: "تغيير كل شيء في يوم واحد", right: "تدريجيًا على 4 أسابيع" },
-  { wrong: "التركيز على المسموح والممنوع فقط", right: "الصيام ركيزة أساسية" },
+  { wrong: "اعتبار المسموح توصية بكمية غير محدودة", right: "التصنيف لا يحدد جرعة أو ملاءمة لحالتك" },
+  { wrong: "تعميم حكم البقوليات على كل صنف", right: "افتح صفحة الصنف وراجع حدود التوثيق" },
+  { wrong: "اعتبار النقع أو الطهي استثناء تلقائيًا", right: "الاستثناء يحتاج مصدرًا مباشرًا يحدده" },
+  { wrong: "اعتبار الوصفات وجبات موثقة عن الدكتور", right: "الوصفات اقتراحات تحريرية؛ راجع كل مكوّن" },
+  { wrong: "اختزال غير الموثق إلى ممنوع", right: "أبقِ المسائل غير المحسومة غير محسومة" },
 ];
 
 const CAUTION = ["الحامل والمرضع", "الأطفال", "مرضى السكري", "مرضى الضغط", "كبار السن", "أي مرض مزمن"];
 
 const TOC = [
-  { id: "roadmap", label: "خطة الأربعة أسابيع" },
-  { id: "sample-day", label: "نموذج يوم كامل" },
-  { id: "mistakes", label: "أخطاء المبتدئين" },
+  { id: "roadmap", label: "خطوات استخدام الدليل" },
+  { id: "sample-day", label: "قبل اختيار وجبة" },
+  { id: "mistakes", label: "تذكيرات مهمة" },
   { id: "caution", label: "من يحتاج استشارة؟" },
 ];
 
 export default function HowItWorksPage() {
-  usePageMeta("كيف يعمل؟ ابدأ من هنا", "خطة الأربعة أسابيع، نموذج يوم كامل، وأخطاء المبتدئين في نظام الطيبات.");
+  usePageMeta("كيف يعمل؟ ابدأ من هنا", "خطوات استخدام الدليل، قبل اختيار وجبة، وتذكيرات مهمة في نظام الطيبات.");
   return (
     <div className="container-x py-10 md:py-16">
       <header className="max-w-3xl">
         <div className="mono mb-3 text-xs text-accent">// كيف يعمل؟</div>
         <h1 className="text-4xl font-bold leading-tight md:text-6xl">ابدأ من هنا</h1>
-        <p className="mt-4 text-lg text-ink-2">خارطة طريق للمبتدئين كما وردت في الدليل: تدرّج على أربعة أسابيع، ثم نموذج يوم كامل، ثم الأخطاء التي يحذّر منها.</p>
+        <p className="mt-4 text-lg text-ink-2">افهم التصنيفات، وابحث عن الصنف المحدد، واقرأ شروطه وحدود توثيقه. هذه خطوات استخدام، وليست خطة غذائية موثقة عن الدكتور.</p>
       </header>
 
       <div className="mt-12 grid gap-12 lg:grid-cols-[240px_1fr]">
         <TableOfContents items={TOC} className="hidden lg:sticky lg:top-28 lg:block lg:self-start" />
         <div className="min-w-0 space-y-24">
           <section id="roadmap" className="scroll-mt-28">
-            <SectionHeading index="01" title="خطة الأربعة أسابيع" description="كل أسبوع يزيل فئة واحدة ويثبّت بديلها." />
+            <SectionHeading index="01" title="خطوات استخدام الدليل" description="خطوات عملية للتصفح والرجوع إلى المعلومات." />
             <ol className="relative border-s-2 border-line ps-8 md:ps-12">
               {startSteps.map((s, i) => (
                 <motion.li key={s.id} id={s.id} variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="relative scroll-mt-28 pb-12 last:pb-0">
@@ -61,8 +61,8 @@ export default function HowItWorksPage() {
           </section>
 
           <section id="sample-day" className="scroll-mt-28">
-            <SectionHeading index="02" title="نموذج يوم كامل" description="كما ورد حرفيًا في الدليل. الوصفات المقابلة في صفحة الوصفات." />
-            <div className="grid gap-px border-2 border-line bg-line md:grid-cols-2 xl:grid-cols-4">
+            <SectionHeading index="02" title="قبل اختيار وجبة" description="راجع المكونات وحدود توثيقها؛ الوصفات اقتراحات تحريرية." />
+            <div className="grid gap-px border-2 border-line bg-line md:grid-cols-2 xl:grid-cols-1">
               {sampleDay.map((slot, i) => (
                 <div key={slot.time} className="bg-surface p-5">
                   <div className="mono mb-2 text-xs text-accent">// {String(i + 1).padStart(2, "0")}</div>
@@ -80,7 +80,7 @@ export default function HowItWorksPage() {
           </section>
 
           <section id="mistakes" className="scroll-mt-28">
-            <SectionHeading index="03" title="أخطاء المبتدئين الخمسة" description="من الدليل نفسه — «خطأ في وجبة ≠ نهاية العالم، ارجع للأساسيات في الوجبة التالية»." />
+            <SectionHeading index="03" title="تذكيرات مهمة" description="تجنب استنتاج قواعد لا يدعمها التوثيق المتاح." />
             <div className="space-y-3">
               {MISTAKES.map((m, i) => (
                 <motion.div key={m.wrong} variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="brut-soft grid overflow-hidden bg-surface md:grid-cols-[auto_1fr_1fr]">
@@ -93,7 +93,7 @@ export default function HowItWorksPage() {
           </section>
 
           <section id="caution" className="scroll-mt-28">
-            <SectionHeading index="04" title="من يحتاج استشارة طبية أولًا؟" description="حتى المصدر المؤيد يشدد على هذا. ولا توقف أبدًا أي دواء مزمن دون استشارة طبيبك." />
+            <SectionHeading index="04" title="من يحتاج استشارة طبية أولًا؟" description="الدليل معلوماتي وليس نصيحة طبية شخصية. لا توقف دواءً موصوفًا دون مراجعة طبيبك." />
             <div className="flex flex-wrap gap-2">
               {CAUTION.map((c) => <span key={c} className="border-2 border-status-cond bg-surface px-3 py-1.5 text-sm font-semibold">{c}</span>)}
             </div>

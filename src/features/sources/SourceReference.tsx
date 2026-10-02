@@ -14,10 +14,10 @@ export function SourceRefs({ ids, className }: { ids?: string[]; className?: str
         if (!s) return null;
         const label = s.publication?.split(" — ")[0] ?? s.title;
         const title = [s.title, s.reliabilityNote].filter(Boolean).join(" — ");
-        const chipClass = "mono border border-line-soft bg-surface px-1.5 py-0.5 text-[11px] text-ink-2";
+        const chipClass = "inline-flex min-h-6 items-center px-1 text-xs text-muted underline decoration-line-soft underline-offset-4";
         return s.url ? (
           <a key={id} href={s.url} target="_blank" rel="noopener noreferrer"
-            title={title} className={cn(chipClass, "transition hover:border-line hover:text-ink hover:underline")}>
+            title={title} className={cn(chipClass, "transition hover:text-ink hover:decoration-current")}>
             {label}
           </a>
         ) : (

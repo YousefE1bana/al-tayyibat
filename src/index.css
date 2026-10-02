@@ -365,3 +365,41 @@ body::after {
   .page-enter { display: block; }
   .page-enter > div > header, .page-enter > article > nav { animation: none; }
 }
+
+/* Screen preview and explicitly selected paper reference have separate layouts. */
+.kitchen-names { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem 1.5rem; }
+.kitchen-names li { padding-block: 0.5rem; border-bottom: 1px solid var(--line-soft); }
+.kitchen-print { display: none; }
+@media (min-width: 48rem) { .kitchen-names { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 64rem) { .kitchen-names { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media print {
+  .kitchen-guide { padding: 0 !important; margin: 0 !important; max-width: none !important; }
+  .kitchen-screen { display: none !important; }
+  .kitchen-print { display: block; width: 186mm; color: #191919; font-size: 10.5pt; line-height: 1.55; }
+  .kitchen-sheet { min-height: 270mm; display: flex; flex-direction: column; break-after: page; }
+  .kitchen-sheet:last-child { break-after: auto; }
+  .kitchen-sheet-header { display: flex; align-items: center; justify-content: space-between; gap: 4mm; border-bottom: 1.5pt solid #191919; padding-bottom: 4mm; margin-bottom: 5mm; }
+  .kitchen-sheet-header p, .kitchen-sheet-header > span { font-size: 9pt; }
+  .kitchen-sheet h2 { font-size: 17pt; font-weight: 700; }
+  .kitchen-sheet h3 { font-size: 12pt; font-weight: 700; margin-bottom: 2mm; }
+  .kitchen-sheet h4 { font-weight: 700; }
+  .kitchen-sheet section { margin-bottom: 5mm; }
+  .kitchen-sheet a { color: inherit; text-decoration: none; }
+  .kitchen-sheet p { color: #343434 !important; }
+  .kitchen-sheet .brand-mark { background: #f6f0e4; border-color: #c5b88e; }
+  .print-essentials { display: flex; justify-content: space-between; gap: 2mm; border: 1pt solid #b4aa96; padding: 3mm; margin-top: 3mm; }
+  .print-principles { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin-top: 3mm; }
+  .print-principles > div { padding: 3mm; border: 1pt solid #b4aa96; break-inside: avoid; }
+  .print-legend { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm 5mm; }
+  .print-legend li { break-inside: avoid; }
+  .print-two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
+  .print-intro, .print-selection { font-size: 9.5pt; margin-bottom: 3mm; }
+  .print-food-group { border-top: 1pt solid #b4aa96; padding-top: 3mm; }
+  .kitchen-print .kitchen-names { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2mm 4mm; }
+  .kitchen-print .kitchen-names li { padding: 1mm 0; border-color: #ddd; }
+  .print-food-group[data-status="notRecommended"] .kitchen-names { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .kitchen-print .kitchen-conditions li { padding-bottom: 3mm; break-inside: avoid; }
+  .kitchen-print .kitchen-conditions p { font-size: 9.5pt; line-height: 1.5; }
+  .kitchen-sheet-footer { margin-top: auto; border-top: 1pt solid #191919; padding-top: 3mm; font-size: 9pt; }
+  .kitchen-sheet-footer p:last-child { margin-top: 2mm; text-align: center; }
+}

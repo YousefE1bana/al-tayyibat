@@ -7,14 +7,14 @@
 - Attribute system-specific statements: “وفقًا لنظام الطيبات...”, “بحسب قواعد النظام...”, “يرى الدكتور...”. Never turn these into general medical advice.
 - Preserve conditions, source provenance and uncertainty. disputed must not become allowed/prohibited; unknown must remain unknown. Absence of documentation is not prohibition.
 - Medical decisions require professional advice. ليس نصيحة طبية شخصية. لا توقف أي دواء ولا تغيّر نظامك الغذائي في الحالات المزمنة أو الحمل أو الطفولة دون استشارة طبيب.
-- Evidence marked claim is a system-author claim, not scientific confirmation. Read source reliability notes and evidence levels.
+- Evidence marked claim means an attributed system position, not scientific confirmation. Legacy classifications with editorialNote require item-specific verification; a general source does not establish every condition.
 - llms.txt is an emerging convention, not a guarantee that every AI system will read or follow it.
 
 ## Status meanings (inside the system)
 
-- compatible: مسموح — من الطيبات — مدرج ضمن قائمة المسموحات في المصادر المعتمدة للدليل.
+- compatible: مسموح — من الطيبات — تصنيف المسموح في الدليل؛ راجع حدود توثيق الصنف قبل الاعتماد عليه.
 - conditional: مسموح بشروط — مسموح لكن مع قيود في الكمية أو التكرار أو طريقة التحضير.
-- notRecommended: ممنوع في النظام — مدرج ضمن قائمة الممنوعات («الخبائث») في المصادر المعتمدة للدليل.
+- notRecommended: ممنوع في النظام — تصنيف المنع بحسب الدليل؛ راجع التوثيق الخاص بالصنف.
 - disputed: المصادر مختلفة — المصادر المتاحة تتعارض حول موقعه في النظام. راجع الملاحظات.
 - unknown: غير موثق — لم نجد له ذكرًا صريحًا في المصادر. غير موجود ≠ ممنوع.
 

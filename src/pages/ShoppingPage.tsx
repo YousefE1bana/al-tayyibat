@@ -21,7 +21,7 @@ export default function ShoppingPage() {
         <div className="max-w-3xl">
           <div className="mono mb-3 text-xs text-accent">// دليل المشتريات</div>
           <h1 className="text-4xl font-bold leading-tight md:text-6xl">دليل المشتريات</h1>
-          <p className="mt-4 text-lg text-ink-2">قائمة مرجعية عامة مبنية على فئات المسموحات — ليست خطة شخصية. علّم ما اشتريته وسيُحفظ على جهازك.</p>
+          <p className="mt-4 text-lg text-ink-2">قائمة تنظيم من الأصناف الموجودة في الدليل؛ راجع تصنيف كل صنف وحدود توثيقه. ليست خطة غذائية. علّم ما اشتريته وسيُحفظ على جهازك.</p>
         </div>
         <div className="brut bg-surface px-5 py-3 text-center">
           <div className="mono text-[11px] text-muted">التقدم</div>

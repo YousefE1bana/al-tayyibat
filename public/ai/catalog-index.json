@@ -8,6 +8,7 @@
       "يرى الدكتور..."
     ],
     "uncertainty": "أبقِ المختلف عليه مختلفًا عليه، وغير الموثق غير موثق. لا تختزل هذه الحالات إلى مسموح أو ممنوع، ولا تحذف الشروط أو حدود التوثيق.",
+    "legacyClassifications": "تصنيفات وشروط محفوظة من النسخة السابقة تحتاج توثيقًا مباشرًا لكل صنف. المراجع العامة لا تثبت كل تفصيل؛ لا تعتبر الطهي أو النقع استثناء تلقائيًا، ولا تقدم الكميات السابقة كجرعات طبية.",
     "medicalDisclaimer": "ليس نصيحة طبية شخصية. لا توقف أي دواء ولا تغيّر نظامك الغذائي في الحالات المزمنة أو الحمل أو الطفولة دون استشارة طبيب."
   },
   "counts": {
@@ -23,6 +24,7 @@
       "slug": "basmati-rice",
       "name": "الأرز البسمتي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/basmati-rice"
     },
@@ -30,6 +32,7 @@
       "slug": "potatoes",
       "name": "البطاطس / البطاطا",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/potatoes"
     },
@@ -37,6 +40,7 @@
       "slug": "dates",
       "name": "التمر",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/dates"
     },
@@ -44,6 +48,7 @@
       "slug": "butter",
       "name": "الزبدة الطبيعية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/butter"
     },
@@ -51,6 +56,7 @@
       "slug": "sugar",
       "name": "السكر",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sugar"
     },
@@ -58,6 +64,7 @@
       "slug": "whole-wheat-toast",
       "name": "توست القمح الكامل",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/whole-wheat-toast"
     },
@@ -65,6 +72,7 @@
       "slug": "white-bread",
       "name": "الخبز الأبيض والدقيق الأبيض",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/white-bread"
     },
@@ -72,6 +80,7 @@
       "slug": "pasta",
       "name": "المكرونة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pasta"
     },
@@ -79,6 +88,7 @@
       "slug": "biscuits",
       "name": "البسكويت والمخبوزات",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/biscuits"
     },
@@ -86,6 +96,7 @@
       "slug": "beef",
       "name": "اللحم البقري والجاموسي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/beef"
     },
@@ -93,6 +104,7 @@
       "slug": "lamb",
       "name": "لحم الضأن (الخروف)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lamb"
     },
@@ -100,6 +112,7 @@
       "slug": "goat-meat",
       "name": "لحم الماعز",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/goat-meat"
     },
@@ -107,6 +120,7 @@
       "slug": "camel-meat",
       "name": "لحم الإبل (الجمل)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/camel-meat"
     },
@@ -114,6 +128,7 @@
       "slug": "rabbit",
       "name": "لحم الأرنب",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/rabbit"
     },
@@ -121,6 +136,7 @@
       "slug": "liver",
       "name": "الكبدة (ما عدا كبدة الدجاج)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/liver"
     },
@@ -128,6 +144,7 @@
       "slug": "trotters",
       "name": "الكوارع",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/trotters"
     },
@@ -135,6 +152,7 @@
       "slug": "mombar",
       "name": "الممبار المحشي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mombar"
     },
@@ -142,6 +160,7 @@
       "slug": "pigeon",
       "name": "الحمام",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pigeon"
     },
@@ -149,6 +168,7 @@
       "slug": "quail",
       "name": "السمان واليمام",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/quail"
     },
@@ -156,6 +176,7 @@
       "slug": "chicken",
       "name": "الدجاج (دواجن المزارع)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/chicken"
     },
@@ -163,6 +184,7 @@
       "slug": "duck",
       "name": "البط والوز والديك الرومي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/duck"
     },
@@ -170,6 +192,7 @@
       "slug": "sardines",
       "name": "السردين",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sardines"
     },
@@ -177,6 +200,7 @@
       "slug": "sea-fish",
       "name": "أسماك البحر الطبيعية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sea-fish"
     },
@@ -184,6 +208,7 @@
       "slug": "eggs",
       "name": "البيض",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "eggs",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/eggs"
     },
@@ -191,6 +216,7 @@
       "slug": "aged-cheese",
       "name": "الأجبان المعتّقة (رومي، شيدر، جودة، إمنتال)",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/aged-cheese"
     },
@@ -198,6 +224,7 @@
       "slug": "milk",
       "name": "الحليب السائل",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/milk"
     },
@@ -205,6 +232,7 @@
       "slug": "yogurt",
       "name": "الزبادي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/yogurt"
     },
@@ -212,6 +240,7 @@
       "slug": "white-cheese",
       "name": "الجبن الأبيض",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/white-cheese"
     },
@@ -219,6 +248,7 @@
       "slug": "natural-cream",
       "name": "القشطة الطبيعية (البلدي والمعلبة)",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/natural-cream"
     },
@@ -226,6 +256,7 @@
       "slug": "ghee",
       "name": "السمن البلدي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ghee"
     },
@@ -233,6 +264,7 @@
       "slug": "olive-oil",
       "name": "زيت الزيتون",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/olive-oil"
     },
@@ -240,6 +272,7 @@
       "slug": "vegetable-oils",
       "name": "زيت الذرة وعباد الشمس",
       "status": "disputed",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/vegetable-oils"
     },
@@ -254,6 +287,7 @@
       "slug": "leafy-greens",
       "name": "الورقيات (سبانخ، جرجير، خس، بقدونس، ملوخية)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/leafy-greens"
     },
@@ -261,6 +295,7 @@
       "slug": "raw-vegetables",
       "name": "الخيار والجزر والبروكلي والبصل والثوم",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/raw-vegetables"
     },
@@ -268,6 +303,7 @@
       "slug": "zucchini",
       "name": "الكوسة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/zucchini"
     },
@@ -275,6 +311,7 @@
       "slug": "legumes",
       "name": "البقوليات (فول، عدس، حمص، فاصوليا)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/legumes"
     },
@@ -282,6 +319,7 @@
       "slug": "grapes",
       "name": "العنب",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/grapes"
     },
@@ -289,6 +327,7 @@
       "slug": "apple",
       "name": "التفاح (مقشّر)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/apple"
     },
@@ -296,6 +335,7 @@
       "slug": "pomegranate",
       "name": "الرمان",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pomegranate"
     },
@@ -303,6 +343,7 @@
       "slug": "figs",
       "name": "التين الأسود",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/figs"
     },
@@ -310,6 +351,7 @@
       "slug": "banana",
       "name": "الموز",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/banana"
     },
@@ -317,6 +359,7 @@
       "slug": "watermelon",
       "name": "البطيخ والشمام",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/watermelon"
     },
@@ -324,6 +367,7 @@
       "slug": "citrus",
       "name": "البرتقال والكيوي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/citrus"
     },
@@ -331,6 +375,7 @@
       "slug": "nuts",
       "name": "المكسرات (لوز، عين الجمل، فستق، كاجو)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/nuts"
     },
@@ -338,6 +383,7 @@
       "slug": "honey",
       "name": "العسل",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/honey"
     },
@@ -345,6 +391,7 @@
       "slug": "dark-chocolate",
       "name": "الشوكولاتة الداكنة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/dark-chocolate"
     },
@@ -352,6 +399,7 @@
       "slug": "halawa",
       "name": "الحلاوة الطحينية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/halawa"
     },
@@ -359,6 +407,7 @@
       "slug": "nutella",
       "name": "النوتيلا",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/nutella"
     },
@@ -366,6 +415,7 @@
       "slug": "green-tea",
       "name": "الشاي الأخضر",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/green-tea"
     },
@@ -373,6 +423,7 @@
       "slug": "turkish-coffee",
       "name": "القهوة التركية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/turkish-coffee"
     },
@@ -380,6 +431,7 @@
       "slug": "thyme-tea",
       "name": "الزعتر المغلي والأعشاب",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/thyme-tea"
     },
@@ -387,6 +439,7 @@
       "slug": "black-tea",
       "name": "الشاي الأحمر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/black-tea"
     },
@@ -394,6 +447,7 @@
       "slug": "soda",
       "name": "المشروبات الغازية ومشروبات الطاقة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/soda"
     },
@@ -401,6 +455,7 @@
       "slug": "water",
       "name": "الماء",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/water"
     },
@@ -408,6 +463,7 @@
       "slug": "lemon",
       "name": "الليمون",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lemon"
     },
@@ -415,6 +471,7 @@
       "slug": "cane-vinegar",
       "name": "خل القصب",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cane-vinegar"
     },
@@ -422,6 +479,7 @@
       "slug": "olives",
       "name": "الزيتون",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/olives"
     },
@@ -429,6 +487,7 @@
       "slug": "salt-spices",
       "name": "الملح والبهارات الطبيعية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/salt-spices"
     },
@@ -436,6 +495,7 @@
       "slug": "green-salad",
       "name": "السلطة الخضراء والخضار النيء",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/green-salad"
     },
@@ -443,6 +503,7 @@
       "slug": "cottage-cheese",
       "name": "الجبنة القريش",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cottage-cheese"
     },
@@ -450,6 +511,7 @@
       "slug": "shrimp",
       "name": "الجمبري والقشريات البحرية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/shrimp"
     },
@@ -457,6 +519,7 @@
       "slug": "strawberries",
       "name": "الفراولة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/strawberries"
     },
@@ -464,6 +527,7 @@
       "slug": "sweet-potato",
       "name": "البطاطا الحلوة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sweet-potato"
     },
@@ -471,6 +535,7 @@
       "slug": "tahini",
       "name": "طحينة السمسم الطبيعية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/tahini"
     },
@@ -478,6 +543,7 @@
       "slug": "cherries",
       "name": "الكريز / الكرز",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cherries"
     },
@@ -485,6 +551,7 @@
       "slug": "farm-fish",
       "name": "أسماك المزارع (البلطي والبوري)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/farm-fish"
     },
@@ -492,6 +559,7 @@
       "slug": "kunafa",
       "name": "الكنافة والحلويات الشرقية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/kunafa"
     },
@@ -499,6 +567,7 @@
       "slug": "black-eyed-peas",
       "name": "اللوبيا والفاصوليا الجافة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/black-eyed-peas"
     },
@@ -506,6 +575,7 @@
       "slug": "potato-chips",
       "name": "رقائق البطاطس (الشيبسي)",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/potato-chips"
     },
@@ -513,6 +583,7 @@
       "slug": "oriental-sausage",
       "name": "السجق الشرقي البقري",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/oriental-sausage"
     },
@@ -520,6 +591,7 @@
       "slug": "beef-burger-hotdog",
       "name": "البرجر والسوسيس البقري والكبة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/beef-burger-hotdog"
     },
@@ -527,6 +599,7 @@
       "slug": "ice-cream",
       "name": "الآيس كريم والجيلاتي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ice-cream"
     },
@@ -534,6 +607,7 @@
       "slug": "popcorn",
       "name": "الفشار الطبيعي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/popcorn"
     },
@@ -541,6 +615,7 @@
       "slug": "taro",
       "name": "القلقاس المطبوخ",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/taro"
     },
@@ -548,6 +623,7 @@
       "slug": "okra",
       "name": "البامية المطبوخة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/okra"
     },
@@ -555,6 +631,7 @@
       "slug": "eggplant",
       "name": "الباذنجان (الرومي والعروس)",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/eggplant"
     },
@@ -562,6 +639,7 @@
       "slug": "mango",
       "name": "المانجو وعصير المانجو",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mango"
     },
@@ -569,6 +647,7 @@
       "slug": "processed-cheese",
       "name": "الجبن المطبوخ والمثلثات والكاشكفال والإيدام",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/processed-cheese"
     },
@@ -576,6 +655,7 @@
       "slug": "oats",
       "name": "الشوفان ودقيق الشوفان وبسكوت الشوفان",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/oats"
     },
@@ -583,6 +663,7 @@
       "slug": "corn-flour",
       "name": "دقيق الذرة ونشا الذرة المصنع",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/corn-flour"
     },
@@ -590,6 +671,7 @@
       "slug": "traditional-pastries",
       "name": "المخبوزات التقليدية والفطير والحلويات المصنعة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/traditional-pastries"
     },
@@ -597,6 +679,7 @@
       "slug": "berries",
       "name": "التوت بأنواعه وعصير التوت",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/berries"
     },
@@ -604,6 +687,7 @@
       "slug": "guava",
       "name": "الجوافة وعصير الجوافة الطبيعي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/guava"
     },
@@ -611,6 +695,7 @@
       "slug": "sugarcane",
       "name": "قصب السكر وعصير القصب الطبيعي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sugarcane"
     },
@@ -618,6 +703,7 @@
       "slug": "ful-medames",
       "name": "الفول المدمس",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ful-medames"
     },
@@ -625,6 +711,7 @@
       "slug": "molokhia",
       "name": "الملوخية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/molokhia"
     },
@@ -632,6 +719,7 @@
       "slug": "tomato",
       "name": "الطماطم ومعجون الطماطم",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/tomato"
     },
@@ -639,6 +727,7 @@
       "slug": "onions",
       "name": "البصل",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/onions"
     },
@@ -646,6 +735,7 @@
       "slug": "garlic",
       "name": "الثوم",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/garlic"
     },
@@ -653,6 +743,7 @@
       "slug": "cucumber",
       "name": "الخيار",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cucumber"
     },
@@ -660,6 +751,7 @@
       "slug": "egyptian-rice",
       "name": "الأرز المصري قصير الحبة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/egyptian-rice"
     },
@@ -667,6 +759,7 @@
       "slug": "animal-tallow-liyya",
       "name": "دهن اللية والودك والدهون الحيوانية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/animal-tallow-liyya"
     },
@@ -674,6 +767,7 @@
       "slug": "flaxseed-oil",
       "name": "الزيت الحار / زيت بذرة الكتان",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/flaxseed-oil"
     },
@@ -681,6 +775,7 @@
       "slug": "hibiscus-tea",
       "name": "الكركديه",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/hibiscus-tea"
     },
@@ -688,6 +783,7 @@
       "slug": "mackerel",
       "name": "سمك الماكريل البحري",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mackerel"
     },
@@ -695,6 +791,7 @@
       "slug": "wild-mullet",
       "name": "سمك البوري البحري الصيد",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/wild-mullet"
     },
@@ -702,6 +799,7 @@
       "slug": "baladi-chicken",
       "name": "الدجاج البلدي / الفراخ البلدي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baladi-chicken"
     },
@@ -709,6 +807,7 @@
       "slug": "rayeb-milk",
       "name": "اللبن الرايب",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/rayeb-milk"
     },
@@ -716,6 +815,7 @@
       "slug": "farmed-tilapia",
       "name": "البلطي المزارع",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/farmed-tilapia"
     },
@@ -723,6 +823,7 @@
       "slug": "boiled-mint",
       "name": "النعناع المغلي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/boiled-mint"
     },
@@ -730,6 +831,7 @@
       "slug": "milk-tea",
       "name": "الشاي بالحليب / الشاي بلبن",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/milk-tea"
     },
@@ -737,6 +839,7 @@
       "slug": "koshary",
       "name": "الكشري المصري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/koshary"
     },
@@ -744,6 +847,7 @@
       "slug": "taameya-falafel",
       "name": "الطعمية / الفلافل المصرية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/taameya-falafel"
     },
@@ -751,6 +855,7 @@
       "slug": "fino-bread",
       "name": "العيش الفينو",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fino-bread"
     },
@@ -758,6 +863,7 @@
       "slug": "bouillon-cubes",
       "name": "مكعبات مرقة الدجاج واللحم المصنعة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/bouillon-cubes"
     },
@@ -765,6 +871,7 @@
       "slug": "commercial-baladi-bread",
       "name": "العيش البلدي التجاري (السوقي)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/commercial-baladi-bread"
     },
@@ -772,6 +879,7 @@
       "slug": "sun-bread",
       "name": "خبز السن / خبز الردة والنخالة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sun-bread"
     },
@@ -779,6 +887,7 @@
       "slug": "shami-bread",
       "name": "العيش الشامي / الخبز الأبيض المدور",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/shami-bread"
     },
@@ -786,6 +895,7 @@
       "slug": "lebanese-bread",
       "name": "الخبز اللبناني المفرود",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lebanese-bread"
     },
@@ -793,6 +903,7 @@
       "slug": "french-baguette",
       "name": "الباجيت والخبز الفرنسي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/french-baguette"
     },
@@ -800,6 +911,7 @@
       "slug": "white-toast",
       "name": "التوست الأبيض التجاري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/white-toast"
     },
@@ -807,6 +919,7 @@
       "slug": "oat-bread",
       "name": "خبز الشوفان الخالص",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/oat-bread"
     },
@@ -814,6 +927,7 @@
       "slug": "multigrain-bread",
       "name": "خبز الحبوب المتعددة والبذور",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/multigrain-bread"
     },
@@ -821,6 +935,7 @@
       "slug": "wheat-tortilla",
       "name": "تورتيلا القمح والعيش المكسيكي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/wheat-tortilla"
     },
@@ -828,6 +943,7 @@
       "slug": "saj-bread",
       "name": "خبز الصاج والشراك المفرود",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/saj-bread"
     },
@@ -835,6 +951,7 @@
       "slug": "roqaq-dough",
       "name": "عجينة الرقاق المصري (ناشف وطري)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/roqaq-dough"
     },
@@ -842,6 +959,7 @@
       "slug": "rice-bread",
       "name": "خبز الأرز الخالي من الجلوتين",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/rice-bread"
     },
@@ -849,6 +967,7 @@
       "slug": "long-grain-white-rice",
       "name": "الأرز الأبيض طويل الحبة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/long-grain-white-rice"
     },
@@ -856,6 +975,7 @@
       "slug": "brown-rice",
       "name": "الأرز البني (حبة كاملة)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/brown-rice"
     },
@@ -863,6 +983,7 @@
       "slug": "rice-with-vermicelli",
       "name": "الأرز المصري بالشعرية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/rice-with-vermicelli"
     },
@@ -870,6 +991,7 @@
       "slug": "roz-meammar",
       "name": "الأرز المعمر الفلاحي",
       "status": "unknown",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/roz-meammar"
     },
@@ -877,6 +999,7 @@
       "slug": "orzo",
       "name": "لسان العصفور",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/orzo"
     },
@@ -884,6 +1007,7 @@
       "slug": "vermicelli",
       "name": "الشعرية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/vermicelli"
     },
@@ -891,6 +1015,7 @@
       "slug": "instant-noodles",
       "name": "الإندومي والنودلز سريعة التحضير",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/instant-noodles"
     },
@@ -898,6 +1023,7 @@
       "slug": "freekeh",
       "name": "الفريك الأخضر الصعيدي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/freekeh"
     },
@@ -905,6 +1031,7 @@
       "slug": "bulgur",
       "name": "البرغل القمح الخشن والناعم",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/bulgur"
     },
@@ -912,6 +1039,7 @@
       "slug": "semolina",
       "name": "سميد القمح (دقيق البسبوسة والسيمولينا)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/semolina"
     },
@@ -919,6 +1047,7 @@
       "slug": "corn",
       "name": "الذرة الصفراء والبيضاء والمشوية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/corn"
     },
@@ -926,6 +1055,7 @@
       "slug": "corn-flakes",
       "name": "كورن فليكس ورقائق الذرة المصنعة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/corn-flakes"
     },
@@ -933,6 +1063,7 @@
       "slug": "belila",
       "name": "البليلة بالقمح الكامل المقشور",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/belila"
     },
@@ -940,6 +1071,7 @@
       "slug": "barley",
       "name": "الشعير والتلبينة النبوية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/barley"
     },
@@ -947,6 +1079,7 @@
       "slug": "quinoa",
       "name": "الكينوا وحبوبها المستوردة",
       "status": "disputed",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/quinoa"
     },
@@ -954,6 +1087,7 @@
       "slug": "couscous",
       "name": "الكسكسي المصري والمغاربي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/couscous"
     },
@@ -961,6 +1095,7 @@
       "slug": "boiled-potatoes",
       "name": "البطاطس المسلوقة بالماء والملح",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/boiled-potatoes"
     },
@@ -968,6 +1103,7 @@
       "slug": "baked-potatoes",
       "name": "البطاطس المشوية بالفرن",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baked-potatoes"
     },
@@ -975,6 +1111,7 @@
       "slug": "mashed-potatoes",
       "name": "البطاطس المهروسة بالسمن والزبدة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mashed-potatoes"
     },
@@ -982,6 +1119,7 @@
       "slug": "baked-sweet-potato",
       "name": "البطاطا الحلوة المشوية بالفرن",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baked-sweet-potato"
     },
@@ -989,6 +1127,7 @@
       "slug": "beetroot",
       "name": "البنجر / الشمندر السكري المسلوق",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/beetroot"
     },
@@ -996,6 +1135,7 @@
       "slug": "turnip",
       "name": "اللفت الطازج والمطبوخ",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/turnip"
     },
@@ -1003,6 +1143,7 @@
       "slug": "carrots",
       "name": "الجزر الطازج والمسلوق",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/carrots"
     },
@@ -1010,6 +1151,7 @@
       "slug": "cooked-zucchini",
       "name": "الكوسة المطبوخة المسلوقة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cooked-zucchini"
     },
@@ -1017,6 +1159,7 @@
       "slug": "cooked-okra",
       "name": "طبيخ البامية المطبوخة بالصلصة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cooked-okra"
     },
@@ -1024,6 +1167,7 @@
       "slug": "cooked-spinach",
       "name": "السبانخ المطبوخة بالصلصة واللحم",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cooked-spinach"
     },
@@ -1031,6 +1175,7 @@
       "slug": "fresh-herbs-parsley-dill-coriander",
       "name": "خضرة المحشي (البقدونس والكزبرة الخضراء والشبت)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-herbs-parsley-dill-coriander"
     },
@@ -1038,6 +1183,7 @@
       "slug": "celery",
       "name": "الكرفس البلدي والأفرنجي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/celery"
     },
@@ -1045,6 +1191,7 @@
       "slug": "cabbage",
       "name": "الكرنب البلدي المسلوق والمطبوخ",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cabbage"
     },
@@ -1052,6 +1199,7 @@
       "slug": "cauliflower",
       "name": "القرنبيط المسلوق أو المشوي بالفرن",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cauliflower"
     },
@@ -1059,6 +1207,7 @@
       "slug": "broccoli",
       "name": "البروكلي الأخضر المسلوق على البخار",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/broccoli"
     },
@@ -1066,6 +1215,7 @@
       "slug": "bell-pepper",
       "name": "الفلفل الرومي الألوان والحلو",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/bell-pepper"
     },
@@ -1073,6 +1223,7 @@
       "slug": "hot-chili-pepper",
       "name": "الفلفل الحار الأخضر والأحمر والشطة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/hot-chili-pepper"
     },
@@ -1080,6 +1231,7 @@
       "slug": "artichoke",
       "name": "الخرشوف البلدي المسلوق والمطبوخ",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/artichoke"
     },
@@ -1087,6 +1239,7 @@
       "slug": "green-peas",
       "name": "البسلة الخضراء المطبوخة بالجزر",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/green-peas"
     },
@@ -1094,6 +1247,7 @@
       "slug": "green-beans",
       "name": "الفاصوليا الخضراء المطبوخة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/green-beans"
     },
@@ -1101,6 +1255,7 @@
       "slug": "fresh-mushrooms",
       "name": "المشروم / الفطر الطازج",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-mushrooms"
     },
@@ -1108,6 +1263,7 @@
       "slug": "pumpkin-squash",
       "name": "اليقطين / قرع العسل المطبوخ",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pumpkin-squash"
     },
@@ -1115,6 +1271,7 @@
       "slug": "grape-leaves",
       "name": "ورق العنب المسلوق للمحشي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/grape-leaves"
     },
@@ -1122,6 +1279,7 @@
       "slug": "yellow-lentils",
       "name": "العدس الأصفر المجروش",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/yellow-lentils"
     },
@@ -1129,6 +1287,7 @@
       "slug": "brown-lentils",
       "name": "العدس البني بجبة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/brown-lentils"
     },
@@ -1136,6 +1295,7 @@
       "slug": "black-beluga-lentils",
       "name": "العدس الأسود الكامل",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/black-beluga-lentils"
     },
@@ -1143,6 +1303,7 @@
       "slug": "chickpeas",
       "name": "حمص الشام المسلوق",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/chickpeas"
     },
@@ -1150,6 +1311,7 @@
       "slug": "white-navy-beans",
       "name": "الفاصوليا البيضاء الجافة المسلوقة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/white-navy-beans"
     },
@@ -1157,6 +1319,7 @@
       "slug": "red-kidney-beans",
       "name": "الفاصوليا الحمراء الجافة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/red-kidney-beans"
     },
@@ -1164,6 +1327,7 @@
       "slug": "black-eyed-peas-dry",
       "name": "اللوبيا الجافة المسلوقة بالصلصة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/black-eyed-peas-dry"
     },
@@ -1171,6 +1335,7 @@
       "slug": "lupini-beans",
       "name": "الترمس البلدي المسلوق (حلو ومر)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lupini-beans"
     },
@@ -1178,6 +1343,7 @@
       "slug": "soybeans",
       "name": "فول الصويا وحليب ومنتجات الصويا",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/soybeans"
     },
@@ -1185,6 +1351,7 @@
       "slug": "green-fava-beans",
       "name": "الفول الأخضر الحراتي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/green-fava-beans"
     },
@@ -1192,6 +1359,7 @@
       "slug": "peanuts",
       "name": "الفول السوداني ومكسراته المحمصة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/peanuts"
     },
@@ -1199,6 +1367,7 @@
       "slug": "buffalo-meat",
       "name": "اللحم الجاموسي البلدي الطازج",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/buffalo-meat"
     },
@@ -1206,6 +1375,7 @@
       "slug": "ground-beef",
       "name": "اللحم المفروم البلدي الصافي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ground-beef"
     },
@@ -1213,6 +1383,7 @@
       "slug": "beef-steak",
       "name": "ستيك وبفتيك اللحم البقري الطازج",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/beef-steak"
     },
@@ -1220,6 +1391,7 @@
       "slug": "kebab",
       "name": "كباب اللحم المشوي على الفحم",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/kebab"
     },
@@ -1227,6 +1399,7 @@
       "slug": "homemade-kofta",
       "name": "كفتة اللحم البيتي المشوية بالسمن والدهن",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/homemade-kofta"
     },
@@ -1234,6 +1407,7 @@
       "slug": "restaurant-kofta",
       "name": "كفتة الحاتي والمطاعم الجاهزة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/restaurant-kofta"
     },
@@ -1241,6 +1415,7 @@
       "slug": "lamb-chops",
       "name": "ريش اللحم الضاني المشوية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lamb-chops"
     },
@@ -1248,6 +1423,7 @@
       "slug": "meat-shank",
       "name": "موزة اللحم البقري أو الضاني بالفرن",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/meat-shank"
     },
@@ -1255,6 +1431,7 @@
       "slug": "alexandrian-liver",
       "name": "الكبدة الإسكندراني البلدي بالثوم والفلفل",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/alexandrian-liver"
     },
@@ -1262,6 +1439,7 @@
       "slug": "heart-kidneys",
       "name": "القلب والكلاوي البلدي الطازجة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/heart-kidneys"
     },
@@ -1269,6 +1447,7 @@
       "slug": "brains-head-meat",
       "name": "المخ ولحمة الرأس البلدي المسلوقة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/brains-head-meat"
     },
@@ -1276,6 +1455,7 @@
       "slug": "tongue-spleen",
       "name": "اللسان والطحال البلدي المسلوق",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/tongue-spleen"
     },
@@ -1283,6 +1463,7 @@
       "slug": "trotters-cow",
       "name": "كوارع الأبقار والجاموس البلدي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/trotters-cow"
     },
@@ -1290,6 +1471,7 @@
       "slug": "tripe-mombar",
       "name": "الكرشة والممبار البيتي النظيف",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/tripe-mombar"
     },
@@ -1297,6 +1479,7 @@
       "slug": "baladi-sausage-fresh",
       "name": "السجق البلدي البيتي الطازج",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baladi-sausage-fresh"
     },
@@ -1304,6 +1487,7 @@
       "slug": "pastirma",
       "name": "البسطرمة البلدي الطبيعية بالثوم والحلبة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pastirma"
     },
@@ -1311,6 +1495,7 @@
       "slug": "luncheon-meat",
       "name": "اللانشون المصنع بجميع أنواعه",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/luncheon-meat"
     },
@@ -1318,6 +1503,7 @@
       "slug": "hot-dogs",
       "name": "الهوت دوج والفرانكفورتر التجاري المصنع",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/hot-dogs"
     },
@@ -1325,6 +1511,7 @@
       "slug": "farm-chicken-breasts",
       "name": "صدور دجاج المزارع البيضاء المخلية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/farm-chicken-breasts"
     },
@@ -1332,6 +1519,7 @@
       "slug": "farm-chicken-thighs",
       "name": "أوراك ودبابيس دجاج المزارع البيضاء",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/farm-chicken-thighs"
     },
@@ -1339,6 +1527,7 @@
       "slug": "chicken-gizzards-liver",
       "name": "كبد وقوانص الدجاج البلدي الطازجة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/chicken-gizzards-liver"
     },
@@ -1346,6 +1535,7 @@
       "slug": "baladi-duck",
       "name": "البط البلدي الفلاحي الطازج",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baladi-duck"
     },
@@ -1353,6 +1543,7 @@
       "slug": "baladi-geese",
       "name": "الأوز البلدي الطازج",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baladi-geese"
     },
@@ -1360,6 +1551,7 @@
       "slug": "turkey",
       "name": "الديك الرومي البلدي الطازج",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/turkey"
     },
@@ -1367,6 +1559,7 @@
       "slug": "quail-meat",
       "name": "لحم السمان البلدي الطازج",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/quail-meat"
     },
@@ -1374,6 +1567,7 @@
       "slug": "wild-dove",
       "name": "اليمام والحمام البري الطبيعي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/wild-dove"
     },
@@ -1381,6 +1575,7 @@
       "slug": "wild-tilapia",
       "name": "سمك البلطي النيلي صيد حر طبيعي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/wild-tilapia"
     },
@@ -1388,6 +1583,7 @@
       "slug": "farmed-mullet",
       "name": "سمك البوري المزارع",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/farmed-mullet"
     },
@@ -1395,6 +1591,7 @@
       "slug": "fresh-tuna",
       "name": "سمك التونة الطازج صيد بحري",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-tuna"
     },
@@ -1402,6 +1599,7 @@
       "slug": "canned-tuna-water",
       "name": "التونة المعلبة في محلول ملحي بالماء",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/canned-tuna-water"
     },
@@ -1409,6 +1607,7 @@
       "slug": "canned-tuna-oil",
       "name": "التونة المعلبة في زيت نباتي تجاري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/canned-tuna-oil"
     },
@@ -1416,6 +1615,7 @@
       "slug": "wild-salmon",
       "name": "سمك السلمون البري صيد بحري طبيعي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/wild-salmon"
     },
@@ -1423,6 +1623,7 @@
       "slug": "farmed-salmon",
       "name": "سمك السلمون المزارع الأطلسي المستورد",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/farmed-salmon"
     },
@@ -1430,6 +1631,7 @@
       "slug": "sea-bass",
       "name": "سمك القاروص البحري صيد طبيعي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sea-bass"
     },
@@ -1437,6 +1639,7 @@
       "slug": "sea-bream",
       "name": "سمك الدنيس البحري صيد طبيعي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sea-bream"
     },
@@ -1444,6 +1647,7 @@
       "slug": "sole-fish",
       "name": "سمك موسى البحري الطازج",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sole-fish"
     },
@@ -1451,6 +1655,7 @@
       "slug": "red-porgy",
       "name": "سمك المرجان والوقار البحري",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/red-porgy"
     },
@@ -1458,6 +1663,7 @@
       "slug": "smoked-herring",
       "name": "الرنجة المدخنة المعبأة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/smoked-herring"
     },
@@ -1465,6 +1671,7 @@
       "slug": "feseekh",
       "name": "الفسيخ المصري المملح",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/feseekh"
     },
@@ -1472,6 +1679,7 @@
       "slug": "anchovies",
       "name": "الأنشوجة البحرية الطازجة والمملحة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/anchovies"
     },
@@ -1479,6 +1687,7 @@
       "slug": "crab",
       "name": "الكابوريا البحرية الطازجة (ذكور وإناث)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/crab"
     },
@@ -1486,6 +1695,7 @@
       "slug": "lobster",
       "name": "الاستاكوزا والكركند البحري الطازج",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lobster"
     },
@@ -1493,6 +1703,7 @@
       "slug": "squid-calamari",
       "name": "السبيط والكاليماري البحري الطازج",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/squid-calamari"
     },
@@ -1500,6 +1711,7 @@
       "slug": "octopus",
       "name": "الأخطبوط البحري الطازج",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/octopus"
     },
@@ -1507,6 +1719,7 @@
       "slug": "mussels-clams",
       "name": "بلح البحر والجندوفلي والمحار البحري",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fish",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mussels-clams"
     },
@@ -1514,6 +1727,7 @@
       "slug": "buffalo-milk",
       "name": "اللبن الجاموسي البلدي المغلي كامل الدسم",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/buffalo-milk"
     },
@@ -1521,6 +1735,7 @@
       "slug": "cow-milk",
       "name": "اللبن البقري البلدي المغلي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cow-milk"
     },
@@ -1528,6 +1743,7 @@
       "slug": "milk-powder",
       "name": "اللبن البودرة والحليب المجفف الصناعي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/milk-powder"
     },
@@ -1535,6 +1751,7 @@
       "slug": "skimmed-milk",
       "name": "اللبن خالي الدسم التجاري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/skimmed-milk"
     },
@@ -1542,6 +1759,7 @@
       "slug": "greek-yogurt",
       "name": "الزبادي اليوناني الطبيعي المصفى",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/greek-yogurt"
     },
@@ -1549,6 +1767,7 @@
       "slug": "milk-kefir",
       "name": "الكفير / الفطر الهندي الحليبي المخمر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/milk-kefir"
     },
@@ -1556,6 +1775,7 @@
       "slug": "fresh-baladi-cream",
       "name": "القشطة البلدي الفلاحي الطازجة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-baladi-cream"
     },
@@ -1563,6 +1783,7 @@
       "slug": "fresh-cooking-cream",
       "name": "كريمة الطهي والخفق الحيوانية الطبيعية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-cooking-cream"
     },
@@ -1570,6 +1791,7 @@
       "slug": "feta-natural-cheese",
       "name": "جبنة فيتا طبيعية من حليب نقي بدون زيوت نباتية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/feta-natural-cheese"
     },
@@ -1577,6 +1799,7 @@
       "slug": "istanbouli-cheese",
       "name": "الجبنة الإسطنبولي والبراميلي بالفلفل الطبيعية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/istanbouli-cheese"
     },
@@ -1584,6 +1807,7 @@
       "slug": "damiati-cheese",
       "name": "الجبنة الدمياطي البيضاء المخزنة في المحلول الملحي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/damiati-cheese"
     },
@@ -1591,6 +1815,7 @@
       "slug": "mish-cheese",
       "name": "الجبن المش الفلاحي القديم",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mish-cheese"
     },
@@ -1598,6 +1823,7 @@
       "slug": "aged-cheddar-cheese",
       "name": "جبنة شيدر إنجليزية طبيعية معتقة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/aged-cheddar-cheese"
     },
@@ -1605,6 +1831,7 @@
       "slug": "gouda-edam-cheese",
       "name": "جبنة جودة وإيدام هولندية طبيعية معتقة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/gouda-edam-cheese"
     },
@@ -1612,6 +1839,7 @@
       "slug": "parmesan-reggiano",
       "name": "جبنة بارميزان ريجانو الإيطالية المعتقة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/parmesan-reggiano"
     },
@@ -1619,6 +1847,7 @@
       "slug": "natural-mozzarella",
       "name": "جبنة موتزاريلا طبيعية 100% من حليب بقري أو جاموسي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/natural-mozzarella"
     },
@@ -1626,6 +1855,7 @@
       "slug": "cream-cheese-spread",
       "name": "الجبنة الكريمي الطبيعية القابلة للدهن",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "dairy",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cream-cheese-spread"
     },
@@ -1633,6 +1863,7 @@
       "slug": "vegetable-fat-cheese",
       "name": "الأجبان البيضاء والصفراء المهدرجة نباتية الدهن",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/vegetable-fat-cheese"
     },
@@ -1640,6 +1871,7 @@
       "slug": "beef-tallow-wadak",
       "name": "شحم ودهن الكلى البقري والودك المذاب",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/beef-tallow-wadak"
     },
@@ -1647,6 +1879,7 @@
       "slug": "extra-virgin-olive-oil",
       "name": "زيت الزيتون البكر الممتاز المعصور على البارد",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/extra-virgin-olive-oil"
     },
@@ -1654,6 +1887,7 @@
       "slug": "cold-pressed-sesame-oil",
       "name": "زيت السمسم النقي المعصور على البارد",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cold-pressed-sesame-oil"
     },
@@ -1661,6 +1895,7 @@
       "slug": "virgin-coconut-oil",
       "name": "زيت جوز الهند البكر العضوي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/virgin-coconut-oil"
     },
@@ -1668,6 +1903,7 @@
       "slug": "corn-oil",
       "name": "زيت الذرة التجاري المكرر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/corn-oil"
     },
@@ -1675,6 +1911,7 @@
       "slug": "soybean-oil",
       "name": "زيت الصويا التجاري المكرر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/soybean-oil"
     },
@@ -1682,6 +1919,7 @@
       "slug": "canola-oil",
       "name": "زيت الكانولا وبذور اللفت المكرر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/canola-oil"
     },
@@ -1689,6 +1927,7 @@
       "slug": "refined-palm-oil",
       "name": "زيت النخيل وزيت أولين النخيل المكرر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/refined-palm-oil"
     },
@@ -1696,6 +1935,7 @@
       "slug": "peanut-oil",
       "name": "زيت الفول السوداني المكرر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/peanut-oil"
     },
@@ -1703,6 +1943,7 @@
       "slug": "vegetable-shortening",
       "name": "السمن النباتي المهدرج المصنع (المارجرين)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fats",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/vegetable-shortening"
     },
@@ -1710,6 +1951,7 @@
       "slug": "peeled-almonds",
       "name": "اللوز الحلو المقشر المبيض",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/peeled-almonds"
     },
@@ -1717,6 +1959,7 @@
       "slug": "walnuts",
       "name": "عين الجمل / الجوز الطبيعي غير المحمص",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/walnuts"
     },
@@ -1724,6 +1967,7 @@
       "slug": "hazelnuts",
       "name": "البندق الطبيعي المقشر",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/hazelnuts"
     },
@@ -1731,6 +1975,7 @@
       "slug": "pistachios",
       "name": "الفستق الحلبي المقشر الطبيعي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pistachios"
     },
@@ -1738,6 +1983,7 @@
       "slug": "cashews",
       "name": "الكاجو الطبيعي غير المملح",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cashews"
     },
@@ -1745,6 +1991,7 @@
       "slug": "grated-coconut",
       "name": "مبشور جوز الهند الطبيعي المجفف",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/grated-coconut"
     },
@@ -1752,6 +1999,7 @@
       "slug": "macadamia-nuts",
       "name": "مكسرات المكاديميا الطبيعية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/macadamia-nuts"
     },
@@ -1759,6 +2007,7 @@
       "slug": "sesame-seeds",
       "name": "السمسم الأبيض المقشر والمحمص خفيفًا",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sesame-seeds"
     },
@@ -1766,6 +2015,7 @@
       "slug": "flaxseeds",
       "name": "بذور الكتان البنية والذهبية المطحونة طازجة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/flaxseeds"
     },
@@ -1773,6 +2023,7 @@
       "slug": "chia-seeds",
       "name": "بذور الشيا الكاملة المنقوعة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/chia-seeds"
     },
@@ -1780,6 +2031,7 @@
       "slug": "sunflower-seeds",
       "name": "بذور دوار الشمس (اللب السوري المحمص خفيفًا)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sunflower-seeds"
     },
@@ -1787,6 +2039,7 @@
       "slug": "pumpkin-seeds",
       "name": "بذور قرع العسل (اللب الأبيض النقي)",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pumpkin-seeds"
     },
@@ -1794,6 +2047,7 @@
       "slug": "black-seed",
       "name": "حبة البركة / الحبة السوداء الطبيعية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "nuts",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/black-seed"
     },
@@ -1801,6 +2055,7 @@
       "slug": "prickly-pear",
       "name": "التين الشوكي البلدي المقشر",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/prickly-pear"
     },
@@ -1808,6 +2063,7 @@
       "slug": "pears",
       "name": "الكمثرى الطازجة الناضجة المقشرة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pears"
     },
@@ -1815,6 +2071,7 @@
       "slug": "peaches",
       "name": "الخوخ البلدي الناضج المقشر",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/peaches"
     },
@@ -1822,6 +2079,7 @@
       "slug": "apricots",
       "name": "المشمش البلدي الطازج الناضج",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/apricots"
     },
@@ -1829,6 +2087,7 @@
       "slug": "plums",
       "name": "البرقوق الطازج الناضج",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/plums"
     },
@@ -1836,6 +2095,7 @@
       "slug": "cantaloupe-sweet-melon",
       "name": "الشمام والكانتلوب البلدي والأناناس المصري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cantaloupe-sweet-melon"
     },
@@ -1843,6 +2103,7 @@
       "slug": "oranges",
       "name": "البرتقال البلدي والسكري وأبو سرة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/oranges"
     },
@@ -1850,6 +2111,7 @@
       "slug": "mandarins",
       "name": "اليوسفي / اليوسف أفندي البلدي والكلمنتينا",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mandarins"
     },
@@ -1857,6 +2119,7 @@
       "slug": "grapefruit",
       "name": "الجريب فروت الوردي والأبيض",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/grapefruit"
     },
@@ -1864,6 +2127,7 @@
       "slug": "kiwi",
       "name": "الكيوي المقشر الناضج",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/kiwi"
     },
@@ -1871,6 +2135,7 @@
       "slug": "pineapple",
       "name": "الأناناس الطبيعي الطازج",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pineapple"
     },
@@ -1878,6 +2143,7 @@
       "slug": "avocado",
       "name": "الأفوكادو الطازج الناضج",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/avocado"
     },
@@ -1885,6 +2151,7 @@
       "slug": "fresh-yellow-dates",
       "name": "البلح الأصفر السماني والزغلول الطازج",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-yellow-dates"
     },
@@ -1892,6 +2159,7 @@
       "slug": "persimmon",
       "name": "الكاكا / الخرمة الناضجة الحلوة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/persimmon"
     },
@@ -1899,6 +2167,7 @@
       "slug": "cherimoya-custard-apple",
       "name": "فاكهة القشطة الاستوائية الناضجة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cherimoya-custard-apple"
     },
@@ -1906,6 +2175,7 @@
       "slug": "papaya",
       "name": "البابايا الاستوائية الناضجة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/papaya"
     },
@@ -1913,6 +2183,7 @@
       "slug": "raisins",
       "name": "الزبيب البلدي المجفف بالشمس",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/raisins"
     },
@@ -1920,6 +2191,7 @@
       "slug": "dried-figs",
       "name": "التين المجفف الطبيعي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/dried-figs"
     },
@@ -1927,6 +2199,7 @@
       "slug": "dried-apricots",
       "name": "المشمشية والمشمش المجفف",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/dried-apricots"
     },
@@ -1934,6 +2207,7 @@
       "slug": "dried-prunes",
       "name": "القراصيا والبرقوق المجفف",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "fruits",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/dried-prunes"
     },
@@ -1941,6 +2215,7 @@
       "slug": "wild-thyme",
       "name": "الزعتر البري الطبيعي المجفف والمغلي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/wild-thyme"
     },
@@ -1948,6 +2223,7 @@
       "slug": "anise-tea",
       "name": "اليانسون البلدي المغلي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/anise-tea"
     },
@@ -1955,6 +2231,7 @@
       "slug": "caraway-tea",
       "name": "الكراوية المغلية للأمعاء والهضم",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/caraway-tea"
     },
@@ -1962,6 +2239,7 @@
       "slug": "fenugreek-tea",
       "name": "الحلبة الحصى المغلية",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fenugreek-tea"
     },
@@ -1969,6 +2247,7 @@
       "slug": "cinnamon",
       "name": "القرفة السيلانية الخشب والمطحونة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cinnamon"
     },
@@ -1976,6 +2255,7 @@
       "slug": "ginger",
       "name": "الزنجبيل الطازج والمجفف المغلي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ginger"
     },
@@ -1983,6 +2263,7 @@
       "slug": "chamomile-tea",
       "name": "البابونج / الكاموميل المغلي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/chamomile-tea"
     },
@@ -1990,6 +2271,7 @@
       "slug": "turmeric",
       "name": "الكركم الطبيعي المطحون",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/turmeric"
     },
@@ -1997,6 +2279,7 @@
       "slug": "cumin",
       "name": "الكمون البلدي الصحيح والمطحون",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cumin"
     },
@@ -2004,6 +2287,7 @@
       "slug": "dry-coriander",
       "name": "الكزبرة الجافة المطحونة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/dry-coriander"
     },
@@ -2011,6 +2295,7 @@
       "slug": "black-pepper",
       "name": "الفلفل الأسود الحصى والمطحون",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/black-pepper"
     },
@@ -2018,6 +2303,7 @@
       "slug": "red-chili-powder",
       "name": "الشطة الحمراء البودرة المطحونة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/red-chili-powder"
     },
@@ -2025,6 +2311,7 @@
       "slug": "sweet-paprika",
       "name": "البابريكا الحلوة الطبيعية غير الحارة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sweet-paprika"
     },
@@ -2032,6 +2319,7 @@
       "slug": "cardamom-mastic-laurel",
       "name": "الحبهان (الهيل) والمستكة وورق اللورا",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cardamom-mastic-laurel"
     },
@@ -2039,6 +2327,7 @@
       "slug": "cloves",
       "name": "القرنفل / المسمار الحصى",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cloves"
     },
@@ -2046,6 +2335,7 @@
       "slug": "pure-water",
       "name": "المياه الطبيعية المفلترة النقية ومياه الآبار",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pure-water"
     },
@@ -2053,6 +2343,7 @@
       "slug": "sparkling-water",
       "name": "المياه الفوارة السادة بدون نكهات أو سكر",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sparkling-water"
     },
@@ -2060,6 +2351,7 @@
       "slug": "arabic-coffee",
       "name": "القهوة العربية الشقراء بالهيل والزعفران",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/arabic-coffee"
     },
@@ -2067,6 +2359,7 @@
       "slug": "espresso",
       "name": "قهوة الإسبريسو النقية المركزة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/espresso"
     },
@@ -2074,6 +2367,7 @@
       "slug": "instant-black-coffee",
       "name": "النسكافيه البلاك والقهوة سريعة الذوبان النقية",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/instant-black-coffee"
     },
@@ -2081,6 +2375,7 @@
       "slug": "coffee-3-in-1",
       "name": "قهوة 3 في 1 ومبيضات القهوة الصناعية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/coffee-3-in-1"
     },
@@ -2088,6 +2383,7 @@
       "slug": "cappuccino-latte",
       "name": "الكابتشينو واللاتيه بالحليب المبخر",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/cappuccino-latte"
     },
@@ -2095,6 +2391,7 @@
       "slug": "hot-chocolate",
       "name": "الكاكاو الخام الطبيعي باللبن والعسل",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/hot-chocolate"
     },
@@ -2102,6 +2399,7 @@
       "slug": "pomegranate-juice",
       "name": "عصير الرمان الطازج الصافي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pomegranate-juice"
     },
@@ -2109,6 +2407,7 @@
       "slug": "fresh-orange-juice",
       "name": "عصير البرتقال الطازج المعصور",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-orange-juice"
     },
@@ -2116,6 +2415,7 @@
       "slug": "lemon-mint-juice",
       "name": "عصير الليمون بالنعناع المنعش",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lemon-mint-juice"
     },
@@ -2123,6 +2423,7 @@
       "slug": "fresh-strawberry-juice",
       "name": "عصير الفراولة الطبيعي بالماء والعسل",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fresh-strawberry-juice"
     },
@@ -2130,6 +2431,7 @@
       "slug": "tamarind-drink",
       "name": "مشروب التمر هندي البلدي الطبيعي المغلي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/tamarind-drink"
     },
@@ -2137,6 +2439,7 @@
       "slug": "carob-drink",
       "name": "مشروب الخروب البلدي الطبيعي المغلي",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/carob-drink"
     },
@@ -2144,6 +2447,7 @@
       "slug": "baladi-sobia",
       "name": "السوبيا البلدي الطبيعية بالأرز وجوز الهند",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baladi-sobia"
     },
@@ -2151,6 +2455,7 @@
       "slug": "qamar-el-din",
       "name": "مشروب قمر الدين الطبيعي المنقوع",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/qamar-el-din"
     },
@@ -2158,6 +2463,7 @@
       "slug": "licorice-drink",
       "name": "مشروب العرقسوس المخمر البارد",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/licorice-drink"
     },
@@ -2165,6 +2471,7 @@
       "slug": "diet-sodas",
       "name": "المشروبات الغازية الدايت والمحلاة صناعيًا",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/diet-sodas"
     },
@@ -2172,6 +2479,7 @@
       "slug": "energy-drinks",
       "name": "مشروبات الطاقة التجارية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/energy-drinks"
     },
@@ -2179,6 +2487,7 @@
       "slug": "matcha",
       "name": "شاي الماتشا الياباني الأخضر المطحون",
       "status": "disputed",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "drinks",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/matcha"
     },
@@ -2186,6 +2495,7 @@
       "slug": "egyptian-fatta",
       "name": "الفتة المصرية بالخل والثوم والمرق ولحم الأنعام",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/egyptian-fatta"
     },
@@ -2193,6 +2503,7 @@
       "slug": "commercial-hawawshi",
       "name": "الحواوشي البلدي التجاري بالسوق",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/commercial-hawawshi"
     },
@@ -2200,6 +2511,7 @@
       "slug": "traditional-moussaka",
       "name": "المسقعة البلدي باللحم المفروم والصلصة",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/traditional-moussaka"
     },
@@ -2207,6 +2519,7 @@
       "slug": "okra-meat-tagine",
       "name": "طاجن البامية باللحمة الضاني بالفرن",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/okra-meat-tagine"
     },
@@ -2214,6 +2527,7 @@
       "slug": "zucchini-meat-stew",
       "name": "صينية الكوسة باللحمة المفرومة والصلصة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/zucchini-meat-stew"
     },
@@ -2221,6 +2535,7 @@
       "slug": "baked-potato-meat-tray",
       "name": "صينية البطاطس باللحمة البقري في الفرن",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/baked-potato-meat-tray"
     },
@@ -2228,6 +2543,7 @@
       "slug": "potato-chicken-tray",
       "name": "صينية البطاطس بالفراخ بالفرن",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/potato-chicken-tray"
     },
@@ -2235,6 +2551,7 @@
       "slug": "pasta-bechamel",
       "name": "صينية المكرونة بالبشاميل واللحمة المفرومة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pasta-bechamel"
     },
@@ -2242,6 +2559,7 @@
       "slug": "traditional-mahshi",
       "name": "المحشي المصري المشكل (كرنب، ورق عنب، كوسة، باذنجان)",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/traditional-mahshi"
     },
@@ -2249,6 +2567,7 @@
       "slug": "pigeon-stuffed-rice",
       "name": "الحمام المحشي بالأرز البلدي والكبد والقوانص",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pigeon-stuffed-rice"
     },
@@ -2256,6 +2575,7 @@
       "slug": "pigeon-stuffed-freekeh",
       "name": "الحمام المحشي بالفريك الأخضر الصعيدي",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "poultry",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pigeon-stuffed-freekeh"
     },
@@ -2263,6 +2583,7 @@
       "slug": "roqaq-meat-pie",
       "name": "صينية الرقاق باللحمة المفرومة والمرق",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/roqaq-meat-pie"
     },
@@ -2270,6 +2591,7 @@
       "slug": "goulash-meat-pie",
       "name": "صينية الجلاش الحادق باللحمة المفرومة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/goulash-meat-pie"
     },
@@ -2277,6 +2599,7 @@
       "slug": "beef-onion-tagine",
       "name": "طاجن اللحمة بالبصل القاورما بالفرن",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/beef-onion-tagine"
     },
@@ -2284,6 +2607,7 @@
       "slug": "orzo-soup",
       "name": "شوربة لسان العصفور بالمرق الصافي والليمون",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "starches",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/orzo-soup"
     },
@@ -2291,6 +2615,7 @@
       "slug": "trotters-soup",
       "name": "شوربة الكوارع الصافية بالثوم والمستكة",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/trotters-soup"
     },
@@ -2298,6 +2623,7 @@
       "slug": "egyptian-lentil-soup",
       "name": "شوربة العدس الأصفر المصرية بالخضار والسمن",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/egyptian-lentil-soup"
     },
@@ -2305,6 +2631,7 @@
       "slug": "vegetable-soup",
       "name": "شوربة الخضار المشكل بالمرق الصافي (كوسة، جزر، بطاطس)",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "vegetables",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/vegetable-soup"
     },
@@ -2312,6 +2639,7 @@
       "slug": "lamb-kabsa",
       "name": "كبسة اللحم الضاني بالأرز البسمتي والتوابل",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lamb-kabsa"
     },
@@ -2319,6 +2647,7 @@
       "slug": "lamb-mandi",
       "name": "مندي اللحم بالأرز البسمتي المبخر",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/lamb-mandi"
     },
@@ -2326,6 +2655,7 @@
       "slug": "beef-shawarma-plate",
       "name": "شاورما اللحم البلدي في طبق مع الطحينة والأرز",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/beef-shawarma-plate"
     },
@@ -2333,6 +2663,7 @@
       "slug": "chicken-shawarma-sandwich",
       "name": "ساندوتش شاورما الفراخ بالثومية والعيش الصاج",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/chicken-shawarma-sandwich"
     },
@@ -2340,6 +2671,7 @@
       "slug": "homemade-burger-sandwich",
       "name": "ساندوتش البرجر البيتي في توست القمح الكامل",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "meat",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/homemade-burger-sandwich"
     },
@@ -2347,6 +2679,7 @@
       "slug": "ful-sandwich-baladi",
       "name": "ساندوتش الفول المدمس بالعيش البلدي والطحينة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ful-sandwich-baladi"
     },
@@ -2354,6 +2687,7 @@
       "slug": "taameya-sandwich-baladi",
       "name": "ساندوتش الطعمية السخنة بالعيش البلدي والسلطة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "legumes",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/taameya-sandwich-baladi"
     },
@@ -2361,6 +2695,7 @@
       "slug": "syrian-french-fries-sandwich",
       "name": "ساندوتش البطاطس السوري بالثومية وعيش الصاج",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/syrian-french-fries-sandwich"
     },
@@ -2368,6 +2703,7 @@
       "slug": "savory-chicken-crepe",
       "name": "الكريب الحادق بالفراخ والموتزاريلا والمايونيز",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/savory-chicken-crepe"
     },
@@ -2375,6 +2711,7 @@
       "slug": "traditional-pizza",
       "name": "البيتزا الإيطالية بالدقيق الأبيض والجبن والصلصة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/traditional-pizza"
     },
@@ -2382,6 +2719,7 @@
       "slug": "basbousa",
       "name": "البسبوسة المصرية بالسمن البلدي والشربات",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/basbousa"
     },
@@ -2389,6 +2727,7 @@
       "slug": "qataif",
       "name": "القطايف المقلية المحشية مكسرات بالشربات",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/qataif"
     },
@@ -2396,6 +2735,7 @@
       "slug": "sweet-goulash-baklava",
       "name": "الجلاش الحلو والبقلاوة بالمكسرات والشربات",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sweet-goulash-baklava"
     },
@@ -2403,6 +2743,7 @@
       "slug": "om-ali",
       "name": "أم علي باللبن البلدي والرقاق والمكسرات",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/om-ali"
     },
@@ -2410,6 +2751,7 @@
       "slug": "rice-pudding",
       "name": "أرز باللبن بيتي بالسمن والقشطة البلدي",
       "status": "unknown",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/rice-pudding"
     },
@@ -2417,6 +2759,7 @@
       "slug": "mahallabia",
       "name": "المهلبية بالنشا واللبن الطبيعي والمستكة",
       "status": "unknown",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mahallabia"
     },
@@ -2424,6 +2767,7 @@
       "slug": "creme-caramel",
       "name": "الكريم كراميل البيتي بالبيض واللبن",
       "status": "unknown",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/creme-caramel"
     },
@@ -2431,6 +2775,7 @@
       "slug": "ashura",
       "name": "العاشوراء بالقمح الكامل واللبن والمكسرات",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ashura"
     },
@@ -2438,6 +2783,7 @@
       "slug": "kahk",
       "name": "كحك العيد الناعم بالسمن البلدي والسكر البودرة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/kahk"
     },
@@ -2445,6 +2791,7 @@
       "slug": "ghorayeba",
       "name": "الغريبة الناعمة بالسمن البلدي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/ghorayeba"
     },
@@ -2452,6 +2799,7 @@
       "slug": "petit-four",
       "name": "البيتي فور وبسكويت الزبدة والشوكولاتة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/petit-four"
     },
@@ -2459,6 +2807,7 @@
       "slug": "sponge-cake",
       "name": "الكيك الإسفنجي البيتي بالدقيق الأبيض والسكر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/sponge-cake"
     },
@@ -2466,6 +2815,7 @@
       "slug": "donuts",
       "name": "الدوناتس المقلية بالزيت المغطاة بالسكر",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/donuts"
     },
@@ -2473,6 +2823,7 @@
       "slug": "waffles-pancakes",
       "name": "الوافل والبان كيك بالسيرب الصناعي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/waffles-pancakes"
     },
@@ -2480,6 +2831,7 @@
       "slug": "fruit-jelly",
       "name": "جيلي الفواكه بنكهات وألوان صناعية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fruit-jelly"
     },
@@ -2487,6 +2839,7 @@
       "slug": "commercial-jam",
       "name": "مربى الفواكه المعلبة بالسكر والجلوكوز",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/commercial-jam"
     },
@@ -2494,6 +2847,7 @@
       "slug": "black-honey-molasses",
       "name": "العسل الأسود المصري الأصلي من قصب السكر",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "sweets",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/black-honey-molasses"
     },
@@ -2501,6 +2855,7 @@
       "slug": "rock-sea-salt",
       "name": "الملح الصخري والبحري الخشن غير المكرر",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/rock-sea-salt"
     },
@@ -2508,6 +2863,7 @@
       "slug": "apple-cider-vinegar",
       "name": "خل التفاح الطبيعي العضوي غير المصفى",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/apple-cider-vinegar"
     },
@@ -2515,6 +2871,7 @@
       "slug": "commercial-mayonnaise",
       "name": "المايونيز التجاري المصنوع بزيوت الصويا",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/commercial-mayonnaise"
     },
@@ -2522,6 +2879,7 @@
       "slug": "commercial-ketchup",
       "name": "كاتشب الطماطم التجاري بشراب الذرة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/commercial-ketchup"
     },
@@ -2529,6 +2887,7 @@
       "slug": "commercial-mustard",
       "name": "المستردة وخردل الطعام التجاري",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/commercial-mustard"
     },
@@ -2536,6 +2895,7 @@
       "slug": "canned-tomato-paste",
       "name": "صلصة الطماطم المعلبة ومعجون الطماطم المركز",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/canned-tomato-paste"
     },
@@ -2543,6 +2903,7 @@
       "slug": "barbecue-sauce",
       "name": "صوص الباربيكيو المدخن التجاري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/barbecue-sauce"
     },
@@ -2550,6 +2911,7 @@
       "slug": "commercial-hot-sauce",
       "name": "الصوص الحار وصلصة التباسكو والشطة المعبأة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/commercial-hot-sauce"
     },
@@ -2557,6 +2919,7 @@
       "slug": "soy-sauce",
       "name": "صويا صوص المركز والصويا المخمرة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/soy-sauce"
     },
@@ -2564,6 +2927,7 @@
       "slug": "mixed-pickles-torshi",
       "name": "الطرشي والمخلل البلدي المشكل بالسوق",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/mixed-pickles-torshi"
     },
@@ -2571,6 +2935,7 @@
       "slug": "pickled-cucumbers-homemade",
       "name": "مخلل الخيار البيتي المخمر طبيعيًا بالماء والملح",
       "status": "conditional",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pickled-cucumbers-homemade"
     },
@@ -2578,6 +2943,7 @@
       "slug": "pickled-olives-natural",
       "name": "الزيتون المخلل الطبيعي بالماء والملح وزيت الزيتون",
       "status": "compatible",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "condiments",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/pickled-olives-natural"
     },
@@ -2585,6 +2951,7 @@
       "slug": "instant-soup-packets",
       "name": "شوربة الخضار والدجاج الفورية في أكياس بودرة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/instant-soup-packets"
     },
@@ -2592,6 +2959,7 @@
       "slug": "microwave-popcorn",
       "name": "فشار الميكروويف الجاهز في أكياس مدهونة دهون صناعية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/microwave-popcorn"
     },
@@ -2599,6 +2967,7 @@
       "slug": "digestive-diet-biscuits",
       "name": "بسكويت الدايجستيف والدايت والشوفان التجاري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/digestive-diet-biscuits"
     },
@@ -2606,6 +2975,7 @@
       "slug": "protein-bars",
       "name": "ألواح البروتين بار التجارية ببروتين الصويا",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/protein-bars"
     },
@@ -2613,6 +2983,7 @@
       "slug": "granola-packaged",
       "name": "الجرانولا المقرمشة المحلاة بالسيرب والزيوت",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/granola-packaged"
     },
@@ -2620,6 +2991,7 @@
       "slug": "fruit-yogurt-commercial",
       "name": "زبادي الفواكه التجاري المحلى بالسكروز والألوان",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fruit-yogurt-commercial"
     },
@@ -2627,6 +2999,7 @@
       "slug": "packaged-commercial-juice",
       "name": "عصائر الفواكه المعلبة بنكتار وسكر ومواد حافظة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/packaged-commercial-juice"
     },
@@ -2634,6 +3007,7 @@
       "slug": "powdered-drink-mix",
       "name": "مساحيق العصائر البودرة سريعة التحضير (تانج ونحوه)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/powdered-drink-mix"
     },
@@ -2641,6 +3015,7 @@
       "slug": "frozen-chicken-nuggets",
       "name": "ناجتس الدجاج المجمد المجهز للقلي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/frozen-chicken-nuggets"
     },
@@ -2648,6 +3023,7 @@
       "slug": "frozen-chicken-pane",
       "name": "بانيه الدجاج المجمد بالبقسماط المجهز للقلي",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/frozen-chicken-pane"
     },
@@ -2655,6 +3031,7 @@
       "slug": "frozen-commercial-burger",
       "name": "برجر اللحم المجمد التجاري المحتوي على فول الصويا",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/frozen-commercial-burger"
     },
@@ -2662,6 +3039,7 @@
       "slug": "frozen-commercial-sausage",
       "name": "السجق والسوسيس المجمد التجاري",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/frozen-commercial-sausage"
     },
@@ -2669,6 +3047,7 @@
       "slug": "fast-food-burger",
       "name": "برجر سلاسل مطاعم الوجبات السريعة في الخبز الأبيض",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fast-food-burger"
     },
@@ -2676,6 +3055,7 @@
       "slug": "fast-food-chicken-burger",
       "name": "برجر الفراخ المقلي المقرمش في المطاعم السريعة",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fast-food-chicken-burger"
     },
@@ -2683,6 +3063,7 @@
       "slug": "fried-broasted-chicken",
       "name": "الدجاج البروستد المقلي المقرمش (الكنتاكي)",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fried-broasted-chicken"
     },
@@ -2690,6 +3071,7 @@
       "slug": "chicken-strips",
       "name": "أصابع الدجاج المقرمشة (تشيكن ستربس) المقلية",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/chicken-strips"
     },
@@ -2697,6 +3079,7 @@
       "slug": "fast-food-crepe",
       "name": "كريب الشاورما والسجق الجاهز من محلات الوجبات",
       "status": "notRecommended",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/fast-food-crepe"
     },
@@ -2704,6 +3087,7 @@
       "slug": "spirulina",
       "name": "سبيرولينا / طحالب السبيرولينا الخضراء",
       "status": "unknown",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/spirulina"
     },
@@ -2711,6 +3095,7 @@
       "slug": "apple-cider-gummies",
       "name": "حلوى خل التفاح الجيلاتينية (Gummies)",
       "status": "disputed",
+      "editorialNote": "تصنيف وشروط محفوظة من النسخة السابقة؛ توثيقها المباشر يحتاج مراجعة. المراجع العامة لا تثبت كل تفصيل، ولا يثبت الطهي أو النقع استثناءً تلقائيًا.",
       "category": "processed",
       "interactiveUrl": "https://yousefe1bana.github.io/al-tayyibat/#/foods/apple-cider-gummies"
     }

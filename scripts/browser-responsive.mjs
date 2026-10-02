@@ -9,7 +9,14 @@ const report = { base, pages: [], heroes: [], assertions: [], errors: [], access
 async function settle(page, opacitySelector = 'main [style*="opacity"], [role="dialog"][style*="opacity"], #mobile-menu[style*="opacity"]') {
   await page.waitForFunction(opacitySelector => {
     const visible = (el) => { const r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0 && r.top < innerHeight && r.bottom > 0; };
-    const styled = [...document.querySelectorAll(opacitySelector)].filter(visible);
+    // A card with less than its 8% reveal threshold in view is intentionally
+    // still hidden. Do not wait for that below-the-fold sliver to animate.
+    const styled = [...document.querySelectorAll(opacitySelector)].filter(el => {
+      if (!visible(el)) return false;
+      const r = el.getBoundingClientRect();
+      const visibleHeight = Math.min(r.bottom, innerHeight) - Math.max(r.top, 0);
+      return Number(getComputedStyle(el).opacity) > 0 || visibleHeight / r.height >= .08;
+    });
     const moving = document.getAnimations().filter(animation => animation.effect?.target instanceof Element && visible(animation.effect.target) && animation.effect.getTiming().iterations !== Infinity);
     return styled.every(el => Number(getComputedStyle(el).opacity) > .99) && moving.every(animation => animation.playState === 'finished');
   }, opacitySelector);
@@ -95,7 +102,7 @@ try {
         await secondary.evaluate(image => image.decode());
         assert(await editorial.locator('figure').count() === 1 && await page.locator('img[src$="doctor/portrait.jpg"]').count() === 1, `Distinct primary hero and secondary editorial composition ${width}/${theme}`);
         assert(await secondary.getAttribute('src') === new URL('images/doctor/secondary.webp', base).pathname && await secondary.getAttribute('loading') === 'lazy', `Approved secondary portrait decoded and lazy loaded ${width}/${theme}`);
-        assert(await secondary.evaluate(image => image.naturalWidth === 1128 && image.naturalHeight === 1094 && getComputedStyle(image).objectFit === 'contain' && !!image.alt.trim()), `Full cutout preserved with meaningful alt ${width}/${theme}`);
+        assert(await secondary.evaluate(image => image.naturalWidth === 1275 && image.naturalHeight === 1094 && getComputedStyle(image).objectFit === 'contain' && !!image.alt.trim()), `Full cutout preserved with meaningful alt ${width}/${theme}`);
         const decoded = await secondary.boundingBox();
         assert(reserved.width === decoded.width && reserved.height === decoded.height, `Editorial image size stays reserved across decoding ${width}/${theme}`);
         assert(await editorial.evaluate(el => {
@@ -127,7 +134,7 @@ try {
         await page.locator('.editorial-step').nth(2).click();
         await page.waitForURL('**#/how-it-works#week-3');
         await page.locator('#week-3').waitFor();
-        assert(await page.locator('#week-3 h3').textContent() === 'الأسبوع الثالث: الدجاج والبيض', `Weekly CTA resolves ${width}/${theme}`);
+        assert(await page.locator('#week-3 h3').textContent() === 'اقرأ الشروط وحدود التوثيق', `Weekly CTA resolves ${width}/${theme}`);
       }
     }
     await page.goto(`${base}#/`, { waitUntil: 'networkidle' });

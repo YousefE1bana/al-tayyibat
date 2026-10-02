@@ -12,7 +12,7 @@ import { cn } from "@/utils/cn";
 const MEALS = ["الكل", "فطور", "غداء", "عشاء", "خفيف"] as const;
 
 export default function RecipesPage() {
-  usePageMeta("وصفات الطيبات", "وجبات نموذج اليوم الكامل في نظام الطيبات — مكونات وخطوات ومصادر.");
+  usePageMeta("وصفات الطيبات", "اقتراحات تحضير تحريرية — راجع تصنيف المكونات وحدود توثيقها.");
   const [meal, setMeal] = useState<(typeof MEALS)[number]>("الكل");
   const [favOnly, setFavOnly] = useState(false);
   const { favorites } = useFavorites();
@@ -28,7 +28,7 @@ export default function RecipesPage() {
         <div className="mono mb-3 text-xs text-accent">// الوصفات</div>
         <h1 className="text-4xl font-bold leading-tight md:text-6xl">وصفات الطيبات</h1>
         <p className="mt-4 text-lg text-ink-2">
-          الوجبات الواردة في «نموذج يوم كامل» بالدليل فقط. المصدر يذكر المكونات؛ خطوات التحضير اقتراح تحريري بسيط موسوم بذلك.
+          اقتراحات تحضير تحريرية، وليست وجبات موثقة عن الدكتور. راجع تصنيف كل مكوّن وحدود توثيقه، خصوصًا الخضار والبقوليات والاستثناءات غير المحسومة.
         </p>
       </header>
 

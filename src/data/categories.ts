@@ -4,7 +4,7 @@ import { images } from "./images";
 /** Categories adapted to the groupings used by the supplied sources. */
 export const categories: Category[] = [
   { id: "starches", slug: "starches", name: "النشويات والحبوب", description: "الأرز والبطاطا والتوست الكامل مقابل الدقيق الأبيض ومخبوزاته.", icon: "Wheat", image: images.rice },
-  { id: "meat", slug: "meat", name: "اللحوم", description: "اللحوم الحمراء والأحشاء — مع قاعدة «يوم آه ويوم لأ».", icon: "Beef", image: images.beef },
+  { id: "meat", slug: "meat", name: "اللحوم", description: "اللحوم الحمراء والأحشاء — راجع تصنيف كل صنف وحدود توثيقه.", icon: "Beef", image: images.beef },
   { id: "poultry", slug: "poultry", name: "الدواجن والطيور", description: "الطيور المسموحة (حمام، سمان) مقابل دواجن المزارع الممنوعة.", icon: "Bird", image: images.pigeon },
   { id: "fish", slug: "fish", name: "الأسماك", description: "السردين وأسماك البحر الطبيعية.", icon: "Fish", image: images.sardines },
   { id: "eggs", slug: "eggs", name: "البيض", description: "البيض بجميع أنواعه.", icon: "Egg", image: images.eggs },

@@ -25,7 +25,7 @@ export type EvidenceLevel =
   | "strong" // مدعوم بأدلة قوية
   | "moderate" // أدلة متوسطة
   | "limited" // أدلة محدودة
-  | "claim" // ادعاء صاحب النظام
+  | "claim" // بحسب النظام
   | "institutional" // موقف مؤسسي / إرشاد خارجي
   | "unverified"; // غير متحقق منه
 
@@ -82,6 +82,8 @@ export interface Food {
   provenance?: SourceLocator[];
   image?: string;
   notes?: string;
+  /** Public provenance limitation; distinct from the retained system classification. */
+  editorialNote?: string;
   /** Marks one of "الأساسيات الخمسة" in the supplied guide. */
   essential?: boolean;
 }

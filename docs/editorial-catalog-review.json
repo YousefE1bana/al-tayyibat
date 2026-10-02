@@ -1,0 +1,3122 @@
+{
+  "reviewedAt": "2026-10-02",
+  "statusChanges": [],
+  "records": [
+    {
+      "id": "basmati-rice",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "potatoes",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "dates",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "butter",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [
+        "elconsolto-statements",
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sugar",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "whole-wheat-toast",
+      "status": "conditional",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [
+        "elconsolto-statements"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "white-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [
+        "elconsolto-statements"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pasta",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "biscuits",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "beef",
+      "status": "conditional",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lamb",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "goat-meat",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "camel-meat",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "rabbit",
+      "status": "conditional",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "liver",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "trotters",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mombar",
+      "status": "compatible",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pigeon",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "quail",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "chicken",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [
+        "wikipedia-ar",
+        "elconsolto-statements"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "duck",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sardines",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sea-fish",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "eggs",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "aged-cheese",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "milk",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [
+        "elconsolto-statements",
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "yogurt",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "white-cheese",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "natural-cream",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ghee",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [
+        "elconsolto-statements",
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "olive-oil",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "vegetable-oils",
+      "status": "disputed",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [
+        "wikipedia-ar",
+        "elconsolto-statements"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "hydrogenated-oils",
+      "status": "notRecommended",
+      "removedReferenceCount": 0,
+      "retainedSourceIds": [
+        "elconsolto-statements",
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "leafy-greens",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "raw-vegetables",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "zucchini",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "legumes",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [
+        "wikipedia-ar"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "grapes",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [
+        "elconsolto-statements"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "apple",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pomegranate",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "figs",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "banana",
+      "status": "compatible",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "watermelon",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "citrus",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "nuts",
+      "status": "conditional",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "honey",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "dark-chocolate",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "halawa",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "nutella",
+      "status": "compatible",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "green-tea",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "turkish-coffee",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "thyme-tea",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "black-tea",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "soda",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "water",
+      "status": "conditional",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lemon",
+      "status": "conditional",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cane-vinegar",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "olives",
+      "status": "compatible",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "salt-spices",
+      "status": "conditional",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "green-salad",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cottage-cheese",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "shrimp",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "strawberries",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sweet-potato",
+      "status": "conditional",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "tahini",
+      "status": "compatible",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cherries",
+      "status": "compatible",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "farm-fish",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "kunafa",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "black-eyed-peas",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "potato-chips",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "oriental-sausage",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "beef-burger-hotdog",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ice-cream",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "popcorn",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "taro",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "okra",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "eggplant",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mango",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "processed-cheese",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "oats",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "corn-flour",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "traditional-pastries",
+      "status": "notRecommended",
+      "removedReferenceCount": 1,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "berries",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "guava",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sugarcane",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ful-medames",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "molokhia",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "tomato",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "onions",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "garlic",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cucumber",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "egyptian-rice",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "animal-tallow-liyya",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "flaxseed-oil",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "hibiscus-tea",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mackerel",
+      "status": "compatible",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "wild-mullet",
+      "status": "conditional",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baladi-chicken",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [
+        "elconsolto-statements"
+      ],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "rayeb-milk",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "farmed-tilapia",
+      "status": "notRecommended",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "boiled-mint",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "milk-tea",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "koshary",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "taameya-falafel",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fino-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 3,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "bouillon-cubes",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "commercial-baladi-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sun-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "shami-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lebanese-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "french-baguette",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "white-toast",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "oat-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "multigrain-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "wheat-tortilla",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "saj-bread",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "roqaq-dough",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "rice-bread",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "long-grain-white-rice",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "brown-rice",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "rice-with-vermicelli",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "roz-meammar",
+      "status": "unknown",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "orzo",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "vermicelli",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "instant-noodles",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "freekeh",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "bulgur",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "semolina",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "corn",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "corn-flakes",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "belila",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "barley",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "quinoa",
+      "status": "disputed",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "couscous",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "boiled-potatoes",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baked-potatoes",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mashed-potatoes",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baked-sweet-potato",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "beetroot",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "turnip",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "carrots",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cooked-zucchini",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cooked-okra",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cooked-spinach",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-herbs-parsley-dill-coriander",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "celery",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cabbage",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cauliflower",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "broccoli",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "bell-pepper",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "hot-chili-pepper",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "artichoke",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "green-peas",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "green-beans",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-mushrooms",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pumpkin-squash",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "grape-leaves",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "yellow-lentils",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "brown-lentils",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "black-beluga-lentils",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "chickpeas",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "white-navy-beans",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "red-kidney-beans",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "black-eyed-peas-dry",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lupini-beans",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "soybeans",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "green-fava-beans",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "peanuts",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "buffalo-meat",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ground-beef",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "beef-steak",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "kebab",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "homemade-kofta",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "restaurant-kofta",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lamb-chops",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "meat-shank",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "alexandrian-liver",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "heart-kidneys",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "brains-head-meat",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "tongue-spleen",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "trotters-cow",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "tripe-mombar",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baladi-sausage-fresh",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pastirma",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "luncheon-meat",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "hot-dogs",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "farm-chicken-breasts",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "farm-chicken-thighs",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "chicken-gizzards-liver",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baladi-duck",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baladi-geese",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "turkey",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "quail-meat",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "wild-dove",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "wild-tilapia",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "farmed-mullet",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-tuna",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "canned-tuna-water",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "canned-tuna-oil",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "wild-salmon",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "farmed-salmon",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sea-bass",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sea-bream",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sole-fish",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "red-porgy",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "smoked-herring",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "feseekh",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "anchovies",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "crab",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lobster",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "squid-calamari",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "octopus",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mussels-clams",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "buffalo-milk",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cow-milk",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "milk-powder",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "skimmed-milk",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "greek-yogurt",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "milk-kefir",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-baladi-cream",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-cooking-cream",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "feta-natural-cheese",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "istanbouli-cheese",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "damiati-cheese",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mish-cheese",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "aged-cheddar-cheese",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "gouda-edam-cheese",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "parmesan-reggiano",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "natural-mozzarella",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cream-cheese-spread",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "vegetable-fat-cheese",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "beef-tallow-wadak",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "extra-virgin-olive-oil",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cold-pressed-sesame-oil",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "virgin-coconut-oil",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "corn-oil",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "soybean-oil",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "canola-oil",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "refined-palm-oil",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "peanut-oil",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "vegetable-shortening",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "peeled-almonds",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "walnuts",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "hazelnuts",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pistachios",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cashews",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "grated-coconut",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "macadamia-nuts",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sesame-seeds",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "flaxseeds",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "chia-seeds",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sunflower-seeds",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pumpkin-seeds",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "black-seed",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "prickly-pear",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pears",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "peaches",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "apricots",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "plums",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cantaloupe-sweet-melon",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "oranges",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mandarins",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "grapefruit",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "kiwi",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pineapple",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "avocado",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-yellow-dates",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "persimmon",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cherimoya-custard-apple",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "papaya",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "raisins",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "dried-figs",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "dried-apricots",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "dried-prunes",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "wild-thyme",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "anise-tea",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "caraway-tea",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fenugreek-tea",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cinnamon",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ginger",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "chamomile-tea",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "turmeric",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cumin",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "dry-coriander",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "black-pepper",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "red-chili-powder",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sweet-paprika",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cardamom-mastic-laurel",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cloves",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pure-water",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sparkling-water",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "arabic-coffee",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "espresso",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "instant-black-coffee",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "coffee-3-in-1",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "cappuccino-latte",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "hot-chocolate",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pomegranate-juice",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-orange-juice",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lemon-mint-juice",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fresh-strawberry-juice",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "tamarind-drink",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "carob-drink",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baladi-sobia",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "qamar-el-din",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "licorice-drink",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "diet-sodas",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "energy-drinks",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "matcha",
+      "status": "disputed",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "egyptian-fatta",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "commercial-hawawshi",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "traditional-moussaka",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "okra-meat-tagine",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "zucchini-meat-stew",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "baked-potato-meat-tray",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "potato-chicken-tray",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pasta-bechamel",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "traditional-mahshi",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pigeon-stuffed-rice",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pigeon-stuffed-freekeh",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "roqaq-meat-pie",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "goulash-meat-pie",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "beef-onion-tagine",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "orzo-soup",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "trotters-soup",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "egyptian-lentil-soup",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "vegetable-soup",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lamb-kabsa",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "lamb-mandi",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "beef-shawarma-plate",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "chicken-shawarma-sandwich",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "homemade-burger-sandwich",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ful-sandwich-baladi",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "taameya-sandwich-baladi",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "syrian-french-fries-sandwich",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "savory-chicken-crepe",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "traditional-pizza",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "basbousa",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "qataif",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sweet-goulash-baklava",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "om-ali",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "rice-pudding",
+      "status": "unknown",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mahallabia",
+      "status": "unknown",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "creme-caramel",
+      "status": "unknown",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ashura",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "kahk",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "ghorayeba",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "petit-four",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "sponge-cake",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "donuts",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "waffles-pancakes",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fruit-jelly",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "commercial-jam",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "black-honey-molasses",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "rock-sea-salt",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "apple-cider-vinegar",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "commercial-mayonnaise",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "commercial-ketchup",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "commercial-mustard",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "canned-tomato-paste",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "barbecue-sauce",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "commercial-hot-sauce",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "soy-sauce",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "mixed-pickles-torshi",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pickled-cucumbers-homemade",
+      "status": "conditional",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "pickled-olives-natural",
+      "status": "compatible",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "instant-soup-packets",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "microwave-popcorn",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "digestive-diet-biscuits",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "protein-bars",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "granola-packaged",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fruit-yogurt-commercial",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "packaged-commercial-juice",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "powdered-drink-mix",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "frozen-chicken-nuggets",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "frozen-chicken-pane",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "frozen-commercial-burger",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "frozen-commercial-sausage",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fast-food-burger",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fast-food-chicken-burger",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fried-broasted-chicken",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "chicken-strips",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "fast-food-crepe",
+      "status": "notRecommended",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "spirulina",
+      "status": "unknown",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    },
+    {
+      "id": "apple-cider-gummies",
+      "status": "disputed",
+      "removedReferenceCount": 2,
+      "retainedSourceIds": [],
+      "confidence": "unresolved",
+      "decision": "Preserve classification pending a verifiable item-specific statement; do not infer an exception or substitute an unlocated research document."
+    }
+  ]
+}

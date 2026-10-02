@@ -21,7 +21,7 @@ export function SystemEditorial() {
         <header className="max-w-3xl">
           <p className="mono editorial-muted mb-3 text-xs">// من الدليل إلى التطبيق</p>
           <h2 id="system-editorial-heading" className="text-3xl font-bold leading-tight md:text-4xl lg:text-5xl">كيف تتبع النظام؟</h2>
-          <p className="editorial-muted mt-4 text-base md:text-lg">خطة الأربعة أسابيع كما وردت في الدليل — التدرّج مقصود، و«الانتقال المفاجئ» يُعد خطأً شائعًا.</p>
+          <p className="editorial-muted mt-4 text-base md:text-lg">أربع خطوات لاستخدام الدليل وفهم التصنيفات وحدود توثيقها؛ ليست جدولًا غذائيًا منسوبًا للدكتور.</p>
           <p className="editorial-muted mt-2 text-sm">دليل معلوماتي، وليس بديلًا عن نصيحة طبيبك.</p>
         </header>
         <div className="editorial-progression relative mt-8">
@@ -38,7 +38,7 @@ export function SystemEditorial() {
                   <span className="mono editorial-step-number mb-5 flex size-10 items-center justify-center text-lg font-bold">{toArabicDigits(i + 1)}</span>
                   <h3 className="text-lg font-bold leading-relaxed">{step.title}</h3>
                   <p className="editorial-card-muted mt-3 text-sm leading-relaxed">{step.summary}</p>
-                  <span className="editorial-card-accent mt-5 inline-block text-sm font-semibold">تفاصيل الأسبوع</span>
+                  <span className="editorial-card-accent mt-5 inline-block text-sm font-semibold">تفاصيل الخطوة</span>
                 </Link>
               </motion.li>
             ))}
@@ -46,7 +46,7 @@ export function SystemEditorial() {
         </div>
         <div className="mt-6 flex flex-wrap items-start justify-between gap-4">
           <p className="editorial-muted max-w-xl text-sm"><strong className="editorial-ink">{followUp.title}: </strong>{followUp.summary}</p>
-          <Link to="/how-it-works" className="editorial-text-link inline-flex min-h-11 items-center text-sm font-semibold">الخطة كاملة مع نموذج اليوم</Link>
+          <Link to="/how-it-works" className="editorial-text-link inline-flex min-h-11 items-center text-sm font-semibold">اقرأ خطوات استخدام الدليل</Link>
         </div>
         <div className="editorial-sources mt-2"><SourceRefs ids={[...new Set(weeks.flatMap((step) => step.sourceIds))]} /></div>
 
@@ -56,7 +56,7 @@ export function SystemEditorial() {
             animate={reduced ? { opacity: 1, y: 0 } : undefined}
             viewport={viewportOnce} transition={{ duration: reduced ? 0 : 0.32 }} className="editorial-portrait-frame relative mx-auto w-full max-w-sm">
             <DoctorEditorialPortrait className="w-full" />
-            <figcaption className="editorial-muted px-4 py-3 text-sm">{doctor.displayName} · {doctor.almaMater}</figcaption>
+            <figcaption className="px-4 py-3 text-center text-sm"><span className="editorial-ink font-semibold">{doctor.displayName}</span><span className="editorial-muted mt-1 block text-xs">{doctor.almaMater}</span></figcaption>
           </motion.figure>}
           <article className={cn("editorial-card relative min-w-0 p-6 md:p-8", doctorAssets.editorial && "lg:-ms-6")}>
             <p className="mono editorial-card-accent mb-3 text-xs">// صاحب النظام</p>

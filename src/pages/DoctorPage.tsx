@@ -21,7 +21,7 @@ const TOC = [
 ];
 
 export default function DoctorPage() {
-  usePageMeta(doctor.displayName, "سيرة الدكتور ضياء العوضي: التعليم، المسيرة، نظام الطيبات، والخط الزمني — من مصادر موثقة.");
+  usePageMeta(doctor.displayName, "سيرة الدكتور ضياء العوضي والخط الزمني — مع المصادر الصحفية وحدود التحقق.");
 
   return (
     <div className="container-x py-10 md:py-16">
@@ -31,7 +31,7 @@ export default function DoctorPage() {
         </div>
         <div>
           <div className="mono mb-3 text-xs text-accent">// عن الدكتور</div>
-          <h1 className="text-4xl font-bold leading-tight md:text-6xl">{doctor.displayName}</h1>
+          <h1 className="text-4xl font-bold leading-tight text-ink md:text-6xl">{doctor.displayName}</h1>
           <p className="mono mt-2 text-sm text-muted">{doctor.fullName}</p>
           <dl className="mono mt-6 grid gap-2 text-xs sm:grid-cols-2">
             {[
@@ -91,7 +91,7 @@ export default function DoctorPage() {
           </section>
 
           <section id="quotes" className="scroll-mt-28">
-            <SectionHeading index="03" title="تصريحات موثقة" description="نُثبت فقط ما نقلته مصادر محددة، مع نسبته إليها. هذه تصريحات صاحب النظام لا حقائق علمية." />
+            <SectionHeading index="03" title="تصريحات موثقة" description="هذه تصريحات منسوبة للدكتور في مصادر محددة، ولا تمثل بحد ذاتها دليلًا علميًا مستقلًا." />
             <div className="grid gap-4 md:grid-cols-2">
               {doctor.quotes.map((q) => (
                 <blockquote key={q.text} className="brut relative bg-surface-2 p-6">
@@ -112,7 +112,7 @@ export default function DoctorPage() {
             <ul className="space-y-2">
               {doctor.unverified.map((u) => (
                 <li key={u} className="flex gap-3 border-2 border-dashed border-line-soft bg-surface p-4 text-sm text-ink-2">
-                  <CircleHelp className="mt-0.5 size-4 shrink-0 text-status-unknown" /> {u.replace(/\[CONTENT REQUIRED\]\s*/g, u.includes("—") ? "" : "لم نجد توثيقًا مستقلًا")}
+                  <CircleHelp className="mt-0.5 size-4 shrink-0 text-status-unknown" /> {u}
                 </li>
               ))}
             </ul>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { AlertOctagon, Quote } from "lucide-react";
+import { AlertOctagon } from "lucide-react";
 import { Link } from "react-router-dom";
 import { foods } from "@/data/foods";
 import { philosophy, principles, theories } from "@/data/principles";
@@ -19,7 +19,7 @@ const TOC = [
   { id: "philosophy", label: "الفلسفة" },
   { id: "principles", label: "القواعد الست" },
   { id: "classification", label: "تصنيف الأطعمة" },
-  { id: "theories", label: "النظريات الثلاث" },
+  { id: "theories", label: "تفسيرات منسوبة للنظام" },
   { id: "science", label: "الموقف العلمي" },
 ];
 
@@ -62,12 +62,8 @@ export default function AboutPage() {
           </section>
 
           <section id="philosophy" className="scroll-mt-28">
-            <SectionHeading index="02" title="الفلسفة" description="«الأكل للعيش بصحة، وليس العكس» — إعطاء الجسم فرصة لإعادة التوازن عبر عدم إرهاق الجهاز الهضمي بالهضم المستمر." />
-            <blockquote className="brut relative bg-surface-2 p-6 md:p-8">
-              <Quote className="absolute end-4 top-4 size-8 text-accent/40" aria-hidden />
-              <p className="text-xl font-semibold leading-relaxed md:text-2xl">«{philosophy.quote}»</p>
-              <footer className="mono mt-4 text-xs text-muted">— {philosophy.quoteAttribution}</footer>
-            </blockquote>
+            <SectionHeading index="02" title="حدود نسبة الأقوال" description="نميّز بين النص القابل للتحقق والتلخيص المتداول." />
+            <p className="border-s-2 border-accent ps-4 text-ink-2">حُذفت الأقوال والشعارات التي لم يتوفر لها مصدر مستقل قابل للتحقق. نقل أفكار النظام لا يمثل إثباتًا علميًا مستقلًا.</p>
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
               {philosophy.mottoes.map((m) => (
                 <div key={m} className="border-2 border-line-soft bg-surface p-4 text-center font-bold">«{m}»</div>
@@ -76,7 +72,7 @@ export default function AboutPage() {
           </section>
 
           <section id="principles" className="scroll-mt-28">
-            <SectionHeading index="03" title="القواعد الست الذهبية" description="القواعد السلوكية هي قلب النظام. كل قاعدة موسومة بمستوى الدليل." />
+            <SectionHeading index="03" title="مبادئ منسوبة للنظام" description="هذه عناوين محفوظة من النسخة السابقة؛ تفاصيلها تحتاج توثيقًا مباشرًا. ليست جدولًا غذائيًا موثقًا." />
             <motion.div variants={motionPresets.staggerContainer} initial="hidden" whileInView="show" viewport={viewportOnce} className="grid gap-5 md:grid-cols-2">
               {principles.map((p) => <PrincipleCard key={p.id} principle={p} />)}
             </motion.div>
@@ -98,7 +94,7 @@ export default function AboutPage() {
           </section>
 
           <section id="theories" className="scroll-mt-28">
-            <SectionHeading index="05" title="النظريات الثلاث وراء النظام" description="يستند الدكتور إلى ثلاث نظريات يشرح بها قوائمه. نعرضها بوصفها ادعاءاته، مع الموقف العلمي المقابل." />
+            <SectionHeading index="05" title="تفسيرات منسوبة للنظام" description="نعرض ما أمكن تتبع نسبته إلى الدكتور، مع التمييز بين نقل الطرح وإثباته علميًا." />
             <div className="space-y-4">
               {theories.map((t, i) => (
                 <motion.article key={t.id} variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="brut grid gap-0 overflow-hidden bg-surface md:grid-cols-2">

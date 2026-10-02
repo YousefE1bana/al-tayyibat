@@ -20,7 +20,7 @@ export const STATUS_META: Record<FoodStatus, StatusMeta> = {
     twText: "text-status-ok",
     twBg: "bg-status-ok",
     twBorder: "border-status-ok",
-    description: "مدرج ضمن قائمة المسموحات في المصادر المعتمدة للدليل.",
+    description: "تصنيف المسموح في الدليل؛ راجع حدود توثيق الصنف قبل الاعتماد عليه.",
   },
   conditional: {
     label: "مسموح بشروط",
@@ -40,7 +40,7 @@ export const STATUS_META: Record<FoodStatus, StatusMeta> = {
     twText: "text-status-no",
     twBg: "bg-status-no",
     twBorder: "border-status-no",
-    description: "مدرج ضمن قائمة الممنوعات («الخبائث») في المصادر المعتمدة للدليل.",
+    description: "تصنيف المنع بحسب الدليل؛ راجع التوثيق الخاص بالصنف.",
   },
   disputed: {
     label: "المصادر مختلفة",
@@ -87,7 +87,7 @@ export const EVIDENCE_LABEL: Record<EvidenceLevel, { label: string; hint: string
   strong: { label: "مدعوم بأدلة قوية", hint: "إجماع علمي واسع" },
   moderate: { label: "أدلة متوسطة", hint: "دراسات متعددة لكن غير حاسمة" },
   limited: { label: "أدلة محدودة", hint: "دراسات قليلة أو أولية" },
-  claim: { label: "ادعاء صاحب النظام", hint: "رأي الدكتور ضياء العوضي، غير مثبت بدراسات محكّمة" },
+  claim: { label: "بحسب النظام", hint: "طرح منسوب للدكتور ضمن مواد النظام، وليس إثباتًا علميًا مستقلًا." },
   institutional: { label: "موقف مؤسسي", hint: "إرشاد صادر عن جهة طبية أو رسمية" },
   unverified: { label: "غير متحقق منه", hint: "لم نتمكن من التحقق منه من مصدر مستقل" },
 };
