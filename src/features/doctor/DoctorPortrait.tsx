@@ -7,7 +7,7 @@ import { assetUrl } from "@/lib/assets";
  * Uses the supplied production portrait without modifying it.
  * If loading fails, show the doctor's name rather than a broken image.
  */
-export function DoctorPortrait({ className, imgClassName }: { className?: string; imgClassName?: string }) {
+export function DoctorPortrait({ className, imgClassName, loading = "lazy" }: { className?: string; imgClassName?: string; loading?: "lazy" | "eager" }) {
   const [failed, setFailed] = useState(false);
   return (
     <div className={cn("relative overflow-hidden bg-surface-2", className)}>
@@ -15,6 +15,9 @@ export function DoctorPortrait({ className, imgClassName }: { className?: string
         <img
           src={assetUrl(doctor.portrait)}
           alt={`صورة ${doctor.displayName}`}
+          width={1374}
+          height={1145}
+          loading={loading}
           onError={() => setFailed(true)}
           className={cn("h-full w-full object-cover object-top", imgClassName)}
           decoding="async"

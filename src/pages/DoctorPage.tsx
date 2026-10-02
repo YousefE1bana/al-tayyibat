@@ -8,6 +8,10 @@ import { TableOfContents } from "@/components/ui/TableOfContents";
 import { DoctorPortrait } from "@/features/doctor/DoctorPortrait";
 import { EvidenceLabel, SourceRefs } from "@/features/sources/SourceReference";
 import { cn } from "@/utils/cn";
+import { BotanicalSprig } from "@/components/brand/BotanicalSprig";
+import { doctorAssets } from "@/config/doctor-assets";
+import { DoctorEditorialPortrait } from "@/features/doctor/DoctorEditorialPortrait";
+import { Link } from "react-router-dom";
 
 const TOC = [
   { id: "bio", label: "السيرة" },
@@ -23,7 +27,7 @@ export default function DoctorPage() {
     <div className="container-x py-10 md:py-16">
       <header className="grid gap-8 md:grid-cols-[240px_minmax(0,1fr)] md:items-center xl:grid-cols-[360px_minmax(0,1fr)] xl:gap-14">
         <div className="brut mx-auto aspect-[4/5] w-full max-w-[240px] overflow-hidden md:mx-0 xl:max-w-sm">
-          <DoctorPortrait className="h-full w-full" />
+          <DoctorPortrait className="h-full w-full" loading="eager" />
         </div>
         <div>
           <div className="mono mb-3 text-xs text-accent">// عن الدكتور</div>
@@ -58,7 +62,16 @@ export default function DoctorPage() {
           </section>
 
           <section id="timeline" className="scroll-mt-28">
-            <SectionHeading index="02" title="الخط الزمني" description="الأحداث الموسومة ✓ موثقة من مصدر موسوعي/صحفي مستقل؛ الموسومة ? وردت في مصادر ثانوية فقط." />
+            <div className={cn("editorial-shell doctor-timeline-intro relative mb-10 grid gap-6 overflow-hidden border-2 border-line p-6 md:p-8", doctorAssets.editorial && "xl:grid-cols-[1fr_0.8fr] xl:items-center")}>
+              <BotanicalSprig />
+              <div className="relative min-w-0">
+                <p className="mono editorial-muted mb-3 text-xs">// المسيرة في سياقها</p>
+                <h2 className="text-3xl font-bold leading-tight md:text-4xl">الخط الزمني</h2>
+                <p className="editorial-muted mt-4 leading-relaxed">الأحداث الموسومة ✓ موثقة من مصدر موسوعي/صحفي مستقل؛ الموسومة ? وردت في مصادر ثانوية فقط.</p>
+                <Link to="/how-it-works" className="editorial-text-link mt-4 inline-flex min-h-11 items-center text-sm font-semibold">اقرأ دليل النظام وخطة البداية</Link>
+              </div>
+              {doctorAssets.editorial && <DoctorEditorialPortrait className="relative mx-auto w-full max-w-xs" />}
+            </div>
             <ol className="relative border-s-2 border-line ps-8">
               {doctor.timeline.map((t) => (
                 <motion.li key={t.id} variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="relative pb-10 last:pb-0">

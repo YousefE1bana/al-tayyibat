@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Github, Linkedin } from "@/components/ui/SocialIcons";
 import { maintainer } from "@/config/maintainer";
 import { NAV_ITEMS } from "./Navbar";
+import { BrandMark } from "@/components/brand/BrandMark";
 
 const toolRoutes = new Set(["/alternatives", "/ingredients", "/print", "/shopping"]);
 const sectionLinks = NAV_ITEMS.filter((item) => !toolRoutes.has(item.to));
@@ -12,7 +13,7 @@ export function Footer() {
       <div className="container-x grid grid-cols-2 gap-x-6 gap-y-8 py-10 md:gap-10 md:py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="col-span-2 md:col-span-1">
           <div className="flex items-center gap-2.5">
-            <span className="flex size-9 items-center justify-center border-2 border-line bg-accent text-lg font-bold text-accent-ink">ط</span>
+            <BrandMark />
             <span className="text-lg font-bold">نظام الطيبات — الدليل التفاعلي</span>
           </div>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-ink-2">

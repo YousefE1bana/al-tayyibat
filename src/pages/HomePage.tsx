@@ -5,17 +5,18 @@ import { categories } from "@/data/categories";
 import { doctor } from "@/data/doctor";
 import { faq } from "@/data/faq";
 import { foods } from "@/data/foods";
-import { articles, startSteps } from "@/data/guide";
+import { articles } from "@/data/guide";
 import { philosophy, principles } from "@/data/principles";
 import { recipes } from "@/data/recipes";
 import { usePageMeta } from "@/hooks/usePageMeta";
 import { iconByName } from "@/lib/icons";
-import { motionPresets, viewportOnce } from "@/lib/motion";
+import { motionPresets, usePrefersReducedMotion, viewportOnce } from "@/lib/motion";
 import { STATUS_ORDER } from "@/lib/status";
 import { toArabicDigits } from "@/lib/arabic";
 import { LinkButton } from "@/components/ui/Button";
-import { SmartImage } from "@/components/ui/SmartImage";
+import { BotanicalSprig } from "@/components/brand/BotanicalSprig";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { SystemEditorial } from "@/features/doctor/SystemEditorial";
 import { DoctorPortrait } from "@/features/doctor/DoctorPortrait";
 import { CategoryCard } from "@/features/foods/CategoryCard";
 import { FoodStatusBadge } from "@/features/foods/FoodStatusBadge";
@@ -23,53 +24,41 @@ import { QuickChecker } from "@/features/foods/QuickChecker";
 import { PrincipleCard } from "@/features/principles/PrincipleCard";
 import { RecipeCard } from "@/features/recipes/RecipeCard";
 
-const HERO_FOODS = ["basmati-rice", "potatoes", "eggs"];
-
 function Hero() {
-  const examples = HERO_FOODS.map((id) => foods.find((food) => food.id === id)).filter((food) => food !== undefined);
+  const reduced = usePrefersReducedMotion();
   return (
-    <section className="relative border-b-2 border-line">
+    <section className="home-hero relative border-b-2 border-line" aria-labelledby="hero-heading">
       <div className="grid-dots pointer-events-none absolute inset-0 opacity-50" aria-hidden />
-      <div className="container-x relative grid items-center gap-10 py-10 md:grid-cols-[1.15fr_0.85fr] md:gap-8 md:py-14 xl:gap-16 xl:py-20">
-        <motion.div variants={motionPresets.staggerContainer} initial="hidden" animate="show" className="min-w-0">
-          <motion.p variants={motionPresets.fadeUp} className="mb-4 flex flex-wrap items-center gap-3 text-sm font-semibold text-muted">
+      <motion.div variants={motionPresets.staggerContainer} initial={reduced ? false : "hidden"} animate="show" className="hero-layout container-x relative">
+        <motion.div variants={motionPresets.fadeUp} className="hero-copy min-w-0">
+          <p className="mb-4 hidden flex-wrap items-center gap-3 text-sm font-semibold text-muted md:flex">
             <span className="border-2 border-line bg-surface px-3 py-1 text-ink">{toArabicDigits(foods.length)} طعامًا في دليل واحد</span>
             <span>بدون حساب · بدون تتبع</span>
-          </motion.p>
-          <motion.h1 variants={motionPresets.fadeUp} className="text-5xl font-bold leading-[1.2] lg:text-6xl xl:text-7xl 2xl:text-8xl">
+          </p>
+          <h1 id="hero-heading" className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
             نظام <span className="text-accent">الطيبات</span>
-          </motion.h1>
-          <motion.p variants={motionPresets.fadeUp} className="mt-4 max-w-xl text-base leading-relaxed text-ink-2 lg:text-lg">
-            ابحث عن طعام، وافهم حالته وشروطه وبدائله وفقًا لنظام الدكتور ضياء العوضي.
+          </h1>
+          <p className="mt-2 text-sm font-semibold text-accent md:mt-3 md:text-base">دليل تفاعلي لنظام الدكتور ضياء العوضي</p>
+          <p className="mt-2 max-w-xl text-sm leading-relaxed text-ink-2 md:mt-3 md:text-base lg:text-lg">
+            ابحث عن طعام، وافهم حالته وشروطه وبدائله.
             دليل معلوماتي، وليس بديلًا عن نصيحة طبيبك.
-          </motion.p>
-          <motion.div variants={motionPresets.fadeUp} className="mt-6 max-w-2xl">
-            <QuickChecker id="quick-check" />
-          </motion.div>
-          <motion.div variants={motionPresets.fadeUp} className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold">
-            <Link to="/foods" className="inline-flex min-h-11 items-center gap-2 text-accent hover:underline">تصفح دليل الأطعمة <ArrowUpLeft className="size-4" aria-hidden /></Link>
-            <Link to="/how-it-works" className="inline-flex min-h-11 items-center gap-2 text-ink-2 hover:text-ink">جديد على النظام؟ ابدأ من هنا <ArrowUpLeft className="size-4" aria-hidden /></Link>
-          </motion.div>
+          </p>
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} className="min-w-0">
-          <div className="mb-4 flex items-center justify-between border-b-2 border-line pb-3">
-            <p className="text-sm font-semibold">من دليل الأطعمة</p>
-            <span className="mono text-xs text-muted">صور وتفاصيل لكل صنف</span>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            {examples.map((food, i) => (
-              <Link key={food.id} to={`/foods/${food.slug}`} className={`brut brut-hover group overflow-hidden bg-surface ${i === 0 ? "col-span-2" : "hidden sm:block"}`}>
-                <SmartImage src={food.image} alt={food.name} loading={i === 0 ? "eager" : "lazy"} fetchPriority={i === 0 ? "high" : "auto"}
-                  className={i === 0 ? "aspect-[4/3]" : "aspect-[16/10]"} imgClassName="food-image" />
-                <div className={i === 0 ? "flex flex-wrap items-center justify-between gap-2 p-3" : "flex min-h-24 flex-col items-start gap-2 p-3"}>
-                  <span className="text-sm font-bold lg:text-base">{food.name}</span>
-                  <FoodStatusBadge status={food.status} size="sm" className={i > 0 ? "mt-auto" : undefined} />
-                </div>
-              </Link>
-            ))}
+        <motion.div variants={motionPresets.fadeUp} className="hero-actions min-w-0">
+          <QuickChecker id="quick-check" />
+          <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-semibold">
+            <LinkButton to="/foods">تصفح دليل الأطعمة</LinkButton>
+            <Link to="/doctor" className="inline-flex min-h-11 items-center gap-2 text-ink-2 hover:text-accent">اعرف أكثر عن الدكتور <ArrowUpLeft className="size-4" aria-hidden /></Link>
           </div>
         </motion.div>
-      </div>
+        <motion.figure variants={motionPresets.fadeUp} className="hero-doctor editorial-shell relative min-w-0">
+          <BotanicalSprig />
+          <div className="editorial-portrait-frame relative">
+            <DoctorPortrait loading="eager" className="hero-doctor-image" />
+            <figcaption className="px-4 py-3 text-sm font-semibold md:text-base">{doctor.displayName}<span className="editorial-muted ms-2 text-xs font-normal">صاحب نظام الطيبات</span></figcaption>
+          </div>
+        </motion.figure>
+      </motion.div>
     </section>
   );
 }
@@ -106,10 +95,25 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Categories */}
+      <section className="border-y-2 border-line bg-bg-2 py-16 md:py-24">
+        <div className="container-x">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <SectionHeading index="02" kicker="الفئات" title="تصفح حسب الفئة" description="الشريط السفلي في كل بطاقة يوضح توزيع الحالات داخل الفئة." className="mb-0" />
+            <LinkButton to="/foods" variant="secondary">دليل الأطعمة الكامل</LinkButton>
+          </div>
+          <motion.div variants={motionPresets.staggerContainer} initial="hidden" whileInView="show" viewport={viewportOnce} className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-5">
+            {categories.slice(0, 10).map((c) => <CategoryCard key={c.id} category={c} />)}
+          </motion.div>
+        </div>
+      </section>
+
+      <SystemEditorial />
+
       {/* Intro */}
       <section className="border-y-2 border-line bg-bg-2 py-16 md:py-24">
         <div className="container-x">
-          <SectionHeading index="02" kicker="تعرّف على النظام" title="ما هو نظام الطيبات؟" description={philosophy.coreIdea} />
+          <SectionHeading index="04" kicker="تعرّف على النظام" title="ما هو نظام الطيبات؟" description={philosophy.coreIdea} />
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {philosophy.pillars.map((p, i) => {
               const Icon = iconByName(p.icon);
@@ -136,44 +140,10 @@ export default function HomePage() {
 
       {/* Principles */}
       <section className="container-x py-16 md:py-24" id="principles">
-        <SectionHeading index="03" kicker="مبادئ النظام" title="القواعد الست الذهبية" description="القواعد السلوكية أهم من القوائم في هذا النظام. اضغط أي قاعدة للشرح الكامل ومستوى الدليل." />
+        <SectionHeading index="05" kicker="مبادئ النظام" title="القواعد الست الذهبية" description="القواعد السلوكية أهم من القوائم في هذا النظام. اضغط أي قاعدة للشرح الكامل ومستوى الدليل." />
         <motion.div variants={motionPresets.staggerContainer} initial="hidden" whileInView="show" viewport={viewportOnce} className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {principles.map((p) => <PrincipleCard key={p.id} principle={p} />)}
         </motion.div>
-      </section>
-
-      {/* Categories */}
-      <section className="border-y-2 border-line bg-bg-2 py-16 md:py-24">
-        <div className="container-x">
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <SectionHeading index="04" kicker="الفئات" title="تصفح حسب الفئة" description="الشريط السفلي في كل بطاقة يوضح توزيع الحالات داخل الفئة." className="mb-0" />
-            <LinkButton to="/foods" variant="secondary">دليل الأطعمة الكامل</LinkButton>
-          </div>
-          <motion.div variants={motionPresets.staggerContainer} initial="hidden" whileInView="show" viewport={viewportOnce} className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-5">
-            {categories.slice(0, 10).map((c) => <CategoryCard key={c.id} category={c} />)}
-          </motion.div>
-        </div>
-      </section>
-
-      {/* How to start */}
-      <section className="container-x py-16 md:py-24">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
-          <div className="lg:sticky lg:top-28 lg:self-start">
-            <SectionHeading index="05" kicker="الخطوات الأولى" title="ابدأ من هنا" description="خطة الأربعة أسابيع كما وردت في الدليل — التدرّج مقصود، و«الانتقال المفاجئ» يُعد خطأً شائعًا." />
-            <LinkButton to="/how-it-works">الخطة كاملة مع نموذج اليوم</LinkButton>
-          </div>
-          <ol className="relative border-s-2 border-line ps-8">
-            {startSteps.map((s, i) => (
-              <motion.li key={s.id} variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="relative pb-10 last:pb-0">
-                <span className="mono absolute -start-[calc(2rem+13px)] top-0 flex size-6 items-center justify-center border-2 border-line bg-accent text-[11px] font-bold text-accent-ink">
-                  {i + 1}
-                </span>
-                <h3 className="text-xl font-bold">{s.title}</h3>
-                <p className="mt-1 text-ink-2">{s.summary}</p>
-              </motion.li>
-            ))}
-          </ol>
-        </div>
       </section>
 
       {/* Featured guide content */}
@@ -206,28 +176,9 @@ export default function HomePage() {
         </motion.div>
       </section>
 
-      {/* Doctor teaser */}
-      <section className="border-y-2 border-line bg-bg-2 py-16 md:py-24">
-        <div className="container-x grid items-center gap-10 lg:grid-cols-[1fr_1.4fr]">
-          <div className="brut mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden">
-            <DoctorPortrait className="h-full w-full" />
-          </div>
-          <div>
-            <SectionHeading index="08" kicker="صاحب النظام" title={doctor.displayName} description={doctor.bio[0]} />
-            <div className="mono grid gap-2 text-xs sm:grid-cols-2">
-              <div className="border-2 border-line-soft bg-surface p-3"><span className="text-muted">الميلاد:</span> {doctor.born}</div>
-              <div className="border-2 border-line-soft bg-surface p-3"><span className="text-muted">التخصص:</span> {doctor.specialty}</div>
-              <div className="border-2 border-line-soft bg-surface p-3"><span className="text-muted">الجامعة:</span> {doctor.almaMater}</div>
-              <div className="border-2 border-line-soft bg-surface p-3"><span className="text-muted">الوفاة:</span> {doctor.died}</div>
-            </div>
-            <LinkButton to="/doctor" className="mt-6">السيرة الكاملة والخط الزمني</LinkButton>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ teaser */}
       <section className="container-x py-16 md:py-24">
-        <SectionHeading index="09" kicker="أسئلة وإجابات" title="أسئلة شائعة" />
+        <SectionHeading index="08" kicker="أسئلة وإجابات" title="أسئلة شائعة" />
         <div className="grid gap-4 md:grid-cols-2">
           {faq.slice(0, 4).map((q) => (
             <Link key={q.id} to={`/faq#${q.id}`} className="brut brut-hover block bg-surface p-5">

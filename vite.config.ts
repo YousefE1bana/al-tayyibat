@@ -3,15 +3,20 @@ import { fileURLToPath } from "url";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
+import { brand } from "./src/config/brand";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const base = process.env.VITE_BASE_PATH || "/al-tayyibat/";
 
 // https://vite.dev/config/
 export default defineConfig({
   root: __dirname,
-  base: process.env.VITE_BASE_PATH || "/al-tayyibat/",
-  plugins: [react(), tailwindcss()],
+  base,
+  plugins: [react(), tailwindcss(), {
+    name: "approved-brand-icon",
+    transformIndexHtml: (html) => html.replace("%BRAND_ICON%", `${base}${brand.icon.src.slice(1)}`),
+  }],
   build: {
     rollupOptions: {
       output: {

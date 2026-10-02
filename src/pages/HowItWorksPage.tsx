@@ -43,7 +43,7 @@ export default function HowItWorksPage() {
             <SectionHeading index="01" title="خطة الأربعة أسابيع" description="كل أسبوع يزيل فئة واحدة ويثبّت بديلها." />
             <ol className="relative border-s-2 border-line ps-8 md:ps-12">
               {startSteps.map((s, i) => (
-                <motion.li key={s.id} variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="relative pb-12 last:pb-0">
+                <motion.li key={s.id} id={s.id} variants={motionPresets.fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="relative scroll-mt-28 pb-12 last:pb-0">
                   <span className="mono absolute -start-[calc(2rem+15px)] top-1 flex size-7 items-center justify-center border-2 border-line bg-accent text-xs font-bold text-accent-ink md:-start-[calc(3rem+15px)]">{i + 1}</span>
                   <div className="brut bg-surface p-5 md:p-6">
                     <h3 className="text-xl font-bold md:text-2xl">{s.title}</h3>

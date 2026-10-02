@@ -7,6 +7,7 @@ import { useSearch } from "@/features/search/SearchProvider";
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
 import { toArabicDigits } from "@/lib/arabic";
 import { cn } from "@/utils/cn";
+import { BrandMark } from "@/components/brand/BrandMark";
 
 export const PRIMARY_NAV_ITEMS = [
   { to: "/", label: "الرئيسية" },
@@ -101,10 +102,8 @@ export function Navbar() {
         )}
       >
         <div className="container-x flex h-16 items-center gap-3 md:h-[72px]">
-          <Link to="/" className="flex items-center gap-2.5" aria-label="نظام الطيبات — الرئيسية">
-            <span className="flex size-9 items-center justify-center border-2 border-line bg-accent text-lg font-bold text-accent-ink">
-              ط
-            </span>
+          <Link to="/" className="flex min-h-11 items-center gap-2.5" aria-label="نظام الطيبات — الرئيسية">
+            <BrandMark />
             <span className="flex flex-col leading-none">
               <span className="text-base font-bold">نظام الطيبات</span>
               <span className="text-[10px] text-muted">دليل الأطعمة والوصفات</span>

@@ -12,6 +12,18 @@
   --line-w: 2px;
   --shadow-x: -5px;
   --shadow-y: 5px;
+
+  /* Editorial branding uses the existing olive, gold and cream palette. */
+  --editorial-bg: #131a15;
+  --editorial-ink: #f2ede3;
+  --editorial-muted: #cfcabd;
+  --editorial-gold: #e3b341;
+  --editorial-olive: #8fbf6d;
+  --editorial-paper: #fbf8f1;
+  --editorial-paper-ink: #14201a;
+  --editorial-paper-muted: #2d3a32;
+  --editorial-paper-accent: #856008;
+  --brand-mark-clear-space: 4%;
 }
 
 [data-theme="dark"] {
@@ -275,6 +287,60 @@ body::after {
   article h2, article h3 { break-after: avoid; }
   article li { break-inside: avoid; }
 }
+
+/* Brand assets retain their aspect ratio within a reserved square. */
+.brand-mark { display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--radius); }
+.brand-mark-legacy { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; border: var(--line-w) solid var(--line); background: var(--accent); color: var(--accent-ink); font-size: 1.125rem; font-weight: 700; }
+.brand-mark-image { display: block; width: 100%; height: 100%; padding: var(--brand-mark-clear-space); object-fit: contain; }
+
+/* Fixed dark editorial field and cream cards, legible in both site themes. */
+.hero-layout { display: grid; grid-template-areas: "copy" "portrait" "actions"; gap: 1rem; padding-block: 1.25rem 2rem; }
+.hero-copy { grid-area: copy; }
+.hero-actions { grid-area: actions; }
+.hero-doctor { grid-area: portrait; width: 100%; max-width: 21rem; margin-inline: auto; padding: 0.5rem; border: var(--line-w) solid var(--line); }
+.hero-doctor-image { height: 13rem; }
+.hero-doctor .editorial-portrait-frame { box-shadow: -5px 5px 0 var(--editorial-olive); }
+.hero-doctor .editorial-sprig { inset-inline-end: -1rem; top: -1rem; width: 100px; height: 150px; }
+@media (min-width: 48rem) {
+  .hero-layout { grid-template-columns: 1.15fr 0.85fr; grid-template-rows: auto auto; grid-template-areas: "copy portrait" "actions portrait"; align-items: center; gap: 1.5rem 2rem; padding-block: 3rem; }
+  .hero-copy { align-self: end; }
+  .hero-actions { align-self: start; }
+  .hero-doctor { max-width: 32rem; padding: 0.75rem; }
+  .hero-doctor-image { height: clamp(22rem, 35vw, 30rem); }
+  .hero-doctor .editorial-sprig { width: 150px; height: 220px; }
+}
+@media (min-width: 80rem) { .hero-layout { column-gap: 4rem; padding-block: 4rem; } }
+.editorial-shell { background: var(--editorial-bg); color: var(--editorial-ink); }
+.editorial-ink { color: var(--editorial-ink); }
+.editorial-muted { color: var(--editorial-muted); }
+.editorial-card, .editorial-step { background: var(--editorial-paper); color: var(--editorial-paper-ink); border: var(--line-w) solid var(--editorial-paper-ink); box-shadow: -5px 5px 0 var(--editorial-gold); }
+.editorial-card-muted { color: var(--editorial-paper-muted); }
+.editorial-card-accent { color: var(--editorial-paper-accent); }
+.editorial-step { transition: transform 0.16s ease, box-shadow 0.16s ease; }
+.editorial-step-number { background: var(--editorial-paper-ink); color: var(--editorial-gold); border: var(--line-w) solid var(--editorial-paper-ink); }
+.editorial-step:focus-visible { outline-color: var(--editorial-gold); }
+.editorial-step:focus-visible, .editorial-step:hover { box-shadow: -7px 7px 0 var(--editorial-gold); }
+.editorial-progress-line { display: none; position: absolute; inset-inline: 1.5rem; top: 2.75rem; height: 2px; background: var(--editorial-gold); transform-origin: right; }
+.editorial-doctor { border-color: color-mix(in srgb, var(--editorial-ink) 25%, transparent); }
+.editorial-portrait-frame { border: var(--line-w) solid var(--editorial-gold); box-shadow: -8px 8px 0 color-mix(in srgb, var(--editorial-olive) 50%, var(--editorial-bg)); background: var(--editorial-bg); }
+.editorial-card dl { border-color: color-mix(in srgb, var(--editorial-paper-ink) 20%, transparent); }
+.editorial-text-link { color: var(--editorial-gold); }
+.editorial-text-link:hover, .editorial-card-link:hover { text-decoration: underline; }
+.editorial-card-link { color: var(--editorial-paper-accent); }
+.editorial-button { border: var(--line-w) solid var(--editorial-paper-ink); background: var(--editorial-paper-ink); color: var(--editorial-paper); box-shadow: -3px 3px 0 var(--editorial-paper-accent); transition: box-shadow 0.16s ease; }
+.editorial-button:hover { box-shadow: -5px 5px 0 var(--editorial-paper-accent); }
+.editorial-card :focus-visible { outline-color: var(--editorial-paper-accent); }
+.editorial-sprig { position: absolute; pointer-events: none; width: 180px; height: 260px; inset-inline-end: 0; top: 2rem; color: var(--editorial-olive); opacity: 0.22; }
+.doctor-timeline-intro .editorial-sprig { width: 130px; height: 190px; top: 0; }
+.doctor-editorial-portrait { overflow: hidden; }
+.doctor-editorial-portrait img { display: block; height: 100%; width: 100%; object-fit: cover; }
+.doctor-editorial-portrait[data-treatment="cutout"] img { object-fit: contain; }
+.doctor-editorial-portrait[data-treatment="cutout"] { background: color-mix(in srgb, var(--editorial-olive) 12%, var(--editorial-bg)); }
+.editorial-sources { --muted: var(--editorial-muted); --surface: var(--editorial-bg); --ink-2: var(--editorial-ink); --line-soft: var(--editorial-olive); --ink: var(--editorial-ink); --line: var(--editorial-gold); }
+.editorial-card-sources { --muted: var(--editorial-paper-muted); --surface: var(--editorial-paper); --ink-2: var(--editorial-paper-muted); --line-soft: var(--editorial-paper-muted); --ink: var(--editorial-paper-ink); --line: var(--editorial-paper-ink); }
+@media (min-width: 64rem) { .editorial-progress-line { display: block; } }
+@media (hover: hover) and (pointer: fine) { .editorial-step:hover { transform: translateY(-2px); } }
+@media (prefers-reduced-motion: reduce) { .editorial-step:hover { transform: none; } }
 
 /* Entrance is limited to page headers; long catalog trees remain still. */
 @keyframes page-header-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }

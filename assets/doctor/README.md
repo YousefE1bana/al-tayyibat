@@ -1,10 +1,10 @@
 # Doctor portrait originals
 
 `secondary-original.jpg` is the supplied image previously named `1portrait.jpg`.
-It is preserved byte-for-byte for a later portrait phase. It is not published or
-referenced by the application. Do not generate, retouch, or activate it without
-an explicit editorial decision.
+It is preserved byte-for-byte and is not published or referenced by the application.
 
 The active primary portrait remains `public/images/doctor/portrait.jpg`.
-When a secondary portrait is approved, publish it as
-`public/images/doctor/secondary.jpg` and add an intentional application reference.
+`secondary-approved.png` is the later user-approved transparent derivative supplied
+as `Seated Middle-Aged Man in Black Suit.png`. It is preserved untouched separately
+from the unedited original. Its lossless runtime derivative is
+`public/images/doctor/secondary.webp`; see `docs/branding.md` for processing.
