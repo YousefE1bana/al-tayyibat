@@ -101,12 +101,12 @@ export function Navbar() {
           scrolled ? "border-b-2 border-line bg-bg/85 backdrop-blur-md" : "border-b-2 border-transparent bg-transparent",
         )}
       >
-        <div className="container-x flex h-16 items-center gap-3 md:h-[72px]">
-          <Link to="/" className="flex min-h-11 items-center gap-2.5" aria-label="نظام الطيبات — الرئيسية">
+        <div className="navbar-inner container-x flex h-16 items-center gap-2 md:h-[72px] md:gap-3">
+          <Link to="/" className="navbar-brand flex min-h-11 min-w-0 shrink-0 items-center gap-2" aria-label="نظام الطيبات — الرئيسية">
             <BrandMark />
-            <span className="flex flex-col leading-none">
-              <span className="text-base font-bold">نظام الطيبات</span>
-              <span className="text-[10px] text-muted">دليل الأطعمة والوصفات</span>
+            <span className="flex min-w-0 flex-col">
+              <span className="navbar-title whitespace-nowrap text-base font-bold leading-relaxed">نظام الطيبات</span>
+              <span className="navbar-subtitle hidden whitespace-nowrap text-[10px] leading-relaxed text-muted sm:block">دليل الأطعمة والوصفات</span>
             </span>
           </Link>
 
@@ -199,7 +199,7 @@ export function Navbar() {
           </nav>
 
           {/* Action buttons (Search, Favorites, Theme, Mobile toggle) */}
-          <div className="ms-auto flex items-center gap-2">
+          <div className="navbar-actions ms-auto flex shrink-0 items-center gap-1 md:gap-2 [&>a]:shrink-0 [&>button]:shrink-0">
             <button
               type="button"
               onClick={openSearch}

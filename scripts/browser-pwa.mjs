@@ -165,6 +165,14 @@ try {
       workerRevision++;
       await page.evaluate(async () => (await navigator.serviceWorker.getRegistration()).update());
       await page.getByRole('button', { name: 'تحديث الآن', exact: true }).waitFor();
+      await page.evaluate(() => {
+        const event = new Event('beforeinstallprompt', { cancelable: true });
+        event.prompt = async () => {};
+        event.userChoice = Promise.resolve({ outcome: 'dismissed' });
+        window.dispatchEvent(event);
+      });
+      await page.getByRole('button', { name: 'ثبّت الدليل', exact: true }).waitFor();
+      assert(await page.getByRole('complementary', { name: 'تثبيت الدليل', exact: true }).count() === 0, `${width}: real waiting worker suppresses eligible install nudge, footer access remains`);
       if (width === 390) {
         await cdp.send('Emulation.setSafeAreaInsetsOverride', { insets: { top: 44, bottom: 34, left: 0, right: 0 } });
         const safe = await page.evaluate(() => ({
@@ -187,6 +195,7 @@ try {
       await page.screenshot({ path: `${output}/update-${width}.png` });
       await page.getByRole('button', { name: 'لاحقًا', exact: true }).click();
       assert(await page.getByRole('button', { name: 'تحديث الآن', exact: true }).count() === 0, `${width}: update notice dismissible`);
+      assert(await page.getByRole('complementary', { name: 'تثبيت الدليل', exact: true }).count() === 0, `${width}: install nudge stays suppressed while dismissed update is still waiting`);
       await page.reload({ waitUntil: 'networkidle' });
       await page.getByRole('button', { name: 'تحديث الآن', exact: true }).waitFor();
       const loads = Number(await page.evaluate(() => sessionStorage.getItem('pwa-qa-loads')));

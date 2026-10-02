@@ -56,7 +56,7 @@ export function SystemEditorial() {
             animate={reduced ? { opacity: 1, y: 0 } : undefined}
             viewport={viewportOnce} transition={{ duration: reduced ? 0 : 0.32 }} className="editorial-portrait-frame relative mx-auto w-full max-w-sm">
             <DoctorEditorialPortrait className="w-full" />
-            <figcaption className="px-4 py-3 text-center text-sm"><span className="editorial-ink font-semibold">{doctor.displayName}</span><span className="editorial-muted mt-1 block text-xs">{doctor.almaMater}</span></figcaption>
+            <figcaption className="px-4 py-3 text-center text-sm"><span className="doctor-caption-name editorial-ink block font-semibold leading-relaxed">{doctor.displayName}</span><span className="editorial-muted mt-1 block text-xs leading-relaxed">{doctor.almaMater}</span></figcaption>
           </motion.figure>}
           <article className={cn("editorial-card relative min-w-0 p-6 md:p-8", doctorAssets.editorial && "lg:-ms-6")}>
             <p className="mono editorial-card-accent mb-3 text-xs">// صاحب النظام</p>

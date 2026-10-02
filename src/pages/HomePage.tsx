@@ -23,6 +23,7 @@ import { FoodStatusBadge } from "@/features/foods/FoodStatusBadge";
 import { QuickChecker } from "@/features/foods/QuickChecker";
 import { PrincipleCard } from "@/features/principles/PrincipleCard";
 import { RecipeCard } from "@/features/recipes/RecipeCard";
+import { InstallNudge } from "@/pwa/PwaControls";
 
 function Hero() {
   const reduced = usePrefersReducedMotion();
@@ -55,7 +56,10 @@ function Hero() {
           <BotanicalSprig />
           <div className="editorial-portrait-frame relative">
             <DoctorPortrait loading="eager" className="hero-doctor-image" />
-            <figcaption className="editorial-ink px-4 py-3 text-sm font-semibold md:text-base">{doctor.displayName}<span className="editorial-muted ms-2 text-xs font-normal">صاحب نظام الطيبات</span></figcaption>
+            <figcaption className="editorial-ink px-4 py-3 text-sm md:text-base">
+              <span className="doctor-caption-name block font-semibold leading-relaxed">{doctor.displayName}</span>
+              <span className="editorial-muted mt-1 block text-xs font-normal leading-relaxed">صاحب نظام الطيبات</span>
+            </figcaption>
           </div>
         </motion.figure>
       </motion.div>
@@ -70,6 +74,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <InstallNudge />
 
       <section className="container-x py-12 md:py-16" aria-labelledby="start-heading">
         <h2 id="start-heading" className="mb-6 text-2xl font-bold">خطوتك التالية</h2>

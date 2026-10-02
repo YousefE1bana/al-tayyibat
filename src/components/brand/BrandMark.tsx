@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type CSSProperties } from "react";
 import { brand, type BrandAsset } from "@/config/brand";
 import { useTheme } from "@/features/theme/ThemeProvider";
 import { assetUrl } from "@/lib/assets";
@@ -18,7 +18,7 @@ export function BrandMark({ size = "navigation" }: { size?: keyof typeof brand.m
   const { theme } = useTheme();
   const asset = brand.mark?.[theme] ?? brand.mark?.default;
   return (
-    <span className="brand-mark" style={{ width: brand.markSizes[size], height: brand.markSizes[size] }} aria-hidden="true">
+    <span className="brand-mark" style={{ "--brand-mark-size": `${brand.markSizes[size]}px`, "--brand-mark-compact-size": `${brand.markSizes.compact}px` } as CSSProperties} aria-hidden="true">
       <MarkImage key={asset?.src ?? "legacy"} asset={asset} />
     </span>
   );

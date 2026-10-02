@@ -6,6 +6,7 @@ import { ErrorBoundary } from "@/components/ui/ErrorBoundary";
 import { SearchCommand } from "@/features/search/SearchCommand";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
+import { InstallNudge } from "@/pwa/PwaControls";
 
 function ScrollManager() {
   const { pathname, hash } = useLocation();
@@ -78,6 +79,7 @@ export function RootLayout() {
       <ScrollManager />
       <Navbar />
       <main id="main" tabIndex={-1} className="flex-1 scroll-mt-20">
+        {location.pathname !== "/" && <InstallNudge />}
         <ErrorBoundary key={location.pathname}>
         <Suspense fallback={<PageFallback />}>
           <div key={location.pathname} className="page-enter">{outlet}</div>
