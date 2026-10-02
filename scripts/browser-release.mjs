@@ -125,9 +125,9 @@ try {
     assert(await page.locator('main h1').textContent() === 'الدكتور ضياء العوضي', `${width}/${theme}: doctor heading complete`);
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${width}/${theme}: doctor page no overflow`);
     await page.screenshot({ path: `${output}/doctor-${width}-${theme}.png` });
-    await page.locator('footer').first().scrollIntoViewIfNeeded();
+    await page.getByRole('contentinfo').scrollIntoViewIfNeeded();
     await settle(page);
-    await page.locator('footer').first().screenshot({ path: `${output}/footer-${width}-${theme}.png` });
+    await page.getByRole('contentinfo').screenshot({ path: `${output}/footer-${width}-${theme}.png` });
     await accessibility(page, `${width}/${theme}: doctor/footer`);
     await page.reload({ waitUntil: 'networkidle' });
     await eligible(page);
