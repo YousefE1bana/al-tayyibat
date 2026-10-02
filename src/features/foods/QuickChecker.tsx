@@ -80,7 +80,7 @@ export const QuickChecker = forwardRef<HTMLInputElement, Props>(function QuickCh
               className="mt-5 border-2 border-line bg-bg p-4"
             >
               <div className="mono mb-2 text-[11px] text-muted">
-                &gt; {categoriesById[best.food.categoryId]?.name} / {best.food.slug}
+                {categoriesById[best.food.categoryId]?.name}
               </div>
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <h3 className="text-xl font-bold md:text-2xl">{best.food.name}</h3>

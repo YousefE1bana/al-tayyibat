@@ -109,7 +109,6 @@ export function collectContentErrors(): string[] {
     "/recipes": new Set(recipes.map((r) => r.slug)),
     "/faq": new Set(faq.map((q) => q.id)),
     "/doctor": new Set(),
-    "/sources": new Set(sources.map((s) => s.id)),
     "/favorites": new Set(),
     "/shopping": new Set(),
     "/alternatives": new Set(),

@@ -34,7 +34,6 @@ export function FoodCard({ food, onSelect, compact = false }: Props) {
       <div className="flex flex-1 flex-col gap-2 p-4">
         <div className="mono flex min-w-0 flex-wrap items-center justify-between gap-x-2 gap-y-1 text-[11px] text-muted">
           <span className="shrink-0">{category?.name ?? "—"}</span>
-          <span dir="ltr" className="min-w-0 break-all">#{food.slug}</span>
         </div>
         <h3 className="text-lg font-bold leading-snug">{food.name}</h3>
         {!compact && <p className="line-clamp-2 text-sm text-ink-2">{food.shortDescription}</p>}

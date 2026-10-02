@@ -69,7 +69,7 @@ export function SearchCommand() {
 
   const commands: Command[] = useMemo(
     () => [
-      { id: "c-foods", label: "ابحث عن طعام / دليل الأطعمة", icon: Search, run: () => go("/foods"), hint: "/foods" },
+      { id: "c-foods", label: "ابحث عن طعام / دليل الأطعمة", icon: Search, run: () => go("/foods"), hint: "تصفح الأطعمة" },
       { id: "c-home", label: "الرئيسية", icon: Home, run: () => go("/") },
       { id: "c-principles", label: "مبادئ النظام", icon: ListChecks, run: () => go("/about#principles") },
       { id: "c-how", label: "كيف يعمل؟ ابدأ من هنا", icon: BookOpen, run: () => go("/how-it-works") },

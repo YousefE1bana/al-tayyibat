@@ -27,3 +27,7 @@ The `tayyibat-research-pdf` source has no URL or document locator in `src/data/s
 ## Search ambiguity
 
 Some short queries intentionally overlap several catalog records. For example, `رومي` currently ranks turkey above aged cheese, and `فاصوليا` retrieves the bundled prohibited legume card while specific bean preparations can have a conditional classification. The validation suite checks retrieval and selected unambiguous rankings; it does not resolve ambiguous aliases or change the catalog's rules.
+
+## Unresolved spice details
+
+The `salt-spices` record retains a `[CONTENT REQUIRED]` marker for the six individual spice entries mentioned by the allowed-food list. The detailed list is unavailable. The public detail/print views explain that limitation without showing the engineering marker. Do not fill it with inferred dietary rules.

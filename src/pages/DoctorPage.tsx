@@ -99,7 +99,7 @@ export default function DoctorPage() {
             <ul className="space-y-2">
               {doctor.unverified.map((u) => (
                 <li key={u} className="flex gap-3 border-2 border-dashed border-line-soft bg-surface p-4 text-sm text-ink-2">
-                  <CircleHelp className="mt-0.5 size-4 shrink-0 text-status-unknown" /> {u.replace(/\[CONTENT REQUIRED\]\s*/g, "")}
+                  <CircleHelp className="mt-0.5 size-4 shrink-0 text-status-unknown" /> {u.replace(/\[CONTENT REQUIRED\]\s*/g, u.includes("—") ? "" : "لم نجد توثيقًا مستقلًا")}
                 </li>
               ))}
             </ul>

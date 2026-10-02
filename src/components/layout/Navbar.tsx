@@ -23,7 +23,6 @@ export const MORE_NAV_ITEMS = [
   { to: "/print", label: "دليل المطبخ (A4)", desc: "نسخة ملخصة قابلة للطباعة" },
   { to: "/shopping", label: "دليل المشتريات", desc: "قائمة التسوق الأسبوعية" },
   { to: "/faq", label: "الأسئلة الشائعة", desc: "إجابات الأسئلة المتكررة" },
-  { to: "/sources", label: "المصادر والتوثيق", desc: "سجل المراجع والوثائق" },
 ];
 
 export const ALL_MOBILE_ITEMS = [
@@ -108,7 +107,7 @@ export function Navbar() {
             </span>
             <span className="flex flex-col leading-none">
               <span className="text-base font-bold">نظام الطيبات</span>
-              <span className="mono text-[10px] text-muted">interactive guide v1</span>
+              <span className="text-[10px] text-muted">دليل الأطعمة والوصفات</span>
             </span>
           </Link>
 

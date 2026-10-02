@@ -4,7 +4,7 @@ import { chromium } from 'playwright';
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 try {
   const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 });
-  const base = 'http://127.0.0.1:5173/al-tayyibat/';
+  const base = process.env.QA_BASE_URL || 'http://127.0.0.1:4173/al-tayyibat/';
   await page.goto(base);
   await page.setContent(`<!doctype html><html lang="ar" dir="rtl"><head><style>
     @font-face{font-family:Plex;src:url('${base}fonts/ibm-plex-sans-arabic/ibm-plex-sans-arabic-arabic-700.woff2');font-weight:700}
@@ -15,7 +15,7 @@ try {
     .photo{height:330px;border:3px solid #f2ede3;box-shadow:-10px 10px #e3b341;width:100%;object-fit:cover}
     footer{font-size:18px;color:#cfcabd;border-top:2px solid #f2ede3;padding-top:14px}
   </style></head><body><div class="label"><span>// دليل عربي تفاعلي</span><span dir="ltr">AL-TAYYIBAT</span></div>
-    <div class="layout"><div><h1>نظام <span>الطيبات</span></h1><p>الأطعمة · الوصفات · المصادر</p><p style="font-size:23px;color:#cfcabd">٣٨٥ صنفًا في دليل واحد</p></div>
+    <div class="layout"><div><h1>نظام <span>الطيبات</span></h1><p>الأطعمة · الوصفات · البدائل</p><p style="font-size:23px;color:#cfcabd">٣٨٥ صنفًا في دليل واحد</p></div>
     <img class="photo" src="${base}images/foods/pasta.jpg" alt="المكرونة"></div>
     <footer>دليل معلوماتي مستقل لقواعد النظام — ليس بديلًا عن المشورة الطبية الشخصية</footer></body></html>`);
   await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i => i.decode())); });

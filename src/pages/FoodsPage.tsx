@@ -211,7 +211,6 @@ export default function FoodsPage() {
             deferred ? (
               <EmptyState
                 icon={Search}
-                code="NOT_FOUND"
                 title="لم نجد هذا الطعام في قاعدة بيانات الدليل حتى الآن."
                 description="غير موجود ≠ ممنوع. لا نستنتج المنع أو السماح من عندنا. جرّب تهجئة أخرى، أو تصفح الفئة الأقرب."
                 action={

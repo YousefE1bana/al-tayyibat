@@ -8,13 +8,11 @@ interface EmptyStateProps {
   description?: string;
   action?: ReactNode;
   className?: string;
-  code?: string;
 }
 
-export function EmptyState({ icon: Icon, title, description, action, className, code = "EMPTY" }: EmptyStateProps) {
+export function EmptyState({ icon: Icon, title, description, action, className }: EmptyStateProps) {
   return (
     <div className={cn("brut-soft grid-dots relative overflow-hidden bg-surface p-8 text-center md:p-12", className)}>
-      <span className="mono absolute start-4 top-3 text-[11px] text-muted">[{code}]</span>
       <div className="mx-auto mb-4 flex size-14 items-center justify-center border-2 border-line bg-bg">
         <Icon className="size-6 text-accent" aria-hidden />
       </div>

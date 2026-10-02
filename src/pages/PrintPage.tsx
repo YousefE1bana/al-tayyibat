@@ -48,7 +48,6 @@ export default function PrintPage() {
               </p>
             </div>
             <div className="mono text-end text-xs border border-line p-2 print:border-black">
-              <div>الإصدار: v1.0</div>
               <div>التاريخ: 2026</div>
               <div>الأصناف: {toArabicDigits(foods.length)}</div>
             </div>
@@ -127,7 +126,7 @@ export default function PrintPage() {
                   <div>
                     <span className="font-semibold">{f.name.split(" (")[0]}:</span>{" "}
                     <span className="text-muted print:text-gray-700 text-[10px]">
-                      {(f.restrictions?.[0] || f.shortDescription).replace(/\[CONTENT REQUIRED\]\s*/g, "")}
+                      {f.restrictions?.[0]?.includes("[CONTENT REQUIRED]") ? f.shortDescription : (f.restrictions?.[0] || f.shortDescription)}
                     </span>
                   </div>
                 </li>

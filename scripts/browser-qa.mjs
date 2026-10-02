@@ -7,7 +7,7 @@ const output='output/playwright/release';
 await fs.mkdir(output,{recursive:true});
 const browser=await chromium.launch({channel:'chrome',headless:true});
 const report={base,checkedAt:new Date().toISOString(),routes:[],consoleErrors:[],pageErrors:[],brokenRequests:[],interactions:[],accessibility:[]};
-const routes=['/','/foods','/foods/pasta','/foods/apple-cider-gummies','/ingredients','/alternatives','/recipes','/favorites','/shopping','/sources','/print','/404','/about','/how-it-works','/doctor','/faq'];
+const routes=['/','/foods','/foods/pasta','/foods/apple-cider-gummies','/ingredients','/alternatives','/recipes','/favorites','/shopping','/print','/404','/about','/how-it-works','/doctor','/faq'];
 const check=(ok,message)=>{if(!ok) throw new Error(message);report.interactions.push(message);};
 try{
 for(const width of [1440,390]) for(const theme of ['dark','light']){
@@ -27,11 +27,15 @@ for(const width of [1440,390]) for(const theme of ['dark','light']){
     report.routes.push({route,width,theme,...state,overflow});
     if(overflow) throw new Error(`Overflow ${width}/${theme}/${route}: ${state.scrollWidth}`);
     if(state.broken.length) throw new Error(`Broken image ${route}: ${state.broken.join(',')}`);
+    check(await page.locator('a[href*="#/sources"]').count() === 0, `No Sources entry ${width}/${theme}/${route}`);
+    check(!/interactive guide v1|v1\.0|local-first|offline-friendly|\[CONTENT REQUIRED\]/.test(await page.locator('body').innerText()), `Public copy ${width}/${theme}/${route}`);
     await page.screenshot({path:`${output}/${route==='/'?'home':route.slice(1).replaceAll('/','-')}-${width}-${theme}.png`});
     const a11y=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
     for(const v of a11y.violations) report.accessibility.push({route,width,theme,id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))});
   }
   await page.goto(`${base}#/foods`,{waitUntil:'networkidle'});
+  check(await page.locator('footer a[href="https://github.com/YousefE1bana"]').isVisible(), `Maintainer attribution ${width}/${theme}`);
+  check(await page.locator('footer a[aria-label*="LinkedIn"]').count() === 0, `No invented LinkedIn profile ${width}/${theme}`);
   const search=page.getByRole('searchbox',{name:'ابحث عن طعام'});
   await search.fill('مكرونة');
   await page.waitForFunction(()=>document.querySelector('main')?.textContent.includes('المكرونة'));
@@ -59,6 +63,9 @@ for(const width of [1440,390]) for(const theme of ['dark','light']){
   await page.goto(`${base}#/nonexistent-route`,{waitUntil:'networkidle'});
   await page.waitForURL('**#/404');
   check(page.url().endsWith('#/404'),`Unknown route ${width}/${theme}`);
+  await page.goto(`${base}#/sources`,{waitUntil:'networkidle'});
+  await page.waitForURL('**#/404');
+  check(page.url().endsWith('#/404'),`Retired Sources route ${width}/${theme}`);
   await page.goto(`${base}#/faq#%ZZ`,{waitUntil:'networkidle'});
   await page.getByRole('heading',{name:'الأسئلة الشائعة',exact:true,level:1}).waitFor();
   check((await page.locator('main').innerText()).includes('الأسئلة الشائعة'),`Malformed fragment ${width}/${theme}`);

@@ -4,8 +4,8 @@ import { cn } from "@/utils/cn";
 import { assetUrl } from "@/lib/assets";
 
 /**
- * The provided portrait must be placed at `public/images/doctor/portrait.jpg`.
- * Until then (or if it fails to load) we render a typographic placeholder — never a regenerated face.
+ * Uses the supplied production portrait without modifying it.
+ * If loading fails, show the doctor's name rather than a broken image.
  */
 export function DoctorPortrait({ className, imgClassName }: { className?: string; imgClassName?: string }) {
   const [failed, setFailed] = useState(false);

@@ -1,11 +1,5 @@
-# صورة الدكتور
+# Doctor portraits
 
-ضع الصورة الأصلية المقدَّمة للدكتور ضياء العوضي هنا باسم:
-
-```
-public/images/doctor/portrait.jpg
-```
-
-- المقاس المفضّل: عمودي (4:5) بعرض ≥ 1200px.
-- لا تُنشئ الصورة بالذكاء الاصطناعي ولا تعدّل الوجه.
-- إذا لم توجد الصورة، يعرض الموقع بديلًا طباعيًا تلقائيًا (بلا صورة مكسورة).
+- Primary: `portrait.jpg` is the active supplied production portrait. Its integrity is checked by `npm run validate:images`. Do not generate or retouch it.
+- Secondary: the unedited supplied original is kept at `assets/doctor/secondary-original.jpg`, outside the published directory. No secondary portrait is active yet. An approved later version belongs at `public/images/doctor/secondary.jpg`.
+- On a load failure, the application displays the doctor's name.

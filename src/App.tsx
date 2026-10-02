@@ -14,7 +14,6 @@ const FoodDetailPage = lazy(() => import("@/pages/FoodDetailPage"));
 const RecipesPage = lazy(() => import("@/pages/RecipesPage"));
 const FAQPage = lazy(() => import("@/pages/FAQPage"));
 const DoctorPage = lazy(() => import("@/pages/DoctorPage"));
-const SourcesPage = lazy(() => import("@/pages/SourcesPage"));
 const FavoritesPage = lazy(() => import("@/pages/FavoritesPage"));
 const ShoppingPage = lazy(() => import("@/pages/ShoppingPage"));
 const AlternativesPage = lazy(() => import("@/pages/AlternativesPage"));
@@ -46,7 +45,6 @@ export default function App() {
               <Route path="recipes" element={<RecipesPage />} />
               <Route path="faq" element={<FAQPage />} />
               <Route path="doctor" element={<DoctorPage />} />
-              <Route path="sources" element={<SourcesPage />} />
               <Route path="favorites" element={<FavoritesPage />} />
               <Route path="shopping" element={<ShoppingPage />} />
               <Route path="404" element={<NotFoundPage />} />

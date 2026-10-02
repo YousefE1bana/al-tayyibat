@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
+import { Github, Linkedin } from "@/components/ui/SocialIcons";
+import { maintainer } from "@/config/maintainer";
 import { NAV_ITEMS } from "./Navbar";
+
+const toolRoutes = new Set(["/alternatives", "/ingredients", "/print", "/shopping"]);
+const sectionLinks = NAV_ITEMS.filter((item) => !toolRoutes.has(item.to));
 
 export function Footer() {
   return (
@@ -22,7 +27,7 @@ export function Footer() {
         <nav aria-label="روابط الموقع">
           <h3 className="mono mb-3 text-xs text-accent">// الأقسام</h3>
           <ul className="grid gap-1.5 text-sm">
-            {NAV_ITEMS.map((item: { to: string; label: string }) => (
+            {sectionLinks.map((item) => (
               <li key={item.to}>
                 <Link to={item.to} className="text-ink-2 hover:text-ink hover:underline">
                   {item.label}
@@ -34,22 +39,37 @@ export function Footer() {
         <nav aria-label="أدوات">
           <h3 className="mono mb-3 text-xs text-accent">// أدوات ومرافق</h3>
           <ul className="grid gap-1.5 text-sm">
-            <li><Link to="/alternatives" className="text-ink-2 hover:text-ink hover:underline font-bold text-accent">بدائل الأطعمة (جديد)</Link></li>
-            <li><Link to="/ingredients" className="text-ink-2 hover:text-ink hover:underline font-bold text-accent">فاحص المكونات (جديد)</Link></li>
+            <li><Link to="/alternatives" className="text-ink-2 hover:text-ink hover:underline">بدائل الأطعمة</Link></li>
+            <li><Link to="/ingredients" className="text-ink-2 hover:text-ink hover:underline">فاحص المكونات</Link></li>
             <li><Link to="/print" className="text-ink-2 hover:text-ink hover:underline">دليل المطبخ للطباعة (A4)</Link></li>
             <li><Link to="/favorites" className="text-ink-2 hover:text-ink hover:underline">المحفوظات المفضلة</Link></li>
             <li><Link to="/shopping" className="text-ink-2 hover:text-ink hover:underline">دليل المشتريات</Link></li>
             <li><Link to="/foods?status=notRecommended" className="text-ink-2 hover:text-ink hover:underline">قائمة الممنوعات</Link></li>
           </ul>
           <p className="mono mt-6 text-[11px] text-muted">
-            الصور: محلية بالكامل. البيانات: موثقة — لا حسابات، لا تتبع.
+            محفوظاتك تبقى على جهازك. لا حسابات، لا تتبع.
           </p>
         </nav>
       </div>
       <div className="border-t-2 border-line-soft">
-        <div className="container-x mono flex flex-wrap items-center justify-between gap-2 py-4 text-[11px] text-muted">
-          <span>local-first · offline-friendly · RTL</span>
-          <span>Ctrl/⌘ + K للبحث السريع</span>
+        <div className="container-x flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-3 text-xs text-muted">
+          <div className="flex flex-wrap items-center gap-2">
+            <span>تطوير وصيانة</span>
+            <a href={maintainer.githubUrl} target="_blank" rel="noopener noreferrer"
+              className="inline-flex min-h-11 items-center gap-2 hover:text-ink hover:underline"
+              aria-label={`${maintainer.name} على GitHub`}>
+              <Github className="size-4" aria-hidden />
+              <span dir="ltr">{maintainer.name}</span>
+            </a>
+            {maintainer.linkedinUrl && (
+              <a href={maintainer.linkedinUrl} target="_blank" rel="noopener noreferrer"
+                className="inline-flex size-11 items-center justify-center hover:text-ink"
+                aria-label={`${maintainer.name} على LinkedIn`}>
+                <Linkedin className="size-4" aria-hidden />
+              </a>
+            )}
+          </div>
+          <span className="mono text-[11px]">Ctrl/⌘ + K للبحث السريع</span>
         </div>
       </div>
     </footer>

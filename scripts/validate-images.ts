@@ -11,7 +11,7 @@ const assignments = new Map<string,string>();
 const hashes = new Map<string,string>();
 let withImages=0,totalBytes=0;
 for(const food of foods){
-  if(!food.image) continue;
+  if(!food.image) { errors.push(`${food.id}: missing image assignment`); continue; }
   withImages++;
   if(food.image !== `/images/foods/${food.id}.jpg`) errors.push(`${food.id}: noncanonical image filename`);
   if(assignments.has(food.image)) errors.push(`${food.id}: shared image with ${assignments.get(food.image)}`);
@@ -31,6 +31,10 @@ const refs=[...Object.values(images),...recipes.map(r=>r.image),...categories.ma
 for(const ref of new Set(refs)){
   if(!ref.startsWith('/images/')) {errors.push(`nonlocal image: ${ref}`);continue;}
   try{await fs.access(`public${ref}`);}catch{errors.push(`missing registry/recipe/category image: ${ref}`);}
+}
+const used = new Set([...assignments.keys(), ...refs]);
+for (const filename of await fs.readdir('public/images/foods')) {
+  if (!used.has(`/images/foods/${filename}`)) errors.push(`orphan food image: ${filename}`);
 }
 const portrait=crypto.createHash('sha256').update(await fs.readFile('public/images/doctor/portrait.jpg')).digest('hex').toUpperCase();
 if(portrait!=='1F7B96BDFFF3CF726CFC14EBC565333F62399DFFB75BF2ED576D15A0F87D05AC') errors.push('Protected doctor portrait changed');

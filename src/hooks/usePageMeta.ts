@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 const SITE = "نظام الطيبات — الدليل التفاعلي";
-const DESCRIPTION = "دليل معلوماتي عربي مستقل يعرض الأطعمة والوصفات وقواعد نظام الطيبات مع المصادر. ليس بديلًا عن المشورة الطبية الشخصية.";
+const DESCRIPTION = "دليل معلوماتي عربي مستقل يعرض الأطعمة والوصفات وقواعد نظام الطيبات. ليس بديلًا عن المشورة الطبية الشخصية.";
 
 /** Sets document title + description (+ OG tags) per route so the app is hosting-ready. */
 export function usePageMeta(title?: string, description?: string) {

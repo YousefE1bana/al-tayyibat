@@ -1,4 +1,4 @@
-import { ArrowLeftRight, ExternalLink, Info, Link2 } from "lucide-react";
+import { ArrowLeftRight, ExternalLink, Info } from "lucide-react";
 import { Link } from "react-router-dom";
 import { categoriesById } from "@/data/categories";
 import { foodsById } from "@/data/foods";
@@ -67,7 +67,7 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
         />
         <div className={full ? "" : "pt-5"}>
           <div className="mono mb-2 text-xs text-muted">
-            {category?.name} · #{food.slug}
+            {category?.name}
           </div>
           <Heading className={full ? "text-3xl font-bold md:text-5xl" : "text-2xl font-bold"}>{food.name}</Heading>
           {food.aliases.length > 0 && (
@@ -117,7 +117,7 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
                 {food.restrictions.map((r) => (
                   <li key={r} className="flex gap-2">
                     <span className="mono text-accent">▸</span>
-                    <span>{r}</span>
+                    <span>{r.includes("[CONTENT REQUIRED]") ? "تفصيل الأصناف الستة غير متاح في المراجع الحالية." : r}</span>
                   </li>
                 ))}
               </ul>
@@ -164,9 +164,6 @@ export function FoodDetails({ food, onNavigate, full = false }: Props) {
             ) : (
               <p className="mono text-xs text-muted">لا يوجد مصدر موثق لهذا الإدخال حتى الآن.</p>
             )}
-            <Link to="/sources" className="mono mt-3 inline-flex items-center gap-1 text-xs text-accent hover:underline">
-              <Link2 className="size-3" /> راجع تقييم موثوقية المصادر
-            </Link>
           </Section>
         </aside>
       </div>
